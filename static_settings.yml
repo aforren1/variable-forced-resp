@@ -1,0 +1,8 @@
+# NB: Be very careful not to delete keys from this (for now)
+timing_tol: 0.075
+beep_ici: 0.4
+beep_lead_in: 0.1
+beep_freqs: [523.251, 523.251, 523.251, 1046.5]
+#beep_freqs: [523.251, 659.255, 783.991, 1046.5]
+beep_click_dur: 0.05
+key_options: 'awefvbhuil'
