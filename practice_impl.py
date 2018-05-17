@@ -46,8 +46,8 @@ class Practice(StateMachine):
         self.any_pressed = False
         self.already_released = False
         self.stim_onset = None
-        self.response_count = 0
         self.t_feedback = 0
+        self.valid_presses = list()
 
     def setup_data(self):
         self.start_datetime = datetime.now().strftime('%y%m%d_%H%M%S')
@@ -168,6 +168,7 @@ class Practice(StateMachine):
         self.first_rt = None
         self.trial_data['presses'] = []
         self.trial_data['rts'] = []
+        self.valid_presses = []
 
     def add_stim(self):
         self.targets[int(self.this_trial_choice)].autoDraw = True
@@ -176,7 +177,9 @@ class Practice(StateMachine):
     # enter_trial state
     # conditions
     def wait_for_trial_press(self):
-        return len(self.trial_data['presses']) > self.response_count
+        if self.valid_presses:
+            return True
+        return False
 
     def record_stim_time(self):
         self.stim_onset = self.win.lastFrameT - self.trial_start
@@ -188,8 +191,8 @@ class Practice(StateMachine):
         # draw feedback (text, change colors...)
         # if not too slow, red or green stimulus (incorrect or correct)
         # if too slow, show text
-        if self.first_press is not None:
-            correct = self.trial_data['presses'][-1] == self.this_trial_choice
+        if self.valid_presses:
+            correct = self.valid_presses[-1] == self.this_trial_choice
             if correct:
                 self.targets[int(self.this_trial_choice)].color = [-1, 1, -1]
                 self._play_reward()
@@ -211,9 +214,10 @@ class Practice(StateMachine):
         #return self.trial_data['presses'][-1] == self.this_trial_choice
     
     def is_choice_incorrect(self):
-        self.response_count += 1
-        return self.t_feedback > 0.5
-        #return self.trial_data['presses'][-1] != self.this_trial_choice
+        was_incorrect = self.t_feedback > 0.5
+        if was_incorrect:
+            self.valid_presses = []
+        return was_incorrect
 
     # after
     def remove_stim(self):
@@ -221,6 +225,7 @@ class Practice(StateMachine):
 
     def remove_feedback(self):
         self.targets[int(self.this_trial_choice)].color = [1, 1, 1]
+        self.valid_presses = []
 
     def start_post_timer(self):
         self.post_timer.reset(0.2)
@@ -248,7 +253,6 @@ class Practice(StateMachine):
             self.trial_data[k] = None
         self.trial_data['presses'] = []
         self.trial_data['rts'] = []
-        self.response_count = 0
 
     def increment_trial_counter(self):
         self.trial_counter += 1
@@ -283,6 +287,7 @@ class Practice(StateMachine):
                         self.trial_data['presses'].append(int(data[1][0][i]))
                         self.trial_data['rts'].append(
                             float(timestamp[i] - self.trial_start))
+                        self.valid_presses.append(int(data[1][0][i]))
 
     def draw_input(self):
         self.push_feedback.lineColor = [

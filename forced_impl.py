@@ -137,6 +137,7 @@ class ForcedResp(StateMachine):
             self.static_settings['beep_ici'] * (len(self.static_settings['beep_freqs']) - 1)), 2)
         if os.name is 'nt':
             self.four_beep = sound.Sound(beeps, blockSize=16, hamming=False)
+            self.coin = sound.Sound('sounds/coin.wav', stereo=True)
         else:
             sd.default.latency = 0.01
             sd.default.blocksize = 32

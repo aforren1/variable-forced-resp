@@ -20,7 +20,7 @@ class UniformGen(TrialGenerator):
         return (self.current_prep_time, self.current_choice)
     
     def should_terminate(self):
-        return len(self.choices) > 20
+        return len(self.choices) > 10
     
     def update(self, *args):
         super(UniformGen, self).update(*args)
@@ -68,6 +68,7 @@ if __name__ == '__main__':
             experiment.draw_input()
             experiment.step()
             experiment.win.flip()
+            print(experiment.state)
             if any(mouse.getPressed()):
                 experiment.to_cleanup()
     core.quit()
