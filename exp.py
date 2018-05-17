@@ -12,7 +12,8 @@ if __name__ == '__main__':
     # bug: note that datatype seems funky after running through the GUI
     settings = {'root': 'data', 'subject': '001', 'fullscreen': False,
                 'min_rt': 0.1, 'max_rt': 0.5, 'seed': 1, 'n_choices': 4,
-                'stim_per_choice': 1, 'image': True, 'practice': True}
+                'stim_per_choice': 1, 'image': True,
+                'exp_type': ['practice', 'criteria', 'probe']}
 
     try:
         with open('settings.pkl', 'rb') as f:
@@ -20,6 +21,7 @@ if __name__ == '__main__':
             # only use saved settings if all the keys match
             if potential_settings.keys() == settings.keys():
                 settings = potential_settings
+                settings['exp_type'] = ['practice', 'criteria', 'probe']
     except FileNotFoundError:
         pass
     
@@ -38,9 +40,20 @@ if __name__ == '__main__':
     with open('static_settings.yml', 'r') as f:
         static_settings = yaml.load(f)
     
-    if settings['practice']:
+    if settings['exp_type'] is 'practice':
+        gen = UniformGen(min_rt=float(settings['min_rt']), 
+                    max_rt=float(settings['max_rt']),
+                    n_choices=int(settings['n_choices']), 
+                    seed=int(settings['seed']))
+        Exp = Practice
+    elif settings['exp_type'] is 'criteria':
+        gen = CriteriaGen(n_choices=int(settings['n_choices']), seed=int(settings['seed']))
         Exp = Practice
     else:
+        gen = UniformGen(min_rt=float(settings['min_rt']), 
+                    max_rt=float(settings['max_rt']),
+                    n_choices=int(settings['n_choices']), 
+                    seed=int(settings['seed']))
         Exp = ForcedResp
     experiment = Exp(settings=settings, generator=gen, static_settings=static_settings)
 
