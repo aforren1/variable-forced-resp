@@ -68,7 +68,6 @@ if __name__ == '__main__':
             experiment.draw_input()
             experiment.step()
             experiment.win.flip()
-            print(experiment.state)
             if any(mouse.getPressed()):
                 experiment.to_cleanup()
     core.quit()
