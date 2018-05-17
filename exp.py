@@ -4,26 +4,9 @@ import numpy as np
 import yaml
 from psychopy import core, gui
 from psychopy.event import Mouse
-from generators import TrialGenerator
+from generators import UniformGen, CriteriaGen
 from forced_impl import ForcedResp
 from practice_impl import Practice
-
-
-class UniformGen(TrialGenerator):
-    def __init__(self, min_rt=0.1, max_rt=0.5, **kwargs):
-        super(UniformGen, self).__init__(**kwargs)
-        self.options = np.arange(min_rt, max_rt, self.interval) # convert to list for pop?
-    
-    def next(self):
-        self.current_choice = self.rng.randint(self.n_choices)
-        self.current_prep_time = self.rng.choice(self.options)
-        return (self.current_prep_time, self.current_choice)
-    
-    def should_terminate(self):
-        return len(self.choices) > 10
-    
-    def update(self, *args):
-        super(UniformGen, self).update(*args)
 
 if __name__ == '__main__':
     # bug: note that datatype seems funky after running through the GUI
