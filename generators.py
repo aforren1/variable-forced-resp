@@ -21,7 +21,7 @@ class TrialGenerator(abc.ABC):
         pass
 
     @abc.abstractmethod
-    def __init__(self, n_choices=2, seed=None, interval=1/60):
+    def __init__(self, n_choices=2, seed=None, interval=1/60, **kwargs):
         """Create the generator
         kwargs might be min_rt, max_rt, and other things to feed into next()
         Call random number generation things from self.rng!
@@ -40,7 +40,6 @@ class TrialGenerator(abc.ABC):
         self.req_prep_times = list()
         self.count = 0
 
-    @abc.abstractmethod
     def update(self, choice, actual_pt):
         """Store the choice and preparation time.
         Call after response has been made
@@ -54,29 +53,27 @@ class TrialGenerator(abc.ABC):
 
 
 class UniformGen(TrialGenerator):
-    def __init__(self, min_rt=0.1, max_rt=0.5, max_trials=100, **kwargs):
+    def __init__(self, min_rt=0.1, max_rt=0.5, trials_per_stim=25, **kwargs):
         super(UniformGen, self).__init__(**kwargs)
-        self.max_trials = max_trials
+        self.max_trials = trials_per_stim * self.n_choices
         # convert to list for pop?
         self.options = np.arange(min_rt, max_rt, self.interval)
         self.total_choices = np.repeat(
-            range(self.n_choices), int(max_trials/self.n_choices))
+            range(self.n_choices), int(trials_per_stim)).astype('int')
         self.rng.shuffle(self.total_choices)
-        self.prop_rts = self.rng.choice(self.options, size=max_trials)
+        self.prop_rts = self.rng.choice(self.options, size=self.max_trials)
 
     def next(self):
-        return (self.total_choices[self.count], self.prop_rts[self.count])
+        return (self.prop_rts[self.count], self.total_choices[self.count])
 
     def should_terminate(self):
-        return self.count > self.max_trials
-
-    def update(self, *args):
-        super(UniformGen, self).update(*args)
+        return self.count >= self.max_trials
 
 
-class CriteriaGen(TrialGenerator):
+
+class CriterionGen(TrialGenerator):
     def __init__(self, **kwargs):
-        super(CriteriaGen, self).__init__(**kwargs)
+        super(CriterionGen, self).__init__(**kwargs)
 
     def next(self):
         self.current_choice = self.rng.randint(self.n_choices)
@@ -101,6 +98,3 @@ class CriteriaGen(TrialGenerator):
                 return False
         # if we make it this far, all choices have continued
         return True
-
-    def update(self, *args):
-        super(CriteriaGen, self).update(*args)

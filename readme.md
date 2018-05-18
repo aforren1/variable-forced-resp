@@ -11,3 +11,8 @@ Things to consider:
  - similarity to english
  - can pyglet/psychopy render it?
  - Number of unique-looking symbols (32+ is great)
+
+The subject # sets the seed determining which arbitrary stimuli they get
+
+Keys should be awefvbhuil
+

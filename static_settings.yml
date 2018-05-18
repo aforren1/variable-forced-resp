@@ -1,8 +1,10 @@
-# NB: Be very careful not to delete keys from this (for now)
+# NB: Be very careful not to delete key:vals from this (for now, we don't have "defaults" elsewhere)
 timing_tol: 0.075
 beep_ici: 0.4
 beep_lead_in: 0.1
-beep_freqs: [523.251, 523.251, 523.251, 1046.5]
-#beep_freqs: [523.251, 659.255, 783.991, 1046.5]
-beep_click_dur: 0.05
+#beep_freqs: [523.251, 523.251, 523.251, 1046.5]
+beep_freqs: [523.251, 659.255, 783.991, 1046.5]
+beep_click_dur: 0.04
 key_options: 'awefvbhuil'
+# currently using the runic unicode block: https://en.wikipedia.org/wiki/Runic_(Unicode_block)
+symbol_options: '\u16A0\u16a2\u16a3\u16a6\u16cb\u16aC\u16B3\u16BB\u16BC\u16C7'

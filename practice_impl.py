@@ -82,20 +82,37 @@ class Practice(StateMachine):
     def setup_visuals(self):
         self.targets = list()
         # all possible targets
-        tmp = list('\u16A0\u16a1\u16a2\u16a3\u16a4\u16A5\u16a6\u16a7\u16a8\u16a9')
+        tmp = self.static_settings['symbol_options']
         tmp = tmp[:int(self.settings['n_choices'])]
-        if self.settings['image']:
+        if self.settings['stim_type'] is 'symbol':
             for i in tmp:
                 self.targets.append(visual.TextStim(
                     self.win, i, height=0.25, autoLog=True, font='FreeMono'))
-        else:
+        elif self.settings['stim_type'] is 'letter':
             for i in self.keys:
                 self.targets.append(visual.TextStim(
                     self.win, i, height=0.25, autoLog=True, font='FreeMono'))
+        elif self.settings['stim_type'] is 'hand':
+            right_hand = visual.ImageStim(self.win, image='media/hand.png', size=(0.3, 0.3), 
+                                          pos=(0.14, 0))
+            left_hand = visual.ImageStim(self.win, image='media/hand.png', size=(0.3, 0.3), 
+                                         pos=(-0.14, 0), flipHoriz=True)
+            self.background = visual.BufferImageStim(self.win, stim=[left_hand, right_hand])
+            # pinky, ring, middle, index, thumb
+            pos_l = [[-0.255, 0.0375], [-0.2075, 0.08875], [-0.1575, 0.1125], [-0.095, 0.09], [-0.03, -0.0075]]
+            pos_r = [[-x, y] for x, y in pos_l]
+            pos_r.reverse()
+            pos_l.extend(pos_r)
+            pos_l = pos_l[:int(self.settings['n_choices'])]
+
+            self.targets = [visual.Circle(self.win, fillColor=(1, 1, 1), pos=x, 
+                                        size=0.03, opacity=1.0) 
+                            for x in pos_l]
+        else:
+            raise ValueError('Unknown stimulus option...')
 
         # push feedback
-        self.push_feedback = visual.Rect(
-            self.win, lineWidth=3, name='push_feedback', autoLog=False)
+        self.push_feedback = visual.Rect(self.win, width=0.6, height=0.6, lineWidth=3, name='push_feedback', autoLog=False)
 
         # text
         self.instruction_text = visual.TextStim(self.win, text='Press a key to start.', pos=(0, 0),
@@ -137,6 +154,9 @@ class Practice(StateMachine):
         self.instruction_text.autoDraw = False
 
     def add_fix_n_feedback(self):
+        # always keep hands on if we're doing the hand stimuli
+        if self.settings['stim_type'] is 'hand':
+            self.background.autoDraw = True
         self.push_feedback.autoDraw = True
 
     # pretrial state
@@ -192,13 +212,19 @@ class Practice(StateMachine):
         # if not too slow, red or green stimulus (incorrect or correct)
         # if too slow, show text
         if self.valid_presses:
-            correct = self.valid_presses[-1] == self.this_trial_choice
+            correct = self.valid_presses[-1] == int(self.this_trial_choice)
             if correct:
-                self.targets[int(self.this_trial_choice)].color = [-1, 1, -1]
+                if self.settings['stim_type'] is not 'hand':
+                    self.targets[int(self.this_trial_choice)].color = [-1, 1, -1]
+                else:
+                    self.targets[int(self.this_trial_choice)].fillColor = [-1, 1, -1]
                 self._play_reward()
                 self.t_feedback = 0.3
             else:
-                self.targets[int(self.this_trial_choice)].color = [1, -1, -1]
+                if self.settings['stim_type'] is not 'hand':
+                    self.targets[int(self.this_trial_choice)].color = [1, -1, -1]
+                else:
+                    self.targets[int(self.this_trial_choice)].fillColor = [1, -1, -1]
                 self.t_feedback = 1.0
 
     def start_feedback_timer(self):
@@ -224,7 +250,10 @@ class Practice(StateMachine):
         self.targets[int(self.this_trial_choice)].autoDraw = False
 
     def remove_feedback(self):
-        self.targets[int(self.this_trial_choice)].color = [1, 1, 1]
+        if self.settings['stim_type'] is not 'hand':
+            self.targets[int(self.this_trial_choice)].color = [1, 1, 1]
+        else:
+            self.targets[int(self.this_trial_choice)].fillColor = [1, 1, 1]
         self.valid_presses = []
 
     def start_post_timer(self):
@@ -240,7 +269,7 @@ class Practice(StateMachine):
         self.trial_data['real_choice'] = int(
             self.first_press) if self.first_press is not None else None
         self.trial_data['correct'] = bool(
-            self.first_press == self.this_trial_choice) if self.first_press is not None else False
+            self.first_press == int(self.this_trial_choice)) if self.first_press is not None else False
         self.trial_data['datetime'] = now
         self.trial_data['presses'] = list(self.trial_data['presses'])
         self.trial_data['rts'] = [
