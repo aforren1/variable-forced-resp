@@ -1,6 +1,7 @@
 import pickle
 
 import yaml
+import numpy as np
 
 from forced_impl import ForcedResp
 from generators import CriterionGen, UniformGen
@@ -41,6 +42,13 @@ if __name__ == '__main__':
 
     with open('static_settings.yml', 'r') as f:
         static_settings = yaml.load(f)
+    
+    # compute the "actual" symbol mapping (for a given subject)
+    # trng = np.random.RandomState(seed=int(settings['subject']))
+    # tmp_str = list(static_settings['symbol_options'])
+    # trng.shuffle(tmp_str)
+    # static_settings['symbol_options'] = ''.join(tmp_str)
+
 
     if settings['exp_type'] is 'practice':
         gen = UniformGen(min_rt=float(settings['min_rt']),

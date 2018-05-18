@@ -111,6 +111,9 @@ class Practice(StateMachine):
         else:
             raise ValueError('Unknown stimulus option...')
 
+        # if self.settings['remap']:
+        #     # remap five fingers
+        #     pass
         # push feedback
         self.push_feedback = visual.Rect(self.win, width=0.6, height=0.6, lineWidth=3, name='push_feedback', autoLog=False)
 
