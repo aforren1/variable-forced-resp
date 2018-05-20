@@ -1,3 +1,4 @@
+from datetime import datetime
 import pickle
 
 import yaml
@@ -7,12 +8,12 @@ from forced_impl import ForcedResp
 from generators import CriterionGen, UniformGen
 from practice_impl import Practice
 from psychopy import core, gui
-from psychopy.event import Mouse
+from psychopy import event
 
 if __name__ == '__main__':
     # bug: note that datatype seems funky after running through the GUI
     settings = {'root': 'data', 'subject': '001', 'fullscreen': False,
-                'min_rt': 0.2, 'max_rt': 0.6, 'seed': 1, 'n_choices': 10,
+                'min_rt': 0.2, 'max_rt': 0.6, 'n_choices': 10,
                 # formerly image
                 'stim_per_choice': 1, 'stim_type': ['hand', 'letter', 'symbol'],
                 'exp_type': ['practice', 'criterion', 'probe']}
@@ -35,11 +36,6 @@ if __name__ == '__main__':
     with open('settings.pkl', 'wb') as f:
         pickle.dump(settings, f)
 
-    gen = UniformGen(min_rt=float(settings['min_rt']),
-                     max_rt=float(settings['max_rt']),
-                     n_choices=int(settings['n_choices']),
-                     seed=int(settings['seed']))
-
     with open('static_settings.yml', 'r') as f:
         static_settings = yaml.load(f)
     
@@ -49,33 +45,31 @@ if __name__ == '__main__':
     # trng.shuffle(tmp_str)
     # static_settings['symbol_options'] = ''.join(tmp_str)
 
-
     if settings['exp_type'] is 'practice':
         gen = UniformGen(min_rt=float(settings['min_rt']),
                          max_rt=float(settings['max_rt']),
                          n_choices=int(settings['n_choices']),
-                         seed=int(settings['seed']))
+                         seed=int(datetime.strftime(datetime.now(), '%H%M%S')))
         Exp = Practice
     elif settings['exp_type'] is 'criterion':
         gen = CriterionGen(n_choices=int(settings['n_choices']), 
-                           seed=int(settings['seed']))
+                           seed=int(datetime.strftime(datetime.now(), '%H%M%S')))
         Exp = Practice
     else:
         gen = UniformGen(min_rt=float(settings['min_rt']),
                          max_rt=float(settings['max_rt']),
                          n_choices=int(settings['n_choices']),
-                         seed=int(settings['seed']))
+                         seed=int(datetime.strftime(datetime.now(), '%H%M%S')))
         Exp = ForcedResp
     experiment = Exp(settings=settings, generator=gen,
                      static_settings=static_settings)
 
-    mouse = Mouse(visible=False, win=experiment.win)
     with experiment.device:
         while experiment.state is not 'cleanup':
             experiment.input()
             experiment.draw_input()
             experiment.step()
             experiment.win.flip()
-            if any(mouse.getPressed()):
+            if event.getKeys(['esc', 'escape']):
                 experiment.to_cleanup()
     core.quit()
