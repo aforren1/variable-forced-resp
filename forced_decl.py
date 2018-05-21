@@ -9,6 +9,7 @@ class StateMachine(Machine):
                   'stim_on',
                   'feedback',
                   'post_trial',
+                  'wait_till_10_pressed',
                   'cleanup']
 
         transitions = [
@@ -72,6 +73,19 @@ class StateMachine(Machine):
              'trigger': 'step',
              'conditions': ['post_timer_passed', 'wait_for_trial_press'],
              'after': 'rm_text_if_no_press',
+             'dest': 'pretrial'},
+
+            # check if we need to take a break
+            {'source': 'post_trial',
+             'trigger': 'step',
+             'conditions': 'mult_of_100_passed',
+             'after': ['reset_pause_press_list', 'draw_pause_text'],
+             'dest': 'wait_till_10_pressed'},
+
+            {'source': 'wait_till_10_pressed',
+             'trigger': 'step',
+             'conditions': 'ten_keys_pressed',
+             'after': 'rm_pause_text',
              'dest': 'pretrial'}
         ]
         Machine.__init__(self, states=states, transitions=transitions,

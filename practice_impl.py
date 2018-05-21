@@ -53,7 +53,8 @@ class Practice(StateMachine):
         self.already_released = False
         self.stim_onset = None
         self.t_feedback = 0
-        self.valid_presses = list()
+        self.valid_presses = []
+        self.pause_presses = []
 
     def setup_data(self):
         # figure out the subject-specific remaps
@@ -108,7 +109,7 @@ class Practice(StateMachine):
         self.trial_data = {'index': None, 'real_prep_time': None,
                            'proposed_choice': None, 'real_choice': None, 'correct': None,
                            'datetime': None, 'presses': [], 'rts': [], 'will_remap': None,
-                           'is_remapped': None}
+                           'is_remapped': None, 'remapped_from': None}
 
     def setup_window(self):
         self.win = visual.Window(size=(800, 800), pos=(0, 0), fullscr=self.settings['fullscreen'],
@@ -132,11 +133,11 @@ class Practice(StateMachine):
         if self.settings['stim_type'] is 'symbol':
             for i in tmp:
                 self.targets.append(visual.TextStim(
-                    self.win, i, height=0.25, autoLog=True, font='FreeMono'))
+                    self.win, i, height=0.25, autoLog=True, font='FreeMono', name='stim ' + i))
         elif self.settings['stim_type'] is 'letter':
-            for i in self.keys:
+            for i in list(self.static_settings['key_options']):
                 self.targets.append(visual.TextStim(
-                    self.win, i, height=0.25, autoLog=True, font='FreeMono'))
+                    self.win, i, height=0.25, autoLog=True, font='FreeMono', name='stim ' + i))
         elif self.settings['stim_type'] is 'hand':
             right_hand = visual.ImageStim(self.win, image='media/hand.png', size=(0.3, 0.3),
                                           pos=(0.14, 0))
@@ -152,15 +153,14 @@ class Practice(StateMachine):
             pos_l = pos_l[:int(self.settings['n_choices'])]
 
             self.targets = [visual.Circle(self.win, fillColor=(1, 1, 1), pos=x,
-                                          size=0.03, opacity=1.0)
-                            for x in pos_l]
+                                          size=0.03, opacity=1.0, name='stim %d' % c)
+                            for c, x in enumerate(pos_l)]
         else:
             raise ValueError('Unknown stimulus option...')
 
         if self.settings['remap']:
             # remap heterologous, homologous, and same-finger pairs?
             # swap the stimuli
-            print(self.all_swaps)
             for i, j in self.all_swaps:
                 self.targets[j], self.targets[i] = self.targets[i], self.targets[j]
             
@@ -174,6 +174,10 @@ class Practice(StateMachine):
                                                 alignHoriz='center', alignVert='center', name='wait_text',
                                                 autoLog=False, wrapWidth=2)
         self.instruction_text.autoDraw = True
+
+        self.pause_text = visual.TextStim(self.win, text=u'Take a break! Press ten times to continue.', pos=(0, 0.5),
+                                           units='norm', color=(1, 1, 1), height=0.1,
+                                           alignHoriz='center', alignVert='center', autoLog=True, name='pause_text')
 
     def setup_audio(self):
         if os.name is 'nt':
@@ -327,6 +331,7 @@ class Practice(StateMachine):
         self.trial_data['datetime'] = now
         self.trial_data['presses'] = list(self.trial_data['presses'])
         self.trial_data['rts'] = [x - self.stim_onset for x in self.trial_data['rts']]
+        # remapping things
         self.trial_data['will_remap'] = any(self.trial_data['proposed_choice'] in r for r in self.all_swaps)
         self.trial_data['is_remapped'] = self.trial_data['will_remap'] and self.settings['remap']
         if self.trial_data['is_remapped']:
@@ -334,7 +339,7 @@ class Practice(StateMachine):
             pair = list(pair)
             pair.remove(self.this_trial_choice)
         self.trial_data['remapped_from'] = int(pair[0]) if self.trial_data['is_remapped'] else None
-        pp.pprint(self.trial_data)
+        #pp.pprint(self.trial_data)
         trial_name = 'trial' + str(self.trial_counter) + '_summary.json'
         with open(os.path.join(self.data_path, trial_name), 'w') as f:
             json.dump(self.trial_data, f)
@@ -361,6 +366,22 @@ class Practice(StateMachine):
     def post_timer_passed(self):
         return self.post_timer.getTime() - self.frame_period <= 0
 
+    # conditions, part 3
+    def mult_of_100_passed(self):
+        return self.trial_counter % 100 == 0
+    
+    def reset_pause_press_list(self):
+        self.pause_presses = []
+    
+    def ten_keys_pressed(self):
+        return len(self.pause_presses) >= 10
+    
+    def draw_pause_text(self):
+        self.pause_text.autoDraw = True
+    
+    def rm_pause_text(self):
+        self.pause_text.autoDraw = False
+
     def input(self):
         timestamp, data = self.device.read()
         if timestamp is not None:
@@ -377,7 +398,10 @@ class Practice(StateMachine):
                         self.trial_data['rts'].append(
                             float(timestamp[i] - self.trial_start))
                         self.valid_presses.append(int(data[1][0][i]))
+            if self.state is 'wait_till_10_pressed':
+                for i in range(len(data[0][0])):
+                    if data[0][0][i]:
+                        self.pause_presses.append(int(data[1][0][i]))
 
     def draw_input(self):
-        self.push_feedback.lineColor = [
-            0, 0, 0] if self.any_pressed else [1, 1, 1]
+        self.push_feedback.lineColor = [0, 0, 0] if self.any_pressed else [1, 1, 1]

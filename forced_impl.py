@@ -1,6 +1,8 @@
+import itertools
 import json
 import os
 from datetime import datetime
+from pprint import PrettyPrinter
 
 import numpy as np
 from psychopy import core, logging, sound, visual
@@ -18,6 +20,8 @@ logging.console.setLevel(logging.ERROR)
 if os.name is 'nt':
     sound.setDevice('ASIO4ALL v2')
 
+pp = PrettyPrinter()
+
 class ForcedResp(StateMachine):
     def __init__(self, settings=None, generator=None, static_settings=None):
         super(ForcedResp, self).__init__()
@@ -31,6 +35,8 @@ class ForcedResp(StateMachine):
         self.post_timer = core.CountdownTimer()  # intertrial pause
         # how long key must be released before allowing continue
         self.release_timer = core.CountdownTimer()
+
+        self.subject_rng = np.random.RandomState(seed=int(self.settings['subject']))
 
         self.setup_data()
         self.setup_input()
@@ -51,12 +57,45 @@ class ForcedResp(StateMachine):
         self.stim_onset = None
         self.flash_count = 0
         self.clear_next_frame = False
+        self.pause_presses = []
 
     def setup_data(self):
+        # figure out the subject-specific remaps
+        all_switch_hands = list(itertools.product(range(0, 5), range(5, 10)))
+        homologous = [(0, 9), (1, 8), (2, 7), (3, 6), (4, 5)]
+        heterologous = all_switch_hands.copy()
+        for i in heterologous:
+            if i in homologous:
+                heterologous.remove(i)
+        same_hand_l = list(itertools.product(
+            list(range(0, 5)), list(range(0, 5))))
+        same_hand_l = [(i, j) for i, j in same_hand_l if i != j]
+        same_hand_r = [(i + 5, j + 5) for i, j in same_hand_l]
+        same_hand = same_hand_l + same_hand_r
+
+        # choose one homologous, heterologous, same hand
+        hom_choice = self.subject_rng.choice(len(homologous))
+        hom_pair = homologous[hom_choice]
+        # make sure we can't pick an already engaged finger
+        het_subset = [i for i in heterologous 
+                        if not set(i).intersection(hom_pair)]
+        het_choice = self.subject_rng.choice(len(het_subset))
+        het_pair = het_subset[het_choice]
+        same_hand_subset = [i for i in same_hand 
+                                if not set(i).intersection(hom_pair) and 
+                                    not set(i).intersection(het_pair)]
+        same_hand_choice = self.subject_rng.choice(len(same_hand_subset))
+        same_hand_pair = same_hand_subset[same_hand_choice]
+
+        self.all_swaps = [hom_pair] + [het_pair] + [same_hand_pair]
+        self.settings.update({'swap_pairs': self.all_swaps})
+
+        #
         self.start_datetime = datetime.now().strftime('%y%m%d_%H%M%S')
         self.data_path = os.path.join(
             self.settings['root'], self.settings['subject'], self.start_datetime)
         self.settings.update({'datetime': self.start_datetime})
+
         # log from psychopy (to log here, call something like `logging.warning('bad thing')`)
         if not os.path.exists(self.data_path):
             os.makedirs(self.data_path)
@@ -72,7 +111,8 @@ class ForcedResp(StateMachine):
         # trial-specific data (will be serialized via json.dump)
         self.trial_data = {'index': None, 'proposed_prep_time': None, 'real_prep_time': None,
                            'proposed_choice': None, 'real_choice': None, 'correct': None,
-                           'datetime': None, 'timing': None, 'presses': [], 'rts': []}
+                           'datetime': None, 'timing': None, 'presses': [], 'rts': [],
+                           'will_remap': None, 'is_remapped': None, 'remapped_from': None}
 
     def setup_window(self):
         self.win = visual.Window(size=(800, 800), pos=(0, 0), fullscr=self.settings['fullscreen'],
@@ -90,11 +130,11 @@ class ForcedResp(StateMachine):
         if self.settings['stim_type'] is 'symbol':
             for i in tmp:
                 self.targets.append(visual.TextStim(
-                    self.win, i, height=0.25, autoLog=True, font='FreeMono'))
+                    self.win, i, height=0.25, autoLog=True, font='FreeMono', name='stim ' + i))
         elif self.settings['stim_type'] is 'letter':
-            for i in self.keys:
+            for i in list(self.static_settings['key_options']):
                 self.targets.append(visual.TextStim(
-                    self.win, i, height=0.25, autoLog=True, font='FreeMono'))
+                    self.win, i, height=0.25, autoLog=True, font='FreeMono', name='stim ' + i))
         elif self.settings['stim_type'] is 'hand':
             right_hand = visual.ImageStim(self.win, image='media/hand.png', size=(0.3, 0.3), 
                                           pos=(0.14, 0))
@@ -109,10 +149,16 @@ class ForcedResp(StateMachine):
             pos_l = pos_l[:int(self.settings['n_choices'])]
 
             self.targets = [visual.Circle(self.win, fillColor=(1, 1, 1), pos=x, 
-                                        size=0.03, opacity=1.0) 
-                            for x in pos_l]
+                                        size=0.03, opacity=1.0, name='stim %d' % c) 
+                            for c, x in enumerate(pos_l)]
         else:
             raise ValueError('Unknown stimulus option...')
+
+        if self.settings['remap']:
+            # remap heterologous, homologous, and same-finger pairs?
+            # swap the stimuli
+            for i, j in self.all_swaps:
+                self.targets[j], self.targets[i] = self.targets[i], self.targets[j]
 
         # push feedback
         self.push_feedback = visual.Rect(self.win, width=0.6, height=0.6, lineWidth=3, name='push_feedback', autoLog=False)
@@ -138,6 +184,10 @@ class ForcedResp(StateMachine):
         self.good_timing = visual.TextStim(self.win, text=u'Good timing!', pos=(0, 0.4),
                                            units='norm', color=(-1, 1, -1), height=0.1,
                                            alignHoriz='center', alignVert='center', autoLog=True, name='good_text')
+        
+        self.pause_text = visual.TextStim(self.win, text=u'Take a break! Press ten times to continue.', pos=(0, 0.5),
+                                           units='norm', color=(1, 1, 1), height=0.1,
+                                           alignHoriz='center', alignVert='center', autoLog=True, name='pause_text')
 
         # visual representation of flashing
         #self.flasher = visual.Rect(
@@ -344,9 +394,16 @@ class ForcedResp(StateMachine):
             self.last_beep_time - self.first_rt) if self.first_rt is not None else None
         self.trial_data['datetime'] = now
         self.trial_data['presses'] = list(self.trial_data['presses'])
-        self.trial_data['rts'] = [
-            x - self.stim_onset for x in self.trial_data['rts']]
-        print(self.trial_data)
+        self.trial_data['rts'] = [x - self.stim_onset for x in self.trial_data['rts']]
+        # remapping things
+        self.trial_data['will_remap'] = any(self.trial_data['proposed_choice'] in r for r in self.all_swaps)
+        self.trial_data['is_remapped'] = self.trial_data['will_remap'] and self.settings['remap']
+        if self.trial_data['is_remapped']:
+            pair = [r for r in self.all_swaps if self.this_trial_choice in r][0] # should only be one list
+            pair = list(pair)
+            pair.remove(self.this_trial_choice)
+        self.trial_data['remapped_from'] = int(pair[0]) if self.trial_data['is_remapped'] else None
+        pp.pprint(self.trial_data)
         trial_name = 'trial' + str(self.trial_counter) + '_summary.json'
         with open(os.path.join(self.data_path, trial_name), 'w') as f:
             json.dump(self.trial_data, f)
@@ -382,6 +439,22 @@ class ForcedResp(StateMachine):
 
     def rm_text_if_no_press(self):
         self.no_press_text.autoDraw = False
+    
+    # conditions, part 3
+    def mult_of_100_passed(self):
+        return self.trial_counter % 100 == 0
+    
+    def reset_pause_press_list(self):
+        self.pause_presses = []
+    
+    def ten_keys_pressed(self):
+        return len(self.pause_presses) >= 10
+    
+    def draw_pause_text(self):
+        self.pause_text.autoDraw = True
+    
+    def rm_pause_text(self):
+        self.pause_text.autoDraw = False
 
     def input(self):
         timestamp, data = self.device.read()
@@ -395,11 +468,16 @@ class ForcedResp(StateMachine):
                 self.pressed_during_trial = True
             if self.trial_start:
                 for i in range(len(data[0][0])):
-                    if data[0][0][i]:
+                    if data[0][0][i]: # this is press/release
                         self.trial_data['presses'].append(int(data[1][0][i]))
                         self.trial_data['rts'].append(
                             float(timestamp[i] - self.trial_start))
+            if self.state is 'wait_till_10_pressed':
+                for i in range(len(data[0][0])):
+                    if data[0][0][i]:
+                        self.pause_presses.append(int(data[1][0][i]))
+
+
 
     def draw_input(self):
-        self.push_feedback.lineColor = [
-            0, 0, 0] if self.any_pressed else [1, 1, 1]
+        self.push_feedback.lineColor = [0, 0, 0] if self.any_pressed else [1, 1, 1]

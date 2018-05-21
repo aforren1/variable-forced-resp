@@ -8,6 +8,7 @@ class StateMachine(Machine):
                   'enter_trial',
                   'feedback',
                   'post_trial',
+                  'wait_till_10_pressed',
                   'cleanup']
 
         transitions = [
@@ -61,11 +62,25 @@ class StateMachine(Machine):
              'trigger': 'step',
              'conditions': 'stopping_conditions',
              'dest': 'cleanup'},
+            
+            # check if we need to take a break
+            {'source': 'post_trial',
+             'trigger': 'step',
+             'conditions': 'mult_of_100_passed',
+             'after': ['reset_pause_press_list', 'draw_pause_text'],
+             'dest': 'wait_till_10_pressed'},
+
             # if stopping not met, then wait for *any* press (if none during trial)
             # and wait for ITI as well
             {'source': 'post_trial',
              'trigger': 'step',
              'conditions': 'post_timer_passed',
+             'dest': 'pretrial'},
+
+            {'source': 'wait_till_10_pressed',
+             'trigger': 'step',
+             'conditions': 'ten_keys_pressed',
+             'after': 'rm_pause_text',
              'dest': 'pretrial'}
         ]
         Machine.__init__(self, states=states, transitions=transitions,
