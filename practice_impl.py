@@ -1,6 +1,8 @@
+import itertools
 import json
 import os
 from datetime import datetime
+from pprint import PrettyPrinter
 
 import numpy as np
 from psychopy import core, logging, sound, visual
@@ -17,6 +19,8 @@ logging.console.setLevel(logging.ERROR)
 if os.name is 'nt':
     sound.setDevice('ASIO4ALL v2')
 
+pp = PrettyPrinter()
+
 class Practice(StateMachine):
     def __init__(self, settings=None, generator=None, static_settings=None):
         super(Practice, self).__init__()
@@ -30,10 +34,12 @@ class Practice(StateMachine):
         # how long key must be released before allowing continue
         self.release_timer = core.CountdownTimer()
 
+        self.subject_rng = np.random.RandomState(seed=int(self.settings['subject']))
+
         self.setup_data()
-        self.setup_input()
         self.setup_window()
         self.setup_visuals()
+        self.setup_input()
         self.setup_audio()
 
         self.frame_period = self.win.monitorFramePeriod
@@ -50,10 +56,42 @@ class Practice(StateMachine):
         self.valid_presses = list()
 
     def setup_data(self):
+        # figure out the subject-specific remaps
+        all_switch_hands = list(itertools.product(range(0, 5), range(5, 10)))
+        homologous = [(0, 9), (1, 8), (2, 7), (3, 6), (4, 5)]
+        heterologous = all_switch_hands.copy()
+        for i in heterologous:
+            if i in homologous:
+                heterologous.remove(i)
+        same_hand_l = list(itertools.product(
+            list(range(0, 5)), list(range(0, 5))))
+        same_hand_l = [(i, j) for i, j in same_hand_l if i != j]
+        same_hand_r = [(i + 5, j + 5) for i, j in same_hand_l]
+        same_hand = same_hand_l + same_hand_r
+
+        # choose one homologous, heterologous, same hand
+        hom_choice = self.subject_rng.choice(len(homologous))
+        hom_pair = homologous[hom_choice]
+        # make sure we can't pick an already engaged finger
+        het_subset = [i for i in heterologous 
+                        if not set(i).intersection(hom_pair)]
+        het_choice = self.subject_rng.choice(len(het_subset))
+        het_pair = het_subset[het_choice]
+        same_hand_subset = [i for i in same_hand 
+                                if not set(i).intersection(hom_pair) and 
+                                    not set(i).intersection(het_pair)]
+        same_hand_choice = self.subject_rng.choice(len(same_hand_subset))
+        same_hand_pair = same_hand_subset[same_hand_choice]
+
+        self.all_swaps = [hom_pair] + [het_pair] + [same_hand_pair]
+        self.settings.update({'swap_pairs': self.all_swaps})
+
+        #
         self.start_datetime = datetime.now().strftime('%y%m%d_%H%M%S')
         self.data_path = os.path.join(
             self.settings['root'], self.settings['subject'], self.start_datetime)
         self.settings.update({'datetime': self.start_datetime})
+
         # log from psychopy (to log here, call something like `logging.warning('bad thing')`)
         if not os.path.exists(self.data_path):
             os.makedirs(self.data_path)
@@ -69,7 +107,8 @@ class Practice(StateMachine):
         # trial-specific data (will be serialized via json.dump)
         self.trial_data = {'index': None, 'real_prep_time': None,
                            'proposed_choice': None, 'real_choice': None, 'correct': None,
-                           'datetime': None, 'presses': [], 'rts': []}
+                           'datetime': None, 'presses': [], 'rts': [], 'will_remap': None,
+                           'is_remapped': None}
 
     def setup_window(self):
         self.win = visual.Window(size=(800, 800), pos=(0, 0), fullscr=self.settings['fullscreen'],
@@ -82,11 +121,12 @@ class Practice(StateMachine):
     def setup_visuals(self):
         self.targets = list()
         # all possible targets
-        tmp = self.static_settings['symbol_options']
+        tmp = list(self.static_settings['symbol_options'])
 
         # compute per-person mapping
-        rg = np.random.randomState(seed=int(self.settings['subject']))
-        rg.shuffle(tmp)
+        self.subject_rng.shuffle(tmp)
+        tmp = ''.join(tmp)  # convert from list to string
+        self.settings.update({'reordered_symbols': tmp})
 
         tmp = tmp[:int(self.settings['n_choices'])]
         if self.settings['stim_type'] is 'symbol':
@@ -98,31 +138,35 @@ class Practice(StateMachine):
                 self.targets.append(visual.TextStim(
                     self.win, i, height=0.25, autoLog=True, font='FreeMono'))
         elif self.settings['stim_type'] is 'hand':
-            right_hand = visual.ImageStim(self.win, image='media/hand.png', size=(0.3, 0.3), 
+            right_hand = visual.ImageStim(self.win, image='media/hand.png', size=(0.3, 0.3),
                                           pos=(0.14, 0))
-            left_hand = visual.ImageStim(self.win, image='media/hand.png', size=(0.3, 0.3), 
+            left_hand = visual.ImageStim(self.win, image='media/hand.png', size=(0.3, 0.3),
                                          pos=(-0.14, 0), flipHoriz=True)
             self.background = visual.BufferImageStim(self.win, stim=[left_hand, right_hand])
             # pinky, ring, middle, index, thumb
-            pos_l = [[-0.255, 0.0375], [-0.2075, 0.08875], [-0.1575, 0.1125], [-0.095, 0.09], [-0.03, -0.0075]]
+            pos_l = [[-0.255, 0.0375], [-0.2075, 0.08875],
+                     [-0.1575, 0.1125], [-0.095, 0.09], [-0.03, -0.0075]]
             pos_r = [[-x, y] for x, y in pos_l]
             pos_r.reverse()
             pos_l.extend(pos_r)
             pos_l = pos_l[:int(self.settings['n_choices'])]
 
-            self.targets = [visual.Circle(self.win, fillColor=(1, 1, 1), pos=x, 
-                                        size=0.03, opacity=1.0) 
+            self.targets = [visual.Circle(self.win, fillColor=(1, 1, 1), pos=x,
+                                          size=0.03, opacity=1.0)
                             for x in pos_l]
         else:
             raise ValueError('Unknown stimulus option...')
-        
+
         if self.settings['remap']:
             # remap heterologous, homologous, and same-finger pairs?
-            remap_indices = list(range(10))
-
-            pass
+            # swap the stimuli
+            print(self.all_swaps)
+            for i, j in self.all_swaps:
+                self.targets[j], self.targets[i] = self.targets[i], self.targets[j]
+            
         # push feedback
-        self.push_feedback = visual.Rect(self.win, width=0.6, height=0.6, lineWidth=3, name='push_feedback', autoLog=False)
+        self.push_feedback = visual.Rect(
+            self.win, width=0.6, height=0.6, lineWidth=3, name='push_feedback', autoLog=False)
 
         # text
         self.instruction_text = visual.TextStim(self.win, text='Press a key to start.', pos=(0, 0),
@@ -140,7 +184,7 @@ class Practice(StateMachine):
             data, self.coin_fs = sf.read('sounds/coin.wav')
             self.coin_data = np.transpose(np.vstack((data, data)))
         self._play_reward()
-    
+
     def _play_reward(self):
         if os.name is 'nt':
             self.coin.play()
@@ -244,11 +288,11 @@ class Practice(StateMachine):
     # conditions
     def feedback_timer_passed(self):
         return self.feedback_timer.getTime() - self.frame_period <= 0
-    
+
     def is_choice_correct(self):
         return self.t_feedback < 0.5
-        #return self.trial_data['presses'][-1] == self.this_trial_choice
-    
+        # return self.trial_data['presses'][-1] == self.this_trial_choice
+
     def is_choice_incorrect(self):
         was_incorrect = self.t_feedback > 0.5
         if was_incorrect:
@@ -282,9 +326,15 @@ class Practice(StateMachine):
             self.first_press == int(self.this_trial_choice)) if self.first_press is not None else False
         self.trial_data['datetime'] = now
         self.trial_data['presses'] = list(self.trial_data['presses'])
-        self.trial_data['rts'] = [
-            x - self.stim_onset for x in self.trial_data['rts']]
-        print(self.trial_data)
+        self.trial_data['rts'] = [x - self.stim_onset for x in self.trial_data['rts']]
+        self.trial_data['will_remap'] = any(self.trial_data['proposed_choice'] in r for r in self.all_swaps)
+        self.trial_data['is_remapped'] = self.trial_data['will_remap'] and self.settings['remap']
+        if self.trial_data['is_remapped']:
+            pair = [r for r in self.all_swaps if self.this_trial_choice in r][0] # should only be one list
+            pair = list(pair)
+            pair.remove(self.this_trial_choice)
+        self.trial_data['remapped_from'] = int(pair[0]) if self.trial_data['is_remapped'] else None
+        pp.pprint(self.trial_data)
         trial_name = 'trial' + str(self.trial_counter) + '_summary.json'
         with open(os.path.join(self.data_path, trial_name), 'w') as f:
             json.dump(self.trial_data, f)

@@ -15,8 +15,9 @@ if __name__ == '__main__':
     settings = {'root': 'data', 'subject': '001', 'fullscreen': False,
                 'min_rt': 0.2, 'max_rt': 0.6, 'n_choices': 10,
                 # formerly image
-                'stim_per_choice': 1, 'stim_type': ['hand', 'letter', 'symbol'],
-                'exp_type': ['practice', 'criterion', 'probe']}
+                'stim_type': ['hand', 'letter', 'symbol'],
+                'exp_type': ['practice', 'criterion', 'probe'],
+                'remap': False}
 
     try:
         with open('settings.pkl', 'rb') as f:
@@ -38,12 +39,6 @@ if __name__ == '__main__':
 
     with open('static_settings.yml', 'r') as f:
         static_settings = yaml.load(f)
-    
-    # compute the "actual" symbol mapping (for a given subject)
-    # trng = np.random.RandomState(seed=int(settings['subject']))
-    # tmp_str = list(static_settings['symbol_options'])
-    # trng.shuffle(tmp_str)
-    # static_settings['symbol_options'] = ''.join(tmp_str)
 
     if settings['exp_type'] is 'practice':
         gen = UniformGen(min_rt=float(settings['min_rt']),
