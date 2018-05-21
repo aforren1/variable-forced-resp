@@ -83,6 +83,11 @@ class Practice(StateMachine):
         self.targets = list()
         # all possible targets
         tmp = self.static_settings['symbol_options']
+
+        # compute per-person mapping
+        rg = np.random.randomState(seed=int(self.settings['subject']))
+        rg.shuffle(tmp)
+
         tmp = tmp[:int(self.settings['n_choices'])]
         if self.settings['stim_type'] is 'symbol':
             for i in tmp:
@@ -110,10 +115,12 @@ class Practice(StateMachine):
                             for x in pos_l]
         else:
             raise ValueError('Unknown stimulus option...')
+        
+        if self.settings['remap']:
+            # remap heterologous, homologous, and same-finger pairs?
+            remap_indices = list(range(10))
 
-        # if self.settings['remap']:
-        #     # remap five fingers
-        #     pass
+            pass
         # push feedback
         self.push_feedback = visual.Rect(self.win, width=0.6, height=0.6, lineWidth=3, name='push_feedback', autoLog=False)
 
