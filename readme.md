@@ -16,20 +16,22 @@ Order of events:
 (breaks every 100 trials, press all keys to resume)
 
 Day 1:
-1. 20 free RT repeats per non-arbitrary stimulus (hands)
-  - 200 trials total
-2. 50 forced RT repeats per non-arbitrary stimulus (hands)
-  - 500 trials total
-3. 5 consecutive correct per arbitrary stimulus (symbols)
+1. 5 free RT repeats per non-arbitrary stimulus (hands)
+  - 50 trials total
+2. 5 forced RT repeats per non-arbitrary stimulus (hands)
+  - 50 trials total
+3. 4/5 correct per arbitrary stimulus (symbols)
+  - i.e. if they get 4 of the last 5, that symbol is "good"
 4. 50 forced RT repeats per arbitrary stimulus (symbols)
+  - 500 trials total
 
 Day 2 - 4:
 1. 250 free RT repeats per arbitrary stimulus (symbols)
   - 2500 trials total per day
 
-(Not sure yet)
 Day 5:
-2. Some sort of warmup on the current set
+1. 5 free RT repeats per arbitrary stimulus (symbols)
+  - (warmup)
 2. 50 forced RT repeats per arbitrary stimulus (symbols)
 3. 5 consecutive correct per *remapped* arbitrary stimulus (symbols)
-2. 50 forced RT repeats per *remapped* arbitrary stimulus (symbols)
+4. 50 forced RT repeats per *remapped* arbitrary stimulus (symbols)

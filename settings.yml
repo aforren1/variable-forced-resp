@@ -1,4 +1,4 @@
-exp_type: probe
+exp_type: criterion
 max_rt: 0.6
 min_rt: 0.2
 remap: false
