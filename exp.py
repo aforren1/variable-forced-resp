@@ -1,5 +1,4 @@
 from datetime import datetime
-import pickle
 
 import yaml
 import numpy as np
@@ -21,8 +20,8 @@ if __name__ == '__main__':
                 'trials_per_stim': 10} # number of repeats per stimulus, e.g. this would result in 100 total trials
 
     try:
-        with open('settings.pkl', 'rb') as f:
-            potential_settings = pickle.load(f)
+        with open('settings.yml', 'r') as f:
+            potential_settings = yaml.load(f)
             # only use saved settings if all the keys match
             if potential_settings.keys() == settings.keys():
                 settings = potential_settings
@@ -35,8 +34,8 @@ if __name__ == '__main__':
     if not dialog.OK:
         core.quit()
     # save the settings
-    with open('settings.pkl', 'wb') as f:
-        pickle.dump(settings, f)
+    with open('settings.yml', 'w') as f:
+        yaml.dump(settings, f, default_flow_style=False)
 
     with open('static_settings.yml', 'r') as f:
         static_settings = yaml.load(f)
