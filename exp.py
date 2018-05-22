@@ -41,14 +41,14 @@ if __name__ == '__main__':
     with open('static_settings.yml', 'r') as f:
         static_settings = yaml.load(f)
 
-    if settings['exp_type'] is 'practice':
+    if settings['exp_type'] == 'practice':
         gen = UniformGen(min_rt=float(settings['min_rt']),
                          max_rt=float(settings['max_rt']),
                          n_choices=int(settings['n_choices']),
                          seed=int(datetime.strftime(datetime.now(), '%H%M%S')),
                          trials_per_stim=int(settings['trials_per_stim']))
         Exp = Practice
-    elif settings['exp_type'] is 'criterion':
+    elif settings['exp_type'] == 'criterion':
         gen = CriterionGen(n_choices=int(settings['n_choices']), 
                            seed=int(datetime.strftime(datetime.now(), '%H%M%S')))
         Exp = Practice
@@ -59,11 +59,12 @@ if __name__ == '__main__':
                          seed=int(datetime.strftime(datetime.now(), '%H%M%S')),
                          trials_per_stim=int(settings['trials_per_stim']))
         Exp = ForcedResp
+    
     experiment = Exp(settings=settings, generator=gen,
                      static_settings=static_settings)
 
     with experiment.device:
-        while experiment.state is not 'cleanup':
+        while experiment.state != 'cleanup':
             experiment.input()
             experiment.draw_input()
             experiment.step()

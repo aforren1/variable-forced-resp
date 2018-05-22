@@ -17,7 +17,7 @@ from toon.input.keyboard import Keyboard
 
 logging.setDefaultClock(mono_clock)
 logging.console.setLevel(logging.ERROR)
-if os.name is 'nt':
+if os.name == 'nt':
     sound.setDevice('ASIO4ALL v2')
 
 pp = PrettyPrinter()
@@ -127,15 +127,15 @@ class ForcedResp(StateMachine):
         # all possible targets
         tmp = self.static_settings['symbol_options']
         tmp = tmp[:int(self.settings['n_choices'])]
-        if self.settings['stim_type'] is 'symbol':
+        if self.settings['stim_type'] == 'symbol':
             for i in tmp:
                 self.targets.append(visual.TextStim(
                     self.win, i, height=0.25, autoLog=True, font='FreeMono', name='stim ' + i))
-        elif self.settings['stim_type'] is 'letter':
+        elif self.settings['stim_type'] == 'letter':
             for i in list(self.static_settings['key_options']):
                 self.targets.append(visual.TextStim(
                     self.win, i, height=0.25, autoLog=True, font='FreeMono', name='stim ' + i))
-        elif self.settings['stim_type'] is 'hand':
+        elif self.settings['stim_type'] == 'hand':
             right_hand = visual.ImageStim(self.win, image='media/hand.png', size=(0.3, 0.3), 
                                           pos=(0.14, 0))
             left_hand = visual.ImageStim(self.win, image='media/hand.png', size=(0.3, 0.3), 
@@ -204,7 +204,7 @@ class ForcedResp(StateMachine):
 
         self.last_beep_time = round(self.static_settings['beep_lead_in'] + (
             self.static_settings['beep_ici'] * (len(self.static_settings['beep_freqs']) - 1)), 2)
-        if os.name is 'nt':
+        if os.name == 'nt':
             self.four_beep = sound.Sound(beeps, blockSize=16, hamming=False)
             self.coin = sound.Sound('sounds/coin.wav', stereo=True)
         else:
@@ -223,7 +223,7 @@ class ForcedResp(StateMachine):
         self._play_reward()
 
     def _play_reward(self):
-        if os.name is 'nt':
+        if os.name == 'nt':
             self.coin.play()
         else:
             sd.play(self.coin_data, self.coin_fs)
@@ -245,7 +245,7 @@ class ForcedResp(StateMachine):
         self.instruction_text.autoDraw = False
 
     def add_fix_n_feedback(self):
-        if self.settings['stim_type'] is 'hand':
+        if self.settings['stim_type'] == 'hand':
             self.background.autoDraw = True
         self.push_feedback.autoDraw = True
 
@@ -284,12 +284,12 @@ class ForcedResp(StateMachine):
 
     def sched_beep(self):
         # pass
-        if os.name is 'nt':
+        if os.name == 'nt':
             self.four_beep.seek(self.four_beep.stream.latency)
         self.win.callOnFlip(self._play_beeps)
 
     def _play_beeps(self):
-        if os.name is 'nt':
+        if os.name == 'nt':
             self.four_beep.play()
         else:
             sd.play(self.four_beep_data, self.four_beep_fs)
@@ -341,12 +341,12 @@ class ForcedResp(StateMachine):
                 good_timing = True
                 self.good_timing.autoDraw = True
             if correct:
-                if self.settings['stim_type'] is not 'hand':
+                if self.settings['stim_type'] != 'hand':
                     self.targets[int(self.this_trial_choice)].color = [-1, 1, -1]
                 else:
                     self.targets[int(self.this_trial_choice)].fillColor = [-1, 1, -1]
             else:
-                if self.settings['stim_type'] is not 'hand':
+                if self.settings['stim_type'] != 'hand':
                     self.targets[int(self.this_trial_choice)].color = [1, -1, -1]
                 else:
                     self.targets[int(self.this_trial_choice)].fillColor = [1, -1, -1]
@@ -371,7 +371,7 @@ class ForcedResp(StateMachine):
         self.too_slow.autoDraw = False
         self.too_fast.autoDraw = False
         self.good_timing.autoDraw = False
-        if self.settings['stim_type'] is not 'hand':
+        if self.settings['stim_type'] != 'hand':
             self.targets[int(self.this_trial_choice)].color = [1, 1, 1]
         else:
             self.targets[int(self.this_trial_choice)].fillColor = [1, 1, 1]
@@ -478,7 +478,7 @@ class ForcedResp(StateMachine):
                         self.trial_data['presses'].append(int(data[1][0][i]))
                         self.trial_data['rts'].append(
                             float(timestamp[i] - self.trial_start))
-            if self.state is 'wait_till_10_pressed':
+            if self.state == 'wait_till_10_pressed':
                 for i in range(len(data[0][0])):
                     if data[0][0][i]:
                         self.pause_presses.append(int(data[1][0][i]))

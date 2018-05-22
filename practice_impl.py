@@ -16,7 +16,7 @@ from toon.input.keyboard import Keyboard
 
 logging.setDefaultClock(mono_clock)
 logging.console.setLevel(logging.ERROR)
-if os.name is 'nt':
+if os.name == 'nt':
     sound.setDevice('ASIO4ALL v2')
 
 pp = PrettyPrinter()
@@ -130,15 +130,15 @@ class Practice(StateMachine):
         self.settings.update({'reordered_symbols': tmp})
 
         tmp = tmp[:int(self.settings['n_choices'])]
-        if self.settings['stim_type'] is 'symbol':
+        if self.settings['stim_type'] == 'symbol':
             for i in tmp:
                 self.targets.append(visual.TextStim(
                     self.win, i, height=0.25, autoLog=True, font='FreeMono', name='stim ' + i))
-        elif self.settings['stim_type'] is 'letter':
+        elif self.settings['stim_type'] == 'letter':
             for i in list(self.static_settings['key_options']):
                 self.targets.append(visual.TextStim(
                     self.win, i, height=0.25, autoLog=True, font='FreeMono', name='stim ' + i))
-        elif self.settings['stim_type'] is 'hand':
+        elif self.settings['stim_type'] == 'hand':
             right_hand = visual.ImageStim(self.win, image='media/hand.png', size=(0.3, 0.3),
                                           pos=(0.14, 0))
             left_hand = visual.ImageStim(self.win, image='media/hand.png', size=(0.3, 0.3),
@@ -183,7 +183,7 @@ class Practice(StateMachine):
                                            alignHoriz='center', alignVert='center', autoLog=True, name='pause_text')
 
     def setup_audio(self):
-        if os.name is 'nt':
+        if os.name == 'nt':
             self.coin = sound.Sound('sounds/coin.wav', stereo=True)
         else:
             sd.default.latency = 0.01
@@ -193,7 +193,7 @@ class Practice(StateMachine):
         self._play_reward()
 
     def _play_reward(self):
-        if os.name is 'nt':
+        if os.name == 'nt':
             self.coin.play()
         else:
             sd.play(self.coin_data, self.coin_fs)
@@ -216,7 +216,7 @@ class Practice(StateMachine):
 
     def add_fix_n_feedback(self):
         # always keep hands on if we're doing the hand stimuli
-        if self.settings['stim_type'] is 'hand':
+        if self.settings['stim_type'] == 'hand':
             self.background.autoDraw = True
         self.push_feedback.autoDraw = True
 
@@ -275,14 +275,14 @@ class Practice(StateMachine):
         if self.valid_presses:
             correct = self.valid_presses[-1] == int(self.this_trial_choice)
             if correct:
-                if self.settings['stim_type'] is not 'hand':
+                if self.settings['stim_type'] != 'hand':
                     self.targets[int(self.this_trial_choice)].color = [-1, 1, -1]
                 else:
                     self.targets[int(self.this_trial_choice)].fillColor = [-1, 1, -1]
                 self._play_reward()
                 self.t_feedback = 0.3
             else:
-                if self.settings['stim_type'] is not 'hand':
+                if self.settings['stim_type'] != 'hand':
                     self.targets[int(self.this_trial_choice)].color = [1, -1, -1]
                 else:
                     self.targets[int(self.this_trial_choice)].fillColor = [1, -1, -1]
@@ -311,7 +311,7 @@ class Practice(StateMachine):
         self.targets[int(self.this_trial_choice)].autoDraw = False
 
     def remove_feedback(self):
-        if self.settings['stim_type'] is not 'hand':
+        if self.settings['stim_type'] != 'hand':
             self.targets[int(self.this_trial_choice)].color = [1, 1, 1]
         else:
             self.targets[int(self.this_trial_choice)].fillColor = [1, 1, 1]
@@ -405,7 +405,7 @@ class Practice(StateMachine):
                         self.trial_data['rts'].append(
                             float(timestamp[i] - self.trial_start))
                         self.valid_presses.append(int(data[1][0][i]))
-            if self.state is 'wait_till_10_pressed':
+            if self.state == 'wait_till_10_pressed':
                 for i in range(len(data[0][0])):
                     if data[0][0][i]:
                         self.pause_presses.append(int(data[1][0][i]))
