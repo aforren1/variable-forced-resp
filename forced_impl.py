@@ -405,7 +405,7 @@ class ForcedResp(StateMachine):
             pair = list(pair)
             pair.remove(self.this_trial_choice)
         self.trial_data['remapped_from'] = int(pair[0]) if self.trial_data['is_remapped'] else None
-        pp.pprint(self.trial_data)
+        #pp.pprint(self.trial_data)
         trial_name = 'trial' + str(self.trial_counter) + '_summary.json'
         with open(os.path.join(self.data_path, trial_name), 'w') as f:
             json.dump(self.trial_data, f)
