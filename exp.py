@@ -17,7 +17,8 @@ if __name__ == '__main__':
                 # formerly image
                 'stim_type': ['hand', 'letter', 'symbol'],
                 'exp_type': ['practice', 'criterion', 'probe'],
-                'remap': False}
+                'remap': False,
+                'trials_per_stim': 10} # number of repeats per stimulus, e.g. this would result in 100 total trials
 
     try:
         with open('settings.pkl', 'rb') as f:
@@ -44,7 +45,8 @@ if __name__ == '__main__':
         gen = UniformGen(min_rt=float(settings['min_rt']),
                          max_rt=float(settings['max_rt']),
                          n_choices=int(settings['n_choices']),
-                         seed=int(datetime.strftime(datetime.now(), '%H%M%S')))
+                         seed=int(datetime.strftime(datetime.now(), '%H%M%S')),
+                         trials_per_stim=int(settings['trials_per_stim']))
         Exp = Practice
     elif settings['exp_type'] is 'criterion':
         gen = CriterionGen(n_choices=int(settings['n_choices']), 
@@ -54,7 +56,8 @@ if __name__ == '__main__':
         gen = UniformGen(min_rt=float(settings['min_rt']),
                          max_rt=float(settings['max_rt']),
                          n_choices=int(settings['n_choices']),
-                         seed=int(datetime.strftime(datetime.now(), '%H%M%S')))
+                         seed=int(datetime.strftime(datetime.now(), '%H%M%S')),
+                         trials_per_stim=int(settings['trials_per_stim']))
         Exp = ForcedResp
     experiment = Exp(settings=settings, generator=gen,
                      static_settings=static_settings)

@@ -114,7 +114,7 @@ class Practice(StateMachine):
     def setup_window(self):
         self.win = visual.Window(size=(800, 800), pos=(0, 0), fullscr=self.settings['fullscreen'],
                                  screen=1, units='height', allowGUI=False, colorSpace='rgb',
-                                 color=-0.8)
+                                 color=-0.7)
         self.win.recordFrameIntervals = True
         # bump up the number of dropped frames reported
         visual.window.reportNDroppedFrames = 50
@@ -175,7 +175,10 @@ class Practice(StateMachine):
                                                 autoLog=False, wrapWidth=2)
         self.instruction_text.autoDraw = True
 
-        self.pause_text = visual.TextStim(self.win, text=u'Take a break! Press ten times to continue.', pos=(0, 0.5),
+        self.pause_text = visual.TextStim(self.win, text=u'Take a break!', pos=(0, 0.8),
+                                           units='norm', color=(1, 1, 1), height=0.1,
+                                           alignHoriz='center', alignVert='center', autoLog=True, name='pause_text')
+        self.pause_text2 = visual.TextStim(self.win, text=u'Press ten times to continue.', pos=(0, 0.7),
                                            units='norm', color=(1, 1, 1), height=0.1,
                                            alignHoriz='center', alignVert='center', autoLog=True, name='pause_text')
 
@@ -374,13 +377,17 @@ class Practice(StateMachine):
         self.pause_presses = []
     
     def ten_keys_pressed(self):
-        return len(self.pause_presses) >= 10
-    
+        lpp = len(self.pause_presses)
+        self.pause_text2.text = 'Press %d times to continue.' % (10 - lpp)
+        return lpp >= 10
+
     def draw_pause_text(self):
         self.pause_text.autoDraw = True
-    
+        self.pause_text2.autoDraw = True
+
     def rm_pause_text(self):
         self.pause_text.autoDraw = False
+        self.pause_text2.autoDraw = False
 
     def input(self):
         timestamp, data = self.device.read()

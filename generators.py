@@ -5,7 +5,6 @@ import numpy as np
 # because a proposed prep time will (almost) never match up w/
 # the screen refresh...
 
-#TODO: use ID as seed?
 
 class TrialGenerator(abc.ABC):
     @abc.abstractmethod
