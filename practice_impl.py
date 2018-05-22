@@ -1,5 +1,5 @@
 import itertools
-import json
+import ujson as json
 import os
 from datetime import datetime
 from pprint import PrettyPrinter
