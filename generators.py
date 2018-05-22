@@ -71,8 +71,12 @@ class UniformGen(TrialGenerator):
 
 
 class CriterionGen(TrialGenerator):
-    def __init__(self, **kwargs):
+    def __init__(self, percentage=0.8, out_of=5, **kwargs):
+        # percentage = percentage of correct responses
+        # out_of = number back to check
         super(CriterionGen, self).__init__(**kwargs)
+        self.percentage = percentage
+        self.out_of = out_of
 
     def next(self):
         self.current_choice = self.rng.randint(self.n_choices)
@@ -80,16 +84,14 @@ class CriterionGen(TrialGenerator):
         return (self.current_prep_time, self.current_choice)
 
     def should_terminate(self):
-        # 5 correct consecutive responses to each stimulus
         for i in range(self.n_choices):
             if i in self.req_choices:
                 # indices of *all* of the points for the current choice
-                indices = [ii for ii, jj in enumerate(
-                    self.req_choices) if jj == i]
+                indices = [ii for ii, jj in enumerate(self.req_choices) if jj == i]
                 # get all the corrects
                 subset_correct = [self.corrects[a] for a in indices]
-                out_of_last_five_correct = sum(subset_correct[-5:])
-                if out_of_last_five_correct == 5:
+                out_of_last_n_correct = sum(subset_correct[-self.out_of:])/self.out_of
+                if out_of_last_n_correct >= self.percentage:
                     continue
                 else:
                     return False
