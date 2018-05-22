@@ -12,8 +12,8 @@ from psychopy import event
 
 if __name__ == '__main__':
     # bug: note that datatype seems funky after running through the GUI
-    settings = {'root': 'data', 'subject': '001', 'fullscreen': False,
-                'min_rt': 0.2, 'max_rt': 0.6, 'n_choices': 10,
+    settings = {'subject': '001',
+                'min_rt': 0.2, 'max_rt': 0.6,
                 # formerly image
                 'stim_type': ['hand', 'letter', 'symbol'],
                 'exp_type': ['practice', 'criterion', 'probe'],
@@ -44,18 +44,18 @@ if __name__ == '__main__':
     if settings['exp_type'] == 'practice':
         gen = UniformGen(min_rt=float(settings['min_rt']),
                          max_rt=float(settings['max_rt']),
-                         n_choices=int(settings['n_choices']),
+                         n_choices=int(static_settings['n_choices']),
                          seed=int(datetime.strftime(datetime.now(), '%H%M%S')),
                          trials_per_stim=int(settings['trials_per_stim']))
         Exp = Practice
     elif settings['exp_type'] == 'criterion':
-        gen = CriterionGen(n_choices=int(settings['n_choices']), 
+        gen = CriterionGen(n_choices=int(static_settings['n_choices']), 
                            seed=int(datetime.strftime(datetime.now(), '%H%M%S')))
         Exp = Practice
     else:
         gen = UniformGen(min_rt=float(settings['min_rt']),
                          max_rt=float(settings['max_rt']),
-                         n_choices=int(settings['n_choices']),
+                         n_choices=int(static_settings['n_choices']),
                          seed=int(datetime.strftime(datetime.now(), '%H%M%S')),
                          trials_per_stim=int(settings['trials_per_stim']))
         Exp = ForcedResp
@@ -68,6 +68,7 @@ if __name__ == '__main__':
             experiment.input()
             experiment.draw_input()
             experiment.step()
+            # if experiment.any_stims: experiment.draw_stims(); experiment.win.flip()
             experiment.win.flip()
             if event.getKeys(['esc', 'escape']):
                 experiment.to_cleanup()

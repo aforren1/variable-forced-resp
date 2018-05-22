@@ -93,7 +93,7 @@ class ForcedResp(StateMachine):
         #
         self.start_datetime = datetime.now().strftime('%y%m%d_%H%M%S')
         self.data_path = os.path.join(
-            self.settings['root'], self.settings['subject'], self.start_datetime)
+            self.static_settings['root'], self.settings['subject'], self.start_datetime)
         self.settings.update({'datetime': self.start_datetime})
 
         # log from psychopy (to log here, call something like `logging.warning('bad thing')`)
@@ -115,9 +115,9 @@ class ForcedResp(StateMachine):
                            'will_remap': None, 'is_remapped': None, 'remapped_from': None}
 
     def setup_window(self):
-        self.win = visual.Window(size=(800, 800), pos=(0, 0), fullscr=self.settings['fullscreen'],
+        self.win = visual.Window(size=(800, 800), pos=(0, 0), fullscr=self.static_settings['fullscreen'],
                                  screen=1, units='height', allowGUI=False, colorSpace='rgb',
-                                 color=-0.7)
+                                 color=-1.0)
         self.win.recordFrameIntervals = True
         # bump up the number of dropped frames reported
         visual.window.reportNDroppedFrames = 50
@@ -126,7 +126,7 @@ class ForcedResp(StateMachine):
         self.targets = list()
         # all possible targets
         tmp = self.static_settings['symbol_options']
-        tmp = tmp[:int(self.settings['n_choices'])]
+        tmp = tmp[:int(self.static_settings['n_choices'])]
         if self.settings['stim_type'] == 'symbol':
             for i in tmp:
                 self.targets.append(visual.TextStim(
@@ -146,7 +146,7 @@ class ForcedResp(StateMachine):
             pos_r = [[-x, y] for x, y in pos_l]
             pos_r.reverse()
             pos_l.extend(pos_r)
-            pos_l = pos_l[:int(self.settings['n_choices'])]
+            pos_l = pos_l[:int(self.static_settings['n_choices'])]
 
             self.targets = [visual.Circle(self.win, fillColor=(1, 1, 1), pos=x, 
                                         size=0.03, opacity=1.0, name='stim %d' % c) 
@@ -230,7 +230,7 @@ class ForcedResp(StateMachine):
 
     def setup_input(self):
         keys = list(self.static_settings['key_options'])
-        self.keys = keys[:int(self.settings['n_choices'])]
+        self.keys = keys[:int(self.static_settings['n_choices'])]
         self.device = MpI(Keyboard, keys=keys, clock=self.global_clock.getTime)
         self.keyboard_state = [False] * len(keys)
 
