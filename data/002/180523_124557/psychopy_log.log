@@ -1,0 +1,152 @@
+0.2373 	INFO 	Loaded SoundDevice with PortAudio V19.6.0-devel, revision 396fe4b6699ae929d3a685b3ef8a7e97396139a4
+0.2374 	INFO 	sound is using audioLib: sounddevice
+4.0121 	INFO 	Loaded monitor calibration from ['2018_01_10 10:27']
+53.5856 	WARNING 	Monitor specification not found. Creating a temporary one...
+53.6688 	WARNING 	Requested an unavailable screen number - using first available.
+53.6691 	WARNING 	User requested fullscreen with size [800 800], but screen is actually [1680, 1050]. Using actual size
+54.7427 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([-1., -1., -1.]), colorSpace='rgb', fullscr=UNKNOWN, gamma=None, kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000015EA638A6A0>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=1, size=array([1680, 1050]), stereo=False, units='height', useFBO=False, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+54.7427 	EXP 	window1: recordFrameIntervals = True
+55.0095 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='media/hand.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0.14, 0.  ]), size=array([0.3, 0.3]), texRes=128, units='height', win=Window(...))
+55.0270 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=True, flipVert=False, image='media/hand.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([-0.14,  0.  ]), size=array([0.3, 0.3]), texRes=128, units='height', win=Window(...))
+55.1058 	EXP 	Created unnamed BufferImageStim = BufferImageStim(__class__=type(...), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=Image(...), interpolate=True, mask='None', maskParams=None, name='unnamed BufferImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1680., 1050.]), texRes=128, units='pix', win=Window(...))
+55.1059 	EXP 	BufferImageStim None: took 64.5ms to initialize
+55.1968 	EXP 	Created stim 0 = Circle(__class__=<class 'psychopy.visual.circle.Circle'>, autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=array([1., 1., 1.]), fillColorSpace='rgb', fillRGB=array([1., 1., 1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1.5, name='stim 0', opacity=1.0, ori=array(0.), pos=array([-0.255 ,  0.0375]), size=array([0.03, 0.03]), units='height', vertices=ndarray(...), win=Window(...))
+55.1986 	EXP 	Created stim 1 = Circle(__class__=<class 'psychopy.visual.circle.Circle'>, autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=array([1., 1., 1.]), fillColorSpace='rgb', fillRGB=array([1., 1., 1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1.5, name='stim 1', opacity=1.0, ori=array(0.), pos=array([-0.2075 ,  0.08875]), size=array([0.03, 0.03]), units='height', vertices=ndarray(...), win=Window(...))
+55.2003 	EXP 	Created stim 2 = Circle(__class__=<class 'psychopy.visual.circle.Circle'>, autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=array([1., 1., 1.]), fillColorSpace='rgb', fillRGB=array([1., 1., 1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1.5, name='stim 2', opacity=1.0, ori=array(0.), pos=array([-0.1575,  0.1125]), size=array([0.03, 0.03]), units='height', vertices=ndarray(...), win=Window(...))
+55.2020 	EXP 	Created stim 3 = Circle(__class__=<class 'psychopy.visual.circle.Circle'>, autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=array([1., 1., 1.]), fillColorSpace='rgb', fillRGB=array([1., 1., 1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1.5, name='stim 3', opacity=1.0, ori=array(0.), pos=array([-0.095,  0.09 ]), size=array([0.03, 0.03]), units='height', vertices=ndarray(...), win=Window(...))
+55.2038 	EXP 	Created stim 4 = Circle(__class__=<class 'psychopy.visual.circle.Circle'>, autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=array([1., 1., 1.]), fillColorSpace='rgb', fillRGB=array([1., 1., 1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1.5, name='stim 4', opacity=1.0, ori=array(0.), pos=array([-0.03  , -0.0075]), size=array([0.03, 0.03]), units='height', vertices=ndarray(...), win=Window(...))
+55.2056 	EXP 	Created stim 5 = Circle(__class__=<class 'psychopy.visual.circle.Circle'>, autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=array([1., 1., 1.]), fillColorSpace='rgb', fillRGB=array([1., 1., 1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1.5, name='stim 5', opacity=1.0, ori=array(0.), pos=array([ 0.03  , -0.0075]), size=array([0.03, 0.03]), units='height', vertices=ndarray(...), win=Window(...))
+55.2073 	EXP 	Created stim 6 = Circle(__class__=<class 'psychopy.visual.circle.Circle'>, autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=array([1., 1., 1.]), fillColorSpace='rgb', fillRGB=array([1., 1., 1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1.5, name='stim 6', opacity=1.0, ori=array(0.), pos=array([0.095, 0.09 ]), size=array([0.03, 0.03]), units='height', vertices=ndarray(...), win=Window(...))
+55.2090 	EXP 	Created stim 7 = Circle(__class__=<class 'psychopy.visual.circle.Circle'>, autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=array([1., 1., 1.]), fillColorSpace='rgb', fillRGB=array([1., 1., 1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1.5, name='stim 7', opacity=1.0, ori=array(0.), pos=array([0.1575, 0.1125]), size=array([0.03, 0.03]), units='height', vertices=ndarray(...), win=Window(...))
+55.2108 	EXP 	Created stim 8 = Circle(__class__=<class 'psychopy.visual.circle.Circle'>, autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=array([1., 1., 1.]), fillColorSpace='rgb', fillRGB=array([1., 1., 1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1.5, name='stim 8', opacity=1.0, ori=array(0.), pos=array([0.2075 , 0.08875]), size=array([0.03, 0.03]), units='height', vertices=ndarray(...), win=Window(...))
+55.2125 	EXP 	Created stim 9 = Circle(__class__=<class 'psychopy.visual.circle.Circle'>, autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=array([1., 1., 1.]), fillColorSpace='rgb', fillRGB=array([1., 1., 1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1.5, name='stim 9', opacity=1.0, ori=array(0.), pos=array([0.255 , 0.0375]), size=array([0.03, 0.03]), units='height', vertices=ndarray(...), win=Window(...))
+55.2168 	EXP 	<method-wrapper '__getattribute__' of attributeSetter object at 0x0000015E1E4CD048>: vertices = array([[-0.3,  0.3],
+       [ 0.3,  0.3],
+       [ 0.3, -0.3],
+       [-0.3, -0.3]])
+55.4553 	EXP 	Created pause_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.1, italic=False, name='pause_text', opacity=1.0, ori=0.0, pos=array([0. , 0.8]), rgb=array([1., 1., 1.]), text='Take a break!', units='norm', win=Window(...), wrapWidth=1)
+55.4647 	EXP 	Created pause_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.1, italic=False, name='pause_text', opacity=1.0, ori=0.0, pos=array([0. , 0.7]), rgb=array([1., 1., 1.]), text='Press ten times to continue.', units='norm', win=Window(...), wrapWidth=1)
+73.7655 	EXP 	unnamed BufferImageStim: autoDraw = True
+74.2148 	INFO 	Trial 0 start: 74.198179
+74.2149 	EXP 	Drew image 7 at 0.000000
+74.2148 	EXP 	stim 7: autoDraw = True
+74.7479 	EXP 	stim 7: fillColor = [-1, 1, -1]
+75.0479 	EXP 	stim 7: autoDraw = False
+75.0479 	EXP 	stim 7: fillColor = [1, 1, 1]
+75.5808 	INFO 	Trial 1 start: 75.563959
+75.5808 	EXP 	Drew image 4 at 0.000000
+75.5807 	EXP 	stim 4: autoDraw = True
+76.1971 	EXP 	stim 4: fillColor = [-1, 1, -1]
+76.4970 	EXP 	stim 4: autoDraw = False
+76.4970 	EXP 	stim 4: fillColor = [1, 1, 1]
+77.0133 	INFO 	Trial 2 start: 76.996691
+77.0134 	EXP 	Drew image 5 at 0.000000
+77.0133 	EXP 	stim 5: autoDraw = True
+77.4463 	EXP 	stim 5: fillColor = [-1, 1, -1]
+77.7463 	EXP 	stim 5: autoDraw = False
+77.7463 	EXP 	stim 5: fillColor = [1, 1, 1]
+78.2792 	INFO 	Trial 3 start: 78.262475
+78.2792 	EXP 	Drew image 9 at 0.000000
+78.2792 	EXP 	stim 9: autoDraw = True
+78.8791 	EXP 	stim 9: fillColor = [-1, 1, -1]
+79.1790 	EXP 	stim 9: autoDraw = False
+79.1790 	EXP 	stim 9: fillColor = [1, 1, 1]
+79.6952 	INFO 	Trial 4 start: 79.678546
+79.6952 	EXP 	Drew image 6 at 0.000000
+79.6952 	EXP 	stim 6: autoDraw = True
+80.1619 	EXP 	stim 6: fillColor = [-1, 1, -1]
+80.4615 	EXP 	stim 6: autoDraw = False
+80.4615 	EXP 	stim 6: fillColor = [1, 1, 1]
+80.9946 	INFO 	Trial 5 start: 80.977836
+80.9946 	EXP 	Drew image 6 at 0.000000
+80.9946 	EXP 	stim 6: autoDraw = True
+81.3942 	EXP 	stim 6: fillColor = [-1, 1, -1]
+81.6940 	EXP 	stim 6: autoDraw = False
+81.6940 	EXP 	stim 6: fillColor = [1, 1, 1]
+82.2271 	INFO 	Trial 6 start: 82.210509
+82.2271 	EXP 	Drew image 9 at 0.000000
+82.2270 	EXP 	stim 9: autoDraw = True
+82.8101 	EXP 	stim 9: fillColor = [-1, 1, -1]
+83.1101 	EXP 	stim 9: autoDraw = False
+83.1101 	EXP 	stim 9: fillColor = [1, 1, 1]
+83.6431 	INFO 	Trial 7 start: 83.626439
+83.6431 	EXP 	Drew image 2 at 0.000000
+83.6430 	EXP 	stim 2: autoDraw = True
+84.0761 	EXP 	stim 2: fillColor = [1, -1, -1]
+85.0756 	EXP 	stim 2: fillColor = [1, 1, 1]
+85.4088 	EXP 	stim 2: fillColor = [-1, 1, -1]
+85.7085 	EXP 	stim 2: autoDraw = False
+85.7085 	EXP 	stim 2: fillColor = [1, 1, 1]
+86.2250 	INFO 	Trial 8 start: 86.208364
+86.2250 	EXP 	Drew image 8 at 0.000000
+86.2250 	EXP 	stim 8: autoDraw = True
+86.8747 	EXP 	stim 8: fillColor = [-1, 1, -1]
+87.1744 	EXP 	stim 8: autoDraw = False
+87.1744 	EXP 	stim 8: fillColor = [1, 1, 1]
+87.7074 	INFO 	Trial 9 start: 87.690906
+87.7074 	EXP 	Drew image 0 at 0.000000
+87.7074 	EXP 	stim 0: autoDraw = True
+88.2406 	EXP 	stim 0: fillColor = [-1, 1, -1]
+88.5404 	EXP 	stim 0: autoDraw = False
+88.5404 	EXP 	stim 0: fillColor = [1, 1, 1]
+89.0734 	INFO 	Trial 10 start: 89.056677
+89.0734 	EXP 	Drew image 8 at 0.000000
+89.0734 	EXP 	stim 8: autoDraw = True
+89.5898 	EXP 	stim 8: fillColor = [-1, 1, -1]
+89.8897 	EXP 	stim 8: autoDraw = False
+89.8897 	EXP 	stim 8: fillColor = [1, 1, 1]
+90.4227 	INFO 	Trial 11 start: 90.406074
+90.4228 	EXP 	Drew image 7 at 0.000000
+90.4227 	EXP 	stim 7: autoDraw = True
+90.8892 	EXP 	stim 7: fillColor = [-1, 1, -1]
+91.1892 	EXP 	stim 7: autoDraw = False
+91.1892 	EXP 	stim 7: fillColor = [1, 1, 1]
+91.7221 	INFO 	Trial 12 start: 91.705335
+91.7221 	EXP 	Drew image 2 at 0.000000
+91.7220 	EXP 	stim 2: autoDraw = True
+92.2552 	EXP 	stim 2: fillColor = [-1, 1, -1]
+92.5550 	EXP 	stim 2: autoDraw = False
+92.5550 	EXP 	stim 2: fillColor = [1, 1, 1]
+93.0879 	INFO 	Trial 13 start: 93.071218
+93.0879 	EXP 	Drew image 3 at 0.000000
+93.0878 	EXP 	stim 3: autoDraw = True
+94.8037 	EXP 	stim 3: fillColor = [-1, 1, -1]
+95.1035 	EXP 	stim 3: autoDraw = False
+95.1035 	EXP 	stim 3: fillColor = [1, 1, 1]
+95.6366 	INFO 	Trial 14 start: 95.619946
+95.6366 	EXP 	Drew image 0 at 0.000000
+95.6366 	EXP 	stim 0: autoDraw = True
+96.2029 	EXP 	stim 0: fillColor = [-1, 1, -1]
+96.5031 	EXP 	stim 0: autoDraw = False
+96.5031 	EXP 	stim 0: fillColor = [1, 1, 1]
+97.0358 	INFO 	Trial 15 start: 97.019059
+97.0358 	EXP 	Drew image 4 at 0.000000
+97.0357 	EXP 	stim 4: autoDraw = True
+97.7520 	EXP 	stim 4: fillColor = [-1, 1, -1]
+98.0520 	EXP 	stim 4: autoDraw = False
+98.0520 	EXP 	stim 4: fillColor = [1, 1, 1]
+98.5849 	INFO 	Trial 16 start: 98.568376
+98.5849 	EXP 	Drew image 5 at 0.000000
+98.5849 	EXP 	stim 5: autoDraw = True
+98.9847 	EXP 	stim 5: fillColor = [-1, 1, -1]
+99.2846 	EXP 	stim 5: autoDraw = False
+99.2846 	EXP 	stim 5: fillColor = [1, 1, 1]
+99.8176 	INFO 	Trial 17 start: 99.800927
+99.8176 	EXP 	Drew image 3 at 0.000000
+99.8175 	EXP 	stim 3: autoDraw = True
+100.2674 	EXP 	stim 3: fillColor = [-1, 1, -1]
+100.5675 	EXP 	stim 3: autoDraw = False
+100.5675 	EXP 	stim 3: fillColor = [1, 1, 1]
+101.1004 	INFO 	Trial 18 start: 101.083576
+101.1004 	EXP 	Drew image 1 at 0.000000
+101.1004 	EXP 	stim 1: autoDraw = True
+101.5335 	EXP 	stim 1: fillColor = [-1, 1, -1]
+101.8334 	EXP 	stim 1: autoDraw = False
+101.8334 	EXP 	stim 1: fillColor = [1, 1, 1]
+102.3663 	INFO 	Trial 19 start: 102.349532
+102.3664 	EXP 	Drew image 1 at 0.000000
+102.3663 	EXP 	stim 1: autoDraw = True
+102.7660 	EXP 	stim 1: fillColor = [-1, 1, -1]
+103.0660 	EXP 	stim 1: autoDraw = False
+103.0660 	EXP 	stim 1: fillColor = [1, 1, 1]
+103.1251 	EXP 	window1: mouseVisible = True

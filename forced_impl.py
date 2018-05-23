@@ -74,6 +74,7 @@ class ForcedResp(StateMachine):
         same_hand = same_hand_l + same_hand_r
 
         # choose one homologous, heterologous, same hand
+        self.subject_rng = np.random.RandomState(seed=int(self.settings['subject']))
         hom_choice = self.subject_rng.choice(len(homologous))
         hom_pair = homologous[hom_choice]
         # make sure we can't pick an already engaged finger
@@ -126,7 +127,14 @@ class ForcedResp(StateMachine):
     def setup_visuals(self):
         self.targets = list()
         # all possible targets
-        tmp = self.static_settings['symbol_options']
+        tmp = list(self.static_settings['symbol_options'])
+        
+        # compute per-person mapping
+        self.subject_rng = np.random.RandomState(seed=int(self.settings['subject']))
+        self.subject_rng.shuffle(tmp)
+        tmp = ''.join(tmp)  # convert from list to string
+        self.settings.update({'reordered_symbols': tmp})
+
         tmp = tmp[:int(self.static_settings['n_choices'])]
         if self.settings['stim_type'] == 'symbol':
             for i in tmp:
@@ -468,7 +476,7 @@ class ForcedResp(StateMachine):
     
     def rm_pause_text(self):
         self.pause_text.autoDraw = False
-        self.pause_text2.autoDraw = True
+        self.pause_text2.autoDraw = False
 
     def input(self):
         timestamp, data = self.device.read()

@@ -71,6 +71,7 @@ class Practice(StateMachine):
         same_hand = same_hand_l + same_hand_r
 
         # choose one homologous, heterologous, same hand
+        self.subject_rng = np.random.RandomState(seed=int(self.settings['subject']))
         hom_choice = self.subject_rng.choice(len(homologous))
         hom_pair = homologous[hom_choice]
         # make sure we can't pick an already engaged finger
@@ -126,6 +127,7 @@ class Practice(StateMachine):
         tmp = list(self.static_settings['symbol_options'])
 
         # compute per-person mapping
+        self.subject_rng = np.random.RandomState(seed=int(self.settings['subject']))
         self.subject_rng.shuffle(tmp)
         tmp = ''.join(tmp)  # convert from list to string
         self.settings.update({'reordered_symbols': tmp})

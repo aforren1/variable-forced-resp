@@ -1,0 +1,1252 @@
+0.0747 	INFO 	Loaded SoundDevice with PortAudio V19.6.0-devel, revision 396fe4b6699ae929d3a685b3ef8a7e97396139a4
+0.0748 	INFO 	sound is using audioLib: sounddevice
+0.4589 	INFO 	Loaded monitor calibration from ['2018_01_10 10:27']
+18.5282 	WARNING 	Monitor specification not found. Creating a temporary one...
+18.5296 	WARNING 	Requested an unavailable screen number - using first available.
+18.5299 	WARNING 	User requested fullscreen with size [800 800], but screen is actually [1680, 1050]. Using actual size
+19.2109 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([-1., -1., -1.]), colorSpace='rgb', fullscr=UNKNOWN, gamma=None, kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001A5425E9748>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=1, size=array([1680, 1050]), stereo=False, units='height', useFBO=False, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+19.2109 	EXP 	window1: recordFrameIntervals = True
+19.3089 	EXP 	Created stim ᛋ = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='FreeMono', fontFiles=[], height=0.25, italic=False, name='stim ᛋ', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text='ᛋ', units='height', win=Window(...), wrapWidth=1)
+19.3172 	EXP 	Created stim ᚢ = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='FreeMono', fontFiles=[], height=0.25, italic=False, name='stim ᚢ', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text='ᚢ', units='height', win=Window(...), wrapWidth=1)
+19.3257 	EXP 	Created stim ᚬ = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='FreeMono', fontFiles=[], height=0.25, italic=False, name='stim ᚬ', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text='ᚬ', units='height', win=Window(...), wrapWidth=1)
+19.3342 	EXP 	Created stim ᚠ = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='FreeMono', fontFiles=[], height=0.25, italic=False, name='stim ᚠ', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text='ᚠ', units='height', win=Window(...), wrapWidth=1)
+19.3427 	EXP 	Created stim ᚻ = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='FreeMono', fontFiles=[], height=0.25, italic=False, name='stim ᚻ', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text='ᚻ', units='height', win=Window(...), wrapWidth=1)
+19.3509 	EXP 	Created stim ᚣ = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='FreeMono', fontFiles=[], height=0.25, italic=False, name='stim ᚣ', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text='ᚣ', units='height', win=Window(...), wrapWidth=1)
+19.3583 	EXP 	Created stim ᚦ = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='FreeMono', fontFiles=[], height=0.25, italic=False, name='stim ᚦ', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text='ᚦ', units='height', win=Window(...), wrapWidth=1)
+19.3667 	EXP 	Created stim ᚳ = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='FreeMono', fontFiles=[], height=0.25, italic=False, name='stim ᚳ', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text='ᚳ', units='height', win=Window(...), wrapWidth=1)
+19.3744 	EXP 	Created stim ᛇ = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='FreeMono', fontFiles=[], height=0.25, italic=False, name='stim ᛇ', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text='ᛇ', units='height', win=Window(...), wrapWidth=1)
+19.3819 	EXP 	Created stim ᚼ = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='FreeMono', fontFiles=[], height=0.25, italic=False, name='stim ᚼ', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text='ᚼ', units='height', win=Window(...), wrapWidth=1)
+19.3836 	EXP 	<method-wrapper '__getattribute__' of attributeSetter object at 0x000001A4FA74FFD0>: vertices = array([[-0.3,  0.3],
+       [ 0.3,  0.3],
+       [ 0.3, -0.3],
+       [-0.3, -0.3]])
+19.4030 	EXP 	Created pause_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.1, italic=False, name='pause_text', opacity=1.0, ori=0.0, pos=array([0. , 0.8]), rgb=array([1., 1., 1.]), text='Take a break!', units='norm', win=Window(...), wrapWidth=1)
+19.4111 	EXP 	Created pause_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.1, italic=False, name='pause_text', opacity=1.0, ori=0.0, pos=array([0. , 0.7]), rgb=array([1., 1., 1.]), text='Press ten times to continue.', units='norm', win=Window(...), wrapWidth=1)
+20.6924 	WARNING 	t of last frame was 20.66ms (=1/48)
+25.2764 	WARNING 	t of last frame was 119.34ms (=1/8)
+25.6069 	INFO 	Trial 0 start: 25.590228
+25.6069 	EXP 	Drew image 5 at 0.000000
+25.6068 	EXP 	stim ᚣ: autoDraw = True
+26.5896 	EXP 	stim ᚣ: color = [1, -1, -1]
+27.5891 	EXP 	stim ᚣ: color = [1, 1, 1]
+27.8390 	EXP 	stim ᚣ: color = [1, -1, -1]
+28.8384 	EXP 	stim ᚣ: color = [1, 1, 1]
+29.1715 	EXP 	stim ᚣ: color = [1, -1, -1]
+30.1710 	EXP 	stim ᚣ: color = [1, 1, 1]
+30.4876 	EXP 	stim ᚣ: color = [1, -1, -1]
+31.4869 	EXP 	stim ᚣ: color = [1, 1, 1]
+31.7369 	EXP 	stim ᚣ: color = [1, -1, -1]
+32.7363 	EXP 	stim ᚣ: color = [1, 1, 1]
+33.0529 	EXP 	stim ᚣ: color = [-1, 1, -1]
+33.3527 	EXP 	stim ᚣ: autoDraw = False
+33.3527 	EXP 	stim ᚣ: color = [1, 1, 1]
+33.8856 	INFO 	Trial 1 start: 33.868923
+33.8856 	EXP 	Drew image 0 at 0.000000
+33.8855 	EXP 	stim ᛋ: autoDraw = True
+35.1683 	EXP 	stim ᛋ: color = [-1, 1, -1]
+35.4682 	EXP 	stim ᛋ: autoDraw = False
+35.4682 	EXP 	stim ᛋ: color = [1, 1, 1]
+36.0012 	INFO 	Trial 2 start: 35.984603
+36.0013 	EXP 	Drew image 5 at 0.000000
+36.0012 	EXP 	stim ᚣ: autoDraw = True
+36.8174 	EXP 	stim ᚣ: color = [-1, 1, -1]
+37.1177 	EXP 	stim ᚣ: autoDraw = False
+37.1177 	EXP 	stim ᚣ: color = [1, 1, 1]
+37.6505 	INFO 	Trial 3 start: 37.633642
+37.6505 	EXP 	Drew image 3 at 0.000000
+37.6505 	EXP 	stim ᚠ: autoDraw = True
+38.2833 	EXP 	stim ᚠ: color = [1, -1, -1]
+39.2827 	EXP 	stim ᚠ: color = [1, 1, 1]
+39.6326 	EXP 	stim ᚠ: color = [1, -1, -1]
+40.6319 	EXP 	stim ᚠ: color = [1, 1, 1]
+40.8984 	EXP 	stim ᚠ: color = [-1, 1, -1]
+41.1985 	EXP 	stim ᚠ: autoDraw = False
+41.1985 	EXP 	stim ᚠ: color = [1, 1, 1]
+41.7313 	INFO 	Trial 4 start: 41.714813
+41.7314 	EXP 	Drew image 9 at 0.000000
+41.7313 	EXP 	stim ᚼ: autoDraw = True
+43.0973 	EXP 	stim ᚼ: color = [1, -1, -1]
+44.0969 	EXP 	stim ᚼ: color = [1, 1, 1]
+44.1635 	EXP 	stim ᚼ: color = [1, -1, -1]
+45.1629 	EXP 	stim ᚼ: color = [1, 1, 1]
+45.7292 	EXP 	stim ᚼ: color = [1, -1, -1]
+46.7288 	EXP 	stim ᚼ: color = [1, 1, 1]
+47.4782 	EXP 	stim ᚼ: color = [1, -1, -1]
+48.4778 	EXP 	stim ᚼ: color = [1, 1, 1]
+48.7276 	EXP 	stim ᚼ: color = [1, -1, -1]
+49.7272 	EXP 	stim ᚼ: color = [1, 1, 1]
+50.2101 	EXP 	stim ᚼ: color = [-1, 1, -1]
+50.5101 	EXP 	stim ᚼ: autoDraw = False
+50.5101 	EXP 	stim ᚼ: color = [1, 1, 1]
+51.0430 	INFO 	Trial 5 start: 51.026386
+51.0430 	EXP 	Drew image 3 at 0.000000
+51.0430 	EXP 	stim ᚠ: autoDraw = True
+51.9592 	EXP 	stim ᚠ: color = [-1, 1, -1]
+52.2593 	EXP 	stim ᚠ: autoDraw = False
+52.2593 	EXP 	stim ᚠ: color = [1, 1, 1]
+52.7755 	INFO 	Trial 6 start: 52.758845
+52.7756 	EXP 	Drew image 0 at 0.000000
+52.7755 	EXP 	stim ᛋ: autoDraw = True
+53.6251 	EXP 	stim ᛋ: color = [-1, 1, -1]
+53.9249 	EXP 	stim ᛋ: autoDraw = False
+53.9249 	EXP 	stim ᛋ: color = [1, 1, 1]
+54.4580 	INFO 	Trial 7 start: 54.441276
+54.4580 	EXP 	Drew image 9 at 0.000000
+54.4579 	EXP 	stim ᚼ: autoDraw = True
+55.3074 	EXP 	stim ᚼ: color = [1, -1, -1]
+56.3069 	EXP 	stim ᚼ: color = [1, 1, 1]
+56.7400 	EXP 	stim ᚼ: color = [1, -1, -1]
+57.7395 	EXP 	stim ᚼ: color = [1, 1, 1]
+58.0226 	EXP 	stim ᚼ: color = [1, -1, -1]
+59.0221 	EXP 	stim ᚼ: color = [1, 1, 1]
+59.2386 	EXP 	stim ᚼ: color = [-1, 1, -1]
+59.5385 	EXP 	stim ᚼ: autoDraw = False
+59.5385 	EXP 	stim ᚼ: color = [1, 1, 1]
+60.0716 	INFO 	Trial 8 start: 60.054889
+60.0716 	EXP 	Drew image 8 at 0.000000
+60.0716 	EXP 	stim ᛇ: autoDraw = True
+61.5872 	EXP 	stim ᛇ: color = [1, -1, -1]
+62.5869 	EXP 	stim ᛇ: color = [1, 1, 1]
+62.8033 	EXP 	stim ᛇ: color = [1, -1, -1]
+63.8029 	EXP 	stim ᛇ: color = [1, 1, 1]
+64.0694 	EXP 	stim ᛇ: color = [1, -1, -1]
+65.0689 	EXP 	stim ᛇ: color = [1, 1, 1]
+65.2687 	EXP 	stim ᛇ: color = [1, -1, -1]
+66.2682 	EXP 	stim ᛇ: color = [1, 1, 1]
+66.6012 	EXP 	stim ᛇ: color = [1, -1, -1]
+67.6008 	EXP 	stim ᛇ: color = [1, 1, 1]
+67.9673 	EXP 	stim ᛇ: color = [-1, 1, -1]
+68.2673 	EXP 	stim ᛇ: autoDraw = False
+68.2673 	EXP 	stim ᛇ: color = [1, 1, 1]
+68.8003 	INFO 	Trial 9 start: 68.783506
+68.8003 	EXP 	Drew image 7 at 0.000000
+68.8003 	EXP 	stim ᚳ: autoDraw = True
+69.8495 	EXP 	stim ᚳ: color = [1, -1, -1]
+70.8490 	EXP 	stim ᚳ: color = [1, 1, 1]
+71.1993 	EXP 	stim ᚳ: color = [1, -1, -1]
+72.1982 	EXP 	stim ᚳ: color = [1, 1, 1]
+72.4815 	EXP 	stim ᚳ: color = [1, -1, -1]
+73.4809 	EXP 	stim ᚳ: color = [1, 1, 1]
+73.7973 	EXP 	stim ᚳ: color = [1, -1, -1]
+74.7970 	EXP 	stim ᚳ: color = [1, 1, 1]
+75.1802 	EXP 	stim ᚳ: color = [-1, 1, -1]
+75.4800 	EXP 	stim ᚳ: autoDraw = False
+75.4800 	EXP 	stim ᚳ: color = [1, 1, 1]
+76.0130 	INFO 	Trial 10 start: 75.996313
+76.0130 	EXP 	Drew image 3 at 0.000000
+76.0129 	EXP 	stim ᚠ: autoDraw = True
+76.9791 	EXP 	stim ᚠ: color = [-1, 1, -1]
+77.2790 	EXP 	stim ᚠ: autoDraw = False
+77.2790 	EXP 	stim ᚠ: color = [1, 1, 1]
+77.8121 	INFO 	Trial 11 start: 77.795226
+77.8121 	EXP 	Drew image 5 at 0.000000
+77.8120 	EXP 	stim ᚣ: autoDraw = True
+78.7617 	EXP 	stim ᚣ: color = [-1, 1, -1]
+79.0613 	EXP 	stim ᚣ: autoDraw = False
+79.0613 	EXP 	stim ᚣ: color = [1, 1, 1]
+79.5944 	INFO 	Trial 12 start: 79.577662
+79.5944 	EXP 	Drew image 9 at 0.000000
+79.5943 	EXP 	stim ᚼ: autoDraw = True
+80.6771 	EXP 	stim ᚼ: color = [1, -1, -1]
+81.6766 	EXP 	stim ᚼ: color = [1, 1, 1]
+81.8765 	EXP 	stim ᚼ: color = [-1, 1, -1]
+82.1770 	EXP 	stim ᚼ: autoDraw = False
+82.1770 	EXP 	stim ᚼ: color = [1, 1, 1]
+82.7094 	INFO 	Trial 13 start: 82.692682
+82.7094 	EXP 	Drew image 9 at 0.000000
+82.7094 	EXP 	stim ᚼ: autoDraw = True
+83.2140 	WARNING 	t of last frame was 21.67ms (=1/46)
+83.2426 	EXP 	stim ᚼ: color = [-1, 1, -1]
+83.5422 	EXP 	stim ᚼ: autoDraw = False
+83.5422 	EXP 	stim ᚼ: color = [1, 1, 1]
+84.0586 	INFO 	Trial 14 start: 84.041952
+84.0587 	EXP 	Drew image 5 at 0.000000
+84.0586 	EXP 	stim ᚣ: autoDraw = True
+85.0914 	EXP 	stim ᚣ: color = [-1, 1, -1]
+85.3989 	WARNING 	t of last frame was 24.35ms (=1/41)
+85.3989 	EXP 	stim ᚣ: autoDraw = False
+85.3989 	EXP 	stim ᚣ: color = [1, 1, 1]
+85.9243 	INFO 	Trial 15 start: 85.907519
+85.9243 	EXP 	Drew image 8 at 0.000000
+85.9242 	EXP 	stim ᛇ: autoDraw = True
+87.2738 	EXP 	stim ᛇ: color = [1, -1, -1]
+88.2729 	EXP 	stim ᛇ: color = [1, 1, 1]
+88.5229 	EXP 	stim ᛇ: color = [1, -1, -1]
+89.5222 	EXP 	stim ᛇ: color = [1, 1, 1]
+89.8061 	EXP 	stim ᛇ: color = [1, -1, -1]
+90.8050 	EXP 	stim ᛇ: color = [1, 1, 1]
+91.0715 	EXP 	stim ᛇ: color = [1, -1, -1]
+92.0709 	EXP 	stim ᛇ: color = [1, 1, 1]
+92.4041 	EXP 	stim ᛇ: color = [1, -1, -1]
+93.4036 	EXP 	stim ᛇ: color = [1, 1, 1]
+93.7201 	EXP 	stim ᛇ: color = [-1, 1, -1]
+94.0200 	EXP 	stim ᛇ: autoDraw = False
+94.0200 	EXP 	stim ᛇ: color = [1, 1, 1]
+94.5529 	INFO 	Trial 16 start: 94.536127
+94.5530 	EXP 	Drew image 3 at 0.000000
+94.5529 	EXP 	stim ᚠ: autoDraw = True
+95.3359 	EXP 	stim ᚠ: color = [-1, 1, -1]
+95.6357 	EXP 	stim ᚠ: autoDraw = False
+95.6357 	EXP 	stim ᚠ: color = [1, 1, 1]
+96.1688 	INFO 	Trial 17 start: 96.152079
+96.1688 	EXP 	Drew image 3 at 0.000000
+96.1688 	EXP 	stim ᚠ: autoDraw = True
+96.7685 	EXP 	stim ᚠ: color = [-1, 1, -1]
+97.0683 	EXP 	stim ᚠ: autoDraw = False
+97.0683 	EXP 	stim ᚠ: color = [1, 1, 1]
+97.1721 	WARNING 	t of last frame was 20.40ms (=1/49)
+97.6012 	INFO 	Trial 18 start: 97.584551
+97.6012 	EXP 	Drew image 3 at 0.000000
+97.6012 	EXP 	stim ᚠ: autoDraw = True
+98.1343 	EXP 	stim ᚠ: color = [-1, 1, -1]
+98.4342 	EXP 	stim ᚠ: autoDraw = False
+98.4342 	EXP 	stim ᚠ: color = [1, 1, 1]
+98.9673 	INFO 	Trial 19 start: 98.950942
+98.9673 	EXP 	Drew image 9 at 0.000000
+98.9672 	EXP 	stim ᚼ: autoDraw = True
+99.9666 	EXP 	stim ᚼ: color = [-1, 1, -1]
+100.2666 	EXP 	stim ᚼ: autoDraw = False
+100.2666 	EXP 	stim ᚼ: color = [1, 1, 1]
+100.7995 	INFO 	Trial 20 start: 100.782789
+100.7996 	EXP 	Drew image 7 at 0.000000
+100.7995 	EXP 	stim ᚳ: autoDraw = True
+102.2987 	EXP 	stim ᚳ: color = [1, -1, -1]
+103.2982 	EXP 	stim ᚳ: color = [1, 1, 1]
+104.0145 	EXP 	stim ᚳ: color = [1, -1, -1]
+105.0140 	EXP 	stim ᚳ: color = [1, 1, 1]
+105.3139 	EXP 	stim ᚳ: color = [1, -1, -1]
+106.3134 	EXP 	stim ᚳ: color = [1, 1, 1]
+106.7463 	EXP 	stim ᚳ: color = [1, -1, -1]
+107.7457 	EXP 	stim ᚳ: color = [1, 1, 1]
+108.0123 	EXP 	stim ᚳ: color = [1, -1, -1]
+109.0118 	EXP 	stim ᚳ: color = [1, 1, 1]
+109.3615 	EXP 	stim ᚳ: color = [-1, 1, -1]
+109.6614 	EXP 	stim ᚳ: autoDraw = False
+109.6614 	EXP 	stim ᚳ: color = [1, 1, 1]
+110.1947 	INFO 	Trial 21 start: 110.177881
+110.1947 	EXP 	Drew image 2 at 0.000000
+110.1946 	EXP 	stim ᚬ: autoDraw = True
+111.3439 	EXP 	stim ᚬ: color = [1, -1, -1]
+112.3432 	EXP 	stim ᚬ: color = [1, 1, 1]
+112.5764 	EXP 	stim ᚬ: color = [-1, 1, -1]
+112.8764 	EXP 	stim ᚬ: autoDraw = False
+112.8764 	EXP 	stim ᚬ: color = [1, 1, 1]
+113.4094 	INFO 	Trial 22 start: 113.392703
+113.4094 	EXP 	Drew image 8 at 0.000000
+113.4094 	EXP 	stim ᛇ: autoDraw = True
+114.3422 	EXP 	stim ᛇ: color = [-1, 1, -1]
+114.6421 	EXP 	stim ᛇ: autoDraw = False
+114.6421 	EXP 	stim ᛇ: color = [1, 1, 1]
+115.1752 	INFO 	Trial 23 start: 115.158544
+115.1752 	EXP 	Drew image 6 at 0.000000
+115.1752 	EXP 	stim ᚦ: autoDraw = True
+116.8077 	EXP 	stim ᚦ: color = [1, -1, -1]
+117.8072 	EXP 	stim ᚦ: color = [1, 1, 1]
+118.1069 	EXP 	stim ᚦ: color = [1, -1, -1]
+119.1064 	EXP 	stim ᚦ: color = [1, 1, 1]
+119.4062 	EXP 	stim ᚦ: color = [1, -1, -1]
+120.4057 	EXP 	stim ᚦ: color = [1, 1, 1]
+120.7056 	EXP 	stim ᚦ: color = [-1, 1, -1]
+121.0054 	EXP 	stim ᚦ: autoDraw = False
+121.0054 	EXP 	stim ᚦ: color = [1, 1, 1]
+121.5384 	INFO 	Trial 24 start: 121.521709
+121.5384 	EXP 	Drew image 5 at 0.000000
+121.5383 	EXP 	stim ᚣ: autoDraw = True
+122.0425 	WARNING 	t of last frame was 20.98ms (=1/47)
+122.4380 	EXP 	stim ᚣ: color = [-1, 1, -1]
+122.7377 	EXP 	stim ᚣ: autoDraw = False
+122.7377 	EXP 	stim ᚣ: color = [1, 1, 1]
+123.2708 	INFO 	Trial 25 start: 123.254158
+123.2709 	EXP 	Drew image 1 at 0.000000
+123.2708 	EXP 	stim ᚢ: autoDraw = True
+124.5700 	EXP 	stim ᚢ: color = [1, -1, -1]
+125.5695 	EXP 	stim ᚢ: color = [1, 1, 1]
+125.9859 	EXP 	stim ᚢ: color = [1, -1, -1]
+126.9853 	EXP 	stim ᚢ: color = [1, 1, 1]
+127.3020 	EXP 	stim ᚢ: color = [-1, 1, -1]
+127.6018 	EXP 	stim ᚢ: autoDraw = False
+127.6018 	EXP 	stim ᚢ: color = [1, 1, 1]
+128.1349 	INFO 	Trial 26 start: 128.118195
+128.1349 	EXP 	Drew image 1 at 0.000000
+128.1348 	EXP 	stim ᚢ: autoDraw = True
+128.6513 	EXP 	stim ᚢ: color = [-1, 1, -1]
+128.9511 	EXP 	stim ᚢ: autoDraw = False
+128.9511 	EXP 	stim ᚢ: color = [1, 1, 1]
+129.4841 	INFO 	Trial 27 start: 129.467363
+129.4841 	EXP 	Drew image 1 at 0.000000
+129.4841 	EXP 	stim ᚢ: autoDraw = True
+129.9506 	EXP 	stim ᚢ: color = [-1, 1, -1]
+130.2503 	EXP 	stim ᚢ: autoDraw = False
+130.2503 	EXP 	stim ᚢ: color = [1, 1, 1]
+130.7834 	INFO 	Trial 28 start: 130.766751
+130.7834 	EXP 	Drew image 8 at 0.000000
+130.7834 	EXP 	stim ᛇ: autoDraw = True
+131.6830 	EXP 	stim ᛇ: color = [-1, 1, -1]
+131.9870 	WARNING 	t of last frame was 20.90ms (=1/47)
+131.9870 	EXP 	stim ᛇ: autoDraw = False
+131.9870 	EXP 	stim ᛇ: color = [1, 1, 1]
+132.5158 	INFO 	Trial 29 start: 132.499338
+132.5158 	EXP 	Drew image 0 at 0.000000
+132.5158 	EXP 	stim ᛋ: autoDraw = True
+133.5819 	EXP 	stim ᛋ: color = [-1, 1, -1]
+133.8816 	EXP 	stim ᛋ: autoDraw = False
+133.8816 	EXP 	stim ᛋ: color = [1, 1, 1]
+134.4147 	INFO 	Trial 30 start: 134.398041
+134.4147 	EXP 	Drew image 5 at 0.000000
+134.4147 	EXP 	stim ᚣ: autoDraw = True
+135.1144 	EXP 	stim ᚣ: color = [-1, 1, -1]
+135.4141 	EXP 	stim ᚣ: autoDraw = False
+135.4141 	EXP 	stim ᚣ: color = [1, 1, 1]
+135.9473 	INFO 	Trial 31 start: 135.930665
+135.9473 	EXP 	Drew image 9 at 0.000000
+135.9472 	EXP 	stim ᚼ: autoDraw = True
+136.5804 	EXP 	stim ᚼ: color = [-1, 1, -1]
+136.8801 	EXP 	stim ᚼ: autoDraw = False
+136.8801 	EXP 	stim ᚼ: color = [1, 1, 1]
+137.4131 	INFO 	Trial 32 start: 137.396356
+137.4131 	EXP 	Drew image 3 at 0.000000
+137.4131 	EXP 	stim ᚠ: autoDraw = True
+138.1463 	EXP 	stim ᚠ: color = [-1, 1, -1]
+138.4458 	EXP 	stim ᚠ: autoDraw = False
+138.4458 	EXP 	stim ᚠ: color = [1, 1, 1]
+138.9790 	INFO 	Trial 33 start: 138.962332
+138.9790 	EXP 	Drew image 8 at 0.000000
+138.9789 	EXP 	stim ᛇ: autoDraw = True
+139.8952 	EXP 	stim ᛇ: color = [-1, 1, -1]
+140.1951 	EXP 	stim ᛇ: autoDraw = False
+140.1951 	EXP 	stim ᛇ: color = [1, 1, 1]
+140.7280 	INFO 	Trial 34 start: 140.711243
+140.7280 	EXP 	Drew image 3 at 0.000000
+140.7280 	EXP 	stim ᚠ: autoDraw = True
+141.4276 	EXP 	stim ᚠ: color = [-1, 1, -1]
+141.7275 	EXP 	stim ᚠ: autoDraw = False
+141.7275 	EXP 	stim ᚠ: color = [1, 1, 1]
+142.2606 	INFO 	Trial 35 start: 142.243974
+142.2607 	EXP 	Drew image 6 at 0.000000
+142.2606 	EXP 	stim ᚦ: autoDraw = True
+144.1095 	EXP 	stim ᚦ: color = [1, -1, -1]
+145.1090 	EXP 	stim ᚦ: color = [1, 1, 1]
+145.2589 	EXP 	stim ᚦ: color = [1, -1, -1]
+146.2584 	EXP 	stim ᚦ: color = [1, 1, 1]
+146.6414 	EXP 	stim ᚦ: color = [1, -1, -1]
+147.6410 	EXP 	stim ᚦ: color = [1, 1, 1]
+148.1240 	EXP 	stim ᚦ: color = [1, -1, -1]
+149.1235 	EXP 	stim ᚦ: color = [1, 1, 1]
+149.4400 	EXP 	stim ᚦ: color = [-1, 1, -1]
+149.7398 	EXP 	stim ᚦ: autoDraw = False
+149.7398 	EXP 	stim ᚦ: color = [1, 1, 1]
+150.2729 	INFO 	Trial 36 start: 150.256142
+150.2729 	EXP 	Drew image 0 at 0.000000
+150.2728 	EXP 	stim ᛋ: autoDraw = True
+151.0891 	EXP 	stim ᛋ: color = [-1, 1, -1]
+151.3888 	EXP 	stim ᛋ: autoDraw = False
+151.3888 	EXP 	stim ᛋ: color = [1, 1, 1]
+151.9219 	INFO 	Trial 37 start: 151.905286
+151.9219 	EXP 	Drew image 9 at 0.000000
+151.9219 	EXP 	stim ᚼ: autoDraw = True
+152.5550 	EXP 	stim ᚼ: color = [-1, 1, -1]
+152.8547 	EXP 	stim ᚼ: autoDraw = False
+152.8547 	EXP 	stim ᚼ: color = [1, 1, 1]
+153.3879 	INFO 	Trial 38 start: 153.371298
+153.3879 	EXP 	Drew image 8 at 0.000000
+153.3879 	EXP 	stim ᛇ: autoDraw = True
+154.2375 	EXP 	stim ᛇ: color = [-1, 1, -1]
+154.5372 	EXP 	stim ᛇ: autoDraw = False
+154.5372 	EXP 	stim ᛇ: color = [1, 1, 1]
+155.0703 	INFO 	Trial 39 start: 155.053672
+155.0703 	EXP 	Drew image 4 at 0.000000
+155.0702 	EXP 	stim ᚻ: autoDraw = True
+157.0691 	EXP 	stim ᚻ: color = [1, -1, -1]
+158.0688 	EXP 	stim ᚻ: color = [1, 1, 1]
+158.5351 	EXP 	stim ᚻ: color = [1, -1, -1]
+159.5345 	EXP 	stim ᚻ: color = [1, 1, 1]
+159.9842 	EXP 	stim ᚻ: color = [1, -1, -1]
+160.9837 	EXP 	stim ᚻ: color = [1, 1, 1]
+161.3168 	EXP 	stim ᚻ: color = [1, -1, -1]
+162.3163 	EXP 	stim ᚻ: color = [1, 1, 1]
+162.5662 	EXP 	stim ᚻ: color = [1, -1, -1]
+163.5657 	EXP 	stim ᚻ: color = [1, 1, 1]
+163.7323 	EXP 	stim ᚻ: color = [1, -1, -1]
+164.7317 	EXP 	stim ᚻ: color = [1, 1, 1]
+164.8484 	EXP 	stim ᚻ: color = [1, -1, -1]
+165.8479 	EXP 	stim ᚻ: color = [1, 1, 1]
+165.9977 	EXP 	stim ᚻ: color = [1, -1, -1]
+166.9973 	EXP 	stim ᚻ: color = [1, 1, 1]
+167.2469 	EXP 	stim ᚻ: color = [1, -1, -1]
+168.2466 	EXP 	stim ᚻ: color = [1, 1, 1]
+168.3465 	EXP 	stim ᚻ: color = [1, -1, -1]
+169.3459 	EXP 	stim ᚻ: color = [1, 1, 1]
+169.5125 	EXP 	stim ᚻ: color = [1, -1, -1]
+170.5118 	EXP 	stim ᚻ: color = [1, 1, 1]
+170.7452 	EXP 	stim ᚻ: color = [1, -1, -1]
+171.7445 	EXP 	stim ᚻ: color = [1, 1, 1]
+171.8945 	EXP 	stim ᚻ: color = [-1, 1, -1]
+172.1943 	EXP 	stim ᚻ: autoDraw = False
+172.1943 	EXP 	stim ᚻ: color = [1, 1, 1]
+172.7274 	INFO 	Trial 40 start: 172.710817
+172.7275 	EXP 	Drew image 4 at 0.000000
+172.7274 	EXP 	stim ᚻ: autoDraw = True
+173.2439 	EXP 	stim ᚻ: color = [-1, 1, -1]
+173.5437 	EXP 	stim ᚻ: autoDraw = False
+173.5437 	EXP 	stim ᚻ: color = [1, 1, 1]
+174.0766 	INFO 	Trial 41 start: 174.059967
+174.0766 	EXP 	Drew image 9 at 0.000000
+174.0766 	EXP 	stim ᚼ: autoDraw = True
+174.7430 	EXP 	stim ᚼ: color = [-1, 1, -1]
+175.0429 	EXP 	stim ᚼ: autoDraw = False
+175.0429 	EXP 	stim ᚼ: color = [1, 1, 1]
+175.5592 	INFO 	Trial 42 start: 175.542590
+175.5593 	EXP 	Drew image 1 at 0.000000
+175.5592 	EXP 	stim ᚢ: autoDraw = True
+177.2915 	EXP 	stim ᚢ: color = [1, -1, -1]
+178.2911 	EXP 	stim ᚢ: color = [1, 1, 1]
+178.6076 	EXP 	stim ᚢ: color = [1, -1, -1]
+179.6070 	EXP 	stim ᚢ: color = [1, 1, 1]
+179.9401 	EXP 	stim ᚢ: color = [-1, 1, -1]
+180.2400 	EXP 	stim ᚢ: autoDraw = False
+180.2400 	EXP 	stim ᚢ: color = [1, 1, 1]
+180.7731 	INFO 	Trial 43 start: 180.756364
+180.7731 	EXP 	Drew image 7 at 0.000000
+180.7730 	EXP 	stim ᚳ: autoDraw = True
+181.9556 	EXP 	stim ᚳ: color = [1, -1, -1]
+182.9551 	EXP 	stim ᚳ: color = [1, 1, 1]
+183.7216 	EXP 	stim ᚳ: color = [1, -1, -1]
+184.7210 	EXP 	stim ᚳ: color = [1, 1, 1]
+186.0535 	EXP 	stim ᚳ: color = [1, -1, -1]
+187.0529 	EXP 	stim ᚳ: color = [1, 1, 1]
+187.5194 	EXP 	stim ᚳ: color = [1, -1, -1]
+188.5189 	EXP 	stim ᚳ: color = [1, 1, 1]
+189.5183 	EXP 	stim ᚳ: color = [1, -1, -1]
+190.5177 	EXP 	stim ᚳ: color = [1, 1, 1]
+191.5339 	EXP 	stim ᚳ: color = [1, -1, -1]
+192.5332 	EXP 	stim ᚳ: color = [1, 1, 1]
+192.9332 	EXP 	stim ᚳ: color = [1, -1, -1]
+193.9326 	EXP 	stim ᚳ: color = [1, 1, 1]
+194.1992 	EXP 	stim ᚳ: color = [-1, 1, -1]
+194.4990 	EXP 	stim ᚳ: autoDraw = False
+194.4990 	EXP 	stim ᚳ: color = [1, 1, 1]
+195.0319 	INFO 	Trial 44 start: 195.015286
+195.0320 	EXP 	Drew image 3 at 0.000000
+195.0319 	EXP 	stim ᚠ: autoDraw = True
+195.7317 	EXP 	stim ᚠ: color = [-1, 1, -1]
+196.0316 	EXP 	stim ᚠ: autoDraw = False
+196.0316 	EXP 	stim ᚠ: color = [1, 1, 1]
+196.5644 	INFO 	Trial 45 start: 196.547884
+196.5644 	EXP 	Drew image 9 at 0.000000
+196.5644 	EXP 	stim ᚼ: autoDraw = True
+197.2808 	EXP 	stim ᚼ: color = [-1, 1, -1]
+197.5808 	EXP 	stim ᚼ: autoDraw = False
+197.5808 	EXP 	stim ᚼ: color = [1, 1, 1]
+198.1137 	INFO 	Trial 46 start: 198.096905
+198.1137 	EXP 	Drew image 4 at 0.000000
+198.1137 	EXP 	stim ᚻ: autoDraw = True
+198.9965 	EXP 	stim ᚻ: color = [1, -1, -1]
+199.9959 	EXP 	stim ᚻ: color = [1, 1, 1]
+200.2127 	EXP 	stim ᚻ: color = [-1, 1, -1]
+200.5124 	EXP 	stim ᚻ: autoDraw = False
+200.5124 	EXP 	stim ᚻ: color = [1, 1, 1]
+201.0455 	INFO 	Trial 47 start: 201.028791
+201.0455 	EXP 	Drew image 1 at 0.000000
+201.0454 	EXP 	stim ᚢ: autoDraw = True
+202.3446 	EXP 	stim ᚢ: color = [1, -1, -1]
+203.3443 	EXP 	stim ᚢ: color = [1, 1, 1]
+203.6274 	EXP 	stim ᚢ: color = [1, -1, -1]
+204.6269 	EXP 	stim ᚢ: color = [1, 1, 1]
+204.9269 	EXP 	stim ᚢ: color = [-1, 1, -1]
+205.2267 	EXP 	stim ᚢ: autoDraw = False
+205.2267 	EXP 	stim ᚢ: color = [1, 1, 1]
+205.7596 	INFO 	Trial 48 start: 205.742954
+205.7597 	EXP 	Drew image 6 at 0.000000
+205.7596 	EXP 	stim ᚦ: autoDraw = True
+207.3754 	EXP 	stim ᚦ: color = [1, -1, -1]
+208.3750 	EXP 	stim ᚦ: color = [1, 1, 1]
+210.1073 	EXP 	stim ᚦ: color = [1, -1, -1]
+211.1067 	EXP 	stim ᚦ: color = [1, 1, 1]
+211.4232 	EXP 	stim ᚦ: color = [1, -1, -1]
+212.4226 	EXP 	stim ᚦ: color = [1, 1, 1]
+212.7225 	EXP 	stim ᚦ: color = [1, -1, -1]
+213.7219 	EXP 	stim ᚦ: color = [1, 1, 1]
+214.0052 	EXP 	stim ᚦ: color = [1, -1, -1]
+215.0047 	EXP 	stim ᚦ: color = [1, 1, 1]
+215.3045 	EXP 	stim ᚦ: color = [1, -1, -1]
+216.3040 	EXP 	stim ᚦ: color = [1, 1, 1]
+216.4206 	EXP 	stim ᚦ: color = [-1, 1, -1]
+216.7203 	EXP 	stim ᚦ: autoDraw = False
+216.7203 	EXP 	stim ᚦ: color = [1, 1, 1]
+217.2534 	INFO 	Trial 49 start: 217.236821
+217.2534 	EXP 	Drew image 1 at 0.000000
+217.2534 	EXP 	stim ᚢ: autoDraw = True
+218.5694 	EXP 	stim ᚢ: color = [-1, 1, -1]
+218.8694 	EXP 	stim ᚢ: autoDraw = False
+218.8694 	EXP 	stim ᚢ: color = [1, 1, 1]
+219.4022 	INFO 	Trial 50 start: 219.385531
+219.4023 	EXP 	Drew image 9 at 0.000000
+219.4022 	EXP 	stim ᚼ: autoDraw = True
+220.0853 	EXP 	stim ᚼ: color = [-1, 1, -1]
+220.3851 	EXP 	stim ᚼ: autoDraw = False
+220.3851 	EXP 	stim ᚼ: color = [1, 1, 1]
+220.9181 	INFO 	Trial 51 start: 220.901383
+220.9182 	EXP 	Drew image 3 at 0.000000
+220.9181 	EXP 	stim ᚠ: autoDraw = True
+222.2341 	EXP 	stim ᚠ: color = [-1, 1, -1]
+222.5339 	EXP 	stim ᚠ: autoDraw = False
+222.5339 	EXP 	stim ᚠ: color = [1, 1, 1]
+223.0668 	INFO 	Trial 52 start: 223.050186
+223.0669 	EXP 	Drew image 1 at 0.000000
+223.0668 	EXP 	stim ᚢ: autoDraw = True
+224.3496 	EXP 	stim ᚢ: color = [-1, 1, -1]
+224.6494 	EXP 	stim ᚢ: autoDraw = False
+224.6494 	EXP 	stim ᚢ: color = [1, 1, 1]
+225.1826 	INFO 	Trial 53 start: 225.165845
+225.1826 	EXP 	Drew image 4 at 0.000000
+225.1825 	EXP 	stim ᚻ: autoDraw = True
+226.5984 	EXP 	stim ᚻ: color = [-1, 1, -1]
+226.8982 	EXP 	stim ᚻ: autoDraw = False
+226.8982 	EXP 	stim ᚻ: color = [1, 1, 1]
+227.4313 	INFO 	Trial 54 start: 227.414575
+227.4313 	EXP 	Drew image 3 at 0.000000
+227.4313 	EXP 	stim ᚠ: autoDraw = True
+228.0974 	EXP 	stim ᚠ: color = [-1, 1, -1]
+228.3973 	EXP 	stim ᚠ: autoDraw = False
+228.3973 	EXP 	stim ᚠ: color = [1, 1, 1]
+228.9139 	INFO 	Trial 55 start: 228.897120
+228.9139 	EXP 	Drew image 8 at 0.000000
+228.9138 	EXP 	stim ᛇ: autoDraw = True
+229.6467 	EXP 	stim ᛇ: color = [-1, 1, -1]
+229.9467 	EXP 	stim ᛇ: autoDraw = False
+229.9467 	EXP 	stim ᛇ: color = [1, 1, 1]
+230.4796 	INFO 	Trial 56 start: 230.462828
+230.4796 	EXP 	Drew image 2 at 0.000000
+230.4795 	EXP 	stim ᚬ: autoDraw = True
+232.8283 	EXP 	stim ᚬ: color = [1, -1, -1]
+233.8278 	EXP 	stim ᚬ: color = [1, 1, 1]
+234.2444 	EXP 	stim ᚬ: color = [1, -1, -1]
+235.2437 	EXP 	stim ᚬ: color = [1, 1, 1]
+235.5935 	EXP 	stim ᚬ: color = [1, -1, -1]
+236.5929 	EXP 	stim ᚬ: color = [1, 1, 1]
+236.9260 	EXP 	stim ᚬ: color = [-1, 1, -1]
+237.2262 	EXP 	stim ᚬ: autoDraw = False
+237.2262 	EXP 	stim ᚬ: color = [1, 1, 1]
+237.7590 	INFO 	Trial 57 start: 237.742285
+237.7591 	EXP 	Drew image 2 at 0.000000
+237.7590 	EXP 	stim ᚬ: autoDraw = True
+238.4419 	EXP 	stim ᚬ: color = [-1, 1, -1]
+238.7418 	EXP 	stim ᚬ: autoDraw = False
+238.7418 	EXP 	stim ᚬ: color = [1, 1, 1]
+239.2749 	INFO 	Trial 58 start: 239.258200
+239.2749 	EXP 	Drew image 6 at 0.000000
+239.2748 	EXP 	stim ᚦ: autoDraw = True
+240.8572 	EXP 	stim ᚦ: color = [-1, 1, -1]
+241.1571 	EXP 	stim ᚦ: autoDraw = False
+241.1571 	EXP 	stim ᚦ: color = [1, 1, 1]
+241.6903 	INFO 	Trial 59 start: 241.673576
+241.6903 	EXP 	Drew image 6 at 0.000000
+241.6902 	EXP 	stim ᚦ: autoDraw = True
+242.2566 	EXP 	stim ᚦ: color = [-1, 1, -1]
+242.5564 	EXP 	stim ᚦ: autoDraw = False
+242.5564 	EXP 	stim ᚦ: color = [1, 1, 1]
+243.0895 	INFO 	Trial 60 start: 243.072643
+243.0895 	EXP 	Drew image 4 at 0.000000
+243.0895 	EXP 	stim ᚻ: autoDraw = True
+244.6386 	EXP 	stim ᚻ: color = [-1, 1, -1]
+244.9386 	EXP 	stim ᚻ: autoDraw = False
+244.9386 	EXP 	stim ᚻ: color = [1, 1, 1]
+245.4547 	INFO 	Trial 61 start: 245.438228
+245.4548 	EXP 	Drew image 9 at 0.000000
+245.4547 	EXP 	stim ᚼ: autoDraw = True
+246.0879 	EXP 	stim ᚼ: color = [-1, 1, -1]
+246.3878 	EXP 	stim ᚼ: autoDraw = False
+246.3878 	EXP 	stim ᚼ: color = [1, 1, 1]
+246.4751 	WARNING 	t of last frame was 20.92ms (=1/47)
+246.9207 	INFO 	Trial 62 start: 246.903909
+246.9207 	EXP 	Drew image 3 at 0.000000
+246.9207 	EXP 	stim ᚠ: autoDraw = True
+248.3034 	EXP 	stim ᚠ: color = [-1, 1, -1]
+248.6033 	EXP 	stim ᚠ: autoDraw = False
+248.6033 	EXP 	stim ᚠ: color = [1, 1, 1]
+249.1196 	INFO 	Trial 63 start: 249.102909
+249.1196 	EXP 	Drew image 9 at 0.000000
+249.1195 	EXP 	stim ᚼ: autoDraw = True
+249.9690 	EXP 	stim ᚼ: color = [-1, 1, -1]
+250.2689 	EXP 	stim ᚼ: autoDraw = False
+250.2689 	EXP 	stim ᚼ: color = [1, 1, 1]
+250.8020 	INFO 	Trial 64 start: 250.785296
+250.8021 	EXP 	Drew image 9 at 0.000000
+250.8020 	EXP 	stim ᚼ: autoDraw = True
+251.4349 	EXP 	stim ᚼ: color = [-1, 1, -1]
+251.7347 	EXP 	stim ᚼ: autoDraw = False
+251.7347 	EXP 	stim ᚼ: color = [1, 1, 1]
+252.2679 	INFO 	Trial 65 start: 252.251116
+252.2679 	EXP 	Drew image 7 at 0.000000
+252.2678 	EXP 	stim ᚳ: autoDraw = True
+253.4839 	EXP 	stim ᚳ: color = [-1, 1, -1]
+253.7838 	EXP 	stim ᚳ: autoDraw = False
+253.7838 	EXP 	stim ᚳ: color = [1, 1, 1]
+254.3168 	INFO 	Trial 66 start: 254.300092
+254.3168 	EXP 	Drew image 4 at 0.000000
+254.3168 	EXP 	stim ᚻ: autoDraw = True
+255.3661 	EXP 	stim ᚻ: color = [-1, 1, -1]
+255.6661 	EXP 	stim ᚻ: autoDraw = False
+255.6661 	EXP 	stim ᚻ: color = [1, 1, 1]
+256.1990 	INFO 	Trial 67 start: 256.182805
+256.1991 	EXP 	Drew image 4 at 0.000000
+256.1990 	EXP 	stim ᚻ: autoDraw = True
+256.6655 	EXP 	stim ᚻ: color = [-1, 1, -1]
+256.9653 	EXP 	stim ᚻ: autoDraw = False
+256.9653 	EXP 	stim ᚻ: color = [1, 1, 1]
+257.4983 	INFO 	Trial 68 start: 257.481534
+257.4983 	EXP 	Drew image 0 at 0.000000
+257.4982 	EXP 	stim ᛋ: autoDraw = True
+258.1647 	EXP 	stim ᛋ: color = [-1, 1, -1]
+258.4645 	EXP 	stim ᛋ: autoDraw = False
+258.4645 	EXP 	stim ᛋ: color = [1, 1, 1]
+258.9975 	INFO 	Trial 69 start: 258.980856
+258.9975 	EXP 	Drew image 7 at 0.000000
+258.9975 	EXP 	stim ᚳ: autoDraw = True
+259.4856 	WARNING 	t of last frame was 21.78ms (=1/45)
+260.2301 	EXP 	stim ᚳ: color = [-1, 1, -1]
+260.5302 	EXP 	stim ᚳ: autoDraw = False
+260.5302 	EXP 	stim ᚳ: color = [1, 1, 1]
+261.0631 	INFO 	Trial 70 start: 261.046281
+261.0631 	EXP 	Drew image 4 at 0.000000
+261.0630 	EXP 	stim ᚻ: autoDraw = True
+261.7461 	EXP 	stim ᚻ: color = [-1, 1, -1]
+262.0458 	EXP 	stim ᚻ: autoDraw = False
+262.0458 	EXP 	stim ᚻ: color = [1, 1, 1]
+262.5789 	INFO 	Trial 71 start: 262.562315
+262.5789 	EXP 	Drew image 4 at 0.000000
+262.5789 	EXP 	stim ᚻ: autoDraw = True
+263.1452 	EXP 	stim ᚻ: color = [-1, 1, -1]
+263.4453 	EXP 	stim ᚻ: autoDraw = False
+263.4453 	EXP 	stim ᚻ: color = [1, 1, 1]
+263.5833 	WARNING 	t of last frame was 21.55ms (=1/46)
+263.9782 	INFO 	Trial 72 start: 263.961518
+263.9783 	EXP 	Drew image 5 at 0.000000
+263.9782 	EXP 	stim ᚣ: autoDraw = True
+265.5108 	EXP 	stim ᚣ: color = [-1, 1, -1]
+265.8108 	EXP 	stim ᚣ: autoDraw = False
+265.8108 	EXP 	stim ᚣ: color = [1, 1, 1]
+266.3437 	INFO 	Trial 73 start: 266.326902
+266.3437 	EXP 	Drew image 7 at 0.000000
+266.3436 	EXP 	stim ᚳ: autoDraw = True
+266.9765 	EXP 	stim ᚳ: color = [-1, 1, -1]
+267.2764 	EXP 	stim ᚳ: autoDraw = False
+267.2764 	EXP 	stim ᚳ: color = [1, 1, 1]
+267.8095 	INFO 	Trial 74 start: 267.792742
+267.8095 	EXP 	Drew image 9 at 0.000000
+267.8095 	EXP 	stim ᚼ: autoDraw = True
+268.4258 	EXP 	stim ᚼ: color = [-1, 1, -1]
+268.7258 	EXP 	stim ᚼ: autoDraw = False
+268.7258 	EXP 	stim ᚼ: color = [1, 1, 1]
+269.2586 	INFO 	Trial 75 start: 269.241945
+269.2587 	EXP 	Drew image 8 at 0.000000
+269.2586 	EXP 	stim ᛇ: autoDraw = True
+269.9916 	EXP 	stim ᛇ: color = [-1, 1, -1]
+270.2916 	EXP 	stim ᛇ: autoDraw = False
+270.2916 	EXP 	stim ᛇ: color = [1, 1, 1]
+270.8244 	INFO 	Trial 76 start: 270.807702
+270.8245 	EXP 	Drew image 7 at 0.000000
+270.8244 	EXP 	stim ᚳ: autoDraw = True
+272.2904 	EXP 	stim ᚳ: color = [-1, 1, -1]
+272.5906 	EXP 	stim ᚳ: autoDraw = False
+272.5906 	EXP 	stim ᚳ: color = [1, 1, 1]
+273.1234 	INFO 	Trial 77 start: 273.106575
+273.1234 	EXP 	Drew image 0 at 0.000000
+273.1233 	EXP 	stim ᛋ: autoDraw = True
+273.7730 	EXP 	stim ᛋ: color = [-1, 1, -1]
+274.0727 	EXP 	stim ᛋ: autoDraw = False
+274.0727 	EXP 	stim ᛋ: color = [1, 1, 1]
+274.6057 	INFO 	Trial 78 start: 274.589039
+274.6058 	EXP 	Drew image 7 at 0.000000
+274.6057 	EXP 	stim ᚳ: autoDraw = True
+275.5218 	EXP 	stim ᚳ: color = [-1, 1, -1]
+275.8217 	EXP 	stim ᚳ: autoDraw = False
+275.8217 	EXP 	stim ᚳ: color = [1, 1, 1]
+276.3549 	INFO 	Trial 79 start: 276.338185
+276.3550 	EXP 	Drew image 0 at 0.000000
+276.3549 	EXP 	stim ᛋ: autoDraw = True
+278.1705 	EXP 	stim ᛋ: color = [-1, 1, -1]
+278.4703 	EXP 	stim ᛋ: autoDraw = False
+278.4703 	EXP 	stim ᛋ: color = [1, 1, 1]
+278.9869 	INFO 	Trial 80 start: 278.970093
+278.9869 	EXP 	Drew image 2 at 0.000000
+278.9868 	EXP 	stim ᚬ: autoDraw = True
+280.2027 	EXP 	stim ᚬ: color = [-1, 1, -1]
+280.5025 	EXP 	stim ᚬ: autoDraw = False
+280.5025 	EXP 	stim ᚬ: color = [1, 1, 1]
+281.0357 	INFO 	Trial 81 start: 281.019064
+281.0358 	EXP 	Drew image 5 at 0.000000
+281.0357 	EXP 	stim ᚣ: autoDraw = True
+281.7685 	EXP 	stim ᚣ: color = [-1, 1, -1]
+282.0684 	EXP 	stim ᚣ: autoDraw = False
+282.0684 	EXP 	stim ᚣ: color = [1, 1, 1]
+282.6015 	INFO 	Trial 82 start: 282.584669
+282.6015 	EXP 	Drew image 3 at 0.000000
+282.6015 	EXP 	stim ᚠ: autoDraw = True
+283.2177 	EXP 	stim ᚠ: color = [-1, 1, -1]
+283.5178 	EXP 	stim ᚠ: autoDraw = False
+283.5178 	EXP 	stim ᚠ: color = [1, 1, 1]
+284.0508 	INFO 	Trial 83 start: 284.033983
+284.0508 	EXP 	Drew image 8 at 0.000000
+284.0507 	EXP 	stim ᛇ: autoDraw = True
+285.0169 	EXP 	stim ᛇ: color = [-1, 1, -1]
+285.3167 	EXP 	stim ᛇ: autoDraw = False
+285.3167 	EXP 	stim ᛇ: color = [1, 1, 1]
+285.8497 	INFO 	Trial 84 start: 285.832906
+285.8497 	EXP 	Drew image 8 at 0.000000
+285.8496 	EXP 	stim ᛇ: autoDraw = True
+286.4160 	EXP 	stim ᛇ: color = [-1, 1, -1]
+286.7159 	EXP 	stim ᛇ: autoDraw = False
+286.7159 	EXP 	stim ᛇ: color = [1, 1, 1]
+287.2490 	INFO 	Trial 85 start: 287.232274
+287.2491 	EXP 	Drew image 2 at 0.000000
+287.2490 	EXP 	stim ᚬ: autoDraw = True
+287.9318 	EXP 	stim ᚬ: color = [-1, 1, -1]
+288.2318 	EXP 	stim ᚬ: autoDraw = False
+288.2318 	EXP 	stim ᚬ: color = [1, 1, 1]
+288.7649 	INFO 	Trial 86 start: 288.748068
+288.7649 	EXP 	Drew image 6 at 0.000000
+288.7648 	EXP 	stim ᚦ: autoDraw = True
+290.3973 	EXP 	stim ᚦ: color = [-1, 1, -1]
+290.6971 	EXP 	stim ᚦ: autoDraw = False
+290.6971 	EXP 	stim ᚦ: color = [1, 1, 1]
+291.2301 	INFO 	Trial 87 start: 291.213464
+291.2301 	EXP 	Drew image 7 at 0.000000
+291.2300 	EXP 	stim ᚳ: autoDraw = True
+291.8964 	EXP 	stim ᚳ: color = [-1, 1, -1]
+292.1962 	EXP 	stim ᚳ: autoDraw = False
+292.1962 	EXP 	stim ᚳ: color = [1, 1, 1]
+292.7294 	INFO 	Trial 88 start: 292.712583
+292.7294 	EXP 	Drew image 3 at 0.000000
+292.7294 	EXP 	stim ᚠ: autoDraw = True
+293.4290 	EXP 	stim ᚠ: color = [-1, 1, -1]
+293.7288 	EXP 	stim ᚠ: autoDraw = False
+293.7288 	EXP 	stim ᚠ: color = [1, 1, 1]
+294.2618 	INFO 	Trial 89 start: 294.245253
+294.2619 	EXP 	Drew image 0 at 0.000000
+294.2618 	EXP 	stim ᛋ: autoDraw = True
+294.8781 	EXP 	stim ᛋ: color = [-1, 1, -1]
+295.1782 	EXP 	stim ᛋ: autoDraw = False
+295.1782 	EXP 	stim ᛋ: color = [1, 1, 1]
+295.7111 	INFO 	Trial 90 start: 295.694439
+295.7111 	EXP 	Drew image 4 at 0.000000
+295.7110 	EXP 	stim ᚻ: autoDraw = True
+297.0936 	EXP 	stim ᚻ: color = [-1, 1, -1]
+297.3936 	EXP 	stim ᚻ: autoDraw = False
+297.3936 	EXP 	stim ᚻ: color = [1, 1, 1]
+297.9265 	INFO 	Trial 91 start: 297.909842
+297.9266 	EXP 	Drew image 0 at 0.000000
+297.9265 	EXP 	stim ᛋ: autoDraw = True
+298.6595 	EXP 	stim ᛋ: color = [-1, 1, -1]
+298.9594 	EXP 	stim ᛋ: autoDraw = False
+298.9594 	EXP 	stim ᛋ: color = [1, 1, 1]
+299.4924 	INFO 	Trial 92 start: 299.475673
+299.4924 	EXP 	Drew image 8 at 0.000000
+299.4924 	EXP 	stim ᛇ: autoDraw = True
+300.4418 	EXP 	stim ᛇ: color = [-1, 1, -1]
+300.7417 	EXP 	stim ᛇ: autoDraw = False
+300.7417 	EXP 	stim ᛇ: color = [1, 1, 1]
+301.2746 	INFO 	Trial 93 start: 301.257980
+301.2747 	EXP 	Drew image 8 at 0.000000
+301.2746 	EXP 	stim ᛇ: autoDraw = True
+302.0911 	EXP 	stim ᛇ: color = [-1, 1, -1]
+302.3908 	EXP 	stim ᛇ: autoDraw = False
+302.3908 	EXP 	stim ᛇ: color = [1, 1, 1]
+302.9238 	INFO 	Trial 94 start: 302.907193
+302.9239 	EXP 	Drew image 0 at 0.000000
+302.9238 	EXP 	stim ᛋ: autoDraw = True
+303.4290 	WARNING 	t of last frame was 22.15ms (=1/45)
+303.6235 	EXP 	stim ᛋ: color = [-1, 1, -1]
+303.9234 	EXP 	stim ᛋ: autoDraw = False
+303.9234 	EXP 	stim ᛋ: color = [1, 1, 1]
+304.4564 	INFO 	Trial 95 start: 304.439708
+304.4564 	EXP 	Drew image 5 at 0.000000
+304.4563 	EXP 	stim ᚣ: autoDraw = True
+305.2726 	EXP 	stim ᚣ: color = [-1, 1, -1]
+305.5726 	EXP 	stim ᚣ: autoDraw = False
+305.5726 	EXP 	stim ᚣ: color = [1, 1, 1]
+306.1055 	INFO 	Trial 96 start: 306.088867
+306.1055 	EXP 	Drew image 2 at 0.000000
+306.1054 	EXP 	stim ᚬ: autoDraw = True
+306.8383 	EXP 	stim ᚬ: color = [-1, 1, -1]
+307.1382 	EXP 	stim ᚬ: autoDraw = False
+307.1382 	EXP 	stim ᚬ: color = [1, 1, 1]
+307.6713 	INFO 	Trial 97 start: 307.654689
+307.6713 	EXP 	Drew image 5 at 0.000000
+307.6713 	EXP 	stim ᚣ: autoDraw = True
+308.5708 	EXP 	stim ᚣ: color = [-1, 1, -1]
+308.8705 	EXP 	stim ᚣ: autoDraw = False
+308.8705 	EXP 	stim ᚣ: color = [1, 1, 1]
+309.4037 	INFO 	Trial 98 start: 309.387035
+309.4038 	EXP 	Drew image 1 at 0.000000
+309.4037 	EXP 	stim ᚢ: autoDraw = True
+310.6529 	EXP 	stim ᚢ: color = [-1, 1, -1]
+310.9530 	EXP 	stim ᚢ: autoDraw = False
+310.9530 	EXP 	stim ᚢ: color = [1, 1, 1]
+311.4858 	INFO 	Trial 99 start: 311.469150
+311.4859 	EXP 	Drew image 4 at 0.000000
+311.4858 	EXP 	stim ᚻ: autoDraw = True
+312.3853 	EXP 	stim ᚻ: color = [-1, 1, -1]
+312.6853 	EXP 	stim ᚻ: autoDraw = False
+312.6853 	EXP 	stim ᚻ: color = [1, 1, 1]
+312.7019 	EXP 	pause_text: autoDraw = True
+312.7019 	EXP 	pause_text: autoDraw = True
+312.7185 	EXP 	pause_text: text = 'Press 10 times to continue.'
+312.7351 	EXP 	pause_text: text = 'Press 10 times to continue.'
+312.7519 	EXP 	pause_text: text = 'Press 10 times to continue.'
+312.7684 	EXP 	pause_text: text = 'Press 10 times to continue.'
+312.7852 	EXP 	pause_text: text = 'Press 10 times to continue.'
+312.8017 	EXP 	pause_text: text = 'Press 10 times to continue.'
+312.8184 	EXP 	pause_text: text = 'Press 10 times to continue.'
+312.8350 	EXP 	pause_text: text = 'Press 10 times to continue.'
+312.8517 	EXP 	pause_text: text = 'Press 10 times to continue.'
+312.8684 	EXP 	pause_text: text = 'Press 10 times to continue.'
+312.8850 	EXP 	pause_text: text = 'Press 10 times to continue.'
+312.9019 	EXP 	pause_text: text = 'Press 10 times to continue.'
+312.9184 	EXP 	pause_text: text = 'Press 10 times to continue.'
+312.9351 	EXP 	pause_text: text = 'Press 10 times to continue.'
+312.9518 	EXP 	pause_text: text = 'Press 10 times to continue.'
+312.9684 	EXP 	pause_text: text = 'Press 10 times to continue.'
+312.9851 	EXP 	pause_text: text = 'Press 10 times to continue.'
+313.0017 	EXP 	pause_text: text = 'Press 10 times to continue.'
+313.0184 	EXP 	pause_text: text = 'Press 10 times to continue.'
+313.0350 	EXP 	pause_text: text = 'Press 10 times to continue.'
+313.0518 	EXP 	pause_text: text = 'Press 10 times to continue.'
+313.0683 	EXP 	pause_text: text = 'Press 10 times to continue.'
+313.0850 	EXP 	pause_text: text = 'Press 10 times to continue.'
+313.1015 	EXP 	pause_text: text = 'Press 10 times to continue.'
+313.1183 	EXP 	pause_text: text = 'Press 10 times to continue.'
+313.1350 	EXP 	pause_text: text = 'Press 10 times to continue.'
+313.1516 	EXP 	pause_text: text = 'Press 10 times to continue.'
+313.1683 	EXP 	pause_text: text = 'Press 10 times to continue.'
+313.1850 	EXP 	pause_text: text = 'Press 10 times to continue.'
+313.2015 	EXP 	pause_text: text = 'Press 10 times to continue.'
+313.2181 	EXP 	pause_text: text = 'Press 10 times to continue.'
+313.2348 	EXP 	pause_text: text = 'Press 10 times to continue.'
+313.2516 	EXP 	pause_text: text = 'Press 10 times to continue.'
+313.2681 	EXP 	pause_text: text = 'Press 10 times to continue.'
+313.2849 	EXP 	pause_text: text = 'Press 10 times to continue.'
+313.3015 	EXP 	pause_text: text = 'Press 10 times to continue.'
+313.3182 	EXP 	pause_text: text = 'Press 10 times to continue.'
+313.3348 	EXP 	pause_text: text = 'Press 10 times to continue.'
+313.3514 	EXP 	pause_text: text = 'Press 10 times to continue.'
+313.3681 	EXP 	pause_text: text = 'Press 10 times to continue.'
+313.3847 	EXP 	pause_text: text = 'Press 10 times to continue.'
+313.4015 	EXP 	pause_text: text = 'Press 10 times to continue.'
+313.4181 	EXP 	pause_text: text = 'Press 10 times to continue.'
+313.4349 	EXP 	pause_text: text = 'Press 10 times to continue.'
+313.4515 	EXP 	pause_text: text = 'Press 10 times to continue.'
+313.4682 	EXP 	pause_text: text = 'Press 10 times to continue.'
+313.4848 	EXP 	pause_text: text = 'Press 10 times to continue.'
+313.5014 	EXP 	pause_text: text = 'Press 10 times to continue.'
+313.5181 	EXP 	pause_text: text = 'Press 10 times to continue.'
+313.5348 	EXP 	pause_text: text = 'Press 10 times to continue.'
+313.5514 	EXP 	pause_text: text = 'Press 10 times to continue.'
+313.5681 	EXP 	pause_text: text = 'Press 10 times to continue.'
+313.5849 	EXP 	pause_text: text = 'Press 10 times to continue.'
+313.6014 	EXP 	pause_text: text = 'Press 10 times to continue.'
+313.6181 	EXP 	pause_text: text = 'Press 10 times to continue.'
+313.6347 	EXP 	pause_text: text = 'Press 10 times to continue.'
+313.6514 	EXP 	pause_text: text = 'Press 10 times to continue.'
+313.6683 	EXP 	pause_text: text = 'Press 10 times to continue.'
+313.6848 	EXP 	pause_text: text = 'Press 10 times to continue.'
+313.7014 	EXP 	pause_text: text = 'Press 10 times to continue.'
+313.7187 	EXP 	pause_text: text = 'Press 10 times to continue.'
+313.7347 	EXP 	pause_text: text = 'Press 10 times to continue.'
+313.7514 	EXP 	pause_text: text = 'Press 10 times to continue.'
+313.7679 	EXP 	pause_text: text = 'Press 10 times to continue.'
+313.7846 	EXP 	pause_text: text = 'Press 10 times to continue.'
+313.8012 	EXP 	pause_text: text = 'Press 10 times to continue.'
+313.8179 	EXP 	pause_text: text = 'Press 10 times to continue.'
+313.8345 	EXP 	pause_text: text = 'Press 10 times to continue.'
+313.8513 	EXP 	pause_text: text = 'Press 10 times to continue.'
+313.8679 	EXP 	pause_text: text = 'Press 10 times to continue.'
+313.8846 	EXP 	pause_text: text = 'Press 10 times to continue.'
+313.9013 	EXP 	pause_text: text = 'Press 10 times to continue.'
+313.9179 	EXP 	pause_text: text = 'Press 10 times to continue.'
+313.9346 	EXP 	pause_text: text = 'Press 10 times to continue.'
+313.9512 	EXP 	pause_text: text = 'Press 10 times to continue.'
+313.9680 	EXP 	pause_text: text = 'Press 10 times to continue.'
+313.9845 	EXP 	pause_text: text = 'Press 10 times to continue.'
+314.0012 	EXP 	pause_text: text = 'Press 10 times to continue.'
+314.0179 	EXP 	pause_text: text = 'Press 10 times to continue.'
+314.0345 	EXP 	pause_text: text = 'Press 10 times to continue.'
+314.0511 	EXP 	pause_text: text = 'Press 10 times to continue.'
+314.0677 	EXP 	pause_text: text = 'Press 10 times to continue.'
+314.0845 	EXP 	pause_text: text = 'Press 10 times to continue.'
+314.1010 	EXP 	pause_text: text = 'Press 10 times to continue.'
+314.1177 	EXP 	pause_text: text = 'Press 10 times to continue.'
+314.1344 	EXP 	pause_text: text = 'Press 10 times to continue.'
+314.1510 	EXP 	pause_text: text = 'Press 10 times to continue.'
+314.1677 	EXP 	pause_text: text = 'Press 10 times to continue.'
+314.1843 	EXP 	pause_text: text = 'Press 10 times to continue.'
+314.2010 	EXP 	pause_text: text = 'Press 10 times to continue.'
+314.2176 	EXP 	pause_text: text = 'Press 10 times to continue.'
+314.2344 	EXP 	pause_text: text = 'Press 10 times to continue.'
+314.2510 	EXP 	pause_text: text = 'Press 10 times to continue.'
+314.2677 	EXP 	pause_text: text = 'Press 10 times to continue.'
+314.2844 	EXP 	pause_text: text = 'Press 10 times to continue.'
+314.3010 	EXP 	pause_text: text = 'Press 10 times to continue.'
+314.3177 	EXP 	pause_text: text = 'Press 10 times to continue.'
+314.3343 	EXP 	pause_text: text = 'Press 10 times to continue.'
+314.3511 	EXP 	pause_text: text = 'Press 10 times to continue.'
+314.3677 	EXP 	pause_text: text = 'Press 10 times to continue.'
+314.3844 	EXP 	pause_text: text = 'Press 10 times to continue.'
+314.4010 	EXP 	pause_text: text = 'Press 10 times to continue.'
+314.4176 	EXP 	pause_text: text = 'Press 10 times to continue.'
+314.4343 	EXP 	pause_text: text = 'Press 10 times to continue.'
+314.4510 	EXP 	pause_text: text = 'Press 10 times to continue.'
+314.4677 	EXP 	pause_text: text = 'Press 10 times to continue.'
+314.4843 	EXP 	pause_text: text = 'Press 10 times to continue.'
+314.5009 	EXP 	pause_text: text = 'Press 10 times to continue.'
+314.5176 	EXP 	pause_text: text = 'Press 10 times to continue.'
+314.5342 	EXP 	pause_text: text = 'Press 10 times to continue.'
+314.5509 	EXP 	pause_text: text = 'Press 10 times to continue.'
+314.5676 	EXP 	pause_text: text = 'Press 10 times to continue.'
+314.5843 	EXP 	pause_text: text = 'Press 10 times to continue.'
+314.6009 	EXP 	pause_text: text = 'Press 10 times to continue.'
+314.6176 	EXP 	pause_text: text = 'Press 10 times to continue.'
+314.6342 	EXP 	pause_text: text = 'Press 10 times to continue.'
+314.6509 	EXP 	pause_text: text = 'Press 10 times to continue.'
+314.6675 	EXP 	pause_text: text = 'Press 10 times to continue.'
+314.6842 	EXP 	pause_text: text = 'Press 10 times to continue.'
+314.7008 	EXP 	pause_text: text = 'Press 10 times to continue.'
+314.7175 	EXP 	pause_text: text = 'Press 10 times to continue.'
+314.7342 	EXP 	pause_text: text = 'Press 10 times to continue.'
+314.7508 	EXP 	pause_text: text = 'Press 10 times to continue.'
+314.7674 	EXP 	pause_text: text = 'Press 10 times to continue.'
+314.7842 	EXP 	pause_text: text = 'Press 10 times to continue.'
+314.8007 	EXP 	pause_text: text = 'Press 10 times to continue.'
+314.8175 	EXP 	pause_text: text = 'Press 10 times to continue.'
+314.8341 	EXP 	pause_text: text = 'Press 10 times to continue.'
+314.8508 	EXP 	pause_text: text = 'Press 10 times to continue.'
+314.8674 	EXP 	pause_text: text = 'Press 10 times to continue.'
+314.8840 	EXP 	pause_text: text = 'Press 10 times to continue.'
+314.9007 	EXP 	pause_text: text = 'Press 10 times to continue.'
+314.9172 	EXP 	pause_text: text = 'Press 10 times to continue.'
+314.9340 	EXP 	pause_text: text = 'Press 10 times to continue.'
+314.9506 	EXP 	pause_text: text = 'Press 9 times to continue.'
+314.9673 	EXP 	pause_text: text = 'Press 9 times to continue.'
+314.9839 	EXP 	pause_text: text = 'Press 9 times to continue.'
+315.0007 	EXP 	pause_text: text = 'Press 9 times to continue.'
+315.0173 	EXP 	pause_text: text = 'Press 9 times to continue.'
+315.0340 	EXP 	pause_text: text = 'Press 9 times to continue.'
+315.0507 	EXP 	pause_text: text = 'Press 9 times to continue.'
+315.0673 	EXP 	pause_text: text = 'Press 9 times to continue.'
+315.0839 	EXP 	pause_text: text = 'Press 9 times to continue.'
+315.1005 	EXP 	pause_text: text = 'Press 9 times to continue.'
+315.1174 	EXP 	pause_text: text = 'Press 9 times to continue.'
+315.1338 	EXP 	pause_text: text = 'Press 9 times to continue.'
+315.1506 	EXP 	pause_text: text = 'Press 9 times to continue.'
+315.1672 	EXP 	pause_text: text = 'Press 9 times to continue.'
+315.1838 	EXP 	pause_text: text = 'Press 9 times to continue.'
+315.2005 	EXP 	pause_text: text = 'Press 9 times to continue.'
+315.2171 	EXP 	pause_text: text = 'Press 9 times to continue.'
+315.2338 	EXP 	pause_text: text = 'Press 9 times to continue.'
+315.2504 	EXP 	pause_text: text = 'Press 9 times to continue.'
+315.2671 	EXP 	pause_text: text = 'Press 9 times to continue.'
+315.2838 	EXP 	pause_text: text = 'Press 9 times to continue.'
+315.3006 	EXP 	pause_text: text = 'Press 9 times to continue.'
+315.3172 	EXP 	pause_text: text = 'Press 9 times to continue.'
+315.3338 	EXP 	pause_text: text = 'Press 8 times to continue.'
+315.3503 	EXP 	pause_text: text = 'Press 8 times to continue.'
+315.3670 	EXP 	pause_text: text = 'Press 8 times to continue.'
+315.3837 	EXP 	pause_text: text = 'Press 8 times to continue.'
+315.4004 	EXP 	pause_text: text = 'Press 8 times to continue.'
+315.4171 	EXP 	pause_text: text = 'Press 8 times to continue.'
+315.4338 	EXP 	pause_text: text = 'Press 8 times to continue.'
+315.4503 	EXP 	pause_text: text = 'Press 8 times to continue.'
+315.4671 	EXP 	pause_text: text = 'Press 8 times to continue.'
+315.4839 	EXP 	pause_text: text = 'Press 8 times to continue.'
+315.5004 	EXP 	pause_text: text = 'Press 8 times to continue.'
+315.5170 	EXP 	pause_text: text = 'Press 8 times to continue.'
+315.5337 	EXP 	pause_text: text = 'Press 8 times to continue.'
+315.5504 	EXP 	pause_text: text = 'Press 8 times to continue.'
+315.5670 	EXP 	pause_text: text = 'Press 8 times to continue.'
+315.5837 	EXP 	pause_text: text = 'Press 8 times to continue.'
+315.6003 	EXP 	pause_text: text = 'Press 8 times to continue.'
+315.6170 	EXP 	pause_text: text = 'Press 8 times to continue.'
+315.6336 	EXP 	pause_text: text = 'Press 8 times to continue.'
+315.6503 	EXP 	pause_text: text = 'Press 8 times to continue.'
+315.6669 	EXP 	pause_text: text = 'Press 8 times to continue.'
+315.6835 	EXP 	pause_text: text = 'Press 8 times to continue.'
+315.7002 	EXP 	pause_text: text = 'Press 8 times to continue.'
+315.7169 	EXP 	pause_text: text = 'Press 8 times to continue.'
+315.7336 	EXP 	pause_text: text = 'Press 8 times to continue.'
+315.7502 	EXP 	pause_text: text = 'Press 8 times to continue.'
+315.7669 	EXP 	pause_text: text = 'Press 8 times to continue.'
+315.7836 	EXP 	pause_text: text = 'Press 8 times to continue.'
+315.8002 	EXP 	pause_text: text = 'Press 7 times to continue.'
+315.8169 	EXP 	pause_text: text = 'Press 7 times to continue.'
+315.8334 	EXP 	pause_text: text = 'Press 7 times to continue.'
+315.8501 	EXP 	pause_text: text = 'Press 7 times to continue.'
+315.8667 	EXP 	pause_text: text = 'Press 7 times to continue.'
+315.8834 	EXP 	pause_text: text = 'Press 7 times to continue.'
+315.9001 	EXP 	pause_text: text = 'Press 7 times to continue.'
+315.9172 	EXP 	pause_text: text = 'Press 7 times to continue.'
+315.9335 	EXP 	pause_text: text = 'Press 7 times to continue.'
+315.9501 	EXP 	pause_text: text = 'Press 7 times to continue.'
+315.9668 	EXP 	pause_text: text = 'Press 7 times to continue.'
+315.9835 	EXP 	pause_text: text = 'Press 7 times to continue.'
+316.0002 	EXP 	pause_text: text = 'Press 7 times to continue.'
+316.0168 	EXP 	pause_text: text = 'Press 7 times to continue.'
+316.0333 	EXP 	pause_text: text = 'Press 7 times to continue.'
+316.0501 	EXP 	pause_text: text = 'Press 7 times to continue.'
+316.0667 	EXP 	pause_text: text = 'Press 7 times to continue.'
+316.0834 	EXP 	pause_text: text = 'Press 7 times to continue.'
+316.0999 	EXP 	pause_text: text = 'Press 7 times to continue.'
+316.1168 	EXP 	pause_text: text = 'Press 7 times to continue.'
+316.1333 	EXP 	pause_text: text = 'Press 7 times to continue.'
+316.1499 	EXP 	pause_text: text = 'Press 7 times to continue.'
+316.1667 	EXP 	pause_text: text = 'Press 6 times to continue.'
+316.1833 	EXP 	pause_text: text = 'Press 6 times to continue.'
+316.2000 	EXP 	pause_text: text = 'Press 6 times to continue.'
+316.2168 	EXP 	pause_text: text = 'Press 6 times to continue.'
+316.2332 	EXP 	pause_text: text = 'Press 6 times to continue.'
+316.2498 	EXP 	pause_text: text = 'Press 6 times to continue.'
+316.2665 	EXP 	pause_text: text = 'Press 6 times to continue.'
+316.2832 	EXP 	pause_text: text = 'Press 6 times to continue.'
+316.3002 	EXP 	pause_text: text = 'Press 6 times to continue.'
+316.3167 	EXP 	pause_text: text = 'Press 6 times to continue.'
+316.3333 	EXP 	pause_text: text = 'Press 6 times to continue.'
+316.3500 	EXP 	pause_text: text = 'Press 6 times to continue.'
+316.3666 	EXP 	pause_text: text = 'Press 6 times to continue.'
+316.3833 	EXP 	pause_text: text = 'Press 6 times to continue.'
+316.3999 	EXP 	pause_text: text = 'Press 6 times to continue.'
+316.4165 	EXP 	pause_text: text = 'Press 6 times to continue.'
+316.4333 	EXP 	pause_text: text = 'Press 6 times to continue.'
+316.4499 	EXP 	pause_text: text = 'Press 6 times to continue.'
+316.4666 	EXP 	pause_text: text = 'Press 6 times to continue.'
+316.4831 	EXP 	pause_text: text = 'Press 6 times to continue.'
+316.4999 	EXP 	pause_text: text = 'Press 6 times to continue.'
+316.5163 	EXP 	pause_text: text = 'Press 6 times to continue.'
+316.5330 	EXP 	pause_text: text = 'Press 6 times to continue.'
+316.5497 	EXP 	pause_text: text = 'Press 6 times to continue.'
+316.5664 	EXP 	pause_text: text = 'Press 6 times to continue.'
+316.5831 	EXP 	pause_text: text = 'Press 6 times to continue.'
+316.5998 	EXP 	pause_text: text = 'Press 6 times to continue.'
+316.6165 	EXP 	pause_text: text = 'Press 6 times to continue.'
+316.6331 	EXP 	pause_text: text = 'Press 6 times to continue.'
+316.6499 	EXP 	pause_text: text = 'Press 6 times to continue.'
+316.6664 	EXP 	pause_text: text = 'Press 6 times to continue.'
+316.6829 	EXP 	pause_text: text = 'Press 6 times to continue.'
+316.6996 	EXP 	pause_text: text = 'Press 6 times to continue.'
+316.7164 	EXP 	pause_text: text = 'Press 6 times to continue.'
+316.7331 	EXP 	pause_text: text = 'Press 6 times to continue.'
+316.7497 	EXP 	pause_text: text = 'Press 6 times to continue.'
+316.7664 	EXP 	pause_text: text = 'Press 6 times to continue.'
+316.7830 	EXP 	pause_text: text = 'Press 6 times to continue.'
+316.7997 	EXP 	pause_text: text = 'Press 6 times to continue.'
+316.8164 	EXP 	pause_text: text = 'Press 6 times to continue.'
+316.8329 	EXP 	pause_text: text = 'Press 6 times to continue.'
+316.8497 	EXP 	pause_text: text = 'Press 6 times to continue.'
+316.8663 	EXP 	pause_text: text = 'Press 5 times to continue.'
+316.8830 	EXP 	pause_text: text = 'Press 5 times to continue.'
+316.8995 	EXP 	pause_text: text = 'Press 5 times to continue.'
+316.9161 	EXP 	pause_text: text = 'Press 5 times to continue.'
+316.9329 	EXP 	pause_text: text = 'Press 5 times to continue.'
+316.9495 	EXP 	pause_text: text = 'Press 5 times to continue.'
+316.9663 	EXP 	pause_text: text = 'Press 5 times to continue.'
+316.9828 	EXP 	pause_text: text = 'Press 5 times to continue.'
+316.9995 	EXP 	pause_text: text = 'Press 5 times to continue.'
+317.0162 	EXP 	pause_text: text = 'Press 5 times to continue.'
+317.0329 	EXP 	pause_text: text = 'Press 5 times to continue.'
+317.0494 	EXP 	pause_text: text = 'Press 5 times to continue.'
+317.0661 	EXP 	pause_text: text = 'Press 5 times to continue.'
+317.0828 	EXP 	pause_text: text = 'Press 5 times to continue.'
+317.0994 	EXP 	pause_text: text = 'Press 5 times to continue.'
+317.1161 	EXP 	pause_text: text = 'Press 5 times to continue.'
+317.1328 	EXP 	pause_text: text = 'Press 5 times to continue.'
+317.1494 	EXP 	pause_text: text = 'Press 5 times to continue.'
+317.1660 	EXP 	pause_text: text = 'Press 5 times to continue.'
+317.1830 	EXP 	pause_text: text = 'Press 5 times to continue.'
+317.1995 	EXP 	pause_text: text = 'Press 5 times to continue.'
+317.2161 	EXP 	pause_text: text = 'Press 5 times to continue.'
+317.2328 	EXP 	pause_text: text = 'Press 5 times to continue.'
+317.2493 	EXP 	pause_text: text = 'Press 5 times to continue.'
+317.2660 	EXP 	pause_text: text = 'Press 5 times to continue.'
+317.2826 	EXP 	pause_text: text = 'Press 5 times to continue.'
+317.2993 	EXP 	pause_text: text = 'Press 5 times to continue.'
+317.3160 	EXP 	pause_text: text = 'Press 5 times to continue.'
+317.3326 	EXP 	pause_text: text = 'Press 5 times to continue.'
+317.3493 	EXP 	pause_text: text = 'Press 5 times to continue.'
+317.3659 	EXP 	pause_text: text = 'Press 5 times to continue.'
+317.3827 	EXP 	pause_text: text = 'Press 5 times to continue.'
+317.3992 	EXP 	pause_text: text = 'Press 5 times to continue.'
+317.4159 	EXP 	pause_text: text = 'Press 5 times to continue.'
+317.4325 	EXP 	pause_text: text = 'Press 5 times to continue.'
+317.4492 	EXP 	pause_text: text = 'Press 5 times to continue.'
+317.4659 	EXP 	pause_text: text = 'Press 5 times to continue.'
+317.4825 	EXP 	pause_text: text = 'Press 5 times to continue.'
+317.4992 	EXP 	pause_text: text = 'Press 5 times to continue.'
+317.5159 	EXP 	pause_text: text = 'Press 5 times to continue.'
+317.5330 	EXP 	pause_text: text = 'Press 5 times to continue.'
+317.5492 	EXP 	pause_text: text = 'Press 4 times to continue.'
+317.5658 	EXP 	pause_text: text = 'Press 4 times to continue.'
+317.5825 	EXP 	pause_text: text = 'Press 4 times to continue.'
+317.5991 	EXP 	pause_text: text = 'Press 4 times to continue.'
+317.6158 	EXP 	pause_text: text = 'Press 4 times to continue.'
+317.6325 	EXP 	pause_text: text = 'Press 4 times to continue.'
+317.6491 	EXP 	pause_text: text = 'Press 4 times to continue.'
+317.6658 	EXP 	pause_text: text = 'Press 4 times to continue.'
+317.6826 	EXP 	pause_text: text = 'Press 4 times to continue.'
+317.6992 	EXP 	pause_text: text = 'Press 4 times to continue.'
+317.7159 	EXP 	pause_text: text = 'Press 4 times to continue.'
+317.7325 	EXP 	pause_text: text = 'Press 4 times to continue.'
+317.7491 	EXP 	pause_text: text = 'Press 4 times to continue.'
+317.7659 	EXP 	pause_text: text = 'Press 4 times to continue.'
+317.7824 	EXP 	pause_text: text = 'Press 4 times to continue.'
+317.7992 	EXP 	pause_text: text = 'Press 4 times to continue.'
+317.8158 	EXP 	pause_text: text = 'Press 4 times to continue.'
+317.8324 	EXP 	pause_text: text = 'Press 4 times to continue.'
+317.8491 	EXP 	pause_text: text = 'Press 4 times to continue.'
+317.8660 	EXP 	pause_text: text = 'Press 4 times to continue.'
+317.8823 	EXP 	pause_text: text = 'Press 3 times to continue.'
+317.8989 	EXP 	pause_text: text = 'Press 3 times to continue.'
+317.9157 	EXP 	pause_text: text = 'Press 3 times to continue.'
+317.9323 	EXP 	pause_text: text = 'Press 3 times to continue.'
+317.9491 	EXP 	pause_text: text = 'Press 3 times to continue.'
+317.9657 	EXP 	pause_text: text = 'Press 3 times to continue.'
+317.9824 	EXP 	pause_text: text = 'Press 3 times to continue.'
+317.9990 	EXP 	pause_text: text = 'Press 3 times to continue.'
+318.0157 	EXP 	pause_text: text = 'Press 3 times to continue.'
+318.0324 	EXP 	pause_text: text = 'Press 3 times to continue.'
+318.0489 	EXP 	pause_text: text = 'Press 3 times to continue.'
+318.0658 	EXP 	pause_text: text = 'Press 3 times to continue.'
+318.0823 	EXP 	pause_text: text = 'Press 3 times to continue.'
+318.0989 	EXP 	pause_text: text = 'Press 3 times to continue.'
+318.1156 	EXP 	pause_text: text = 'Press 3 times to continue.'
+318.1323 	EXP 	pause_text: text = 'Press 3 times to continue.'
+318.1490 	EXP 	pause_text: text = 'Press 3 times to continue.'
+318.1656 	EXP 	pause_text: text = 'Press 3 times to continue.'
+318.1824 	EXP 	pause_text: text = 'Press 3 times to continue.'
+318.1988 	EXP 	pause_text: text = 'Press 3 times to continue.'
+318.2155 	EXP 	pause_text: text = 'Press 2 times to continue.'
+318.2322 	EXP 	pause_text: text = 'Press 2 times to continue.'
+318.2488 	EXP 	pause_text: text = 'Press 2 times to continue.'
+318.2655 	EXP 	pause_text: text = 'Press 2 times to continue.'
+318.2821 	EXP 	pause_text: text = 'Press 2 times to continue.'
+318.2988 	EXP 	pause_text: text = 'Press 2 times to continue.'
+318.3155 	EXP 	pause_text: text = 'Press 2 times to continue.'
+318.3321 	EXP 	pause_text: text = 'Press 2 times to continue.'
+318.3490 	EXP 	pause_text: text = 'Press 2 times to continue.'
+318.3654 	EXP 	pause_text: text = 'Press 2 times to continue.'
+318.3821 	EXP 	pause_text: text = 'Press 2 times to continue.'
+318.3987 	EXP 	pause_text: text = 'Press 2 times to continue.'
+318.4154 	EXP 	pause_text: text = 'Press 2 times to continue.'
+318.4320 	EXP 	pause_text: text = 'Press 2 times to continue.'
+318.4486 	EXP 	pause_text: text = 'Press 2 times to continue.'
+318.4653 	EXP 	pause_text: text = 'Press 2 times to continue.'
+318.4820 	EXP 	pause_text: text = 'Press 2 times to continue.'
+318.4987 	EXP 	pause_text: text = 'Press 2 times to continue.'
+318.5153 	EXP 	pause_text: text = 'Press 2 times to continue.'
+318.5320 	EXP 	pause_text: text = 'Press 1 times to continue.'
+318.5486 	EXP 	pause_text: text = 'Press 1 times to continue.'
+318.5653 	EXP 	pause_text: text = 'Press 1 times to continue.'
+318.5819 	EXP 	pause_text: text = 'Press 1 times to continue.'
+318.5987 	EXP 	pause_text: text = 'Press 1 times to continue.'
+318.6154 	EXP 	pause_text: text = 'Press 1 times to continue.'
+318.6320 	EXP 	pause_text: text = 'Press 1 times to continue.'
+318.6487 	EXP 	pause_text: text = 'Press 1 times to continue.'
+318.6653 	EXP 	pause_text: text = 'Press 1 times to continue.'
+318.6820 	EXP 	pause_text: text = 'Press 1 times to continue.'
+318.6986 	EXP 	pause_text: text = 'Press 1 times to continue.'
+318.7153 	EXP 	pause_text: text = 'Press 1 times to continue.'
+318.7320 	EXP 	pause_text: text = 'Press 1 times to continue.'
+318.7486 	EXP 	pause_text: text = 'Press 1 times to continue.'
+318.7653 	EXP 	pause_text: text = 'Press 1 times to continue.'
+318.7819 	EXP 	pause_text: text = 'Press 1 times to continue.'
+318.7986 	EXP 	pause_text: text = 'Press 1 times to continue.'
+318.8152 	EXP 	pause_text: text = 'Press 1 times to continue.'
+318.8319 	EXP 	pause_text: text = 'Press 1 times to continue.'
+318.8485 	EXP 	pause_text: text = 'Press 1 times to continue.'
+318.8652 	EXP 	pause_text: text = 'Press 1 times to continue.'
+318.8819 	EXP 	pause_text: text = 'Press 1 times to continue.'
+318.8984 	EXP 	pause_text: text = 'Press 1 times to continue.'
+318.9153 	EXP 	pause_text: text = 'Press 0 times to continue.'
+318.9153 	EXP 	pause_text: autoDraw = False
+318.9153 	EXP 	pause_text: autoDraw = False
+319.4316 	INFO 	Trial 100 start: 319.414963
+319.4316 	EXP 	Drew image 9 at 0.000000
+319.4316 	EXP 	stim ᚼ: autoDraw = True
+320.0811 	EXP 	stim ᚼ: color = [-1, 1, -1]
+320.3811 	EXP 	stim ᚼ: autoDraw = False
+320.3811 	EXP 	stim ᚼ: color = [1, 1, 1]
+320.9141 	INFO 	Trial 101 start: 320.897432
+320.9141 	EXP 	Drew image 4 at 0.000000
+320.9141 	EXP 	stim ᚻ: autoDraw = True
+321.6136 	EXP 	stim ᚻ: color = [1, -1, -1]
+322.6131 	EXP 	stim ᚻ: color = [1, 1, 1]
+323.0131 	EXP 	stim ᚻ: color = [-1, 1, -1]
+323.3130 	EXP 	stim ᚻ: autoDraw = False
+323.3130 	EXP 	stim ᚻ: color = [1, 1, 1]
+323.8459 	INFO 	Trial 102 start: 323.829210
+323.8459 	EXP 	Drew image 7 at 0.000000
+323.8458 	EXP 	stim ᚳ: autoDraw = True
+324.4289 	EXP 	stim ᚳ: color = [-1, 1, -1]
+324.7286 	EXP 	stim ᚳ: autoDraw = False
+324.7286 	EXP 	stim ᚳ: color = [1, 1, 1]
+324.8499 	WARNING 	t of last frame was 21.30ms (=1/46)
+325.2618 	INFO 	Trial 103 start: 325.245117
+325.2618 	EXP 	Drew image 9 at 0.000000
+325.2617 	EXP 	stim ᚼ: autoDraw = True
+325.9948 	EXP 	stim ᚼ: color = [-1, 1, -1]
+326.2946 	EXP 	stim ᚼ: autoDraw = False
+326.2946 	EXP 	stim ᚼ: color = [1, 1, 1]
+326.8276 	INFO 	Trial 104 start: 326.810940
+326.8277 	EXP 	Drew image 1 at 0.000000
+326.8276 	EXP 	stim ᚢ: autoDraw = True
+327.4105 	EXP 	stim ᚢ: color = [-1, 1, -1]
+327.7105 	EXP 	stim ᚢ: autoDraw = False
+327.7105 	EXP 	stim ᚢ: color = [1, 1, 1]
+327.8319 	WARNING 	t of last frame was 21.50ms (=1/46)
+328.2436 	INFO 	Trial 105 start: 328.226805
+328.2436 	EXP 	Drew image 2 at 0.000000
+328.2435 	EXP 	stim ᚬ: autoDraw = True
+328.9263 	EXP 	stim ᚬ: color = [-1, 1, -1]
+329.2264 	EXP 	stim ᚬ: autoDraw = False
+329.2264 	EXP 	stim ᚬ: color = [1, 1, 1]
+329.7594 	INFO 	Trial 106 start: 329.742584
+329.7594 	EXP 	Drew image 0 at 0.000000
+329.7594 	EXP 	stim ᛋ: autoDraw = True
+330.8920 	EXP 	stim ᛋ: color = [-1, 1, -1]
+331.1919 	EXP 	stim ᛋ: autoDraw = False
+331.1919 	EXP 	stim ᛋ: color = [1, 1, 1]
+331.7248 	INFO 	Trial 107 start: 331.708217
+331.7249 	EXP 	Drew image 5 at 0.000000
+331.7248 	EXP 	stim ᚣ: autoDraw = True
+332.3746 	EXP 	stim ᚣ: color = [-1, 1, -1]
+332.6745 	EXP 	stim ᚣ: autoDraw = False
+332.6745 	EXP 	stim ᚣ: color = [1, 1, 1]
+333.2075 	INFO 	Trial 108 start: 333.190839
+333.2076 	EXP 	Drew image 3 at 0.000000
+333.2075 	EXP 	stim ᚠ: autoDraw = True
+334.0071 	EXP 	stim ᚠ: color = [-1, 1, -1]
+334.3069 	EXP 	stim ᚠ: autoDraw = False
+334.3069 	EXP 	stim ᚠ: color = [1, 1, 1]
+334.8398 	INFO 	Trial 109 start: 334.823200
+334.8398 	EXP 	Drew image 8 at 0.000000
+334.8398 	EXP 	stim ᛇ: autoDraw = True
+335.3269 	WARNING 	t of last frame was 20.47ms (=1/48)
+336.5222 	EXP 	stim ᛇ: color = [-1, 1, -1]
+336.8222 	EXP 	stim ᛇ: autoDraw = False
+336.8222 	EXP 	stim ᛇ: color = [1, 1, 1]
+337.3553 	INFO 	Trial 110 start: 337.338656
+337.3553 	EXP 	Drew image 7 at 0.000000
+337.3553 	EXP 	stim ᚳ: autoDraw = True
+338.0883 	EXP 	stim ᚳ: color = [-1, 1, -1]
+338.3884 	EXP 	stim ᚳ: autoDraw = False
+338.3884 	EXP 	stim ᚳ: color = [1, 1, 1]
+338.9212 	INFO 	Trial 111 start: 338.904389
+338.9212 	EXP 	Drew image 1 at 0.000000
+338.9211 	EXP 	stim ᚢ: autoDraw = True
+340.2870 	EXP 	stim ᚢ: color = [-1, 1, -1]
+340.5867 	EXP 	stim ᚢ: autoDraw = False
+340.5867 	EXP 	stim ᚢ: color = [1, 1, 1]
+341.1198 	INFO 	Trial 112 start: 341.103255
+341.1198 	EXP 	Drew image 6 at 0.000000
+341.1197 	EXP 	stim ᚦ: autoDraw = True
+342.5191 	EXP 	stim ᚦ: color = [-1, 1, -1]
+342.8192 	EXP 	stim ᚦ: autoDraw = False
+342.8192 	EXP 	stim ᚦ: color = [1, 1, 1]
+342.8967 	EXP 	window1: mouseVisible = True
