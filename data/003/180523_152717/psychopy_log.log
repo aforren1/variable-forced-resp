@@ -1,0 +1,584 @@
+0.0718 	INFO 	Loaded SoundDevice with PortAudio V19.6.0-devel, revision 396fe4b6699ae929d3a685b3ef8a7e97396139a4
+0.0719 	INFO 	sound is using audioLib: sounddevice
+0.4494 	INFO 	Loaded monitor calibration from ['2018_01_10 10:27']
+21.2306 	WARNING 	Monitor specification not found. Creating a temporary one...
+21.2327 	WARNING 	Requested an unavailable screen number - using first available.
+21.2330 	WARNING 	User requested fullscreen with size [800 800], but screen is actually [1680, 1050]. Using actual size
+21.8948 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([-1., -1., -1.]), colorSpace='rgb', fullscr=UNKNOWN, gamma=None, kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x00000222C847FA20>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=1, size=array([1680, 1050]), stereo=False, units='height', useFBO=False, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+21.8948 	EXP 	window1: recordFrameIntervals = True
+21.9212 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image='media/hand.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0.14, 0.  ]), size=array([0.3, 0.3]), texRes=128, units='height', win=Window(...))
+21.9409 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=True, flipVert=False, image='media/hand.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([-0.14,  0.  ]), size=array([0.3, 0.3]), texRes=128, units='height', win=Window(...))
+22.0077 	EXP 	Created unnamed BufferImageStim = BufferImageStim(__class__=type(...), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=Image(...), interpolate=True, mask='None', maskParams=None, name='unnamed BufferImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1680., 1050.]), texRes=128, units='pix', win=Window(...))
+22.0077 	EXP 	BufferImageStim None: took 66.2ms to initialize
+22.0117 	EXP 	Created stim 0 = Circle(__class__=<class 'psychopy.visual.circle.Circle'>, autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=array([1., 1., 1.]), fillColorSpace='rgb', fillRGB=array([1., 1., 1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1.5, name='stim 0', opacity=1.0, ori=array(0.), pos=array([-0.255 ,  0.0375]), size=array([0.03, 0.03]), units='height', vertices=ndarray(...), win=Window(...))
+22.0134 	EXP 	Created stim 1 = Circle(__class__=<class 'psychopy.visual.circle.Circle'>, autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=array([1., 1., 1.]), fillColorSpace='rgb', fillRGB=array([1., 1., 1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1.5, name='stim 1', opacity=1.0, ori=array(0.), pos=array([-0.2075 ,  0.08875]), size=array([0.03, 0.03]), units='height', vertices=ndarray(...), win=Window(...))
+22.0152 	EXP 	Created stim 2 = Circle(__class__=<class 'psychopy.visual.circle.Circle'>, autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=array([1., 1., 1.]), fillColorSpace='rgb', fillRGB=array([1., 1., 1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1.5, name='stim 2', opacity=1.0, ori=array(0.), pos=array([-0.1575,  0.1125]), size=array([0.03, 0.03]), units='height', vertices=ndarray(...), win=Window(...))
+22.0170 	EXP 	Created stim 3 = Circle(__class__=<class 'psychopy.visual.circle.Circle'>, autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=array([1., 1., 1.]), fillColorSpace='rgb', fillRGB=array([1., 1., 1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1.5, name='stim 3', opacity=1.0, ori=array(0.), pos=array([-0.095,  0.09 ]), size=array([0.03, 0.03]), units='height', vertices=ndarray(...), win=Window(...))
+22.0187 	EXP 	Created stim 4 = Circle(__class__=<class 'psychopy.visual.circle.Circle'>, autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=array([1., 1., 1.]), fillColorSpace='rgb', fillRGB=array([1., 1., 1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1.5, name='stim 4', opacity=1.0, ori=array(0.), pos=array([-0.03  , -0.0075]), size=array([0.03, 0.03]), units='height', vertices=ndarray(...), win=Window(...))
+22.0205 	EXP 	Created stim 5 = Circle(__class__=<class 'psychopy.visual.circle.Circle'>, autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=array([1., 1., 1.]), fillColorSpace='rgb', fillRGB=array([1., 1., 1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1.5, name='stim 5', opacity=1.0, ori=array(0.), pos=array([ 0.03  , -0.0075]), size=array([0.03, 0.03]), units='height', vertices=ndarray(...), win=Window(...))
+22.0222 	EXP 	Created stim 6 = Circle(__class__=<class 'psychopy.visual.circle.Circle'>, autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=array([1., 1., 1.]), fillColorSpace='rgb', fillRGB=array([1., 1., 1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1.5, name='stim 6', opacity=1.0, ori=array(0.), pos=array([0.095, 0.09 ]), size=array([0.03, 0.03]), units='height', vertices=ndarray(...), win=Window(...))
+22.0240 	EXP 	Created stim 7 = Circle(__class__=<class 'psychopy.visual.circle.Circle'>, autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=array([1., 1., 1.]), fillColorSpace='rgb', fillRGB=array([1., 1., 1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1.5, name='stim 7', opacity=1.0, ori=array(0.), pos=array([0.1575, 0.1125]), size=array([0.03, 0.03]), units='height', vertices=ndarray(...), win=Window(...))
+22.0258 	EXP 	Created stim 8 = Circle(__class__=<class 'psychopy.visual.circle.Circle'>, autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=array([1., 1., 1.]), fillColorSpace='rgb', fillRGB=array([1., 1., 1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1.5, name='stim 8', opacity=1.0, ori=array(0.), pos=array([0.2075 , 0.08875]), size=array([0.03, 0.03]), units='height', vertices=ndarray(...), win=Window(...))
+22.0275 	EXP 	Created stim 9 = Circle(__class__=<class 'psychopy.visual.circle.Circle'>, autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=array([1., 1., 1.]), fillColorSpace='rgb', fillRGB=array([1., 1., 1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1.5, name='stim 9', opacity=1.0, ori=array(0.), pos=array([0.255 , 0.0375]), size=array([0.03, 0.03]), units='height', vertices=ndarray(...), win=Window(...))
+22.0282 	EXP 	<method-wrapper '__getattribute__' of attributeSetter object at 0x00000222805D4080>: vertices = array([[-0.3,  0.3],
+       [ 0.3,  0.3],
+       [ 0.3, -0.3],
+       [-0.3, -0.3]])
+22.0882 	EXP 	Created slow_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([ 1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.1, italic=False, name='slow_text', opacity=1.0, ori=0.0, pos=array([0. , 0.4]), rgb=array([ 1., -1., -1.]), text='Too slow.', units='norm', win=Window(...), wrapWidth=1)
+22.0929 	EXP 	Created fast_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([ 1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.1, italic=False, name='fast_text', opacity=1.0, ori=0.0, pos=array([0. , 0.4]), rgb=array([ 1., -1., -1.]), text='Too fast.', units='norm', win=Window(...), wrapWidth=1)
+22.0999 	EXP 	Created good_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([-1.,  1., -1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.1, italic=False, name='good_text', opacity=1.0, ori=0.0, pos=array([0. , 0.4]), rgb=array([-1.,  1., -1.]), text='Good timing!', units='norm', win=Window(...), wrapWidth=1)
+22.1047 	EXP 	Created pause_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.1, italic=False, name='pause_text', opacity=1.0, ori=0.0, pos=array([0. , 0.8]), rgb=array([1., 1., 1.]), text='Take a break!', units='norm', win=Window(...), wrapWidth=1)
+22.1100 	EXP 	Created pause_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.1, italic=False, name='pause_text', opacity=1.0, ori=0.0, pos=array([0. , 0.7]), rgb=array([1., 1., 1.]), text='Press ten times to continue.', units='norm', win=Window(...), wrapWidth=1)
+23.3929 	WARNING 	t of last frame was 20.66ms (=1/48)
+24.9765 	EXP 	unnamed BufferImageStim: autoDraw = True
+25.3756 	INFO 	Trial 0 start: 25.358835
+26.0751 	EXP 	Drew image 8 at 0.700230
+26.0751 	EXP 	Expected onset: 0.683333
+26.0751 	EXP 	stim 8: autoDraw = True
+26.8914 	EXP 	good_text: autoDraw = True
+26.8914 	EXP 	stim 8: fillColor = [-1, 1, -1]
+26.9914 	EXP 	stim 8: autoDraw = False
+26.9914 	EXP 	slow_text: autoDraw = False
+26.9914 	EXP 	fast_text: autoDraw = False
+26.9914 	EXP 	good_text: autoDraw = False
+26.9914 	EXP 	stim 8: fillColor = [1, 1, 1]
+27.5076 	INFO 	Trial 1 start: 27.490971
+28.5904 	EXP 	Drew image 0 at 1.082621
+28.5905 	EXP 	Expected onset: 1.066667
+28.5904 	EXP 	stim 0: autoDraw = True
+29.0235 	EXP 	good_text: autoDraw = True
+29.0235 	EXP 	stim 0: fillColor = [1, -1, -1]
+29.1235 	EXP 	stim 0: autoDraw = False
+29.1235 	EXP 	slow_text: autoDraw = False
+29.1235 	EXP 	fast_text: autoDraw = False
+29.1235 	EXP 	good_text: autoDraw = False
+29.1235 	EXP 	stim 0: fillColor = [1, 1, 1]
+29.6564 	INFO 	Trial 2 start: 29.639790
+30.3562 	EXP 	Drew image 7 at 0.699648
+30.3562 	EXP 	Expected onset: 0.700000
+30.3562 	EXP 	stim 7: autoDraw = True
+31.1723 	EXP 	good_text: autoDraw = True
+31.1723 	EXP 	stim 7: fillColor = [-1, 1, -1]
+31.2556 	EXP 	stim 7: autoDraw = False
+31.2556 	EXP 	slow_text: autoDraw = False
+31.2556 	EXP 	fast_text: autoDraw = False
+31.2556 	EXP 	good_text: autoDraw = False
+31.2556 	EXP 	stim 7: fillColor = [1, 1, 1]
+31.7887 	INFO 	Trial 3 start: 31.772126
+32.7881 	EXP 	Drew image 6 at 0.999406
+32.7882 	EXP 	Expected onset: 0.983333
+32.7881 	EXP 	stim 6: autoDraw = True
+33.3046 	EXP 	good_text: autoDraw = True
+33.3046 	EXP 	stim 6: fillColor = [1, -1, -1]
+33.4045 	EXP 	stim 6: autoDraw = False
+33.4045 	EXP 	slow_text: autoDraw = False
+33.4045 	EXP 	fast_text: autoDraw = False
+33.4045 	EXP 	good_text: autoDraw = False
+33.4045 	EXP 	stim 6: fillColor = [1, 1, 1]
+33.9209 	INFO 	Trial 4 start: 33.904308
+34.6205 	EXP 	Drew image 3 at 0.699660
+34.6205 	EXP 	Expected onset: 0.700000
+34.6205 	EXP 	stim 3: autoDraw = True
+35.4369 	EXP 	good_text: autoDraw = True
+35.4369 	EXP 	stim 3: fillColor = [-1, 1, -1]
+35.5366 	EXP 	stim 3: autoDraw = False
+35.5366 	EXP 	slow_text: autoDraw = False
+35.5366 	EXP 	fast_text: autoDraw = False
+35.5366 	EXP 	good_text: autoDraw = False
+35.5366 	EXP 	stim 3: fillColor = [1, 1, 1]
+36.0697 	INFO 	Trial 5 start: 36.053030
+37.1025 	EXP 	Drew image 2 at 1.033753
+37.1025 	EXP 	Expected onset: 1.033333
+37.1024 	EXP 	stim 2: autoDraw = True
+37.5858 	EXP 	good_text: autoDraw = True
+37.5858 	EXP 	stim 2: fillColor = [1, -1, -1]
+37.6854 	EXP 	stim 2: autoDraw = False
+37.6854 	EXP 	slow_text: autoDraw = False
+37.6854 	EXP 	fast_text: autoDraw = False
+37.6854 	EXP 	good_text: autoDraw = False
+37.6854 	EXP 	stim 2: fillColor = [1, 1, 1]
+38.2022 	INFO 	Trial 6 start: 38.185221
+39.1680 	EXP 	Drew image 6 at 0.966161
+39.1680 	EXP 	Expected onset: 0.950000
+39.1680 	EXP 	stim 6: autoDraw = True
+39.7177 	EXP 	slow_text: autoDraw = True
+39.7177 	EXP 	stim 6: fillColor = [1, -1, -1]
+39.8177 	EXP 	stim 6: autoDraw = False
+39.8177 	EXP 	slow_text: autoDraw = False
+39.8177 	EXP 	fast_text: autoDraw = False
+39.8177 	EXP 	good_text: autoDraw = False
+39.8177 	EXP 	stim 6: fillColor = [1, 1, 1]
+40.3341 	INFO 	Trial 7 start: 40.317477
+41.4001 	EXP 	Drew image 3 at 1.066643
+41.4001 	EXP 	Expected onset: 1.050000
+41.4000 	EXP 	stim 3: autoDraw = True
+41.8500 	EXP 	good_text: autoDraw = True
+41.8500 	EXP 	stim 3: fillColor = [1, -1, -1]
+41.9333 	EXP 	stim 3: autoDraw = False
+41.9333 	EXP 	slow_text: autoDraw = False
+41.9333 	EXP 	fast_text: autoDraw = False
+41.9333 	EXP 	good_text: autoDraw = False
+41.9333 	EXP 	stim 3: fillColor = [1, 1, 1]
+42.4663 	INFO 	Trial 8 start: 42.450089
+43.1991 	EXP 	Drew image 0 at 0.732767
+43.1991 	EXP 	Expected onset: 0.716667
+43.1991 	EXP 	stim 0: autoDraw = True
+43.9821 	EXP 	good_text: autoDraw = True
+43.9821 	EXP 	stim 0: fillColor = [-1, 1, -1]
+44.0821 	EXP 	stim 0: autoDraw = False
+44.0821 	EXP 	slow_text: autoDraw = False
+44.0821 	EXP 	fast_text: autoDraw = False
+44.0821 	EXP 	good_text: autoDraw = False
+44.0821 	EXP 	stim 0: fillColor = [1, 1, 1]
+44.6151 	INFO 	Trial 9 start: 44.598278
+45.6479 	EXP 	Drew image 0 at 1.033866
+45.6479 	EXP 	Expected onset: 1.016667
+45.6479 	EXP 	stim 0: autoDraw = True
+46.1310 	EXP 	good_text: autoDraw = True
+46.1310 	EXP 	stim 0: fillColor = [1, -1, -1]
+46.2308 	EXP 	stim 0: autoDraw = False
+46.2308 	EXP 	slow_text: autoDraw = False
+46.2308 	EXP 	fast_text: autoDraw = False
+46.2308 	EXP 	good_text: autoDraw = False
+46.2308 	EXP 	stim 0: fillColor = [1, 1, 1]
+46.7474 	INFO 	Trial 10 start: 46.730576
+47.3802 	EXP 	Drew image 9 at 0.633512
+47.3802 	EXP 	Expected onset: 0.633333
+47.3801 	EXP 	stim 9: autoDraw = True
+48.2630 	EXP 	good_text: autoDraw = True
+48.2630 	EXP 	stim 9: fillColor = [-1, 1, -1]
+48.3632 	EXP 	stim 9: autoDraw = False
+48.3632 	EXP 	slow_text: autoDraw = False
+48.3632 	EXP 	fast_text: autoDraw = False
+48.3632 	EXP 	good_text: autoDraw = False
+48.3632 	EXP 	stim 9: fillColor = [1, 1, 1]
+48.8795 	INFO 	Trial 11 start: 48.862862
+49.9788 	EXP 	Drew image 4 at 1.100113
+49.9788 	EXP 	Expected onset: 1.100000
+49.9788 	EXP 	stim 4: autoDraw = True
+50.3952 	EXP 	good_text: autoDraw = True
+50.3952 	EXP 	stim 4: fillColor = [1, -1, -1]
+50.4955 	EXP 	stim 4: autoDraw = False
+50.4955 	EXP 	slow_text: autoDraw = False
+50.4955 	EXP 	fast_text: autoDraw = False
+50.4955 	EXP 	good_text: autoDraw = False
+50.4955 	EXP 	stim 4: fillColor = [1, 1, 1]
+51.0117 	INFO 	Trial 12 start: 50.995302
+51.6613 	EXP 	Drew image 6 at 0.649208
+51.6613 	EXP 	Expected onset: 0.633333
+51.6613 	EXP 	stim 6: autoDraw = True
+52.5108 	EXP 	good_text: autoDraw = True
+52.5108 	EXP 	stim 6: fillColor = [-1, 1, -1]
+52.6115 	EXP 	stim 6: autoDraw = False
+52.6115 	EXP 	slow_text: autoDraw = False
+52.6115 	EXP 	fast_text: autoDraw = False
+52.6115 	EXP 	good_text: autoDraw = False
+52.6115 	EXP 	stim 6: fillColor = [1, 1, 1]
+53.1438 	INFO 	Trial 13 start: 53.127049
+53.8600 	EXP 	Drew image 4 at 0.716510
+53.8601 	EXP 	Expected onset: 0.700000
+53.8600 	EXP 	stim 4: autoDraw = True
+54.6596 	EXP 	good_text: autoDraw = True
+54.6596 	EXP 	stim 4: fillColor = [-1, 1, -1]
+54.7597 	EXP 	stim 4: autoDraw = False
+54.7597 	EXP 	slow_text: autoDraw = False
+54.7597 	EXP 	fast_text: autoDraw = False
+54.7597 	EXP 	good_text: autoDraw = False
+54.7597 	EXP 	stim 4: fillColor = [1, 1, 1]
+55.2765 	INFO 	Trial 14 start: 55.259809
+56.1589 	EXP 	Drew image 4 at 0.882409
+56.1589 	EXP 	Expected onset: 0.866667
+56.1589 	EXP 	stim 4: autoDraw = True
+56.7918 	EXP 	good_text: autoDraw = True
+56.7918 	EXP 	stim 4: fillColor = [-1, 1, -1]
+56.8756 	EXP 	stim 4: autoDraw = False
+56.8756 	EXP 	slow_text: autoDraw = False
+56.8756 	EXP 	fast_text: autoDraw = False
+56.8756 	EXP 	good_text: autoDraw = False
+56.8756 	EXP 	stim 4: fillColor = [1, 1, 1]
+57.4082 	INFO 	Trial 15 start: 57.391887
+58.4750 	EXP 	Drew image 8 at 1.065624
+58.4750 	EXP 	Expected onset: 1.050000
+58.4749 	EXP 	stim 8: autoDraw = True
+58.9244 	EXP 	good_text: autoDraw = True
+58.9244 	EXP 	stim 8: fillColor = [1, -1, -1]
+59.0240 	EXP 	stim 8: autoDraw = False
+59.0240 	EXP 	slow_text: autoDraw = False
+59.0240 	EXP 	fast_text: autoDraw = False
+59.0240 	EXP 	good_text: autoDraw = False
+59.0240 	EXP 	stim 8: fillColor = [1, 1, 1]
+59.5571 	INFO 	Trial 16 start: 59.540351
+60.5899 	EXP 	Drew image 5 at 1.032778
+60.5899 	EXP 	Expected onset: 1.016667
+60.5899 	EXP 	stim 5: autoDraw = True
+61.0729 	EXP 	slow_text: autoDraw = True
+61.0729 	EXP 	stim 5: fillColor = [1, -1, -1]
+61.1728 	EXP 	stim 5: autoDraw = False
+61.1728 	EXP 	slow_text: autoDraw = False
+61.1728 	EXP 	fast_text: autoDraw = False
+61.1728 	EXP 	good_text: autoDraw = False
+61.1728 	EXP 	stim 5: fillColor = [1, 1, 1]
+61.6894 	INFO 	Trial 17 start: 61.672551
+62.6062 	EXP 	Drew image 5 at 0.916172
+62.6062 	EXP 	Expected onset: 0.900000
+62.6062 	EXP 	stim 5: autoDraw = True
+63.2050 	EXP 	good_text: autoDraw = True
+63.2050 	EXP 	stim 5: fillColor = [-1, 1, -1]
+63.3051 	EXP 	stim 5: autoDraw = False
+63.3051 	EXP 	slow_text: autoDraw = False
+63.3051 	EXP 	fast_text: autoDraw = False
+63.3051 	EXP 	good_text: autoDraw = False
+63.3051 	EXP 	stim 5: fillColor = [1, 1, 1]
+63.8381 	INFO 	Trial 18 start: 63.821361
+64.7709 	EXP 	Drew image 7 at 0.932905
+64.7709 	EXP 	Expected onset: 0.916667
+64.7709 	EXP 	stim 7: autoDraw = True
+65.3542 	EXP 	good_text: autoDraw = True
+65.3542 	EXP 	stim 7: fillColor = [-1, 1, -1]
+65.4543 	EXP 	stim 7: autoDraw = False
+65.4543 	EXP 	slow_text: autoDraw = False
+65.4543 	EXP 	fast_text: autoDraw = False
+65.4543 	EXP 	good_text: autoDraw = False
+65.4543 	EXP 	stim 7: fillColor = [1, 1, 1]
+65.9703 	INFO 	Trial 19 start: 65.953609
+66.6864 	EXP 	Drew image 6 at 0.716659
+66.6865 	EXP 	Expected onset: 0.700000
+66.6864 	EXP 	stim 6: autoDraw = True
+67.4861 	EXP 	good_text: autoDraw = True
+67.4861 	EXP 	stim 6: fillColor = [-1, 1, -1]
+67.5866 	EXP 	stim 6: autoDraw = False
+67.5866 	EXP 	slow_text: autoDraw = False
+67.5866 	EXP 	fast_text: autoDraw = False
+67.5866 	EXP 	good_text: autoDraw = False
+67.5866 	EXP 	stim 6: fillColor = [1, 1, 1]
+68.1191 	INFO 	Trial 20 start: 68.102397
+68.9354 	EXP 	Drew image 3 at 0.816233
+68.9354 	EXP 	Expected onset: 0.800000
+68.9354 	EXP 	stim 3: autoDraw = True
+69.6349 	EXP 	good_text: autoDraw = True
+69.6349 	EXP 	stim 3: fillColor = [-1, 1, -1]
+69.7351 	EXP 	stim 3: autoDraw = False
+69.7351 	EXP 	slow_text: autoDraw = False
+69.7351 	EXP 	fast_text: autoDraw = False
+69.7351 	EXP 	good_text: autoDraw = False
+69.7351 	EXP 	stim 3: fillColor = [1, 1, 1]
+70.2683 	INFO 	Trial 21 start: 70.251263
+71.1176 	EXP 	Drew image 7 at 0.849529
+71.1176 	EXP 	Expected onset: 0.833333
+71.1175 	EXP 	stim 7: autoDraw = True
+71.7837 	EXP 	good_text: autoDraw = True
+71.7837 	EXP 	stim 7: fillColor = [1, -1, -1]
+71.8838 	EXP 	stim 7: autoDraw = False
+71.8838 	EXP 	slow_text: autoDraw = False
+71.8838 	EXP 	fast_text: autoDraw = False
+71.8838 	EXP 	good_text: autoDraw = False
+71.8838 	EXP 	stim 7: fillColor = [1, 1, 1]
+72.4169 	INFO 	Trial 22 start: 72.400068
+73.3495 	EXP 	Drew image 5 at 0.933004
+73.3496 	EXP 	Expected onset: 0.933333
+73.3495 	EXP 	stim 5: autoDraw = True
+73.9325 	EXP 	good_text: autoDraw = True
+73.9325 	EXP 	stim 5: fillColor = [-1, 1, -1]
+74.0331 	EXP 	stim 5: autoDraw = False
+74.0331 	EXP 	slow_text: autoDraw = False
+74.0331 	EXP 	fast_text: autoDraw = False
+74.0331 	EXP 	good_text: autoDraw = False
+74.0331 	EXP 	stim 5: fillColor = [1, 1, 1]
+74.5656 	INFO 	Trial 23 start: 74.548930
+75.6818 	EXP 	Drew image 7 at 1.116044
+75.6818 	EXP 	Expected onset: 1.100000
+75.6817 	EXP 	stim 7: autoDraw = True
+76.0815 	EXP 	good_text: autoDraw = True
+76.0815 	EXP 	stim 7: fillColor = [1, -1, -1]
+76.1814 	EXP 	stim 7: autoDraw = False
+76.1814 	EXP 	slow_text: autoDraw = False
+76.1814 	EXP 	fast_text: autoDraw = False
+76.1814 	EXP 	good_text: autoDraw = False
+76.1814 	EXP 	stim 7: fillColor = [1, 1, 1]
+76.7146 	INFO 	Trial 24 start: 76.697752
+77.3807 	EXP 	Drew image 3 at 0.666333
+77.3807 	EXP 	Expected onset: 0.650000
+77.3806 	EXP 	stim 3: autoDraw = True
+78.2303 	EXP 	good_text: autoDraw = True
+78.2303 	EXP 	stim 3: fillColor = [-1, 1, -1]
+78.3303 	EXP 	stim 3: autoDraw = False
+78.3303 	EXP 	slow_text: autoDraw = False
+78.3303 	EXP 	fast_text: autoDraw = False
+78.3303 	EXP 	good_text: autoDraw = False
+78.3303 	EXP 	stim 3: fillColor = [1, 1, 1]
+78.8634 	INFO 	Trial 25 start: 78.846622
+79.9792 	EXP 	Drew image 9 at 1.116178
+79.9793 	EXP 	Expected onset: 1.100000
+79.9792 	EXP 	stim 9: autoDraw = True
+80.3795 	EXP 	good_text: autoDraw = True
+80.3795 	EXP 	stim 9: fillColor = [1, -1, -1]
+80.4790 	EXP 	stim 9: autoDraw = False
+80.4790 	EXP 	slow_text: autoDraw = False
+80.4790 	EXP 	fast_text: autoDraw = False
+80.4790 	EXP 	good_text: autoDraw = False
+80.4790 	EXP 	stim 9: fillColor = [1, 1, 1]
+81.0122 	INFO 	Trial 26 start: 80.995517
+81.7784 	EXP 	Drew image 1 at 0.766590
+81.7784 	EXP 	Expected onset: 0.766667
+81.7784 	EXP 	stim 1: autoDraw = True
+82.5280 	EXP 	good_text: autoDraw = True
+82.5280 	EXP 	stim 1: fillColor = [1, -1, -1]
+82.6279 	EXP 	stim 1: autoDraw = False
+82.6279 	EXP 	slow_text: autoDraw = False
+82.6279 	EXP 	fast_text: autoDraw = False
+82.6279 	EXP 	good_text: autoDraw = False
+82.6279 	EXP 	stim 1: fillColor = [1, 1, 1]
+83.1443 	INFO 	Trial 27 start: 83.127503
+83.9939 	EXP 	Drew image 9 at 0.849658
+83.9939 	EXP 	Expected onset: 0.833333
+83.9939 	EXP 	stim 9: autoDraw = True
+84.6601 	EXP 	good_text: autoDraw = True
+84.6601 	EXP 	stim 9: fillColor = [-1, 1, -1]
+84.7605 	EXP 	stim 9: autoDraw = False
+84.7605 	EXP 	slow_text: autoDraw = False
+84.7605 	EXP 	fast_text: autoDraw = False
+84.7605 	EXP 	good_text: autoDraw = False
+84.7605 	EXP 	stim 9: fillColor = [1, 1, 1]
+85.2932 	INFO 	Trial 28 start: 85.276444
+86.1927 	EXP 	Drew image 1 at 0.899667
+86.1927 	EXP 	Expected onset: 0.883333
+86.1926 	EXP 	stim 1: autoDraw = True
+86.8090 	EXP 	good_text: autoDraw = True
+86.8090 	EXP 	stim 1: fillColor = [-1, 1, -1]
+86.9091 	EXP 	stim 1: autoDraw = False
+86.9091 	EXP 	slow_text: autoDraw = False
+86.9091 	EXP 	fast_text: autoDraw = False
+86.9091 	EXP 	good_text: autoDraw = False
+86.9091 	EXP 	stim 1: fillColor = [1, 1, 1]
+87.4419 	INFO 	Trial 29 start: 87.425263
+88.0584 	EXP 	Drew image 8 at 0.616443
+88.0584 	EXP 	Expected onset: 0.616667
+88.0583 	EXP 	stim 8: autoDraw = True
+88.9577 	EXP 	good_text: autoDraw = True
+88.9577 	EXP 	stim 8: fillColor = [-1, 1, -1]
+89.0578 	EXP 	stim 8: autoDraw = False
+89.0578 	EXP 	slow_text: autoDraw = False
+89.0578 	EXP 	fast_text: autoDraw = False
+89.0578 	EXP 	good_text: autoDraw = False
+89.0578 	EXP 	stim 8: fillColor = [1, 1, 1]
+89.5913 	INFO 	Trial 30 start: 89.574149
+90.6240 	EXP 	Drew image 8 at 1.032743
+90.6240 	EXP 	Expected onset: 1.016667
+90.6239 	EXP 	stim 8: autoDraw = True
+91.1070 	EXP 	good_text: autoDraw = True
+91.1070 	EXP 	stim 8: fillColor = [1, -1, -1]
+91.2066 	EXP 	stim 8: autoDraw = False
+91.2066 	EXP 	slow_text: autoDraw = False
+91.2066 	EXP 	fast_text: autoDraw = False
+91.2066 	EXP 	good_text: autoDraw = False
+91.2066 	EXP 	stim 8: fillColor = [1, 1, 1]
+91.7230 	INFO 	Trial 31 start: 91.706332
+92.7392 	EXP 	Drew image 1 at 1.016389
+92.7392 	EXP 	Expected onset: 1.000000
+92.7392 	EXP 	stim 1: autoDraw = True
+93.2388 	EXP 	good_text: autoDraw = True
+93.2388 	EXP 	stim 1: fillColor = [-1, 1, -1]
+93.3392 	EXP 	stim 1: autoDraw = False
+93.3392 	EXP 	slow_text: autoDraw = False
+93.3392 	EXP 	fast_text: autoDraw = False
+93.3392 	EXP 	good_text: autoDraw = False
+93.3392 	EXP 	stim 1: fillColor = [1, 1, 1]
+93.8552 	INFO 	Trial 32 start: 93.838517
+94.8046 	EXP 	Drew image 2 at 0.949408
+94.8047 	EXP 	Expected onset: 0.950000
+94.8046 	EXP 	stim 2: autoDraw = True
+95.3712 	EXP 	good_text: autoDraw = True
+95.3712 	EXP 	stim 2: fillColor = [-1, 1, -1]
+95.4710 	EXP 	stim 2: autoDraw = False
+95.4710 	EXP 	slow_text: autoDraw = False
+95.4710 	EXP 	fast_text: autoDraw = False
+95.4710 	EXP 	good_text: autoDraw = False
+95.4710 	EXP 	stim 2: fillColor = [1, 1, 1]
+96.0041 	INFO 	Trial 33 start: 95.987426
+96.9201 	EXP 	Drew image 8 at 0.916538
+96.9202 	EXP 	Expected onset: 0.916667
+96.9201 	EXP 	stim 8: autoDraw = True
+97.5199 	EXP 	good_text: autoDraw = True
+97.5199 	EXP 	stim 8: fillColor = [-1, 1, -1]
+97.6037 	EXP 	stim 8: autoDraw = False
+97.6037 	EXP 	slow_text: autoDraw = False
+97.6037 	EXP 	fast_text: autoDraw = False
+97.6037 	EXP 	good_text: autoDraw = False
+97.6037 	EXP 	stim 8: fillColor = [1, 1, 1]
+98.1362 	INFO 	Trial 34 start: 98.120060
+98.9696 	EXP 	Drew image 2 at 0.832246
+98.9696 	EXP 	Expected onset: 0.816667
+98.9696 	EXP 	stim 2: autoDraw = True
+99.6521 	EXP 	good_text: autoDraw = True
+99.6521 	EXP 	stim 2: fillColor = [-1, 1, -1]
+99.7520 	EXP 	stim 2: autoDraw = False
+99.7520 	EXP 	slow_text: autoDraw = False
+99.7520 	EXP 	fast_text: autoDraw = False
+99.7520 	EXP 	good_text: autoDraw = False
+99.7520 	EXP 	stim 2: fillColor = [1, 1, 1]
+100.2849 	INFO 	Trial 35 start: 100.268410
+101.0513 	EXP 	Drew image 2 at 0.766434
+101.0513 	EXP 	Expected onset: 0.766667
+101.0513 	EXP 	stim 2: autoDraw = True
+101.8008 	EXP 	good_text: autoDraw = True
+101.8008 	EXP 	stim 2: fillColor = [-1, 1, -1]
+101.9008 	EXP 	stim 2: autoDraw = False
+101.9008 	EXP 	slow_text: autoDraw = False
+101.9008 	EXP 	fast_text: autoDraw = False
+101.9008 	EXP 	good_text: autoDraw = False
+101.9008 	EXP 	stim 2: fillColor = [1, 1, 1]
+102.4339 	INFO 	Trial 36 start: 102.417344
+103.5334 	EXP 	Drew image 0 at 1.099292
+103.5334 	EXP 	Expected onset: 1.083333
+103.5333 	EXP 	stim 0: autoDraw = True
+103.9498 	EXP 	good_text: autoDraw = True
+103.9498 	EXP 	stim 0: fillColor = [1, -1, -1]
+104.0497 	EXP 	stim 0: autoDraw = False
+104.0497 	EXP 	slow_text: autoDraw = False
+104.0497 	EXP 	fast_text: autoDraw = False
+104.0497 	EXP 	good_text: autoDraw = False
+104.0497 	EXP 	stim 0: fillColor = [1, 1, 1]
+104.5827 	INFO 	Trial 37 start: 104.566051
+105.2492 	EXP 	Drew image 6 at 0.666339
+105.2499 	EXP 	Expected onset: 0.666667
+105.2492 	EXP 	stim 6: autoDraw = True
+106.0988 	EXP 	good_text: autoDraw = True
+106.0988 	EXP 	stim 6: fillColor = [-1, 1, -1]
+106.1819 	EXP 	stim 6: autoDraw = False
+106.1819 	EXP 	slow_text: autoDraw = False
+106.1819 	EXP 	fast_text: autoDraw = False
+106.1819 	EXP 	good_text: autoDraw = False
+106.1819 	EXP 	stim 6: fillColor = [1, 1, 1]
+106.7150 	INFO 	Trial 38 start: 106.698211
+107.5150 	EXP 	Drew image 5 at 0.799523
+107.5150 	EXP 	Expected onset: 0.783333
+107.5150 	EXP 	stim 5: autoDraw = True
+108.2142 	EXP 	good_text: autoDraw = True
+108.2142 	EXP 	stim 5: fillColor = [-1, 1, -1]
+108.3149 	EXP 	stim 5: autoDraw = False
+108.3149 	EXP 	slow_text: autoDraw = False
+108.3149 	EXP 	fast_text: autoDraw = False
+108.3149 	EXP 	good_text: autoDraw = False
+108.3149 	EXP 	stim 5: fillColor = [1, 1, 1]
+108.8472 	INFO 	Trial 39 start: 108.830385
+109.7466 	EXP 	Drew image 0 at 0.899497
+109.7466 	EXP 	Expected onset: 0.883333
+109.7466 	EXP 	stim 0: autoDraw = True
+110.3630 	EXP 	good_text: autoDraw = True
+110.3630 	EXP 	stim 0: fillColor = [-1, 1, -1]
+110.4635 	EXP 	stim 0: autoDraw = False
+110.4635 	EXP 	slow_text: autoDraw = False
+110.4635 	EXP 	fast_text: autoDraw = False
+110.4635 	EXP 	good_text: autoDraw = False
+110.4635 	EXP 	stim 0: fillColor = [1, 1, 1]
+110.9960 	INFO 	Trial 40 start: 110.979182
+111.8621 	EXP 	Drew image 4 at 0.866457
+111.8622 	EXP 	Expected onset: 0.850000
+111.8621 	EXP 	stim 4: autoDraw = True
+112.5118 	EXP 	good_text: autoDraw = True
+112.5118 	EXP 	stim 4: fillColor = [-1, 1, -1]
+112.6122 	EXP 	stim 4: autoDraw = False
+112.6122 	EXP 	slow_text: autoDraw = False
+112.6122 	EXP 	fast_text: autoDraw = False
+112.6122 	EXP 	good_text: autoDraw = False
+112.6122 	EXP 	stim 4: fillColor = [1, 1, 1]
+113.1448 	INFO 	Trial 41 start: 113.128034
+113.8110 	EXP 	Drew image 9 at 0.667203
+113.8110 	EXP 	Expected onset: 0.650000
+113.8110 	EXP 	stim 9: autoDraw = True
+114.6605 	EXP 	good_text: autoDraw = True
+114.6605 	EXP 	stim 9: fillColor = [-1, 1, -1]
+114.7609 	EXP 	stim 9: autoDraw = False
+114.7609 	EXP 	slow_text: autoDraw = False
+114.7609 	EXP 	fast_text: autoDraw = False
+114.7609 	EXP 	good_text: autoDraw = False
+114.7609 	EXP 	stim 9: fillColor = [1, 1, 1]
+115.2937 	INFO 	Trial 42 start: 115.276946
+116.3098 	EXP 	Drew image 2 at 1.016119
+116.3098 	EXP 	Expected onset: 1.000000
+116.3097 	EXP 	stim 2: autoDraw = True
+116.8094 	EXP 	good_text: autoDraw = True
+116.8094 	EXP 	stim 2: fillColor = [-1, 1, -1]
+116.9094 	EXP 	stim 2: autoDraw = False
+116.9094 	EXP 	slow_text: autoDraw = False
+116.9094 	EXP 	fast_text: autoDraw = False
+116.9094 	EXP 	good_text: autoDraw = False
+116.9094 	EXP 	stim 2: fillColor = [1, 1, 1]
+117.4258 	INFO 	Trial 43 start: 117.409139
+118.4919 	EXP 	Drew image 1 at 1.066245
+118.4920 	EXP 	Expected onset: 1.050000
+118.4919 	EXP 	stim 1: autoDraw = True
+118.9416 	EXP 	good_text: autoDraw = True
+118.9416 	EXP 	stim 1: fillColor = [1, -1, -1]
+119.0417 	EXP 	stim 1: autoDraw = False
+119.0417 	EXP 	slow_text: autoDraw = False
+119.0417 	EXP 	fast_text: autoDraw = False
+119.0417 	EXP 	good_text: autoDraw = False
+119.0417 	EXP 	stim 1: fillColor = [1, 1, 1]
+119.5579 	INFO 	Trial 44 start: 119.541605
+120.5241 	EXP 	Drew image 4 at 0.966023
+120.5241 	EXP 	Expected onset: 0.966667
+120.5240 	EXP 	stim 4: autoDraw = True
+121.0737 	EXP 	slow_text: autoDraw = True
+121.0737 	EXP 	stim 4: fillColor = [1, -1, -1]
+121.1738 	EXP 	stim 4: autoDraw = False
+121.1738 	EXP 	slow_text: autoDraw = False
+121.1738 	EXP 	fast_text: autoDraw = False
+121.1738 	EXP 	good_text: autoDraw = False
+121.1738 	EXP 	stim 4: fillColor = [1, 1, 1]
+121.6902 	INFO 	Trial 45 start: 121.673509
+122.3897 	EXP 	Drew image 5 at 0.699474
+122.3898 	EXP 	Expected onset: 0.683333
+122.3897 	EXP 	stim 5: autoDraw = True
+123.2060 	EXP 	good_text: autoDraw = True
+123.2060 	EXP 	stim 5: fillColor = [-1, 1, -1]
+123.3061 	EXP 	stim 5: autoDraw = False
+123.3061 	EXP 	slow_text: autoDraw = False
+123.3061 	EXP 	fast_text: autoDraw = False
+123.3061 	EXP 	good_text: autoDraw = False
+123.3061 	EXP 	stim 5: fillColor = [1, 1, 1]
+123.8391 	INFO 	Trial 46 start: 123.822351
+124.9218 	EXP 	Drew image 9 at 1.083591
+124.9218 	EXP 	Expected onset: 1.083333
+124.9217 	EXP 	stim 9: autoDraw = True
+125.3382 	EXP 	good_text: autoDraw = True
+125.3382 	EXP 	stim 9: fillColor = [1, -1, -1]
+125.4386 	EXP 	stim 9: autoDraw = False
+125.4386 	EXP 	slow_text: autoDraw = False
+125.4386 	EXP 	fast_text: autoDraw = False
+125.4386 	EXP 	good_text: autoDraw = False
+125.4386 	EXP 	stim 9: fillColor = [1, 1, 1]
+125.9712 	INFO 	Trial 47 start: 125.954511
+127.0209 	EXP 	Drew image 7 at 1.049418
+127.0209 	EXP 	Expected onset: 1.033333
+127.0208 	EXP 	stim 7: autoDraw = True
+127.4869 	EXP 	slow_text: autoDraw = True
+127.4869 	EXP 	stim 7: fillColor = [1, -1, -1]
+127.5869 	EXP 	stim 7: autoDraw = False
+127.5869 	EXP 	slow_text: autoDraw = False
+127.5869 	EXP 	fast_text: autoDraw = False
+127.5869 	EXP 	good_text: autoDraw = False
+127.5869 	EXP 	stim 7: fillColor = [1, 1, 1]
+128.1034 	INFO 	Trial 48 start: 128.086780
+129.1204 	EXP 	Drew image 3 at 1.016043
+129.1204 	EXP 	Expected onset: 1.000000
+129.1203 	EXP 	stim 3: autoDraw = True
+129.6193 	EXP 	good_text: autoDraw = True
+129.6193 	EXP 	stim 3: fillColor = [1, -1, -1]
+129.7192 	EXP 	stim 3: autoDraw = False
+129.7192 	EXP 	slow_text: autoDraw = False
+129.7192 	EXP 	fast_text: autoDraw = False
+129.7192 	EXP 	good_text: autoDraw = False
+129.7192 	EXP 	stim 3: fillColor = [1, 1, 1]
+130.2522 	INFO 	Trial 49 start: 130.235505
+131.0359 	EXP 	Drew image 1 at 0.782917
+131.0359 	EXP 	Expected onset: 0.766667
+131.0359 	EXP 	stim 1: autoDraw = True
+131.7682 	EXP 	good_text: autoDraw = True
+131.7682 	EXP 	stim 1: fillColor = [-1, 1, -1]
+131.8679 	EXP 	stim 1: autoDraw = False
+131.8679 	EXP 	slow_text: autoDraw = False
+131.8679 	EXP 	fast_text: autoDraw = False
+131.8679 	EXP 	good_text: autoDraw = False
+131.8679 	EXP 	stim 1: fillColor = [1, 1, 1]
+131.9267 	EXP 	window1: mouseVisible = True
