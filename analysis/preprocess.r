@@ -80,6 +80,10 @@ preprocess <- function() {
   practice_data <- as.data.table(do.call(rbind,subject_list_practice))
   criterion_data <- as.data.table(do.call(rbind,subject_list_criterion))
   
+  probe_data <- probe_data[order(datetime)]
+  practice_data <- practice_data[order(datetime)]
+  criterion_data <- criterion_data[order(datetime)]
+  
   list(probe_data = probe_data, practice_data = practice_data, criterion_data = criterion_data)
   
 }
