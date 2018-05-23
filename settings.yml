@@ -1,7 +1,7 @@
-exp_type: criterion
+exp_type: practice
 max_rt: 0.6
 min_rt: 0.2
 remap: false
-stim_type: hand
-subject: '020'
+stim_type: letter
+subject: '007'
 trials_per_stim: 1

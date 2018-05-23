@@ -112,7 +112,8 @@ class ForcedResp(StateMachine):
         self.trial_data = {'index': None, 'proposed_prep_time': None, 'real_prep_time': None,
                            'proposed_choice': None, 'real_choice': None, 'correct': None,
                            'datetime': None, 'timing': None, 'presses': [], 'rts': [],
-                           'will_remap': None, 'is_remapped': None, 'remapped_from': None}
+                           'will_remap': None, 'is_remapped': None, 'remapped_from': None,
+                           'stim_val': None}
 
     def setup_window(self):
         self.win = visual.Window(size=(800, 800), pos=(0, 0), fullscr=self.static_settings['fullscreen'],
@@ -405,6 +406,13 @@ class ForcedResp(StateMachine):
             pair = list(pair)
             pair.remove(self.this_trial_choice)
         self.trial_data['remapped_from'] = int(pair[0]) if self.trial_data['is_remapped'] else None
+        if self.settings['stim_type'] == 'hand':
+            x = str(self.this_trial_choice)
+        else:
+            x = self.targets[int(self.this_trial_choice)].text
+        #elif self.settings['stim_type'] == 'symbol':
+        #    x = hex(ord(self.targets[int(self.this_trial_choice)].text))
+        self.trial_data['stim_val'] = x
         #pp.pprint(self.trial_data)
         trial_name = 'trial' + str(self.trial_counter) + '_summary.json'
         with open(os.path.join(self.data_path, trial_name), 'w') as f:

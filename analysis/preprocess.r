@@ -1,5 +1,6 @@
 library(data.table)
-library(RJSONIO)
+#library(RJSONIO)
+library(rjson)
 
 options(datatable.print.nrows = 30)
 
@@ -21,8 +22,7 @@ preprocess <- function() {
     for (j in 1:length(blocks)) {
       trial_list <- list()
       
-      block_settings <-
-        fromJSON(file.path(blocks[j], 'block_settings.json'))
+      block_settings <- fromJSON(file = file.path(blocks[j], 'block_settings.json'))
       trials <- list.files(blocks[j], pattern = 'trial*')
       if (length(trials) <= 0) {
         warning(paste0('block '+str(j) + ' subject '+block_settings$subject))
@@ -30,15 +30,16 @@ preprocess <- function() {
       }
       
       for (k in 1:length(trials)) {
-        trial <- fromJSON(file.path(blocks[j], trials[k]), nullValue = NA)
+        trial <- fromJSON(file = file.path(blocks[j], trials[k]))
+        trial[sapply(trial, is.null)] <- NA
         trial$rts <- NULL
         trial$presses <- NULL
         trial$datetime <-
           strptime(trial$datetime, '%y%m%d_%H%M%S')
-        trial_list[[k]] <- data.frame(trial)
+        trial_list[[k]] <- data.frame(trial, stringsAsFactors = FALSE)
       }
       
-      block <- rbindlist(trial_list)
+      block <- do.call(rbind, trial_list)
       block$block <- j
       block$remap <- block_settings$remap
       block$subject <- block_settings$subject
@@ -63,9 +64,9 @@ preprocess <- function() {
     block_list_criterion <-
       block_list_criterion[!sapply(block_list_criterion, is.null)]
     
-    subject_list_probe[[i]] <- rbindlist(block_list_probe)
-    subject_list_practice[[i]] <- rbindlist(block_list_practice)
-    subject_list_criterion[[i]] <- rbindlist(block_list_criterion)
+    subject_list_probe[[i]] <- do.call(rbind,block_list_probe)
+    subject_list_practice[[i]] <- do.call(rbind,block_list_practice)
+    subject_list_criterion[[i]] <- do.call(rbind,block_list_criterion)
   }
   
   subject_list_probe <-
@@ -75,9 +76,9 @@ preprocess <- function() {
   subject_list_criterion <-
     subject_list_criterion[!sapply(subject_list_criterion, is.null)]
   
-  probe_data <- rbindlist(subject_list_probe)
-  practice_data <- rbindlist(subject_list_practice)
-  criterion_data <- rbindlist(subject_list_criterion)
+  probe_data <- as.data.table(do.call(rbind,subject_list_probe))
+  practice_data <- as.data.table(do.call(rbind,subject_list_practice))
+  criterion_data <- as.data.table(do.call(rbind,subject_list_criterion))
   
   list(probe_data = probe_data, practice_data = practice_data, criterion_data = criterion_data)
   
