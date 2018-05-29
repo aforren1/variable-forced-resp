@@ -22,12 +22,12 @@ Day 1:
   - 50 trials total
 3. 4/5 correct per arbitrary stimulus (symbols)
   - i.e. if they get 4 of the last 5, that symbol is "good"
-4. 50 forced RT repeats per arbitrary stimulus (symbols)
-  - 500 trials total
+4. 125 forced RT repeats per arbitrary stimulus (symbols)
+  - 1250 trials total
 
 Day 2 - 4:
-1. 250 free RT repeats per arbitrary stimulus (symbols)
-  - 2500 trials total per day
+1. 100 free RT repeats per arbitrary stimulus (symbols)
+  - 1000 trials total per day
 
 Day 5:
 1. 5 free RT repeats per arbitrary stimulus (symbols)
