@@ -8,6 +8,7 @@ probe_data <- all_data[['probe_data']]
 
 probe_data <- probe_data[stim_type == 'symbol']
 probe_data[, slide_correct := slider(x = real_prep_time, y = correct)]
+probe_data[, slide_correct_stim := slider(x = real_prep_time, y = correct), by = c('stim_val')]
 probe_data[, slide_stim := slider(x = real_prep_time, y = correct), by = c('stim_val', 'subject')]
 probe_data[, slide_finger := slider(x = real_prep_time, y = correct), by = c('proposed_choice', 'subject')]
 
@@ -20,3 +21,9 @@ ggplot(probe_data, aes(x = real_prep_time, y = slide_stim, colour = factor(propo
 ggplot(probe_data, aes(x = real_prep_time, y = slide_finger, colour = stim_val)) +
   geom_line(size = 1) +
   facet_wrap(proposed_choice ~ subject)
+
+
+ggplot(probe_data, aes(x = real_prep_time, y = slide_correct_stim)) +
+  geom_line() + 
+  facet_wrap(~stim_val) + 
+  geom_line(aes(y = slide_stim, group = subject), alpha=0.4)
