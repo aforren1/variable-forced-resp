@@ -2,6 +2,6 @@ exp_type: practice
 max_rt: 0.7
 min_rt: 0.2
 remap: false
-stim_type: symbol
-subject: '002'
-trials_per_stim: 100
+stim_type: letter
+subject: '001'
+trials_per_stim: 1

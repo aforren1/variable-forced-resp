@@ -25,8 +25,14 @@ if __name__ == '__main__':
             # only use saved settings if all the keys match
             if potential_settings.keys() == settings.keys():
                 settings = potential_settings
-                settings['exp_type'] = ['practice', 'criterion', 'probe']
-                settings['stim_type'] = ['hand', 'letter', 'symbol']
+                exp_type = settings['exp_type']
+                potential_exp_types = ['practice', 'criterion', 'probe']
+                potential_exp_types.remove(exp_type)
+                settings['exp_type'] = [exp_type] + potential_exp_types
+                stim_type = settings['stim_type']
+                potential_stim_types = ['hand', 'letter', 'symbol']
+                potential_stim_types.remove(stim_type)
+                settings['stim_type'] = [stim_type] + potential_stim_types
     except FileNotFoundError:
         pass
 
