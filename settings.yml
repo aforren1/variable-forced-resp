@@ -1,7 +1,7 @@
-exp_type: probe
+exp_type: practice
 max_rt: 0.8
 min_rt: 0.3
 remap: false
 stim_type: symbol
-subject: '006'
-trials_per_stim: 95
+subject: '003'
+trials_per_stim: 100
