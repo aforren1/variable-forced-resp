@@ -33,6 +33,8 @@ Day 2 - 4:
 Day 5:
 1. 5 free RT repeats per arbitrary stimulus (symbols)
   - (warmup)
-2. 50 forced RT (probe) repeats per arbitrary stimulus (symbols)
-3. 5 consecutive correct (criterion) per *remapped* arbitrary stimulus (symbols)
-4. 50 forced RT (probe) repeats per *remapped* arbitrary stimulus (symbols)
+2. 125 forced RT (probe) repeats per arbitrary stimulus (symbols)
+
+Day 6:
+1. 4/5 correct (criterion) per *remapped* arbitrary stimulus (symbols)
+2. 125 forced RT (probe) repeats per *remapped* arbitrary stimulus (symbols)
