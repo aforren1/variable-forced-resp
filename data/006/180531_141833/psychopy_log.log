@@ -1,0 +1,3046 @@
+0.0845 	INFO 	Loaded SoundDevice with PortAudio V19.6.0-devel, revision 396fe4b6699ae929d3a685b3ef8a7e97396139a4
+0.0846 	INFO 	sound is using audioLib: sounddevice
+0.4619 	INFO 	Loaded monitor calibration from ['2018_01_10 10:27']
+33.3345 	WARNING 	Monitor specification not found. Creating a temporary one...
+33.3362 	WARNING 	Requested an unavailable screen number - using first available.
+33.3364 	WARNING 	User requested fullscreen with size [800 800], but screen is actually [1680, 1050]. Using actual size
+33.9966 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([-1., -1., -1.]), colorSpace='rgb', fullscr=UNKNOWN, gamma=None, kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001FC4B23FA58>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=1, size=array([1680, 1050]), stereo=False, units='height', useFBO=False, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+33.9967 	EXP 	window1: recordFrameIntervals = True
+34.0898 	EXP 	Created stim ᚼ = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='FreeMono', fontFiles=[], height=0.25, italic=False, name='stim ᚼ', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text='ᚼ', units='height', win=Window(...), wrapWidth=1)
+34.0980 	EXP 	Created stim ᚢ = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='FreeMono', fontFiles=[], height=0.25, italic=False, name='stim ᚢ', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text='ᚢ', units='height', win=Window(...), wrapWidth=1)
+34.1059 	EXP 	Created stim ᚻ = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='FreeMono', fontFiles=[], height=0.25, italic=False, name='stim ᚻ', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text='ᚻ', units='height', win=Window(...), wrapWidth=1)
+34.1139 	EXP 	Created stim ᚠ = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='FreeMono', fontFiles=[], height=0.25, italic=False, name='stim ᚠ', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text='ᚠ', units='height', win=Window(...), wrapWidth=1)
+34.1222 	EXP 	Created stim ᚳ = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='FreeMono', fontFiles=[], height=0.25, italic=False, name='stim ᚳ', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text='ᚳ', units='height', win=Window(...), wrapWidth=1)
+34.1300 	EXP 	Created stim ᚬ = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='FreeMono', fontFiles=[], height=0.25, italic=False, name='stim ᚬ', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text='ᚬ', units='height', win=Window(...), wrapWidth=1)
+34.1387 	EXP 	Created stim ᚣ = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='FreeMono', fontFiles=[], height=0.25, italic=False, name='stim ᚣ', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text='ᚣ', units='height', win=Window(...), wrapWidth=1)
+34.1471 	EXP 	Created stim ᛋ = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='FreeMono', fontFiles=[], height=0.25, italic=False, name='stim ᛋ', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text='ᛋ', units='height', win=Window(...), wrapWidth=1)
+34.1551 	EXP 	Created stim ᚦ = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='FreeMono', fontFiles=[], height=0.25, italic=False, name='stim ᚦ', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text='ᚦ', units='height', win=Window(...), wrapWidth=1)
+34.1634 	EXP 	Created stim ᛇ = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='FreeMono', fontFiles=[], height=0.25, italic=False, name='stim ᛇ', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text='ᛇ', units='height', win=Window(...), wrapWidth=1)
+34.1652 	EXP 	<method-wrapper '__getattribute__' of attributeSetter object at 0x000001FBC3393048>: vertices = array([[-0.3,  0.3],
+       [ 0.3,  0.3],
+       [ 0.3, -0.3],
+       [-0.3, -0.3]])
+34.1916 	EXP 	Created slow_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([ 1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.1, italic=False, name='slow_text', opacity=1.0, ori=0.0, pos=array([0. , 0.4]), rgb=array([ 1., -1., -1.]), text='Too slow.', units='norm', win=Window(...), wrapWidth=1)
+34.1962 	EXP 	Created fast_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([ 1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.1, italic=False, name='fast_text', opacity=1.0, ori=0.0, pos=array([0. , 0.4]), rgb=array([ 1., -1., -1.]), text='Too fast.', units='norm', win=Window(...), wrapWidth=1)
+34.2033 	EXP 	Created good_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([-1.,  1., -1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.1, italic=False, name='good_text', opacity=1.0, ori=0.0, pos=array([0. , 0.4]), rgb=array([-1.,  1., -1.]), text='Good timing!', units='norm', win=Window(...), wrapWidth=1)
+34.2083 	EXP 	Created pause_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.1, italic=False, name='pause_text', opacity=1.0, ori=0.0, pos=array([0. , 0.8]), rgb=array([1., 1., 1.]), text='Take a break!', units='norm', win=Window(...), wrapWidth=1)
+34.2134 	EXP 	Created pause_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.1, italic=False, name='pause_text', opacity=1.0, ori=0.0, pos=array([0. , 0.7]), rgb=array([1., 1., 1.]), text='Press ten times to continue.', units='norm', win=Window(...), wrapWidth=1)
+43.0461 	WARNING 	t of last frame was 121.33ms (=1/8)
+43.4076 	INFO 	Trial 0 start: 43.390915
+44.4571 	EXP 	Drew image 9 at 1.049403
+44.4571 	EXP 	Expected onset: 1.033333
+44.4570 	EXP 	stim ᛇ: autoDraw = True
+44.9234 	EXP 	slow_text: autoDraw = True
+45.0234 	EXP 	stim ᛇ: autoDraw = False
+45.0234 	EXP 	slow_text: autoDraw = False
+45.0234 	EXP 	fast_text: autoDraw = False
+45.0234 	EXP 	good_text: autoDraw = False
+45.0234 	EXP 	stim ᛇ: color = [1, 1, 1]
+59.4822 	INFO 	Trial 1 start: 59.465828
+60.4817 	EXP 	Drew image 1 at 0.999257
+60.4817 	EXP 	Expected onset: 0.983333
+60.4817 	EXP 	stim ᚢ: autoDraw = True
+60.9985 	EXP 	good_text: autoDraw = True
+60.9985 	EXP 	stim ᚢ: color = [1, -1, -1]
+61.0981 	EXP 	stim ᚢ: autoDraw = False
+61.0981 	EXP 	slow_text: autoDraw = False
+61.0981 	EXP 	fast_text: autoDraw = False
+61.0981 	EXP 	good_text: autoDraw = False
+61.0981 	EXP 	stim ᚢ: color = [1, 1, 1]
+61.6311 	INFO 	Trial 2 start: 61.614475
+62.4640 	EXP 	Drew image 0 at 0.832815
+62.4641 	EXP 	Expected onset: 0.816667
+62.4640 	EXP 	stim ᚼ: autoDraw = True
+63.1470 	EXP 	good_text: autoDraw = True
+63.1470 	EXP 	stim ᚼ: color = [-1, 1, -1]
+63.2303 	EXP 	stim ᚼ: autoDraw = False
+63.2303 	EXP 	slow_text: autoDraw = False
+63.2303 	EXP 	fast_text: autoDraw = False
+63.2303 	EXP 	good_text: autoDraw = False
+63.2303 	EXP 	stim ᚼ: color = [1, 1, 1]
+63.7633 	INFO 	Trial 3 start: 63.746561
+64.4963 	EXP 	Drew image 6 at 0.733990
+64.4963 	EXP 	Expected onset: 0.716667
+64.4962 	EXP 	stim ᚣ: autoDraw = True
+65.2791 	EXP 	good_text: autoDraw = True
+65.2791 	EXP 	stim ᚣ: color = [-1, 1, -1]
+65.3791 	EXP 	stim ᚣ: autoDraw = False
+65.3791 	EXP 	slow_text: autoDraw = False
+65.3791 	EXP 	fast_text: autoDraw = False
+65.3791 	EXP 	good_text: autoDraw = False
+65.3791 	EXP 	stim ᚣ: color = [1, 1, 1]
+65.9121 	INFO 	Trial 4 start: 65.895391
+66.5784 	EXP 	Drew image 0 at 0.666368
+66.5784 	EXP 	Expected onset: 0.650000
+66.5783 	EXP 	stim ᚼ: autoDraw = True
+67.4278 	EXP 	fast_text: autoDraw = True
+67.4278 	EXP 	stim ᚼ: color = [-1, 1, -1]
+67.5279 	EXP 	stim ᚼ: autoDraw = False
+67.5279 	EXP 	slow_text: autoDraw = False
+67.5279 	EXP 	fast_text: autoDraw = False
+67.5279 	EXP 	good_text: autoDraw = False
+67.5279 	EXP 	stim ᚼ: color = [1, 1, 1]
+68.0609 	INFO 	Trial 5 start: 68.044469
+68.9938 	EXP 	Drew image 3 at 0.932688
+68.9938 	EXP 	Expected onset: 0.916667
+68.9938 	EXP 	stim ᚠ: autoDraw = True
+69.5770 	EXP 	slow_text: autoDraw = True
+69.6766 	EXP 	stim ᚠ: autoDraw = False
+69.6766 	EXP 	slow_text: autoDraw = False
+69.6766 	EXP 	fast_text: autoDraw = False
+69.6766 	EXP 	good_text: autoDraw = False
+69.6766 	EXP 	stim ᚠ: color = [1, 1, 1]
+70.2097 	INFO 	Trial 6 start: 70.193193
+70.9427 	EXP 	Drew image 6 at 0.733109
+70.9427 	EXP 	Expected onset: 0.716667
+70.9426 	EXP 	stim ᚣ: autoDraw = True
+71.7256 	EXP 	slow_text: autoDraw = True
+71.7256 	EXP 	stim ᚣ: color = [-1, 1, -1]
+71.8256 	EXP 	stim ᚣ: autoDraw = False
+71.8256 	EXP 	slow_text: autoDraw = False
+71.8256 	EXP 	fast_text: autoDraw = False
+71.8256 	EXP 	good_text: autoDraw = False
+71.8256 	EXP 	stim ᚣ: color = [1, 1, 1]
+72.3586 	INFO 	Trial 7 start: 72.341968
+73.4746 	EXP 	Drew image 5 at 1.116166
+73.4746 	EXP 	Expected onset: 1.100000
+73.4745 	EXP 	stim ᚬ: autoDraw = True
+73.8745 	EXP 	slow_text: autoDraw = True
+73.9743 	EXP 	stim ᚬ: autoDraw = False
+73.9743 	EXP 	slow_text: autoDraw = False
+73.9743 	EXP 	fast_text: autoDraw = False
+73.9743 	EXP 	good_text: autoDraw = False
+73.9743 	EXP 	stim ᚬ: color = [1, 1, 1]
+74.5075 	INFO 	Trial 8 start: 74.490805
+75.3071 	EXP 	Drew image 9 at 0.799717
+75.3071 	EXP 	Expected onset: 0.800000
+75.3071 	EXP 	stim ᛇ: autoDraw = True
+76.0234 	EXP 	slow_text: autoDraw = True
+76.0234 	EXP 	stim ᛇ: color = [1, -1, -1]
+76.1233 	EXP 	stim ᛇ: autoDraw = False
+76.1233 	EXP 	slow_text: autoDraw = False
+76.1233 	EXP 	fast_text: autoDraw = False
+76.1233 	EXP 	good_text: autoDraw = False
+76.1233 	EXP 	stim ᛇ: color = [1, 1, 1]
+76.6563 	INFO 	Trial 9 start: 76.639534
+77.7557 	EXP 	Drew image 5 at 1.099701
+77.7558 	EXP 	Expected onset: 1.083333
+77.7557 	EXP 	stim ᚬ: autoDraw = True
+78.1721 	EXP 	slow_text: autoDraw = True
+78.2555 	EXP 	stim ᚬ: autoDraw = False
+78.2555 	EXP 	slow_text: autoDraw = False
+78.2555 	EXP 	fast_text: autoDraw = False
+78.2555 	EXP 	good_text: autoDraw = False
+78.2555 	EXP 	stim ᚬ: color = [1, 1, 1]
+78.7884 	INFO 	Trial 10 start: 78.771954
+79.8886 	EXP 	Drew image 6 at 1.099289
+79.8886 	EXP 	Expected onset: 1.083333
+79.8885 	EXP 	stim ᚣ: autoDraw = True
+80.3048 	EXP 	slow_text: autoDraw = True
+80.4043 	EXP 	stim ᚣ: autoDraw = False
+80.4043 	EXP 	slow_text: autoDraw = False
+80.4043 	EXP 	fast_text: autoDraw = False
+80.4043 	EXP 	good_text: autoDraw = False
+80.4043 	EXP 	stim ᚣ: color = [1, 1, 1]
+81.0539 	INFO 	Trial 11 start: 81.037399
+82.0534 	EXP 	Drew image 6 at 0.999405
+82.0534 	EXP 	Expected onset: 0.983333
+82.0533 	EXP 	stim ᚣ: autoDraw = True
+82.5701 	EXP 	slow_text: autoDraw = True
+82.6696 	EXP 	stim ᚣ: autoDraw = False
+82.6696 	EXP 	slow_text: autoDraw = False
+82.6696 	EXP 	fast_text: autoDraw = False
+82.6696 	EXP 	good_text: autoDraw = False
+82.6696 	EXP 	stim ᚣ: color = [1, 1, 1]
+83.2028 	INFO 	Trial 12 start: 83.186135
+84.1858 	EXP 	Drew image 0 at 0.982736
+84.1858 	EXP 	Expected onset: 0.966667
+84.1857 	EXP 	stim ᚼ: autoDraw = True
+84.7186 	EXP 	good_text: autoDraw = True
+84.7186 	EXP 	stim ᚼ: color = [1, -1, -1]
+84.8019 	EXP 	stim ᚼ: autoDraw = False
+84.8019 	EXP 	slow_text: autoDraw = False
+84.8019 	EXP 	fast_text: autoDraw = False
+84.8019 	EXP 	good_text: autoDraw = False
+84.8019 	EXP 	stim ᚼ: color = [1, 1, 1]
+85.3349 	INFO 	Trial 13 start: 85.318264
+86.1013 	EXP 	Drew image 6 at 0.766247
+86.1013 	EXP 	Expected onset: 0.750000
+86.1012 	EXP 	stim ᚣ: autoDraw = True
+86.8340 	EXP 	good_text: autoDraw = True
+86.8340 	EXP 	stim ᚣ: color = [1, -1, -1]
+86.9340 	EXP 	stim ᚣ: autoDraw = False
+86.9340 	EXP 	slow_text: autoDraw = False
+86.9340 	EXP 	fast_text: autoDraw = False
+86.9340 	EXP 	good_text: autoDraw = False
+86.9340 	EXP 	stim ᚣ: color = [1, 1, 1]
+87.4505 	INFO 	Trial 14 start: 87.433895
+88.4499 	EXP 	Drew image 2 at 0.999918
+88.4499 	EXP 	Expected onset: 1.000000
+88.4499 	EXP 	stim ᚻ: autoDraw = True
+88.9666 	EXP 	slow_text: autoDraw = True
+89.0663 	EXP 	stim ᚻ: autoDraw = False
+89.0663 	EXP 	slow_text: autoDraw = False
+89.0663 	EXP 	fast_text: autoDraw = False
+89.0663 	EXP 	good_text: autoDraw = False
+89.0663 	EXP 	stim ᚻ: color = [1, 1, 1]
+89.5993 	INFO 	Trial 15 start: 89.582749
+90.4489 	EXP 	Drew image 3 at 0.849490
+90.4489 	EXP 	Expected onset: 0.833333
+90.4488 	EXP 	stim ᚠ: autoDraw = True
+91.1152 	EXP 	slow_text: autoDraw = True
+91.1152 	EXP 	stim ᚠ: color = [1, -1, -1]
+91.2151 	EXP 	stim ᚠ: autoDraw = False
+91.2151 	EXP 	slow_text: autoDraw = False
+91.2151 	EXP 	fast_text: autoDraw = False
+91.2151 	EXP 	good_text: autoDraw = False
+91.2151 	EXP 	stim ᚠ: color = [1, 1, 1]
+91.7482 	INFO 	Trial 16 start: 91.731532
+92.8477 	EXP 	Drew image 5 at 1.099454
+92.8477 	EXP 	Expected onset: 1.100000
+92.8476 	EXP 	stim ᚬ: autoDraw = True
+93.2640 	EXP 	slow_text: autoDraw = True
+93.3640 	EXP 	stim ᚬ: autoDraw = False
+93.3640 	EXP 	slow_text: autoDraw = False
+93.3640 	EXP 	fast_text: autoDraw = False
+93.3640 	EXP 	good_text: autoDraw = False
+93.3640 	EXP 	stim ᚬ: color = [1, 1, 1]
+93.8970 	INFO 	Trial 17 start: 93.880325
+94.5799 	EXP 	Drew image 7 at 0.683636
+94.5800 	EXP 	Expected onset: 0.683333
+94.5799 	EXP 	stim ᛋ: autoDraw = True
+95.4129 	EXP 	good_text: autoDraw = True
+95.4129 	EXP 	stim ᛋ: color = [1, -1, -1]
+95.5128 	EXP 	stim ᛋ: autoDraw = False
+95.5128 	EXP 	slow_text: autoDraw = False
+95.5128 	EXP 	fast_text: autoDraw = False
+95.5128 	EXP 	good_text: autoDraw = False
+95.5128 	EXP 	stim ᛋ: color = [1, 1, 1]
+96.0459 	INFO 	Trial 18 start: 96.029164
+97.1119 	EXP 	Drew image 9 at 1.066378
+97.1120 	EXP 	Expected onset: 1.050000
+97.1119 	EXP 	stim ᛇ: autoDraw = True
+97.5617 	EXP 	good_text: autoDraw = True
+97.5617 	EXP 	stim ᛇ: color = [1, -1, -1]
+97.6620 	EXP 	stim ᛇ: autoDraw = False
+97.6620 	EXP 	slow_text: autoDraw = False
+97.6620 	EXP 	fast_text: autoDraw = False
+97.6620 	EXP 	good_text: autoDraw = False
+97.6620 	EXP 	stim ᛇ: color = [1, 1, 1]
+98.1781 	INFO 	Trial 19 start: 98.161763
+98.9777 	EXP 	Drew image 5 at 0.799110
+98.9777 	EXP 	Expected onset: 0.783333
+98.9776 	EXP 	stim ᚬ: autoDraw = True
+99.6943 	EXP 	good_text: autoDraw = True
+99.6943 	EXP 	stim ᚬ: color = [1, -1, -1]
+99.7938 	EXP 	stim ᚬ: autoDraw = False
+99.7938 	EXP 	slow_text: autoDraw = False
+99.7938 	EXP 	fast_text: autoDraw = False
+99.7938 	EXP 	good_text: autoDraw = False
+99.7938 	EXP 	stim ᚬ: color = [1, 1, 1]
+100.3102 	INFO 	Trial 20 start: 100.293462
+101.3930 	EXP 	Drew image 6 at 1.083083
+101.3930 	EXP 	Expected onset: 1.083333
+101.3930 	EXP 	stim ᚣ: autoDraw = True
+101.8259 	EXP 	good_text: autoDraw = True
+101.8259 	EXP 	stim ᚣ: color = [1, -1, -1]
+101.9261 	EXP 	stim ᚣ: autoDraw = False
+101.9261 	EXP 	slow_text: autoDraw = False
+101.9261 	EXP 	fast_text: autoDraw = False
+101.9261 	EXP 	good_text: autoDraw = False
+101.9261 	EXP 	stim ᚣ: color = [1, 1, 1]
+102.4590 	INFO 	Trial 21 start: 102.442347
+103.1254 	EXP 	Drew image 3 at 0.666451
+103.1254 	EXP 	Expected onset: 0.650000
+103.1253 	EXP 	stim ᚠ: autoDraw = True
+103.9749 	EXP 	good_text: autoDraw = True
+103.9749 	EXP 	stim ᚠ: color = [1, -1, -1]
+104.0748 	EXP 	stim ᚠ: autoDraw = False
+104.0748 	EXP 	slow_text: autoDraw = False
+104.0748 	EXP 	fast_text: autoDraw = False
+104.0748 	EXP 	good_text: autoDraw = False
+104.0748 	EXP 	stim ᚠ: color = [1, 1, 1]
+104.6079 	INFO 	Trial 22 start: 104.591176
+105.4412 	EXP 	Drew image 5 at 0.832932
+105.4412 	EXP 	Expected onset: 0.816667
+105.4412 	EXP 	stim ᚬ: autoDraw = True
+106.1236 	EXP 	slow_text: autoDraw = True
+106.1236 	EXP 	stim ᚬ: color = [1, -1, -1]
+106.2237 	EXP 	stim ᚬ: autoDraw = False
+106.2237 	EXP 	slow_text: autoDraw = False
+106.2237 	EXP 	fast_text: autoDraw = False
+106.2237 	EXP 	good_text: autoDraw = False
+106.2237 	EXP 	stim ᚬ: color = [1, 1, 1]
+106.7402 	INFO 	Trial 23 start: 106.723355
+107.8395 	EXP 	Drew image 4 at 1.099503
+107.8395 	EXP 	Expected onset: 1.083333
+107.8395 	EXP 	stim ᚳ: autoDraw = True
+108.2559 	EXP 	slow_text: autoDraw = True
+108.3560 	EXP 	stim ᚳ: autoDraw = False
+108.3560 	EXP 	slow_text: autoDraw = False
+108.3560 	EXP 	fast_text: autoDraw = False
+108.3560 	EXP 	good_text: autoDraw = False
+108.3560 	EXP 	stim ᚳ: color = [1, 1, 1]
+161.8103 	INFO 	Trial 24 start: 161.793550
+162.5432 	EXP 	Drew image 2 at 0.733909
+162.5432 	EXP 	Expected onset: 0.716667
+162.5431 	EXP 	stim ᚻ: autoDraw = True
+163.3095 	EXP 	good_text: autoDraw = True
+163.3095 	EXP 	stim ᚻ: color = [-1, 1, -1]
+163.4102 	EXP 	stim ᚻ: autoDraw = False
+163.4102 	EXP 	slow_text: autoDraw = False
+163.4102 	EXP 	fast_text: autoDraw = False
+163.4102 	EXP 	good_text: autoDraw = False
+163.4102 	EXP 	stim ᚻ: color = [1, 1, 1]
+163.9430 	INFO 	Trial 25 start: 163.926044
+164.6922 	EXP 	Drew image 2 at 0.749854
+164.6922 	EXP 	Expected onset: 0.733333
+164.6921 	EXP 	stim ᚻ: autoDraw = True
+165.4584 	EXP 	good_text: autoDraw = True
+165.4584 	EXP 	stim ᚻ: color = [-1, 1, -1]
+165.5585 	EXP 	stim ᚻ: autoDraw = False
+165.5585 	EXP 	slow_text: autoDraw = False
+165.5585 	EXP 	fast_text: autoDraw = False
+165.5585 	EXP 	good_text: autoDraw = False
+165.5585 	EXP 	stim ᚻ: color = [1, 1, 1]
+166.0914 	INFO 	Trial 26 start: 166.074676
+166.7577 	EXP 	Drew image 8 at 0.667275
+166.7577 	EXP 	Expected onset: 0.666667
+166.7577 	EXP 	stim ᚦ: autoDraw = True
+167.6072 	EXP 	slow_text: autoDraw = True
+167.6072 	EXP 	stim ᚦ: color = [1, -1, -1]
+167.7073 	EXP 	stim ᚦ: autoDraw = False
+167.7073 	EXP 	slow_text: autoDraw = False
+167.7073 	EXP 	fast_text: autoDraw = False
+167.7073 	EXP 	good_text: autoDraw = False
+167.7073 	EXP 	stim ᚦ: color = [1, 1, 1]
+168.2403 	INFO 	Trial 27 start: 168.223539
+169.1235 	EXP 	Drew image 5 at 0.882812
+169.1235 	EXP 	Expected onset: 0.866667
+169.1235 	EXP 	stim ᚬ: autoDraw = True
+169.7559 	EXP 	slow_text: autoDraw = True
+169.8394 	EXP 	stim ᚬ: autoDraw = False
+169.8394 	EXP 	slow_text: autoDraw = False
+169.8394 	EXP 	fast_text: autoDraw = False
+169.8394 	EXP 	good_text: autoDraw = False
+169.8394 	EXP 	stim ᚬ: color = [1, 1, 1]
+170.4390 	INFO 	Trial 28 start: 170.422360
+171.1554 	EXP 	Drew image 0 at 0.716260
+171.1554 	EXP 	Expected onset: 0.700000
+171.1553 	EXP 	stim ᚼ: autoDraw = True
+171.9551 	EXP 	good_text: autoDraw = True
+171.9551 	EXP 	stim ᚼ: color = [-1, 1, -1]
+172.0549 	EXP 	stim ᚼ: autoDraw = False
+172.0549 	EXP 	slow_text: autoDraw = False
+172.0549 	EXP 	fast_text: autoDraw = False
+172.0549 	EXP 	good_text: autoDraw = False
+172.0549 	EXP 	stim ᚼ: color = [1, 1, 1]
+172.5713 	INFO 	Trial 29 start: 172.554504
+173.6540 	EXP 	Drew image 6 at 1.083672
+173.6540 	EXP 	Expected onset: 1.083333
+173.6540 	EXP 	stim ᚣ: autoDraw = True
+174.0871 	EXP 	slow_text: autoDraw = True
+174.1870 	EXP 	stim ᚣ: autoDraw = False
+174.1870 	EXP 	slow_text: autoDraw = False
+174.1870 	EXP 	fast_text: autoDraw = False
+174.1870 	EXP 	good_text: autoDraw = False
+174.1870 	EXP 	stim ᚣ: color = [1, 1, 1]
+174.8034 	INFO 	Trial 30 start: 174.786598
+175.6196 	EXP 	Drew image 9 at 0.816617
+175.6196 	EXP 	Expected onset: 0.816667
+175.6195 	EXP 	stim ᛇ: autoDraw = True
+176.3191 	EXP 	slow_text: autoDraw = True
+176.3191 	EXP 	stim ᛇ: color = [-1, 1, -1]
+176.4194 	EXP 	stim ᛇ: autoDraw = False
+176.4194 	EXP 	slow_text: autoDraw = False
+176.4194 	EXP 	fast_text: autoDraw = False
+176.4194 	EXP 	good_text: autoDraw = False
+176.4194 	EXP 	stim ᛇ: color = [1, 1, 1]
+176.9521 	INFO 	Trial 31 start: 176.935602
+177.8524 	EXP 	Drew image 3 at 0.899384
+177.8525 	EXP 	Expected onset: 0.883333
+177.8524 	EXP 	stim ᚠ: autoDraw = True
+178.4681 	EXP 	slow_text: autoDraw = True
+178.4681 	EXP 	stim ᚠ: color = [1, -1, -1]
+178.5854 	WARNING 	t of last frame was 34.04ms (=1/29)
+178.5854 	EXP 	stim ᚠ: autoDraw = False
+178.5854 	EXP 	slow_text: autoDraw = False
+178.5854 	EXP 	fast_text: autoDraw = False
+178.5854 	EXP 	good_text: autoDraw = False
+178.5854 	EXP 	stim ᚠ: color = [1, 1, 1]
+179.1010 	INFO 	Trial 32 start: 179.084379
+179.8847 	EXP 	Drew image 2 at 0.782861
+179.8847 	EXP 	Expected onset: 0.766667
+179.8847 	EXP 	stim ᚻ: autoDraw = True
+180.6169 	EXP 	slow_text: autoDraw = True
+180.6169 	EXP 	stim ᚻ: color = [-1, 1, -1]
+180.7169 	EXP 	stim ᚻ: autoDraw = False
+180.7169 	EXP 	slow_text: autoDraw = False
+180.7169 	EXP 	fast_text: autoDraw = False
+180.7169 	EXP 	good_text: autoDraw = False
+180.7169 	EXP 	stim ᚻ: color = [1, 1, 1]
+181.2499 	INFO 	Trial 33 start: 181.233200
+182.3332 	EXP 	Drew image 5 at 1.082725
+182.3332 	EXP 	Expected onset: 1.066667
+182.3332 	EXP 	stim ᚬ: autoDraw = True
+182.7658 	EXP 	slow_text: autoDraw = True
+182.8489 	EXP 	stim ᚬ: autoDraw = False
+182.8489 	EXP 	slow_text: autoDraw = False
+182.8489 	EXP 	fast_text: autoDraw = False
+182.8489 	EXP 	good_text: autoDraw = False
+182.8489 	EXP 	stim ᚬ: color = [1, 1, 1]
+183.3820 	INFO 	Trial 34 start: 183.365678
+183.9984 	EXP 	Drew image 6 at 0.616669
+183.9984 	EXP 	Expected onset: 0.616667
+183.9983 	EXP 	stim ᚣ: autoDraw = True
+184.8978 	EXP 	good_text: autoDraw = True
+184.8978 	EXP 	stim ᚣ: color = [1, -1, -1]
+184.9978 	EXP 	stim ᚣ: autoDraw = False
+184.9978 	EXP 	slow_text: autoDraw = False
+184.9978 	EXP 	fast_text: autoDraw = False
+184.9978 	EXP 	good_text: autoDraw = False
+184.9978 	EXP 	stim ᚣ: color = [1, 1, 1]
+185.5308 	INFO 	Trial 35 start: 185.514435
+186.2639 	EXP 	Drew image 8 at 0.732922
+186.2639 	EXP 	Expected onset: 0.733333
+186.2638 	EXP 	stim ᚦ: autoDraw = True
+187.0468 	EXP 	slow_text: autoDraw = True
+187.0468 	EXP 	stim ᚦ: color = [-1, 1, -1]
+187.1467 	EXP 	stim ᚦ: autoDraw = False
+187.1467 	EXP 	slow_text: autoDraw = False
+187.1467 	EXP 	fast_text: autoDraw = False
+187.1467 	EXP 	good_text: autoDraw = False
+187.1467 	EXP 	stim ᚦ: color = [1, 1, 1]
+187.6797 	INFO 	Trial 36 start: 187.663067
+188.7459 	EXP 	Drew image 5 at 1.066084
+188.7459 	EXP 	Expected onset: 1.050000
+188.7458 	EXP 	stim ᚬ: autoDraw = True
+189.1958 	EXP 	slow_text: autoDraw = True
+189.2954 	EXP 	stim ᚬ: autoDraw = False
+189.2954 	EXP 	slow_text: autoDraw = False
+189.2954 	EXP 	fast_text: autoDraw = False
+189.2954 	EXP 	good_text: autoDraw = False
+189.2954 	EXP 	stim ᚬ: color = [1, 1, 1]
+192.8602 	INFO 	Trial 37 start: 192.843500
+193.6598 	EXP 	Drew image 1 at 0.799866
+193.6598 	EXP 	Expected onset: 0.800000
+193.6597 	EXP 	stim ᚢ: autoDraw = True
+194.3761 	EXP 	slow_text: autoDraw = True
+194.3761 	EXP 	stim ᚢ: color = [1, -1, -1]
+194.4761 	EXP 	stim ᚢ: autoDraw = False
+194.4761 	EXP 	slow_text: autoDraw = False
+194.4761 	EXP 	fast_text: autoDraw = False
+194.4761 	EXP 	good_text: autoDraw = False
+194.4761 	EXP 	stim ᚢ: color = [1, 1, 1]
+194.9924 	INFO 	Trial 38 start: 194.976016
+195.7587 	EXP 	Drew image 8 at 0.766972
+195.7588 	EXP 	Expected onset: 0.766667
+195.7587 	EXP 	stim ᚦ: autoDraw = True
+196.5087 	EXP 	good_text: autoDraw = True
+196.5087 	EXP 	stim ᚦ: color = [1, -1, -1]
+196.6083 	EXP 	stim ᚦ: autoDraw = False
+196.6083 	EXP 	slow_text: autoDraw = False
+196.6083 	EXP 	fast_text: autoDraw = False
+196.6083 	EXP 	good_text: autoDraw = False
+196.6083 	EXP 	stim ᚦ: color = [1, 1, 1]
+197.1412 	INFO 	Trial 39 start: 197.124585
+197.9076 	EXP 	Drew image 0 at 0.767213
+197.9077 	EXP 	Expected onset: 0.766667
+197.9076 	EXP 	stim ᚼ: autoDraw = True
+198.6571 	EXP 	good_text: autoDraw = True
+198.6571 	EXP 	stim ᚼ: color = [-1, 1, -1]
+198.7571 	EXP 	stim ᚼ: autoDraw = False
+198.7571 	EXP 	slow_text: autoDraw = False
+198.7571 	EXP 	fast_text: autoDraw = False
+198.7571 	EXP 	good_text: autoDraw = False
+198.7571 	EXP 	stim ᚼ: color = [1, 1, 1]
+199.2734 	INFO 	Trial 40 start: 199.256747
+200.2062 	EXP 	Drew image 8 at 0.933035
+200.2063 	EXP 	Expected onset: 0.916667
+200.2062 	EXP 	stim ᚦ: autoDraw = True
+200.7892 	EXP 	slow_text: autoDraw = True
+200.8726 	EXP 	stim ᚦ: autoDraw = False
+200.8726 	EXP 	slow_text: autoDraw = False
+200.8726 	EXP 	fast_text: autoDraw = False
+200.8726 	EXP 	good_text: autoDraw = False
+200.8726 	EXP 	stim ᚦ: color = [1, 1, 1]
+201.4056 	INFO 	Trial 41 start: 201.388996
+202.2385 	EXP 	Drew image 1 at 0.833671
+202.2385 	EXP 	Expected onset: 0.833333
+202.2385 	EXP 	stim ᚢ: autoDraw = True
+202.9215 	EXP 	good_text: autoDraw = True
+202.9215 	EXP 	stim ᚢ: color = [1, -1, -1]
+203.0215 	EXP 	stim ᚢ: autoDraw = False
+203.0215 	EXP 	slow_text: autoDraw = False
+203.0215 	EXP 	fast_text: autoDraw = False
+203.0215 	EXP 	good_text: autoDraw = False
+203.0215 	EXP 	stim ᚢ: color = [1, 1, 1]
+203.5379 	INFO 	Trial 42 start: 203.521621
+204.5040 	EXP 	Drew image 3 at 0.965961
+204.5040 	EXP 	Expected onset: 0.950000
+204.5040 	EXP 	stim ᚠ: autoDraw = True
+205.0538 	EXP 	slow_text: autoDraw = True
+205.0538 	EXP 	stim ᚠ: color = [-1, 1, -1]
+205.1537 	EXP 	stim ᚠ: autoDraw = False
+205.1537 	EXP 	slow_text: autoDraw = False
+205.1537 	EXP 	fast_text: autoDraw = False
+205.1537 	EXP 	good_text: autoDraw = False
+205.1537 	EXP 	stim ᚠ: color = [1, 1, 1]
+205.6867 	INFO 	Trial 43 start: 205.670068
+206.3207 	EXP 	Drew image 2 at 0.632918
+206.3207 	EXP 	Expected onset: 0.616667
+206.3207 	EXP 	stim ᚻ: autoDraw = True
+207.2025 	EXP 	fast_text: autoDraw = True
+207.2025 	EXP 	stim ᚻ: color = [-1, 1, -1]
+207.3025 	EXP 	stim ᚻ: autoDraw = False
+207.3025 	EXP 	slow_text: autoDraw = False
+207.3025 	EXP 	fast_text: autoDraw = False
+207.3025 	EXP 	good_text: autoDraw = False
+207.3025 	EXP 	stim ᚻ: color = [1, 1, 1]
+207.8355 	INFO 	Trial 44 start: 207.818887
+208.9354 	EXP 	Drew image 6 at 1.099318
+208.9354 	EXP 	Expected onset: 1.083333
+208.9353 	EXP 	stim ᚣ: autoDraw = True
+209.3514 	EXP 	slow_text: autoDraw = True
+209.3514 	EXP 	stim ᚣ: color = [1, -1, -1]
+209.4513 	EXP 	stim ᚣ: autoDraw = False
+209.4513 	EXP 	slow_text: autoDraw = False
+209.4513 	EXP 	fast_text: autoDraw = False
+209.4513 	EXP 	good_text: autoDraw = False
+209.4513 	EXP 	stim ᚣ: color = [1, 1, 1]
+209.9843 	INFO 	Trial 45 start: 209.967616
+210.8173 	EXP 	Drew image 7 at 0.833176
+210.8173 	EXP 	Expected onset: 0.816667
+210.8172 	EXP 	stim ᛋ: autoDraw = True
+211.5001 	EXP 	good_text: autoDraw = True
+211.5001 	EXP 	stim ᛋ: color = [1, -1, -1]
+211.5835 	EXP 	stim ᛋ: autoDraw = False
+211.5835 	EXP 	slow_text: autoDraw = False
+211.5835 	EXP 	fast_text: autoDraw = False
+211.5835 	EXP 	good_text: autoDraw = False
+211.5835 	EXP 	stim ᛋ: color = [1, 1, 1]
+212.1166 	INFO 	Trial 46 start: 212.099825
+213.0492 	EXP 	Drew image 6 at 0.932933
+213.0492 	EXP 	Expected onset: 0.916667
+213.0492 	EXP 	stim ᚣ: autoDraw = True
+213.6324 	EXP 	slow_text: autoDraw = True
+213.7158 	EXP 	stim ᚣ: autoDraw = False
+213.7158 	EXP 	slow_text: autoDraw = False
+213.7158 	EXP 	fast_text: autoDraw = False
+213.7158 	EXP 	good_text: autoDraw = False
+213.7158 	EXP 	stim ᚣ: color = [1, 1, 1]
+214.2321 	INFO 	Trial 47 start: 214.215545
+215.0650 	EXP 	Drew image 9 at 0.832755
+215.0650 	EXP 	Expected onset: 0.816667
+215.0650 	EXP 	stim ᛇ: autoDraw = True
+215.7480 	EXP 	slow_text: autoDraw = True
+215.7480 	EXP 	stim ᛇ: color = [1, -1, -1]
+215.8477 	EXP 	stim ᛇ: autoDraw = False
+215.8477 	EXP 	slow_text: autoDraw = False
+215.8477 	EXP 	fast_text: autoDraw = False
+215.8477 	EXP 	good_text: autoDraw = False
+215.8477 	EXP 	stim ᛇ: color = [1, 1, 1]
+216.3643 	INFO 	Trial 48 start: 216.347534
+217.1138 	EXP 	Drew image 0 at 0.749664
+217.1139 	EXP 	Expected onset: 0.733333
+217.1138 	EXP 	stim ᚼ: autoDraw = True
+217.8801 	EXP 	good_text: autoDraw = True
+217.8801 	EXP 	stim ᚼ: color = [-1, 1, -1]
+217.9801 	EXP 	stim ᚼ: autoDraw = False
+217.9801 	EXP 	slow_text: autoDraw = False
+217.9801 	EXP 	fast_text: autoDraw = False
+217.9801 	EXP 	good_text: autoDraw = False
+217.9801 	EXP 	stim ᚼ: color = [1, 1, 1]
+218.5131 	INFO 	Trial 49 start: 218.496354
+219.5626 	EXP 	Drew image 1 at 1.049501
+219.5626 	EXP 	Expected onset: 1.033333
+219.5626 	EXP 	stim ᚢ: autoDraw = True
+220.0289 	EXP 	slow_text: autoDraw = True
+220.1288 	EXP 	stim ᚢ: autoDraw = False
+220.1288 	EXP 	slow_text: autoDraw = False
+220.1288 	EXP 	fast_text: autoDraw = False
+220.1288 	EXP 	good_text: autoDraw = False
+220.1288 	EXP 	stim ᚢ: color = [1, 1, 1]
+220.6620 	INFO 	Trial 50 start: 220.645218
+221.5781 	EXP 	Drew image 1 at 0.916112
+221.5782 	EXP 	Expected onset: 0.900000
+221.5781 	EXP 	stim ᚢ: autoDraw = True
+222.1777 	EXP 	slow_text: autoDraw = True
+222.1777 	EXP 	stim ᚢ: color = [1, -1, -1]
+222.2778 	EXP 	stim ᚢ: autoDraw = False
+222.2778 	EXP 	slow_text: autoDraw = False
+222.2778 	EXP 	fast_text: autoDraw = False
+222.2778 	EXP 	good_text: autoDraw = False
+222.2778 	EXP 	stim ᚢ: color = [1, 1, 1]
+222.8107 	INFO 	Trial 51 start: 222.794383
+223.5437 	EXP 	Drew image 1 at 0.733167
+223.5438 	EXP 	Expected onset: 0.716667
+223.5437 	EXP 	stim ᚢ: autoDraw = True
+224.3267 	EXP 	fast_text: autoDraw = True
+224.3267 	EXP 	stim ᚢ: color = [-1, 1, -1]
+224.4266 	EXP 	stim ᚢ: autoDraw = False
+224.4266 	EXP 	slow_text: autoDraw = False
+224.4266 	EXP 	fast_text: autoDraw = False
+224.4266 	EXP 	good_text: autoDraw = False
+224.4266 	EXP 	stim ᚢ: color = [1, 1, 1]
+224.9596 	INFO 	Trial 52 start: 224.942945
+226.0258 	EXP 	Drew image 9 at 1.066057
+226.0258 	EXP 	Expected onset: 1.050000
+226.0258 	EXP 	stim ᛇ: autoDraw = True
+226.4754 	EXP 	good_text: autoDraw = True
+226.4754 	EXP 	stim ᛇ: color = [1, -1, -1]
+226.5753 	EXP 	stim ᛇ: autoDraw = False
+226.5753 	EXP 	slow_text: autoDraw = False
+226.5753 	EXP 	fast_text: autoDraw = False
+226.5753 	EXP 	good_text: autoDraw = False
+226.5753 	EXP 	stim ᛇ: color = [1, 1, 1]
+227.1085 	INFO 	Trial 53 start: 227.091798
+228.0421 	EXP 	Drew image 3 at 0.932663
+228.0421 	EXP 	Expected onset: 0.916667
+228.0421 	EXP 	stim ᚠ: autoDraw = True
+228.6243 	EXP 	slow_text: autoDraw = True
+228.7077 	EXP 	stim ᚠ: autoDraw = False
+228.7077 	EXP 	slow_text: autoDraw = False
+228.7077 	EXP 	fast_text: autoDraw = False
+228.7077 	EXP 	good_text: autoDraw = False
+228.7077 	EXP 	stim ᚠ: color = [1, 1, 1]
+229.2406 	INFO 	Trial 54 start: 229.223831
+230.0901 	EXP 	Drew image 1 at 0.850386
+230.0902 	EXP 	Expected onset: 0.850000
+230.0901 	EXP 	stim ᚢ: autoDraw = True
+230.7567 	EXP 	slow_text: autoDraw = True
+230.7567 	EXP 	stim ᚢ: color = [-1, 1, -1]
+230.8564 	EXP 	stim ᚢ: autoDraw = False
+230.8564 	EXP 	slow_text: autoDraw = False
+230.8564 	EXP 	fast_text: autoDraw = False
+230.8564 	EXP 	good_text: autoDraw = False
+230.8564 	EXP 	stim ᚢ: color = [1, 1, 1]
+231.3895 	INFO 	Trial 55 start: 231.372706
+232.1058 	EXP 	Drew image 3 at 0.716315
+232.1058 	EXP 	Expected onset: 0.700000
+232.1058 	EXP 	stim ᚠ: autoDraw = True
+232.9051 	EXP 	good_text: autoDraw = True
+232.9051 	EXP 	stim ᚠ: color = [1, -1, -1]
+233.0051 	EXP 	stim ᚠ: autoDraw = False
+233.0051 	EXP 	slow_text: autoDraw = False
+233.0051 	EXP 	fast_text: autoDraw = False
+233.0051 	EXP 	good_text: autoDraw = False
+233.0051 	EXP 	stim ᚠ: color = [1, 1, 1]
+233.5217 	INFO 	Trial 56 start: 233.504972
+234.3047 	EXP 	Drew image 7 at 0.783869
+234.3047 	EXP 	Expected onset: 0.766667
+234.3046 	EXP 	stim ᛋ: autoDraw = True
+235.0374 	EXP 	slow_text: autoDraw = True
+235.0374 	EXP 	stim ᛋ: color = [1, -1, -1]
+235.1375 	EXP 	stim ᛋ: autoDraw = False
+235.1375 	EXP 	slow_text: autoDraw = False
+235.1375 	EXP 	fast_text: autoDraw = False
+235.1375 	EXP 	good_text: autoDraw = False
+235.1375 	EXP 	stim ᛋ: color = [1, 1, 1]
+235.6704 	INFO 	Trial 57 start: 235.653668
+236.6033 	EXP 	Drew image 4 at 0.933867
+236.6033 	EXP 	Expected onset: 0.933333
+236.6033 	EXP 	stim ᚳ: autoDraw = True
+237.1863 	EXP 	slow_text: autoDraw = True
+237.2862 	EXP 	stim ᚳ: autoDraw = False
+237.2862 	EXP 	slow_text: autoDraw = False
+237.2862 	EXP 	fast_text: autoDraw = False
+237.2862 	EXP 	good_text: autoDraw = False
+237.2862 	EXP 	stim ᚳ: color = [1, 1, 1]
+240.4511 	INFO 	Trial 58 start: 240.434558
+241.3508 	EXP 	Drew image 6 at 0.899485
+241.3508 	EXP 	Expected onset: 0.883333
+241.3507 	EXP 	stim ᚣ: autoDraw = True
+241.9671 	EXP 	slow_text: autoDraw = True
+242.0671 	EXP 	stim ᚣ: autoDraw = False
+242.0671 	EXP 	slow_text: autoDraw = False
+242.0671 	EXP 	fast_text: autoDraw = False
+242.0671 	EXP 	good_text: autoDraw = False
+242.0671 	EXP 	stim ᚣ: color = [1, 1, 1]
+243.8827 	INFO 	Trial 59 start: 243.866168
+244.5490 	EXP 	Drew image 1 at 0.666238
+244.5490 	EXP 	Expected onset: 0.666667
+244.5490 	EXP 	stim ᚢ: autoDraw = True
+245.3990 	EXP 	good_text: autoDraw = True
+245.3990 	EXP 	stim ᚢ: color = [1, -1, -1]
+245.4990 	EXP 	stim ᚢ: autoDraw = False
+245.4990 	EXP 	slow_text: autoDraw = False
+245.4990 	EXP 	fast_text: autoDraw = False
+245.4990 	EXP 	good_text: autoDraw = False
+245.4990 	EXP 	stim ᚢ: color = [1, 1, 1]
+246.0315 	INFO 	Trial 60 start: 246.014943
+246.8979 	EXP 	Drew image 1 at 0.866135
+246.8980 	EXP 	Expected onset: 0.850000
+246.8979 	EXP 	stim ᚢ: autoDraw = True
+247.5477 	EXP 	good_text: autoDraw = True
+247.5477 	EXP 	stim ᚢ: color = [-1, 1, -1]
+247.6609 	WARNING 	t of last frame was 30.03ms (=1/33)
+247.6609 	EXP 	stim ᚢ: autoDraw = False
+247.6609 	EXP 	slow_text: autoDraw = False
+247.6609 	EXP 	fast_text: autoDraw = False
+247.6609 	EXP 	good_text: autoDraw = False
+247.6609 	EXP 	stim ᚢ: color = [1, 1, 1]
+248.1803 	INFO 	Trial 61 start: 248.163695
+249.1466 	EXP 	Drew image 5 at 0.966188
+249.1466 	EXP 	Expected onset: 0.950000
+249.1465 	EXP 	stim ᚬ: autoDraw = True
+249.6963 	EXP 	slow_text: autoDraw = True
+249.7962 	EXP 	stim ᚬ: autoDraw = False
+249.7962 	EXP 	slow_text: autoDraw = False
+249.7962 	EXP 	fast_text: autoDraw = False
+249.7962 	EXP 	good_text: autoDraw = False
+249.7962 	EXP 	stim ᚬ: color = [1, 1, 1]
+250.3291 	INFO 	Trial 62 start: 250.312522
+251.0299 	EXP 	Drew image 5 at 0.699663
+251.0299 	EXP 	Expected onset: 0.700000
+251.0299 	EXP 	stim ᚬ: autoDraw = True
+251.8451 	EXP 	good_text: autoDraw = True
+251.8451 	EXP 	stim ᚬ: color = [-1, 1, -1]
+251.9284 	EXP 	stim ᚬ: autoDraw = False
+251.9284 	EXP 	slow_text: autoDraw = False
+251.9284 	EXP 	fast_text: autoDraw = False
+251.9284 	EXP 	good_text: autoDraw = False
+251.9284 	EXP 	stim ᚬ: color = [1, 1, 1]
+252.4615 	INFO 	Trial 63 start: 252.444707
+253.4942 	EXP 	Drew image 9 at 1.032808
+253.4942 	EXP 	Expected onset: 1.016667
+253.4941 	EXP 	stim ᛇ: autoDraw = True
+253.9773 	EXP 	slow_text: autoDraw = True
+254.0771 	EXP 	stim ᛇ: autoDraw = False
+254.0771 	EXP 	slow_text: autoDraw = False
+254.0771 	EXP 	fast_text: autoDraw = False
+254.0771 	EXP 	good_text: autoDraw = False
+254.0771 	EXP 	stim ᛇ: color = [1, 1, 1]
+254.6102 	INFO 	Trial 64 start: 254.594034
+255.6598 	EXP 	Drew image 5 at 1.049027
+255.6598 	EXP 	Expected onset: 1.033333
+255.6597 	EXP 	stim ᚬ: autoDraw = True
+256.1265 	EXP 	good_text: autoDraw = True
+256.1265 	EXP 	stim ᚬ: color = [1, -1, -1]
+256.2260 	EXP 	stim ᚬ: autoDraw = False
+256.2260 	EXP 	slow_text: autoDraw = False
+256.2260 	EXP 	fast_text: autoDraw = False
+256.2260 	EXP 	good_text: autoDraw = False
+256.2260 	EXP 	stim ᚬ: color = [1, 1, 1]
+256.7591 	INFO 	Trial 65 start: 256.742522
+257.4754 	EXP 	Drew image 0 at 0.716147
+257.4755 	EXP 	Expected onset: 0.700000
+257.4754 	EXP 	stim ᚼ: autoDraw = True
+258.2750 	EXP 	good_text: autoDraw = True
+258.2750 	EXP 	stim ᚼ: color = [1, -1, -1]
+258.3749 	EXP 	stim ᚼ: autoDraw = False
+258.3749 	EXP 	slow_text: autoDraw = False
+258.3749 	EXP 	fast_text: autoDraw = False
+258.3749 	EXP 	good_text: autoDraw = False
+258.3749 	EXP 	stim ᚼ: color = [1, 1, 1]
+258.9079 	INFO 	Trial 66 start: 258.891275
+259.8076 	EXP 	Drew image 0 at 0.899483
+259.8077 	EXP 	Expected onset: 0.883333
+259.8076 	EXP 	stim ᚼ: autoDraw = True
+260.4239 	EXP 	good_text: autoDraw = True
+260.4239 	EXP 	stim ᚼ: color = [-1, 1, -1]
+260.5077 	EXP 	stim ᚼ: autoDraw = False
+260.5077 	EXP 	slow_text: autoDraw = False
+260.5077 	EXP 	fast_text: autoDraw = False
+260.5077 	EXP 	good_text: autoDraw = False
+260.5077 	EXP 	stim ᚼ: color = [1, 1, 1]
+261.0402 	INFO 	Trial 67 start: 261.023442
+261.9729 	EXP 	Drew image 5 at 0.932779
+261.9729 	EXP 	Expected onset: 0.916667
+261.9729 	EXP 	stim ᚬ: autoDraw = True
+262.5560 	EXP 	slow_text: autoDraw = True
+262.6559 	EXP 	stim ᚬ: autoDraw = False
+262.6559 	EXP 	slow_text: autoDraw = False
+262.6559 	EXP 	fast_text: autoDraw = False
+262.6559 	EXP 	good_text: autoDraw = False
+262.6559 	EXP 	stim ᚬ: color = [1, 1, 1]
+263.1889 	INFO 	Trial 68 start: 263.172139
+264.2383 	EXP 	Drew image 0 at 1.049568
+264.2383 	EXP 	Expected onset: 1.033333
+264.2382 	EXP 	stim ᚼ: autoDraw = True
+264.7048 	EXP 	good_text: autoDraw = True
+264.7048 	EXP 	stim ᚼ: color = [1, -1, -1]
+264.8048 	EXP 	stim ᚼ: autoDraw = False
+264.8048 	EXP 	slow_text: autoDraw = False
+264.8048 	EXP 	fast_text: autoDraw = False
+264.8048 	EXP 	good_text: autoDraw = False
+264.8048 	EXP 	stim ᚼ: color = [1, 1, 1]
+265.3379 	INFO 	Trial 69 start: 265.321177
+266.1373 	EXP 	Drew image 3 at 0.799408
+266.1374 	EXP 	Expected onset: 0.783333
+266.1373 	EXP 	stim ᚠ: autoDraw = True
+266.8537 	EXP 	slow_text: autoDraw = True
+266.8537 	EXP 	stim ᚠ: color = [-1, 1, -1]
+266.9536 	EXP 	stim ᚠ: autoDraw = False
+266.9536 	EXP 	slow_text: autoDraw = False
+266.9536 	EXP 	fast_text: autoDraw = False
+266.9536 	EXP 	good_text: autoDraw = False
+266.9536 	EXP 	stim ᚠ: color = [1, 1, 1]
+267.4866 	INFO 	Trial 70 start: 267.469900
+268.3529 	EXP 	Drew image 5 at 0.866269
+268.3529 	EXP 	Expected onset: 0.850000
+268.3529 	EXP 	stim ᚬ: autoDraw = True
+269.0024 	EXP 	good_text: autoDraw = True
+269.0024 	EXP 	stim ᚬ: color = [1, -1, -1]
+269.1023 	EXP 	stim ᚬ: autoDraw = False
+269.1023 	EXP 	slow_text: autoDraw = False
+269.1023 	EXP 	fast_text: autoDraw = False
+269.1023 	EXP 	good_text: autoDraw = False
+269.1023 	EXP 	stim ᚬ: color = [1, 1, 1]
+269.6355 	INFO 	Trial 71 start: 269.618801
+270.3684 	EXP 	Drew image 8 at 0.733054
+270.3685 	EXP 	Expected onset: 0.716667
+270.3684 	EXP 	stim ᚦ: autoDraw = True
+271.1514 	EXP 	good_text: autoDraw = True
+271.1514 	EXP 	stim ᚦ: color = [1, -1, -1]
+271.2512 	EXP 	stim ᚦ: autoDraw = False
+271.2512 	EXP 	slow_text: autoDraw = False
+271.2512 	EXP 	fast_text: autoDraw = False
+271.2512 	EXP 	good_text: autoDraw = False
+271.2512 	EXP 	stim ᚦ: color = [1, 1, 1]
+271.7842 	INFO 	Trial 72 start: 271.767612
+272.6507 	EXP 	Drew image 5 at 0.866217
+272.6507 	EXP 	Expected onset: 0.850000
+272.6506 	EXP 	stim ᚬ: autoDraw = True
+273.3001 	EXP 	slow_text: autoDraw = True
+273.3001 	EXP 	stim ᚬ: color = [-1, 1, -1]
+273.4001 	EXP 	stim ᚬ: autoDraw = False
+273.4001 	EXP 	slow_text: autoDraw = False
+273.4001 	EXP 	fast_text: autoDraw = False
+273.4001 	EXP 	good_text: autoDraw = False
+273.4001 	EXP 	stim ᚬ: color = [1, 1, 1]
+273.9332 	INFO 	Trial 73 start: 273.916489
+274.8827 	EXP 	Drew image 4 at 0.949839
+274.8827 	EXP 	Expected onset: 0.933333
+274.8826 	EXP 	stim ᚳ: autoDraw = True
+275.4489 	EXP 	slow_text: autoDraw = True
+275.5491 	EXP 	stim ᚳ: autoDraw = False
+275.5491 	EXP 	slow_text: autoDraw = False
+275.5491 	EXP 	fast_text: autoDraw = False
+275.5491 	EXP 	good_text: autoDraw = False
+275.5491 	EXP 	stim ᚳ: color = [1, 1, 1]
+277.7143 	INFO 	Trial 74 start: 277.698063
+278.3808 	EXP 	Drew image 7 at 0.665954
+278.3808 	EXP 	Expected onset: 0.666667
+278.3808 	EXP 	stim ᛋ: autoDraw = True
+279.2302 	EXP 	good_text: autoDraw = True
+279.2302 	EXP 	stim ᛋ: color = [1, -1, -1]
+279.3302 	EXP 	stim ᛋ: autoDraw = False
+279.3302 	EXP 	slow_text: autoDraw = False
+279.3302 	EXP 	fast_text: autoDraw = False
+279.3302 	EXP 	good_text: autoDraw = False
+279.3302 	EXP 	stim ᛋ: color = [1, 1, 1]
+279.8632 	INFO 	Trial 75 start: 279.846566
+280.4968 	EXP 	Drew image 6 at 0.633062
+280.4969 	EXP 	Expected onset: 0.633333
+280.4968 	EXP 	stim ᚣ: autoDraw = True
+281.3792 	EXP 	good_text: autoDraw = True
+281.3792 	EXP 	stim ᚣ: color = [1, -1, -1]
+281.4790 	EXP 	stim ᚣ: autoDraw = False
+281.4790 	EXP 	slow_text: autoDraw = False
+281.4790 	EXP 	fast_text: autoDraw = False
+281.4790 	EXP 	good_text: autoDraw = False
+281.4790 	EXP 	stim ᚣ: color = [1, 1, 1]
+282.0122 	INFO 	Trial 76 start: 281.995485
+282.6618 	EXP 	Drew image 4 at 0.649976
+282.6618 	EXP 	Expected onset: 0.633333
+282.6617 	EXP 	stim ᚳ: autoDraw = True
+283.5280 	EXP 	good_text: autoDraw = True
+283.5280 	EXP 	stim ᚳ: color = [1, -1, -1]
+283.6278 	EXP 	stim ᚳ: autoDraw = False
+283.6278 	EXP 	slow_text: autoDraw = False
+283.6278 	EXP 	fast_text: autoDraw = False
+283.6278 	EXP 	good_text: autoDraw = False
+283.6278 	EXP 	stim ᚳ: color = [1, 1, 1]
+284.1609 	INFO 	Trial 77 start: 284.144251
+285.1439 	EXP 	Drew image 1 at 0.982847
+285.1439 	EXP 	Expected onset: 0.966667
+285.1438 	EXP 	stim ᚢ: autoDraw = True
+285.6769 	EXP 	slow_text: autoDraw = True
+285.7767 	EXP 	stim ᚢ: autoDraw = False
+285.7767 	EXP 	slow_text: autoDraw = False
+285.7767 	EXP 	fast_text: autoDraw = False
+285.7767 	EXP 	good_text: autoDraw = False
+285.7767 	EXP 	stim ᚢ: color = [1, 1, 1]
+287.5925 	INFO 	Trial 78 start: 287.575801
+288.4087 	EXP 	Drew image 4 at 0.816324
+288.4087 	EXP 	Expected onset: 0.800000
+288.4086 	EXP 	stim ᚳ: autoDraw = True
+289.1082 	EXP 	slow_text: autoDraw = True
+289.2083 	EXP 	stim ᚳ: autoDraw = False
+289.2083 	EXP 	slow_text: autoDraw = False
+289.2083 	EXP 	fast_text: autoDraw = False
+289.2083 	EXP 	good_text: autoDraw = False
+289.2083 	EXP 	stim ᚳ: color = [1, 1, 1]
+289.7414 	INFO 	Trial 79 start: 289.724733
+290.8074 	EXP 	Drew image 5 at 1.065880
+290.8074 	EXP 	Expected onset: 1.050000
+290.8074 	EXP 	stim ᚬ: autoDraw = True
+291.2570 	EXP 	slow_text: autoDraw = True
+291.3570 	EXP 	stim ᚬ: autoDraw = False
+291.3570 	EXP 	slow_text: autoDraw = False
+291.3570 	EXP 	fast_text: autoDraw = False
+291.3570 	EXP 	good_text: autoDraw = False
+291.3570 	EXP 	stim ᚬ: color = [1, 1, 1]
+291.8902 	INFO 	Trial 80 start: 291.873967
+292.6739 	EXP 	Drew image 0 at 0.782813
+292.6739 	EXP 	Expected onset: 0.783333
+292.6738 	EXP 	stim ᚼ: autoDraw = True
+293.4061 	EXP 	slow_text: autoDraw = True
+293.4061 	EXP 	stim ᚼ: color = [-1, 1, -1]
+293.5060 	EXP 	stim ᚼ: autoDraw = False
+293.5060 	EXP 	slow_text: autoDraw = False
+293.5060 	EXP 	fast_text: autoDraw = False
+293.5060 	EXP 	good_text: autoDraw = False
+293.5060 	EXP 	stim ᚼ: color = [1, 1, 1]
+294.0390 	INFO 	Trial 81 start: 294.022392
+295.0051 	EXP 	Drew image 5 at 0.966418
+295.0051 	EXP 	Expected onset: 0.966667
+295.0051 	EXP 	stim ᚬ: autoDraw = True
+295.5549 	EXP 	good_text: autoDraw = True
+295.5549 	EXP 	stim ᚬ: color = [-1, 1, -1]
+295.6548 	EXP 	stim ᚬ: autoDraw = False
+295.6548 	EXP 	slow_text: autoDraw = False
+295.6548 	EXP 	fast_text: autoDraw = False
+295.6548 	EXP 	good_text: autoDraw = False
+295.6548 	EXP 	stim ᚬ: color = [1, 1, 1]
+296.1711 	INFO 	Trial 82 start: 296.154367
+296.8374 	EXP 	Drew image 7 at 0.666491
+296.8374 	EXP 	Expected onset: 0.666667
+296.8374 	EXP 	stim ᛋ: autoDraw = True
+297.6870 	EXP 	good_text: autoDraw = True
+297.6870 	EXP 	stim ᛋ: color = [1, -1, -1]
+297.7870 	EXP 	stim ᛋ: autoDraw = False
+297.7870 	EXP 	slow_text: autoDraw = False
+297.7870 	EXP 	fast_text: autoDraw = False
+297.7870 	EXP 	good_text: autoDraw = False
+297.7870 	EXP 	stim ᛋ: color = [1, 1, 1]
+298.3201 	INFO 	Trial 83 start: 298.303359
+299.1362 	EXP 	Drew image 8 at 0.816248
+299.1362 	EXP 	Expected onset: 0.800000
+299.1362 	EXP 	stim ᚦ: autoDraw = True
+299.8358 	EXP 	slow_text: autoDraw = True
+299.8358 	EXP 	stim ᚦ: color = [1, -1, -1]
+299.9358 	EXP 	stim ᚦ: autoDraw = False
+299.9358 	EXP 	slow_text: autoDraw = False
+299.9358 	EXP 	fast_text: autoDraw = False
+299.9358 	EXP 	good_text: autoDraw = False
+299.9358 	EXP 	stim ᚦ: color = [1, 1, 1]
+300.4689 	INFO 	Trial 84 start: 300.452196
+301.3183 	EXP 	Drew image 8 at 0.849971
+301.3183 	EXP 	Expected onset: 0.833333
+301.3182 	EXP 	stim ᚦ: autoDraw = True
+301.9847 	EXP 	fast_text: autoDraw = True
+301.9847 	EXP 	stim ᚦ: color = [-1, 1, -1]
+302.0846 	EXP 	stim ᚦ: autoDraw = False
+302.0846 	EXP 	slow_text: autoDraw = False
+302.0846 	EXP 	fast_text: autoDraw = False
+302.0846 	EXP 	good_text: autoDraw = False
+302.0846 	EXP 	stim ᚦ: color = [1, 1, 1]
+302.6176 	INFO 	Trial 85 start: 302.601302
+303.3840 	EXP 	Drew image 0 at 0.767248
+303.3840 	EXP 	Expected onset: 0.766667
+303.3840 	EXP 	stim ᚼ: autoDraw = True
+304.1336 	EXP 	good_text: autoDraw = True
+304.1336 	EXP 	stim ᚼ: color = [-1, 1, -1]
+304.2335 	EXP 	stim ᚼ: autoDraw = False
+304.2335 	EXP 	slow_text: autoDraw = False
+304.2335 	EXP 	fast_text: autoDraw = False
+304.2335 	EXP 	good_text: autoDraw = False
+304.2335 	EXP 	stim ᚼ: color = [1, 1, 1]
+304.7499 	INFO 	Trial 86 start: 304.733196
+305.4162 	EXP 	Drew image 7 at 0.666908
+305.4162 	EXP 	Expected onset: 0.666667
+305.4162 	EXP 	stim ᛋ: autoDraw = True
+306.2656 	EXP 	good_text: autoDraw = True
+306.2656 	EXP 	stim ᛋ: color = [1, -1, -1]
+306.3657 	EXP 	stim ᛋ: autoDraw = False
+306.3657 	EXP 	slow_text: autoDraw = False
+306.3657 	EXP 	fast_text: autoDraw = False
+306.3657 	EXP 	good_text: autoDraw = False
+306.3657 	EXP 	stim ᛋ: color = [1, 1, 1]
+306.8987 	INFO 	Trial 87 start: 306.882010
+307.5318 	EXP 	Drew image 8 at 0.633165
+307.5318 	EXP 	Expected onset: 0.616667
+307.5317 	EXP 	stim ᚦ: autoDraw = True
+308.4145 	EXP 	good_text: autoDraw = True
+308.4145 	EXP 	stim ᚦ: color = [-1, 1, -1]
+308.5189 	WARNING 	t of last frame was 21.07ms (=1/47)
+308.5189 	EXP 	stim ᚦ: autoDraw = False
+308.5189 	EXP 	slow_text: autoDraw = False
+308.5189 	EXP 	fast_text: autoDraw = False
+308.5189 	EXP 	good_text: autoDraw = False
+308.5189 	EXP 	stim ᚦ: color = [1, 1, 1]
+309.0476 	INFO 	Trial 88 start: 309.030868
+310.0138 	EXP 	Drew image 6 at 0.966336
+310.0138 	EXP 	Expected onset: 0.950000
+310.0137 	EXP 	stim ᚣ: autoDraw = True
+310.5634 	EXP 	slow_text: autoDraw = True
+310.6634 	EXP 	stim ᚣ: autoDraw = False
+310.6634 	EXP 	slow_text: autoDraw = False
+310.6634 	EXP 	fast_text: autoDraw = False
+310.6634 	EXP 	good_text: autoDraw = False
+310.6634 	EXP 	stim ᚣ: color = [1, 1, 1]
+311.1964 	INFO 	Trial 89 start: 311.179722
+312.1959 	EXP 	Drew image 4 at 0.999470
+312.1959 	EXP 	Expected onset: 0.983333
+312.1958 	EXP 	stim ᚳ: autoDraw = True
+312.7122 	EXP 	slow_text: autoDraw = True
+312.7956 	EXP 	stim ᚳ: autoDraw = False
+312.7956 	EXP 	slow_text: autoDraw = False
+312.7956 	EXP 	fast_text: autoDraw = False
+312.7956 	EXP 	good_text: autoDraw = False
+312.7956 	EXP 	stim ᚳ: color = [1, 1, 1]
+313.3288 	INFO 	Trial 90 start: 313.311731
+314.4279 	EXP 	Drew image 1 at 1.100232
+314.4279 	EXP 	Expected onset: 1.100000
+314.4279 	EXP 	stim ᚢ: autoDraw = True
+314.8444 	EXP 	slow_text: autoDraw = True
+314.9446 	EXP 	stim ᚢ: autoDraw = False
+314.9446 	EXP 	slow_text: autoDraw = False
+314.9446 	EXP 	fast_text: autoDraw = False
+314.9446 	EXP 	good_text: autoDraw = False
+314.9446 	EXP 	stim ᚢ: color = [1, 1, 1]
+315.5111 	INFO 	Trial 91 start: 315.494023
+316.4103 	EXP 	Drew image 3 at 0.900386
+316.4103 	EXP 	Expected onset: 0.883333
+316.4102 	EXP 	stim ᚠ: autoDraw = True
+317.0266 	EXP 	good_text: autoDraw = True
+317.0266 	EXP 	stim ᚠ: color = [1, -1, -1]
+317.1266 	EXP 	stim ᚠ: autoDraw = False
+317.1266 	EXP 	slow_text: autoDraw = False
+317.1266 	EXP 	fast_text: autoDraw = False
+317.1266 	EXP 	good_text: autoDraw = False
+317.1266 	EXP 	stim ᚠ: color = [1, 1, 1]
+317.6597 	INFO 	Trial 92 start: 317.642887
+318.3259 	EXP 	Drew image 3 at 0.666242
+318.3259 	EXP 	Expected onset: 0.650000
+318.3259 	EXP 	stim ᚠ: autoDraw = True
+319.1754 	EXP 	good_text: autoDraw = True
+319.1754 	EXP 	stim ᚠ: color = [1, -1, -1]
+319.2755 	EXP 	stim ᚠ: autoDraw = False
+319.2755 	EXP 	slow_text: autoDraw = False
+319.2755 	EXP 	fast_text: autoDraw = False
+319.2755 	EXP 	good_text: autoDraw = False
+319.2755 	EXP 	stim ᚠ: color = [1, 1, 1]
+319.7918 	INFO 	Trial 93 start: 319.775492
+320.6247 	EXP 	Drew image 7 at 0.833744
+320.6247 	EXP 	Expected onset: 0.816667
+320.6246 	EXP 	stim ᛋ: autoDraw = True
+321.3076 	EXP 	slow_text: autoDraw = True
+321.3076 	EXP 	stim ᛋ: color = [1, -1, -1]
+321.4074 	EXP 	stim ᛋ: autoDraw = False
+321.4074 	EXP 	slow_text: autoDraw = False
+321.4074 	EXP 	fast_text: autoDraw = False
+321.4074 	EXP 	good_text: autoDraw = False
+321.4074 	EXP 	stim ᛋ: color = [1, 1, 1]
+321.9407 	INFO 	Trial 94 start: 321.924013
+322.9234 	EXP 	Drew image 5 at 0.983603
+322.9235 	EXP 	Expected onset: 0.983333
+322.9234 	EXP 	stim ᚬ: autoDraw = True
+323.4564 	EXP 	good_text: autoDraw = True
+323.4564 	EXP 	stim ᚬ: color = [-1, 1, -1]
+323.5573 	EXP 	stim ᚬ: autoDraw = False
+323.5573 	EXP 	slow_text: autoDraw = False
+323.5573 	EXP 	fast_text: autoDraw = False
+323.5573 	EXP 	good_text: autoDraw = False
+323.5573 	EXP 	stim ᚬ: color = [1, 1, 1]
+324.0729 	INFO 	Trial 95 start: 324.056458
+324.6890 	EXP 	Drew image 1 at 0.616046
+324.6891 	EXP 	Expected onset: 0.616667
+324.6890 	EXP 	stim ᚢ: autoDraw = True
+325.5888 	EXP 	good_text: autoDraw = True
+325.5888 	EXP 	stim ᚢ: color = [-1, 1, -1]
+325.6886 	EXP 	stim ᚢ: autoDraw = False
+325.6886 	EXP 	slow_text: autoDraw = False
+325.6886 	EXP 	fast_text: autoDraw = False
+325.6886 	EXP 	good_text: autoDraw = False
+325.6886 	EXP 	stim ᚢ: color = [1, 1, 1]
+326.2052 	INFO 	Trial 96 start: 326.188255
+327.3043 	EXP 	Drew image 2 at 1.099466
+327.3044 	EXP 	Expected onset: 1.083333
+327.3043 	EXP 	stim ᚻ: autoDraw = True
+327.7208 	EXP 	slow_text: autoDraw = True
+327.8209 	EXP 	stim ᚻ: autoDraw = False
+327.8209 	EXP 	slow_text: autoDraw = False
+327.8209 	EXP 	fast_text: autoDraw = False
+327.8209 	EXP 	good_text: autoDraw = False
+327.8209 	EXP 	stim ᚻ: color = [1, 1, 1]
+328.4038 	INFO 	Trial 97 start: 328.387435
+329.0874 	EXP 	Drew image 1 at 0.682623
+329.0874 	EXP 	Expected onset: 0.666667
+329.0874 	EXP 	stim ᚢ: autoDraw = True
+329.9195 	EXP 	good_text: autoDraw = True
+329.9195 	EXP 	stim ᚢ: color = [1, -1, -1]
+330.0194 	EXP 	stim ᚢ: autoDraw = False
+330.0194 	EXP 	slow_text: autoDraw = False
+330.0194 	EXP 	fast_text: autoDraw = False
+330.0194 	EXP 	good_text: autoDraw = False
+330.0194 	EXP 	stim ᚢ: color = [1, 1, 1]
+330.5526 	INFO 	Trial 98 start: 330.535849
+331.2022 	EXP 	Drew image 1 at 0.649813
+331.2022 	EXP 	Expected onset: 0.650000
+331.2021 	EXP 	stim ᚢ: autoDraw = True
+332.0685 	EXP 	fast_text: autoDraw = True
+332.0685 	EXP 	stim ᚢ: color = [-1, 1, -1]
+332.1684 	EXP 	stim ᚢ: autoDraw = False
+332.1684 	EXP 	slow_text: autoDraw = False
+332.1684 	EXP 	fast_text: autoDraw = False
+332.1684 	EXP 	good_text: autoDraw = False
+332.1684 	EXP 	stim ᚢ: color = [1, 1, 1]
+332.7014 	INFO 	Trial 99 start: 332.684732
+333.7342 	EXP 	Drew image 9 at 1.032868
+333.7343 	EXP 	Expected onset: 1.016667
+333.7342 	EXP 	stim ᛇ: autoDraw = True
+334.2173 	EXP 	good_text: autoDraw = True
+334.2173 	EXP 	stim ᛇ: color = [1, -1, -1]
+334.3006 	EXP 	stim ᛇ: autoDraw = False
+334.3006 	EXP 	slow_text: autoDraw = False
+334.3006 	EXP 	fast_text: autoDraw = False
+334.3006 	EXP 	good_text: autoDraw = False
+334.3006 	EXP 	stim ᛇ: color = [1, 1, 1]
+334.3172 	EXP 	pause_text: autoDraw = True
+334.3172 	EXP 	pause_text: autoDraw = True
+334.3339 	EXP 	pause_text: text = 'Press 10 times to continue.'
+334.3505 	EXP 	pause_text: text = 'Press 10 times to continue.'
+334.3672 	EXP 	pause_text: text = 'Press 10 times to continue.'
+334.3839 	EXP 	pause_text: text = 'Press 10 times to continue.'
+334.4005 	EXP 	pause_text: text = 'Press 10 times to continue.'
+334.4172 	EXP 	pause_text: text = 'Press 10 times to continue.'
+334.4339 	EXP 	pause_text: text = 'Press 10 times to continue.'
+334.4505 	EXP 	pause_text: text = 'Press 10 times to continue.'
+334.4672 	EXP 	pause_text: text = 'Press 10 times to continue.'
+334.4839 	EXP 	pause_text: text = 'Press 10 times to continue.'
+334.5005 	EXP 	pause_text: text = 'Press 10 times to continue.'
+334.5172 	EXP 	pause_text: text = 'Press 10 times to continue.'
+334.5337 	EXP 	pause_text: text = 'Press 10 times to continue.'
+334.5504 	EXP 	pause_text: text = 'Press 10 times to continue.'
+334.5671 	EXP 	pause_text: text = 'Press 10 times to continue.'
+334.5837 	EXP 	pause_text: text = 'Press 10 times to continue.'
+334.6005 	EXP 	pause_text: text = 'Press 10 times to continue.'
+334.6171 	EXP 	pause_text: text = 'Press 10 times to continue.'
+334.6338 	EXP 	pause_text: text = 'Press 10 times to continue.'
+334.6504 	EXP 	pause_text: text = 'Press 10 times to continue.'
+334.6670 	EXP 	pause_text: text = 'Press 10 times to continue.'
+334.6837 	EXP 	pause_text: text = 'Press 10 times to continue.'
+334.7004 	EXP 	pause_text: text = 'Press 10 times to continue.'
+334.7171 	EXP 	pause_text: text = 'Press 10 times to continue.'
+334.7337 	EXP 	pause_text: text = 'Press 10 times to continue.'
+334.7504 	EXP 	pause_text: text = 'Press 10 times to continue.'
+334.7670 	EXP 	pause_text: text = 'Press 10 times to continue.'
+334.7837 	EXP 	pause_text: text = 'Press 10 times to continue.'
+334.8003 	EXP 	pause_text: text = 'Press 10 times to continue.'
+334.8169 	EXP 	pause_text: text = 'Press 10 times to continue.'
+334.8337 	EXP 	pause_text: text = 'Press 10 times to continue.'
+334.8502 	EXP 	pause_text: text = 'Press 10 times to continue.'
+334.8670 	EXP 	pause_text: text = 'Press 10 times to continue.'
+334.8836 	EXP 	pause_text: text = 'Press 10 times to continue.'
+334.9003 	EXP 	pause_text: text = 'Press 10 times to continue.'
+334.9169 	EXP 	pause_text: text = 'Press 10 times to continue.'
+334.9336 	EXP 	pause_text: text = 'Press 10 times to continue.'
+334.9504 	EXP 	pause_text: text = 'Press 10 times to continue.'
+334.9668 	EXP 	pause_text: text = 'Press 10 times to continue.'
+334.9835 	EXP 	pause_text: text = 'Press 10 times to continue.'
+335.0001 	EXP 	pause_text: text = 'Press 10 times to continue.'
+335.0168 	EXP 	pause_text: text = 'Press 10 times to continue.'
+335.0334 	EXP 	pause_text: text = 'Press 10 times to continue.'
+335.0501 	EXP 	pause_text: text = 'Press 10 times to continue.'
+335.0667 	EXP 	pause_text: text = 'Press 10 times to continue.'
+335.0834 	EXP 	pause_text: text = 'Press 10 times to continue.'
+335.1002 	EXP 	pause_text: text = 'Press 10 times to continue.'
+335.1167 	EXP 	pause_text: text = 'Press 10 times to continue.'
+335.1334 	EXP 	pause_text: text = 'Press 10 times to continue.'
+335.1500 	EXP 	pause_text: text = 'Press 10 times to continue.'
+335.1671 	EXP 	pause_text: text = 'Press 10 times to continue.'
+335.1833 	EXP 	pause_text: text = 'Press 10 times to continue.'
+335.2000 	EXP 	pause_text: text = 'Press 10 times to continue.'
+335.2168 	EXP 	pause_text: text = 'Press 10 times to continue.'
+335.2334 	EXP 	pause_text: text = 'Press 10 times to continue.'
+335.2502 	EXP 	pause_text: text = 'Press 10 times to continue.'
+335.2667 	EXP 	pause_text: text = 'Press 10 times to continue.'
+335.2834 	EXP 	pause_text: text = 'Press 10 times to continue.'
+335.3001 	EXP 	pause_text: text = 'Press 10 times to continue.'
+335.3167 	EXP 	pause_text: text = 'Press 10 times to continue.'
+335.3334 	EXP 	pause_text: text = 'Press 10 times to continue.'
+335.3500 	EXP 	pause_text: text = 'Press 10 times to continue.'
+335.3667 	EXP 	pause_text: text = 'Press 10 times to continue.'
+335.3833 	EXP 	pause_text: text = 'Press 10 times to continue.'
+335.4001 	EXP 	pause_text: text = 'Press 10 times to continue.'
+335.4165 	EXP 	pause_text: text = 'Press 10 times to continue.'
+335.4337 	EXP 	pause_text: text = 'Press 10 times to continue.'
+335.4499 	EXP 	pause_text: text = 'Press 10 times to continue.'
+335.4665 	EXP 	pause_text: text = 'Press 10 times to continue.'
+335.4833 	EXP 	pause_text: text = 'Press 10 times to continue.'
+335.4999 	EXP 	pause_text: text = 'Press 10 times to continue.'
+335.5166 	EXP 	pause_text: text = 'Press 10 times to continue.'
+335.5331 	EXP 	pause_text: text = 'Press 10 times to continue.'
+335.5500 	EXP 	pause_text: text = 'Press 10 times to continue.'
+335.5665 	EXP 	pause_text: text = 'Press 10 times to continue.'
+335.5831 	EXP 	pause_text: text = 'Press 10 times to continue.'
+335.5998 	EXP 	pause_text: text = 'Press 10 times to continue.'
+335.6164 	EXP 	pause_text: text = 'Press 10 times to continue.'
+335.6331 	EXP 	pause_text: text = 'Press 10 times to continue.'
+335.6498 	EXP 	pause_text: text = 'Press 10 times to continue.'
+335.6665 	EXP 	pause_text: text = 'Press 10 times to continue.'
+335.6830 	EXP 	pause_text: text = 'Press 10 times to continue.'
+335.6997 	EXP 	pause_text: text = 'Press 10 times to continue.'
+335.7164 	EXP 	pause_text: text = 'Press 10 times to continue.'
+335.7330 	EXP 	pause_text: text = 'Press 10 times to continue.'
+335.7498 	EXP 	pause_text: text = 'Press 10 times to continue.'
+335.7663 	EXP 	pause_text: text = 'Press 10 times to continue.'
+335.7832 	EXP 	pause_text: text = 'Press 10 times to continue.'
+335.7997 	EXP 	pause_text: text = 'Press 10 times to continue.'
+335.8164 	EXP 	pause_text: text = 'Press 10 times to continue.'
+335.8331 	EXP 	pause_text: text = 'Press 10 times to continue.'
+335.8497 	EXP 	pause_text: text = 'Press 10 times to continue.'
+335.8664 	EXP 	pause_text: text = 'Press 10 times to continue.'
+335.8829 	EXP 	pause_text: text = 'Press 10 times to continue.'
+335.8998 	EXP 	pause_text: text = 'Press 10 times to continue.'
+335.9164 	EXP 	pause_text: text = 'Press 10 times to continue.'
+335.9332 	EXP 	pause_text: text = 'Press 10 times to continue.'
+335.9497 	EXP 	pause_text: text = 'Press 10 times to continue.'
+335.9663 	EXP 	pause_text: text = 'Press 10 times to continue.'
+335.9830 	EXP 	pause_text: text = 'Press 10 times to continue.'
+335.9996 	EXP 	pause_text: text = 'Press 10 times to continue.'
+336.0163 	EXP 	pause_text: text = 'Press 10 times to continue.'
+336.0330 	EXP 	pause_text: text = 'Press 10 times to continue.'
+336.0497 	EXP 	pause_text: text = 'Press 10 times to continue.'
+336.0663 	EXP 	pause_text: text = 'Press 10 times to continue.'
+336.0830 	EXP 	pause_text: text = 'Press 10 times to continue.'
+336.0996 	EXP 	pause_text: text = 'Press 10 times to continue.'
+336.1161 	EXP 	pause_text: text = 'Press 10 times to continue.'
+336.1329 	EXP 	pause_text: text = 'Press 10 times to continue.'
+336.1494 	EXP 	pause_text: text = 'Press 10 times to continue.'
+336.1662 	EXP 	pause_text: text = 'Press 10 times to continue.'
+336.1827 	EXP 	pause_text: text = 'Press 10 times to continue.'
+336.1994 	EXP 	pause_text: text = 'Press 10 times to continue.'
+336.2161 	EXP 	pause_text: text = 'Press 10 times to continue.'
+336.2328 	EXP 	pause_text: text = 'Press 10 times to continue.'
+336.2496 	EXP 	pause_text: text = 'Press 10 times to continue.'
+336.2662 	EXP 	pause_text: text = 'Press 10 times to continue.'
+336.2829 	EXP 	pause_text: text = 'Press 10 times to continue.'
+336.2995 	EXP 	pause_text: text = 'Press 10 times to continue.'
+336.3166 	EXP 	pause_text: text = 'Press 10 times to continue.'
+336.3328 	EXP 	pause_text: text = 'Press 10 times to continue.'
+336.3495 	EXP 	pause_text: text = 'Press 10 times to continue.'
+336.3661 	EXP 	pause_text: text = 'Press 10 times to continue.'
+336.3828 	EXP 	pause_text: text = 'Press 10 times to continue.'
+336.3994 	EXP 	pause_text: text = 'Press 10 times to continue.'
+336.4161 	EXP 	pause_text: text = 'Press 10 times to continue.'
+336.4329 	EXP 	pause_text: text = 'Press 10 times to continue.'
+336.4494 	EXP 	pause_text: text = 'Press 10 times to continue.'
+336.4661 	EXP 	pause_text: text = 'Press 10 times to continue.'
+336.4828 	EXP 	pause_text: text = 'Press 10 times to continue.'
+336.4994 	EXP 	pause_text: text = 'Press 10 times to continue.'
+336.5159 	EXP 	pause_text: text = 'Press 10 times to continue.'
+336.5326 	EXP 	pause_text: text = 'Press 10 times to continue.'
+336.5494 	EXP 	pause_text: text = 'Press 10 times to continue.'
+336.5660 	EXP 	pause_text: text = 'Press 10 times to continue.'
+336.5827 	EXP 	pause_text: text = 'Press 10 times to continue.'
+336.5993 	EXP 	pause_text: text = 'Press 10 times to continue.'
+336.6160 	EXP 	pause_text: text = 'Press 10 times to continue.'
+336.6326 	EXP 	pause_text: text = 'Press 10 times to continue.'
+336.6491 	EXP 	pause_text: text = 'Press 10 times to continue.'
+336.6659 	EXP 	pause_text: text = 'Press 10 times to continue.'
+336.6825 	EXP 	pause_text: text = 'Press 10 times to continue.'
+336.6992 	EXP 	pause_text: text = 'Press 10 times to continue.'
+336.7158 	EXP 	pause_text: text = 'Press 10 times to continue.'
+336.7326 	EXP 	pause_text: text = 'Press 10 times to continue.'
+336.7492 	EXP 	pause_text: text = 'Press 10 times to continue.'
+336.7659 	EXP 	pause_text: text = 'Press 10 times to continue.'
+336.7827 	EXP 	pause_text: text = 'Press 10 times to continue.'
+336.7992 	EXP 	pause_text: text = 'Press 10 times to continue.'
+336.8160 	EXP 	pause_text: text = 'Press 10 times to continue.'
+336.8325 	EXP 	pause_text: text = 'Press 10 times to continue.'
+336.8492 	EXP 	pause_text: text = 'Press 10 times to continue.'
+336.8659 	EXP 	pause_text: text = 'Press 10 times to continue.'
+336.8825 	EXP 	pause_text: text = 'Press 10 times to continue.'
+336.8992 	EXP 	pause_text: text = 'Press 10 times to continue.'
+336.9158 	EXP 	pause_text: text = 'Press 10 times to continue.'
+336.9326 	EXP 	pause_text: text = 'Press 10 times to continue.'
+336.9492 	EXP 	pause_text: text = 'Press 10 times to continue.'
+336.9658 	EXP 	pause_text: text = 'Press 10 times to continue.'
+336.9825 	EXP 	pause_text: text = 'Press 10 times to continue.'
+336.9990 	EXP 	pause_text: text = 'Press 10 times to continue.'
+337.0157 	EXP 	pause_text: text = 'Press 10 times to continue.'
+337.0323 	EXP 	pause_text: text = 'Press 10 times to continue.'
+337.0490 	EXP 	pause_text: text = 'Press 10 times to continue.'
+337.0656 	EXP 	pause_text: text = 'Press 10 times to continue.'
+337.0823 	EXP 	pause_text: text = 'Press 10 times to continue.'
+337.0989 	EXP 	pause_text: text = 'Press 10 times to continue.'
+337.1155 	EXP 	pause_text: text = 'Press 10 times to continue.'
+337.1323 	EXP 	pause_text: text = 'Press 10 times to continue.'
+337.1489 	EXP 	pause_text: text = 'Press 10 times to continue.'
+337.1657 	EXP 	pause_text: text = 'Press 10 times to continue.'
+337.1823 	EXP 	pause_text: text = 'Press 10 times to continue.'
+337.1989 	EXP 	pause_text: text = 'Press 10 times to continue.'
+337.2155 	EXP 	pause_text: text = 'Press 10 times to continue.'
+337.2322 	EXP 	pause_text: text = 'Press 10 times to continue.'
+337.2489 	EXP 	pause_text: text = 'Press 10 times to continue.'
+337.2655 	EXP 	pause_text: text = 'Press 10 times to continue.'
+337.2823 	EXP 	pause_text: text = 'Press 10 times to continue.'
+337.2989 	EXP 	pause_text: text = 'Press 10 times to continue.'
+337.3156 	EXP 	pause_text: text = 'Press 10 times to continue.'
+337.3323 	EXP 	pause_text: text = 'Press 10 times to continue.'
+337.3489 	EXP 	pause_text: text = 'Press 10 times to continue.'
+337.3656 	EXP 	pause_text: text = 'Press 10 times to continue.'
+337.3822 	EXP 	pause_text: text = 'Press 10 times to continue.'
+337.3988 	EXP 	pause_text: text = 'Press 10 times to continue.'
+337.4154 	EXP 	pause_text: text = 'Press 10 times to continue.'
+337.4322 	EXP 	pause_text: text = 'Press 10 times to continue.'
+337.4487 	EXP 	pause_text: text = 'Press 10 times to continue.'
+337.4654 	EXP 	pause_text: text = 'Press 10 times to continue.'
+337.4821 	EXP 	pause_text: text = 'Press 10 times to continue.'
+337.4987 	EXP 	pause_text: text = 'Press 10 times to continue.'
+337.5154 	EXP 	pause_text: text = 'Press 10 times to continue.'
+337.5322 	EXP 	pause_text: text = 'Press 10 times to continue.'
+337.5489 	EXP 	pause_text: text = 'Press 10 times to continue.'
+337.5653 	EXP 	pause_text: text = 'Press 10 times to continue.'
+337.5825 	EXP 	pause_text: text = 'Press 10 times to continue.'
+337.5987 	EXP 	pause_text: text = 'Press 10 times to continue.'
+337.6153 	EXP 	pause_text: text = 'Press 10 times to continue.'
+337.6321 	EXP 	pause_text: text = 'Press 10 times to continue.'
+337.6487 	EXP 	pause_text: text = 'Press 10 times to continue.'
+337.6654 	EXP 	pause_text: text = 'Press 10 times to continue.'
+337.6820 	EXP 	pause_text: text = 'Press 10 times to continue.'
+337.6987 	EXP 	pause_text: text = 'Press 10 times to continue.'
+337.7153 	EXP 	pause_text: text = 'Press 10 times to continue.'
+337.7325 	EXP 	pause_text: text = 'Press 10 times to continue.'
+337.7487 	EXP 	pause_text: text = 'Press 10 times to continue.'
+337.7652 	EXP 	pause_text: text = 'Press 10 times to continue.'
+337.7820 	EXP 	pause_text: text = 'Press 10 times to continue.'
+337.7986 	EXP 	pause_text: text = 'Press 10 times to continue.'
+337.8153 	EXP 	pause_text: text = 'Press 10 times to continue.'
+337.8319 	EXP 	pause_text: text = 'Press 10 times to continue.'
+337.8489 	EXP 	pause_text: text = 'Press 10 times to continue.'
+337.8653 	EXP 	pause_text: text = 'Press 10 times to continue.'
+337.8819 	EXP 	pause_text: text = 'Press 10 times to continue.'
+337.8986 	EXP 	pause_text: text = 'Press 10 times to continue.'
+337.9152 	EXP 	pause_text: text = 'Press 10 times to continue.'
+337.9320 	EXP 	pause_text: text = 'Press 10 times to continue.'
+337.9485 	EXP 	pause_text: text = 'Press 10 times to continue.'
+337.9653 	EXP 	pause_text: text = 'Press 10 times to continue.'
+337.9818 	EXP 	pause_text: text = 'Press 10 times to continue.'
+337.9986 	EXP 	pause_text: text = 'Press 10 times to continue.'
+338.0153 	EXP 	pause_text: text = 'Press 10 times to continue.'
+338.0318 	EXP 	pause_text: text = 'Press 10 times to continue.'
+338.0485 	EXP 	pause_text: text = 'Press 10 times to continue.'
+338.0651 	EXP 	pause_text: text = 'Press 10 times to continue.'
+338.0819 	EXP 	pause_text: text = 'Press 10 times to continue.'
+338.0984 	EXP 	pause_text: text = 'Press 10 times to continue.'
+338.1156 	EXP 	pause_text: text = 'Press 10 times to continue.'
+338.1318 	EXP 	pause_text: text = 'Press 10 times to continue.'
+338.1484 	EXP 	pause_text: text = 'Press 10 times to continue.'
+338.1652 	EXP 	pause_text: text = 'Press 10 times to continue.'
+338.1818 	EXP 	pause_text: text = 'Press 10 times to continue.'
+338.1985 	EXP 	pause_text: text = 'Press 10 times to continue.'
+338.2151 	EXP 	pause_text: text = 'Press 10 times to continue.'
+338.2320 	EXP 	pause_text: text = 'Press 10 times to continue.'
+338.2483 	EXP 	pause_text: text = 'Press 10 times to continue.'
+338.2649 	EXP 	pause_text: text = 'Press 10 times to continue.'
+338.2817 	EXP 	pause_text: text = 'Press 10 times to continue.'
+338.2983 	EXP 	pause_text: text = 'Press 10 times to continue.'
+338.3151 	EXP 	pause_text: text = 'Press 10 times to continue.'
+338.3317 	EXP 	pause_text: text = 'Press 10 times to continue.'
+338.3483 	EXP 	pause_text: text = 'Press 10 times to continue.'
+338.3650 	EXP 	pause_text: text = 'Press 10 times to continue.'
+338.3817 	EXP 	pause_text: text = 'Press 10 times to continue.'
+338.3984 	EXP 	pause_text: text = 'Press 10 times to continue.'
+338.4150 	EXP 	pause_text: text = 'Press 10 times to continue.'
+338.4318 	EXP 	pause_text: text = 'Press 10 times to continue.'
+338.4483 	EXP 	pause_text: text = 'Press 10 times to continue.'
+338.4649 	EXP 	pause_text: text = 'Press 10 times to continue.'
+338.4816 	EXP 	pause_text: text = 'Press 10 times to continue.'
+338.4982 	EXP 	pause_text: text = 'Press 10 times to continue.'
+338.5150 	EXP 	pause_text: text = 'Press 10 times to continue.'
+338.5316 	EXP 	pause_text: text = 'Press 10 times to continue.'
+338.5483 	EXP 	pause_text: text = 'Press 10 times to continue.'
+338.5649 	EXP 	pause_text: text = 'Press 10 times to continue.'
+338.5817 	EXP 	pause_text: text = 'Press 10 times to continue.'
+338.5983 	EXP 	pause_text: text = 'Press 10 times to continue.'
+338.6152 	EXP 	pause_text: text = 'Press 10 times to continue.'
+338.6316 	EXP 	pause_text: text = 'Press 10 times to continue.'
+338.6481 	EXP 	pause_text: text = 'Press 10 times to continue.'
+338.6649 	EXP 	pause_text: text = 'Press 10 times to continue.'
+338.6815 	EXP 	pause_text: text = 'Press 10 times to continue.'
+338.6982 	EXP 	pause_text: text = 'Press 10 times to continue.'
+338.7149 	EXP 	pause_text: text = 'Press 10 times to continue.'
+338.7316 	EXP 	pause_text: text = 'Press 10 times to continue.'
+338.7481 	EXP 	pause_text: text = 'Press 10 times to continue.'
+338.7648 	EXP 	pause_text: text = 'Press 10 times to continue.'
+338.7814 	EXP 	pause_text: text = 'Press 10 times to continue.'
+338.7981 	EXP 	pause_text: text = 'Press 10 times to continue.'
+338.8148 	EXP 	pause_text: text = 'Press 10 times to continue.'
+338.8314 	EXP 	pause_text: text = 'Press 10 times to continue.'
+338.8481 	EXP 	pause_text: text = 'Press 10 times to continue.'
+338.8648 	EXP 	pause_text: text = 'Press 10 times to continue.'
+338.8820 	EXP 	pause_text: text = 'Press 10 times to continue.'
+338.8981 	EXP 	pause_text: text = 'Press 10 times to continue.'
+338.9147 	EXP 	pause_text: text = 'Press 10 times to continue.'
+338.9315 	EXP 	pause_text: text = 'Press 10 times to continue.'
+338.9480 	EXP 	pause_text: text = 'Press 10 times to continue.'
+338.9647 	EXP 	pause_text: text = 'Press 10 times to continue.'
+338.9817 	EXP 	pause_text: text = 'Press 10 times to continue.'
+338.9984 	EXP 	pause_text: text = 'Press 10 times to continue.'
+339.0147 	EXP 	pause_text: text = 'Press 10 times to continue.'
+339.0313 	EXP 	pause_text: text = 'Press 10 times to continue.'
+339.0480 	EXP 	pause_text: text = 'Press 10 times to continue.'
+339.0647 	EXP 	pause_text: text = 'Press 10 times to continue.'
+339.0813 	EXP 	pause_text: text = 'Press 10 times to continue.'
+339.0980 	EXP 	pause_text: text = 'Press 10 times to continue.'
+339.1149 	EXP 	pause_text: text = 'Press 10 times to continue.'
+339.1312 	EXP 	pause_text: text = 'Press 10 times to continue.'
+339.1479 	EXP 	pause_text: text = 'Press 10 times to continue.'
+339.1645 	EXP 	pause_text: text = 'Press 10 times to continue.'
+339.1812 	EXP 	pause_text: text = 'Press 10 times to continue.'
+339.1979 	EXP 	pause_text: text = 'Press 10 times to continue.'
+339.2145 	EXP 	pause_text: text = 'Press 10 times to continue.'
+339.2312 	EXP 	pause_text: text = 'Press 10 times to continue.'
+339.2478 	EXP 	pause_text: text = 'Press 10 times to continue.'
+339.2648 	EXP 	pause_text: text = 'Press 10 times to continue.'
+339.2812 	EXP 	pause_text: text = 'Press 10 times to continue.'
+339.2978 	EXP 	pause_text: text = 'Press 10 times to continue.'
+339.3145 	EXP 	pause_text: text = 'Press 10 times to continue.'
+339.3312 	EXP 	pause_text: text = 'Press 10 times to continue.'
+339.3479 	EXP 	pause_text: text = 'Press 10 times to continue.'
+339.3646 	EXP 	pause_text: text = 'Press 10 times to continue.'
+339.3813 	EXP 	pause_text: text = 'Press 10 times to continue.'
+339.3978 	EXP 	pause_text: text = 'Press 10 times to continue.'
+339.4145 	EXP 	pause_text: text = 'Press 10 times to continue.'
+339.4312 	EXP 	pause_text: text = 'Press 10 times to continue.'
+339.4478 	EXP 	pause_text: text = 'Press 10 times to continue.'
+339.4645 	EXP 	pause_text: text = 'Press 10 times to continue.'
+339.4811 	EXP 	pause_text: text = 'Press 10 times to continue.'
+339.4978 	EXP 	pause_text: text = 'Press 10 times to continue.'
+339.5143 	EXP 	pause_text: text = 'Press 10 times to continue.'
+339.5309 	EXP 	pause_text: text = 'Press 10 times to continue.'
+339.5476 	EXP 	pause_text: text = 'Press 10 times to continue.'
+339.5643 	EXP 	pause_text: text = 'Press 10 times to continue.'
+339.5809 	EXP 	pause_text: text = 'Press 10 times to continue.'
+339.5976 	EXP 	pause_text: text = 'Press 10 times to continue.'
+339.6144 	EXP 	pause_text: text = 'Press 10 times to continue.'
+339.6310 	EXP 	pause_text: text = 'Press 10 times to continue.'
+339.6477 	EXP 	pause_text: text = 'Press 10 times to continue.'
+339.6644 	EXP 	pause_text: text = 'Press 10 times to continue.'
+339.6809 	EXP 	pause_text: text = 'Press 10 times to continue.'
+339.6976 	EXP 	pause_text: text = 'Press 10 times to continue.'
+339.7142 	EXP 	pause_text: text = 'Press 10 times to continue.'
+339.7310 	EXP 	pause_text: text = 'Press 10 times to continue.'
+339.7475 	EXP 	pause_text: text = 'Press 10 times to continue.'
+339.7646 	EXP 	pause_text: text = 'Press 10 times to continue.'
+339.7809 	EXP 	pause_text: text = 'Press 10 times to continue.'
+339.7975 	EXP 	pause_text: text = 'Press 10 times to continue.'
+339.8143 	EXP 	pause_text: text = 'Press 10 times to continue.'
+339.8308 	EXP 	pause_text: text = 'Press 10 times to continue.'
+339.8476 	EXP 	pause_text: text = 'Press 10 times to continue.'
+339.8642 	EXP 	pause_text: text = 'Press 10 times to continue.'
+339.8812 	EXP 	pause_text: text = 'Press 10 times to continue.'
+339.8975 	EXP 	pause_text: text = 'Press 10 times to continue.'
+339.9141 	EXP 	pause_text: text = 'Press 10 times to continue.'
+339.9309 	EXP 	pause_text: text = 'Press 10 times to continue.'
+339.9474 	EXP 	pause_text: text = 'Press 10 times to continue.'
+339.9642 	EXP 	pause_text: text = 'Press 10 times to continue.'
+339.9807 	EXP 	pause_text: text = 'Press 10 times to continue.'
+339.9975 	EXP 	pause_text: text = 'Press 10 times to continue.'
+340.0141 	EXP 	pause_text: text = 'Press 10 times to continue.'
+340.0311 	EXP 	pause_text: text = 'Press 10 times to continue.'
+340.0475 	EXP 	pause_text: text = 'Press 10 times to continue.'
+340.0641 	EXP 	pause_text: text = 'Press 10 times to continue.'
+340.0809 	EXP 	pause_text: text = 'Press 10 times to continue.'
+340.0974 	EXP 	pause_text: text = 'Press 10 times to continue.'
+340.1140 	EXP 	pause_text: text = 'Press 10 times to continue.'
+340.1306 	EXP 	pause_text: text = 'Press 10 times to continue.'
+340.1477 	EXP 	pause_text: text = 'Press 10 times to continue.'
+340.1639 	EXP 	pause_text: text = 'Press 10 times to continue.'
+340.1806 	EXP 	pause_text: text = 'Press 10 times to continue.'
+340.1974 	EXP 	pause_text: text = 'Press 10 times to continue.'
+340.2139 	EXP 	pause_text: text = 'Press 10 times to continue.'
+340.2307 	EXP 	pause_text: text = 'Press 10 times to continue.'
+340.2473 	EXP 	pause_text: text = 'Press 10 times to continue.'
+340.2641 	EXP 	pause_text: text = 'Press 10 times to continue.'
+340.2806 	EXP 	pause_text: text = 'Press 10 times to continue.'
+340.2977 	EXP 	pause_text: text = 'Press 10 times to continue.'
+340.3140 	EXP 	pause_text: text = 'Press 10 times to continue.'
+340.3306 	EXP 	pause_text: text = 'Press 10 times to continue.'
+340.3472 	EXP 	pause_text: text = 'Press 10 times to continue.'
+340.3640 	EXP 	pause_text: text = 'Press 10 times to continue.'
+340.3807 	EXP 	pause_text: text = 'Press 10 times to continue.'
+340.3973 	EXP 	pause_text: text = 'Press 10 times to continue.'
+340.4139 	EXP 	pause_text: text = 'Press 10 times to continue.'
+340.4305 	EXP 	pause_text: text = 'Press 10 times to continue.'
+340.4472 	EXP 	pause_text: text = 'Press 10 times to continue.'
+340.4639 	EXP 	pause_text: text = 'Press 10 times to continue.'
+340.4806 	EXP 	pause_text: text = 'Press 10 times to continue.'
+340.4973 	EXP 	pause_text: text = 'Press 10 times to continue.'
+340.5139 	EXP 	pause_text: text = 'Press 10 times to continue.'
+340.5310 	EXP 	pause_text: text = 'Press 10 times to continue.'
+340.5471 	EXP 	pause_text: text = 'Press 10 times to continue.'
+340.5639 	EXP 	pause_text: text = 'Press 10 times to continue.'
+340.5805 	EXP 	pause_text: text = 'Press 10 times to continue.'
+340.5972 	EXP 	pause_text: text = 'Press 10 times to continue.'
+340.6138 	EXP 	pause_text: text = 'Press 10 times to continue.'
+340.6303 	EXP 	pause_text: text = 'Press 10 times to continue.'
+340.6470 	EXP 	pause_text: text = 'Press 10 times to continue.'
+340.6637 	EXP 	pause_text: text = 'Press 10 times to continue.'
+340.6804 	EXP 	pause_text: text = 'Press 10 times to continue.'
+340.6971 	EXP 	pause_text: text = 'Press 10 times to continue.'
+340.7137 	EXP 	pause_text: text = 'Press 10 times to continue.'
+340.7305 	EXP 	pause_text: text = 'Press 10 times to continue.'
+340.7470 	EXP 	pause_text: text = 'Press 10 times to continue.'
+340.7638 	EXP 	pause_text: text = 'Press 10 times to continue.'
+340.7804 	EXP 	pause_text: text = 'Press 10 times to continue.'
+340.7971 	EXP 	pause_text: text = 'Press 10 times to continue.'
+340.8138 	EXP 	pause_text: text = 'Press 10 times to continue.'
+340.8304 	EXP 	pause_text: text = 'Press 10 times to continue.'
+340.8471 	EXP 	pause_text: text = 'Press 10 times to continue.'
+340.8637 	EXP 	pause_text: text = 'Press 10 times to continue.'
+340.8804 	EXP 	pause_text: text = 'Press 10 times to continue.'
+340.8970 	EXP 	pause_text: text = 'Press 10 times to continue.'
+340.9138 	EXP 	pause_text: text = 'Press 10 times to continue.'
+340.9303 	EXP 	pause_text: text = 'Press 10 times to continue.'
+340.9469 	EXP 	pause_text: text = 'Press 10 times to continue.'
+340.9637 	EXP 	pause_text: text = 'Press 10 times to continue.'
+340.9804 	EXP 	pause_text: text = 'Press 10 times to continue.'
+340.9971 	EXP 	pause_text: text = 'Press 10 times to continue.'
+341.0136 	EXP 	pause_text: text = 'Press 10 times to continue.'
+341.0303 	EXP 	pause_text: text = 'Press 10 times to continue.'
+341.0469 	EXP 	pause_text: text = 'Press 10 times to continue.'
+341.0635 	EXP 	pause_text: text = 'Press 10 times to continue.'
+341.0802 	EXP 	pause_text: text = 'Press 10 times to continue.'
+341.0968 	EXP 	pause_text: text = 'Press 10 times to continue.'
+341.1136 	EXP 	pause_text: text = 'Press 10 times to continue.'
+341.1302 	EXP 	pause_text: text = 'Press 10 times to continue.'
+341.1469 	EXP 	pause_text: text = 'Press 10 times to continue.'
+341.1635 	EXP 	pause_text: text = 'Press 10 times to continue.'
+341.1805 	EXP 	pause_text: text = 'Press 10 times to continue.'
+341.1968 	EXP 	pause_text: text = 'Press 10 times to continue.'
+341.2135 	EXP 	pause_text: text = 'Press 10 times to continue.'
+341.2302 	EXP 	pause_text: text = 'Press 10 times to continue.'
+341.2468 	EXP 	pause_text: text = 'Press 10 times to continue.'
+341.2636 	EXP 	pause_text: text = 'Press 10 times to continue.'
+341.2802 	EXP 	pause_text: text = 'Press 10 times to continue.'
+341.2973 	EXP 	pause_text: text = 'Press 10 times to continue.'
+341.3135 	EXP 	pause_text: text = 'Press 10 times to continue.'
+341.3301 	EXP 	pause_text: text = 'Press 10 times to continue.'
+341.3469 	EXP 	pause_text: text = 'Press 10 times to continue.'
+341.3633 	EXP 	pause_text: text = 'Press 10 times to continue.'
+341.3800 	EXP 	pause_text: text = 'Press 10 times to continue.'
+341.3966 	EXP 	pause_text: text = 'Press 10 times to continue.'
+341.4135 	EXP 	pause_text: text = 'Press 10 times to continue.'
+341.4300 	EXP 	pause_text: text = 'Press 10 times to continue.'
+341.4467 	EXP 	pause_text: text = 'Press 10 times to continue.'
+341.4633 	EXP 	pause_text: text = 'Press 10 times to continue.'
+341.4800 	EXP 	pause_text: text = 'Press 10 times to continue.'
+341.4967 	EXP 	pause_text: text = 'Press 10 times to continue.'
+341.5133 	EXP 	pause_text: text = 'Press 10 times to continue.'
+341.5301 	EXP 	pause_text: text = 'Press 10 times to continue.'
+341.5467 	EXP 	pause_text: text = 'Press 10 times to continue.'
+341.5633 	EXP 	pause_text: text = 'Press 10 times to continue.'
+341.5800 	EXP 	pause_text: text = 'Press 10 times to continue.'
+341.5967 	EXP 	pause_text: text = 'Press 10 times to continue.'
+341.6133 	EXP 	pause_text: text = 'Press 10 times to continue.'
+341.6299 	EXP 	pause_text: text = 'Press 10 times to continue.'
+341.6467 	EXP 	pause_text: text = 'Press 10 times to continue.'
+341.6633 	EXP 	pause_text: text = 'Press 10 times to continue.'
+341.6800 	EXP 	pause_text: text = 'Press 10 times to continue.'
+341.6966 	EXP 	pause_text: text = 'Press 10 times to continue.'
+341.7133 	EXP 	pause_text: text = 'Press 10 times to continue.'
+341.7299 	EXP 	pause_text: text = 'Press 10 times to continue.'
+341.7466 	EXP 	pause_text: text = 'Press 10 times to continue.'
+341.7632 	EXP 	pause_text: text = 'Press 10 times to continue.'
+341.7799 	EXP 	pause_text: text = 'Press 10 times to continue.'
+341.7969 	EXP 	pause_text: text = 'Press 10 times to continue.'
+341.8132 	EXP 	pause_text: text = 'Press 10 times to continue.'
+341.8297 	EXP 	pause_text: text = 'Press 10 times to continue.'
+341.8465 	EXP 	pause_text: text = 'Press 10 times to continue.'
+341.8632 	EXP 	pause_text: text = 'Press 10 times to continue.'
+341.8799 	EXP 	pause_text: text = 'Press 10 times to continue.'
+341.8965 	EXP 	pause_text: text = 'Press 10 times to continue.'
+341.9132 	EXP 	pause_text: text = 'Press 10 times to continue.'
+341.9297 	EXP 	pause_text: text = 'Press 10 times to continue.'
+341.9463 	EXP 	pause_text: text = 'Press 10 times to continue.'
+341.9631 	EXP 	pause_text: text = 'Press 10 times to continue.'
+341.9798 	EXP 	pause_text: text = 'Press 10 times to continue.'
+341.9965 	EXP 	pause_text: text = 'Press 10 times to continue.'
+342.0131 	EXP 	pause_text: text = 'Press 10 times to continue.'
+342.0298 	EXP 	pause_text: text = 'Press 10 times to continue.'
+342.0464 	EXP 	pause_text: text = 'Press 10 times to continue.'
+342.0631 	EXP 	pause_text: text = 'Press 10 times to continue.'
+342.0796 	EXP 	pause_text: text = 'Press 10 times to continue.'
+342.0963 	EXP 	pause_text: text = 'Press 10 times to continue.'
+342.1130 	EXP 	pause_text: text = 'Press 10 times to continue.'
+342.1295 	EXP 	pause_text: text = 'Press 10 times to continue.'
+342.1464 	EXP 	pause_text: text = 'Press 10 times to continue.'
+342.1630 	EXP 	pause_text: text = 'Press 10 times to continue.'
+342.1801 	EXP 	pause_text: text = 'Press 10 times to continue.'
+342.1964 	EXP 	pause_text: text = 'Press 10 times to continue.'
+342.2128 	EXP 	pause_text: text = 'Press 10 times to continue.'
+342.2295 	EXP 	pause_text: text = 'Press 10 times to continue.'
+342.2462 	EXP 	pause_text: text = 'Press 10 times to continue.'
+342.2629 	EXP 	pause_text: text = 'Press 10 times to continue.'
+342.2796 	EXP 	pause_text: text = 'Press 10 times to continue.'
+342.2963 	EXP 	pause_text: text = 'Press 10 times to continue.'
+342.3128 	EXP 	pause_text: text = 'Press 10 times to continue.'
+342.3298 	EXP 	pause_text: text = 'Press 10 times to continue.'
+342.3462 	EXP 	pause_text: text = 'Press 10 times to continue.'
+342.3628 	EXP 	pause_text: text = 'Press 10 times to continue.'
+342.3796 	EXP 	pause_text: text = 'Press 10 times to continue.'
+342.3962 	EXP 	pause_text: text = 'Press 10 times to continue.'
+342.4129 	EXP 	pause_text: text = 'Press 10 times to continue.'
+342.4295 	EXP 	pause_text: text = 'Press 10 times to continue.'
+342.4465 	EXP 	pause_text: text = 'Press 10 times to continue.'
+342.4629 	EXP 	pause_text: text = 'Press 10 times to continue.'
+342.4795 	EXP 	pause_text: text = 'Press 10 times to continue.'
+342.4962 	EXP 	pause_text: text = 'Press 10 times to continue.'
+342.5128 	EXP 	pause_text: text = 'Press 10 times to continue.'
+342.5295 	EXP 	pause_text: text = 'Press 10 times to continue.'
+342.5461 	EXP 	pause_text: text = 'Press 10 times to continue.'
+342.5632 	EXP 	pause_text: text = 'Press 10 times to continue.'
+342.5794 	EXP 	pause_text: text = 'Press 10 times to continue.'
+342.5961 	EXP 	pause_text: text = 'Press 10 times to continue.'
+342.6128 	EXP 	pause_text: text = 'Press 10 times to continue.'
+342.6293 	EXP 	pause_text: text = 'Press 10 times to continue.'
+342.6462 	EXP 	pause_text: text = 'Press 10 times to continue.'
+342.6627 	EXP 	pause_text: text = 'Press 10 times to continue.'
+342.6795 	EXP 	pause_text: text = 'Press 10 times to continue.'
+342.6961 	EXP 	pause_text: text = 'Press 10 times to continue.'
+342.7127 	EXP 	pause_text: text = 'Press 10 times to continue.'
+342.7294 	EXP 	pause_text: text = 'Press 10 times to continue.'
+342.7460 	EXP 	pause_text: text = 'Press 10 times to continue.'
+342.7627 	EXP 	pause_text: text = 'Press 10 times to continue.'
+342.7793 	EXP 	pause_text: text = 'Press 10 times to continue.'
+342.7961 	EXP 	pause_text: text = 'Press 10 times to continue.'
+342.8126 	EXP 	pause_text: text = 'Press 10 times to continue.'
+342.8297 	EXP 	pause_text: text = 'Press 10 times to continue.'
+342.8460 	EXP 	pause_text: text = 'Press 10 times to continue.'
+342.8624 	EXP 	pause_text: text = 'Press 10 times to continue.'
+342.8793 	EXP 	pause_text: text = 'Press 10 times to continue.'
+342.8959 	EXP 	pause_text: text = 'Press 10 times to continue.'
+342.9126 	EXP 	pause_text: text = 'Press 10 times to continue.'
+342.9292 	EXP 	pause_text: text = 'Press 10 times to continue.'
+342.9460 	EXP 	pause_text: text = 'Press 10 times to continue.'
+342.9626 	EXP 	pause_text: text = 'Press 10 times to continue.'
+342.9798 	EXP 	pause_text: text = 'Press 10 times to continue.'
+342.9959 	EXP 	pause_text: text = 'Press 10 times to continue.'
+343.0124 	EXP 	pause_text: text = 'Press 10 times to continue.'
+343.0292 	EXP 	pause_text: text = 'Press 10 times to continue.'
+343.0457 	EXP 	pause_text: text = 'Press 10 times to continue.'
+343.0625 	EXP 	pause_text: text = 'Press 10 times to continue.'
+343.0791 	EXP 	pause_text: text = 'Press 10 times to continue.'
+343.0957 	EXP 	pause_text: text = 'Press 10 times to continue.'
+343.1124 	EXP 	pause_text: text = 'Press 10 times to continue.'
+343.1290 	EXP 	pause_text: text = 'Press 10 times to continue.'
+343.1458 	EXP 	pause_text: text = 'Press 10 times to continue.'
+343.1624 	EXP 	pause_text: text = 'Press 10 times to continue.'
+343.1792 	EXP 	pause_text: text = 'Press 10 times to continue.'
+343.1957 	EXP 	pause_text: text = 'Press 10 times to continue.'
+343.2126 	EXP 	pause_text: text = 'Press 10 times to continue.'
+343.2290 	EXP 	pause_text: text = 'Press 10 times to continue.'
+343.2458 	EXP 	pause_text: text = 'Press 10 times to continue.'
+343.2625 	EXP 	pause_text: text = 'Press 10 times to continue.'
+343.2790 	EXP 	pause_text: text = 'Press 10 times to continue.'
+343.2958 	EXP 	pause_text: text = 'Press 10 times to continue.'
+343.3124 	EXP 	pause_text: text = 'Press 10 times to continue.'
+343.3290 	EXP 	pause_text: text = 'Press 10 times to continue.'
+343.3456 	EXP 	pause_text: text = 'Press 10 times to continue.'
+343.3623 	EXP 	pause_text: text = 'Press 10 times to continue.'
+343.3790 	EXP 	pause_text: text = 'Press 10 times to continue.'
+343.3957 	EXP 	pause_text: text = 'Press 10 times to continue.'
+343.4124 	EXP 	pause_text: text = 'Press 10 times to continue.'
+343.4288 	EXP 	pause_text: text = 'Press 10 times to continue.'
+343.4457 	EXP 	pause_text: text = 'Press 10 times to continue.'
+343.4623 	EXP 	pause_text: text = 'Press 10 times to continue.'
+343.4789 	EXP 	pause_text: text = 'Press 10 times to continue.'
+343.4956 	EXP 	pause_text: text = 'Press 10 times to continue.'
+343.5123 	EXP 	pause_text: text = 'Press 10 times to continue.'
+343.5290 	EXP 	pause_text: text = 'Press 10 times to continue.'
+343.5455 	EXP 	pause_text: text = 'Press 10 times to continue.'
+343.5623 	EXP 	pause_text: text = 'Press 10 times to continue.'
+343.5789 	EXP 	pause_text: text = 'Press 10 times to continue.'
+343.5958 	EXP 	pause_text: text = 'Press 10 times to continue.'
+343.6122 	EXP 	pause_text: text = 'Press 10 times to continue.'
+343.6289 	EXP 	pause_text: text = 'Press 10 times to continue.'
+343.6456 	EXP 	pause_text: text = 'Press 10 times to continue.'
+343.6621 	EXP 	pause_text: text = 'Press 10 times to continue.'
+343.6790 	EXP 	pause_text: text = 'Press 10 times to continue.'
+343.6955 	EXP 	pause_text: text = 'Press 10 times to continue.'
+343.7126 	EXP 	pause_text: text = 'Press 10 times to continue.'
+343.7288 	EXP 	pause_text: text = 'Press 10 times to continue.'
+343.7455 	EXP 	pause_text: text = 'Press 10 times to continue.'
+343.7622 	EXP 	pause_text: text = 'Press 10 times to continue.'
+343.7788 	EXP 	pause_text: text = 'Press 10 times to continue.'
+343.7955 	EXP 	pause_text: text = 'Press 10 times to continue.'
+343.8121 	EXP 	pause_text: text = 'Press 10 times to continue.'
+343.8288 	EXP 	pause_text: text = 'Press 10 times to continue.'
+343.8454 	EXP 	pause_text: text = 'Press 10 times to continue.'
+343.8623 	EXP 	pause_text: text = 'Press 10 times to continue.'
+343.8788 	EXP 	pause_text: text = 'Press 10 times to continue.'
+343.8954 	EXP 	pause_text: text = 'Press 10 times to continue.'
+343.9121 	EXP 	pause_text: text = 'Press 10 times to continue.'
+343.9287 	EXP 	pause_text: text = 'Press 10 times to continue.'
+343.9455 	EXP 	pause_text: text = 'Press 10 times to continue.'
+343.9620 	EXP 	pause_text: text = 'Press 10 times to continue.'
+343.9790 	EXP 	pause_text: text = 'Press 10 times to continue.'
+343.9953 	EXP 	pause_text: text = 'Press 10 times to continue.'
+344.0119 	EXP 	pause_text: text = 'Press 10 times to continue.'
+344.0287 	EXP 	pause_text: text = 'Press 10 times to continue.'
+344.0453 	EXP 	pause_text: text = 'Press 10 times to continue.'
+344.0620 	EXP 	pause_text: text = 'Press 10 times to continue.'
+344.0786 	EXP 	pause_text: text = 'Press 10 times to continue.'
+344.0954 	EXP 	pause_text: text = 'Press 10 times to continue.'
+344.1120 	EXP 	pause_text: text = 'Press 10 times to continue.'
+344.1286 	EXP 	pause_text: text = 'Press 10 times to continue.'
+344.1453 	EXP 	pause_text: text = 'Press 10 times to continue.'
+344.1619 	EXP 	pause_text: text = 'Press 10 times to continue.'
+344.1786 	EXP 	pause_text: text = 'Press 10 times to continue.'
+344.1951 	EXP 	pause_text: text = 'Press 10 times to continue.'
+344.2119 	EXP 	pause_text: text = 'Press 10 times to continue.'
+344.2286 	EXP 	pause_text: text = 'Press 10 times to continue.'
+344.2452 	EXP 	pause_text: text = 'Press 10 times to continue.'
+344.2619 	EXP 	pause_text: text = 'Press 10 times to continue.'
+344.2785 	EXP 	pause_text: text = 'Press 10 times to continue.'
+344.2952 	EXP 	pause_text: text = 'Press 10 times to continue.'
+344.3118 	EXP 	pause_text: text = 'Press 10 times to continue.'
+344.3285 	EXP 	pause_text: text = 'Press 10 times to continue.'
+344.3451 	EXP 	pause_text: text = 'Press 10 times to continue.'
+344.3622 	EXP 	pause_text: text = 'Press 10 times to continue.'
+344.3784 	EXP 	pause_text: text = 'Press 10 times to continue.'
+344.3950 	EXP 	pause_text: text = 'Press 10 times to continue.'
+344.4118 	EXP 	pause_text: text = 'Press 10 times to continue.'
+344.4284 	EXP 	pause_text: text = 'Press 10 times to continue.'
+344.4452 	EXP 	pause_text: text = 'Press 10 times to continue.'
+344.4616 	EXP 	pause_text: text = 'Press 10 times to continue.'
+344.4785 	EXP 	pause_text: text = 'Press 10 times to continue.'
+344.4950 	EXP 	pause_text: text = 'Press 10 times to continue.'
+344.5117 	EXP 	pause_text: text = 'Press 10 times to continue.'
+344.5284 	EXP 	pause_text: text = 'Press 10 times to continue.'
+344.5450 	EXP 	pause_text: text = 'Press 10 times to continue.'
+344.5617 	EXP 	pause_text: text = 'Press 10 times to continue.'
+344.5784 	EXP 	pause_text: text = 'Press 10 times to continue.'
+344.5951 	EXP 	pause_text: text = 'Press 10 times to continue.'
+344.6117 	EXP 	pause_text: text = 'Press 10 times to continue.'
+344.6284 	EXP 	pause_text: text = 'Press 10 times to continue.'
+344.6450 	EXP 	pause_text: text = 'Press 10 times to continue.'
+344.6616 	EXP 	pause_text: text = 'Press 10 times to continue.'
+344.6784 	EXP 	pause_text: text = 'Press 10 times to continue.'
+344.6950 	EXP 	pause_text: text = 'Press 10 times to continue.'
+344.7117 	EXP 	pause_text: text = 'Press 10 times to continue.'
+344.7283 	EXP 	pause_text: text = 'Press 10 times to continue.'
+344.7449 	EXP 	pause_text: text = 'Press 10 times to continue.'
+344.7616 	EXP 	pause_text: text = 'Press 10 times to continue.'
+344.7783 	EXP 	pause_text: text = 'Press 10 times to continue.'
+344.7950 	EXP 	pause_text: text = 'Press 10 times to continue.'
+344.8116 	EXP 	pause_text: text = 'Press 10 times to continue.'
+344.8283 	EXP 	pause_text: text = 'Press 10 times to continue.'
+344.8448 	EXP 	pause_text: text = 'Press 10 times to continue.'
+344.8615 	EXP 	pause_text: text = 'Press 10 times to continue.'
+344.8782 	EXP 	pause_text: text = 'Press 10 times to continue.'
+344.8949 	EXP 	pause_text: text = 'Press 10 times to continue.'
+344.9115 	EXP 	pause_text: text = 'Press 10 times to continue.'
+344.9282 	EXP 	pause_text: text = 'Press 10 times to continue.'
+344.9450 	EXP 	pause_text: text = 'Press 10 times to continue.'
+344.9615 	EXP 	pause_text: text = 'Press 10 times to continue.'
+344.9782 	EXP 	pause_text: text = 'Press 10 times to continue.'
+344.9948 	EXP 	pause_text: text = 'Press 10 times to continue.'
+345.0115 	EXP 	pause_text: text = 'Press 10 times to continue.'
+345.0281 	EXP 	pause_text: text = 'Press 10 times to continue.'
+345.0448 	EXP 	pause_text: text = 'Press 10 times to continue.'
+345.0615 	EXP 	pause_text: text = 'Press 10 times to continue.'
+345.0781 	EXP 	pause_text: text = 'Press 10 times to continue.'
+345.0948 	EXP 	pause_text: text = 'Press 10 times to continue.'
+345.1114 	EXP 	pause_text: text = 'Press 10 times to continue.'
+345.1284 	EXP 	pause_text: text = 'Press 10 times to continue.'
+345.1447 	EXP 	pause_text: text = 'Press 10 times to continue.'
+345.1614 	EXP 	pause_text: text = 'Press 10 times to continue.'
+345.1781 	EXP 	pause_text: text = 'Press 10 times to continue.'
+345.1947 	EXP 	pause_text: text = 'Press 10 times to continue.'
+345.2114 	EXP 	pause_text: text = 'Press 10 times to continue.'
+345.2280 	EXP 	pause_text: text = 'Press 10 times to continue.'
+345.2447 	EXP 	pause_text: text = 'Press 10 times to continue.'
+345.2612 	EXP 	pause_text: text = 'Press 10 times to continue.'
+345.2780 	EXP 	pause_text: text = 'Press 10 times to continue.'
+345.2946 	EXP 	pause_text: text = 'Press 10 times to continue.'
+345.3113 	EXP 	pause_text: text = 'Press 10 times to continue.'
+345.3279 	EXP 	pause_text: text = 'Press 10 times to continue.'
+345.3446 	EXP 	pause_text: text = 'Press 10 times to continue.'
+345.3614 	EXP 	pause_text: text = 'Press 10 times to continue.'
+345.3779 	EXP 	pause_text: text = 'Press 10 times to continue.'
+345.3946 	EXP 	pause_text: text = 'Press 10 times to continue.'
+345.4112 	EXP 	pause_text: text = 'Press 10 times to continue.'
+345.4277 	EXP 	pause_text: text = 'Press 10 times to continue.'
+345.4444 	EXP 	pause_text: text = 'Press 10 times to continue.'
+345.4611 	EXP 	pause_text: text = 'Press 10 times to continue.'
+345.4778 	EXP 	pause_text: text = 'Press 10 times to continue.'
+345.4945 	EXP 	pause_text: text = 'Press 10 times to continue.'
+345.5116 	EXP 	pause_text: text = 'Press 10 times to continue.'
+345.5277 	EXP 	pause_text: text = 'Press 10 times to continue.'
+345.5443 	EXP 	pause_text: text = 'Press 10 times to continue.'
+345.5610 	EXP 	pause_text: text = 'Press 10 times to continue.'
+345.5778 	EXP 	pause_text: text = 'Press 10 times to continue.'
+345.5944 	EXP 	pause_text: text = 'Press 10 times to continue.'
+345.6110 	EXP 	pause_text: text = 'Press 10 times to continue.'
+345.6280 	EXP 	pause_text: text = 'Press 10 times to continue.'
+345.6444 	EXP 	pause_text: text = 'Press 10 times to continue.'
+345.6611 	EXP 	pause_text: text = 'Press 10 times to continue.'
+345.6778 	EXP 	pause_text: text = 'Press 10 times to continue.'
+345.6944 	EXP 	pause_text: text = 'Press 10 times to continue.'
+345.7112 	EXP 	pause_text: text = 'Press 10 times to continue.'
+345.7277 	EXP 	pause_text: text = 'Press 10 times to continue.'
+345.7444 	EXP 	pause_text: text = 'Press 10 times to continue.'
+345.7610 	EXP 	pause_text: text = 'Press 10 times to continue.'
+345.7777 	EXP 	pause_text: text = 'Press 10 times to continue.'
+345.7944 	EXP 	pause_text: text = 'Press 10 times to continue.'
+345.8109 	EXP 	pause_text: text = 'Press 10 times to continue.'
+345.8276 	EXP 	pause_text: text = 'Press 10 times to continue.'
+345.8442 	EXP 	pause_text: text = 'Press 10 times to continue.'
+345.8610 	EXP 	pause_text: text = 'Press 10 times to continue.'
+345.8775 	EXP 	pause_text: text = 'Press 10 times to continue.'
+345.8946 	EXP 	pause_text: text = 'Press 10 times to continue.'
+345.9110 	EXP 	pause_text: text = 'Press 10 times to continue.'
+345.9276 	EXP 	pause_text: text = 'Press 10 times to continue.'
+345.9446 	EXP 	pause_text: text = 'Press 10 times to continue.'
+345.9609 	EXP 	pause_text: text = 'Press 10 times to continue.'
+345.9776 	EXP 	pause_text: text = 'Press 10 times to continue.'
+345.9942 	EXP 	pause_text: text = 'Press 10 times to continue.'
+346.0109 	EXP 	pause_text: text = 'Press 10 times to continue.'
+346.0275 	EXP 	pause_text: text = 'Press 10 times to continue.'
+346.0441 	EXP 	pause_text: text = 'Press 10 times to continue.'
+346.0608 	EXP 	pause_text: text = 'Press 10 times to continue.'
+346.0775 	EXP 	pause_text: text = 'Press 10 times to continue.'
+346.0942 	EXP 	pause_text: text = 'Press 10 times to continue.'
+346.1108 	EXP 	pause_text: text = 'Press 10 times to continue.'
+346.1276 	EXP 	pause_text: text = 'Press 10 times to continue.'
+346.1442 	EXP 	pause_text: text = 'Press 10 times to continue.'
+346.1610 	EXP 	pause_text: text = 'Press 10 times to continue.'
+346.1776 	EXP 	pause_text: text = 'Press 10 times to continue.'
+346.1942 	EXP 	pause_text: text = 'Press 10 times to continue.'
+346.2109 	EXP 	pause_text: text = 'Press 10 times to continue.'
+346.2275 	EXP 	pause_text: text = 'Press 10 times to continue.'
+346.2442 	EXP 	pause_text: text = 'Press 10 times to continue.'
+346.2608 	EXP 	pause_text: text = 'Press 10 times to continue.'
+346.2775 	EXP 	pause_text: text = 'Press 10 times to continue.'
+346.2941 	EXP 	pause_text: text = 'Press 10 times to continue.'
+346.3107 	EXP 	pause_text: text = 'Press 10 times to continue.'
+346.3274 	EXP 	pause_text: text = 'Press 10 times to continue.'
+346.3440 	EXP 	pause_text: text = 'Press 10 times to continue.'
+346.3608 	EXP 	pause_text: text = 'Press 10 times to continue.'
+346.3776 	EXP 	pause_text: text = 'Press 10 times to continue.'
+346.3943 	EXP 	pause_text: text = 'Press 10 times to continue.'
+346.4107 	EXP 	pause_text: text = 'Press 10 times to continue.'
+346.4274 	EXP 	pause_text: text = 'Press 10 times to continue.'
+346.4441 	EXP 	pause_text: text = 'Press 10 times to continue.'
+346.4605 	EXP 	pause_text: text = 'Press 10 times to continue.'
+346.4773 	EXP 	pause_text: text = 'Press 10 times to continue.'
+346.4938 	EXP 	pause_text: text = 'Press 10 times to continue.'
+346.5106 	EXP 	pause_text: text = 'Press 10 times to continue.'
+346.5272 	EXP 	pause_text: text = 'Press 10 times to continue.'
+346.5439 	EXP 	pause_text: text = 'Press 10 times to continue.'
+346.5606 	EXP 	pause_text: text = 'Press 10 times to continue.'
+346.5773 	EXP 	pause_text: text = 'Press 10 times to continue.'
+346.5942 	EXP 	pause_text: text = 'Press 10 times to continue.'
+346.6106 	EXP 	pause_text: text = 'Press 10 times to continue.'
+346.6273 	EXP 	pause_text: text = 'Press 10 times to continue.'
+346.6440 	EXP 	pause_text: text = 'Press 10 times to continue.'
+346.6611 	EXP 	pause_text: text = 'Press 10 times to continue.'
+346.6772 	EXP 	pause_text: text = 'Press 10 times to continue.'
+346.6939 	EXP 	pause_text: text = 'Press 10 times to continue.'
+346.7106 	EXP 	pause_text: text = 'Press 10 times to continue.'
+346.7272 	EXP 	pause_text: text = 'Press 10 times to continue.'
+346.7439 	EXP 	pause_text: text = 'Press 10 times to continue.'
+346.7604 	EXP 	pause_text: text = 'Press 10 times to continue.'
+346.7771 	EXP 	pause_text: text = 'Press 10 times to continue.'
+346.7938 	EXP 	pause_text: text = 'Press 10 times to continue.'
+346.8105 	EXP 	pause_text: text = 'Press 10 times to continue.'
+346.8272 	EXP 	pause_text: text = 'Press 10 times to continue.'
+346.8438 	EXP 	pause_text: text = 'Press 10 times to continue.'
+346.8605 	EXP 	pause_text: text = 'Press 10 times to continue.'
+346.8771 	EXP 	pause_text: text = 'Press 10 times to continue.'
+346.8938 	EXP 	pause_text: text = 'Press 10 times to continue.'
+346.9104 	EXP 	pause_text: text = 'Press 10 times to continue.'
+346.9270 	EXP 	pause_text: text = 'Press 10 times to continue.'
+346.9440 	EXP 	pause_text: text = 'Press 10 times to continue.'
+346.9605 	EXP 	pause_text: text = 'Press 10 times to continue.'
+346.9772 	EXP 	pause_text: text = 'Press 10 times to continue.'
+346.9937 	EXP 	pause_text: text = 'Press 10 times to continue.'
+347.0105 	EXP 	pause_text: text = 'Press 10 times to continue.'
+347.0271 	EXP 	pause_text: text = 'Press 10 times to continue.'
+347.0438 	EXP 	pause_text: text = 'Press 10 times to continue.'
+347.0604 	EXP 	pause_text: text = 'Press 10 times to continue.'
+347.0770 	EXP 	pause_text: text = 'Press 10 times to continue.'
+347.0937 	EXP 	pause_text: text = 'Press 10 times to continue.'
+347.1102 	EXP 	pause_text: text = 'Press 10 times to continue.'
+347.1270 	EXP 	pause_text: text = 'Press 10 times to continue.'
+347.1435 	EXP 	pause_text: text = 'Press 10 times to continue.'
+347.1602 	EXP 	pause_text: text = 'Press 10 times to continue.'
+347.1769 	EXP 	pause_text: text = 'Press 10 times to continue.'
+347.1935 	EXP 	pause_text: text = 'Press 10 times to continue.'
+347.2102 	EXP 	pause_text: text = 'Press 10 times to continue.'
+347.2268 	EXP 	pause_text: text = 'Press 10 times to continue.'
+347.2435 	EXP 	pause_text: text = 'Press 10 times to continue.'
+347.2601 	EXP 	pause_text: text = 'Press 10 times to continue.'
+347.2769 	EXP 	pause_text: text = 'Press 10 times to continue.'
+347.2934 	EXP 	pause_text: text = 'Press 10 times to continue.'
+347.3101 	EXP 	pause_text: text = 'Press 10 times to continue.'
+347.3268 	EXP 	pause_text: text = 'Press 10 times to continue.'
+347.3434 	EXP 	pause_text: text = 'Press 10 times to continue.'
+347.3602 	EXP 	pause_text: text = 'Press 10 times to continue.'
+347.3768 	EXP 	pause_text: text = 'Press 10 times to continue.'
+347.3936 	EXP 	pause_text: text = 'Press 10 times to continue.'
+347.4102 	EXP 	pause_text: text = 'Press 10 times to continue.'
+347.4270 	EXP 	pause_text: text = 'Press 10 times to continue.'
+347.4435 	EXP 	pause_text: text = 'Press 10 times to continue.'
+347.4601 	EXP 	pause_text: text = 'Press 10 times to continue.'
+347.4769 	EXP 	pause_text: text = 'Press 10 times to continue.'
+347.4934 	EXP 	pause_text: text = 'Press 10 times to continue.'
+347.5101 	EXP 	pause_text: text = 'Press 10 times to continue.'
+347.5268 	EXP 	pause_text: text = 'Press 10 times to continue.'
+347.5437 	EXP 	pause_text: text = 'Press 10 times to continue.'
+347.5601 	EXP 	pause_text: text = 'Press 10 times to continue.'
+347.5767 	EXP 	pause_text: text = 'Press 10 times to continue.'
+347.5934 	EXP 	pause_text: text = 'Press 10 times to continue.'
+347.6101 	EXP 	pause_text: text = 'Press 10 times to continue.'
+347.6268 	EXP 	pause_text: text = 'Press 10 times to continue.'
+347.6434 	EXP 	pause_text: text = 'Press 10 times to continue.'
+347.6601 	EXP 	pause_text: text = 'Press 10 times to continue.'
+347.6767 	EXP 	pause_text: text = 'Press 10 times to continue.'
+347.6934 	EXP 	pause_text: text = 'Press 10 times to continue.'
+347.7100 	EXP 	pause_text: text = 'Press 10 times to continue.'
+347.7265 	EXP 	pause_text: text = 'Press 10 times to continue.'
+347.7433 	EXP 	pause_text: text = 'Press 10 times to continue.'
+347.7599 	EXP 	pause_text: text = 'Press 10 times to continue.'
+347.7766 	EXP 	pause_text: text = 'Press 10 times to continue.'
+347.7932 	EXP 	pause_text: text = 'Press 10 times to continue.'
+347.8103 	EXP 	pause_text: text = 'Press 10 times to continue.'
+347.8265 	EXP 	pause_text: text = 'Press 10 times to continue.'
+347.8432 	EXP 	pause_text: text = 'Press 10 times to continue.'
+347.8601 	EXP 	pause_text: text = 'Press 10 times to continue.'
+347.8768 	EXP 	pause_text: text = 'Press 10 times to continue.'
+347.8935 	EXP 	pause_text: text = 'Press 10 times to continue.'
+347.9099 	EXP 	pause_text: text = 'Press 10 times to continue.'
+347.9266 	EXP 	pause_text: text = 'Press 10 times to continue.'
+347.9434 	EXP 	pause_text: text = 'Press 10 times to continue.'
+347.9604 	EXP 	pause_text: text = 'Press 10 times to continue.'
+347.9766 	EXP 	pause_text: text = 'Press 10 times to continue.'
+347.9932 	EXP 	pause_text: text = 'Press 10 times to continue.'
+348.0099 	EXP 	pause_text: text = 'Press 10 times to continue.'
+348.0265 	EXP 	pause_text: text = 'Press 10 times to continue.'
+348.0433 	EXP 	pause_text: text = 'Press 10 times to continue.'
+348.0598 	EXP 	pause_text: text = 'Press 10 times to continue.'
+348.0766 	EXP 	pause_text: text = 'Press 10 times to continue.'
+348.0932 	EXP 	pause_text: text = 'Press 10 times to continue.'
+348.1098 	EXP 	pause_text: text = 'Press 10 times to continue.'
+348.1265 	EXP 	pause_text: text = 'Press 10 times to continue.'
+348.1431 	EXP 	pause_text: text = 'Press 10 times to continue.'
+348.1598 	EXP 	pause_text: text = 'Press 10 times to continue.'
+348.1764 	EXP 	pause_text: text = 'Press 10 times to continue.'
+348.1930 	EXP 	pause_text: text = 'Press 10 times to continue.'
+348.2097 	EXP 	pause_text: text = 'Press 10 times to continue.'
+348.2263 	EXP 	pause_text: text = 'Press 10 times to continue.'
+348.2430 	EXP 	pause_text: text = 'Press 10 times to continue.'
+348.2596 	EXP 	pause_text: text = 'Press 10 times to continue.'
+348.2763 	EXP 	pause_text: text = 'Press 10 times to continue.'
+348.2929 	EXP 	pause_text: text = 'Press 10 times to continue.'
+348.3100 	EXP 	pause_text: text = 'Press 10 times to continue.'
+348.3262 	EXP 	pause_text: text = 'Press 10 times to continue.'
+348.3429 	EXP 	pause_text: text = 'Press 10 times to continue.'
+348.3596 	EXP 	pause_text: text = 'Press 10 times to continue.'
+348.3763 	EXP 	pause_text: text = 'Press 10 times to continue.'
+348.3930 	EXP 	pause_text: text = 'Press 10 times to continue.'
+348.4096 	EXP 	pause_text: text = 'Press 10 times to continue.'
+348.4263 	EXP 	pause_text: text = 'Press 10 times to continue.'
+348.4429 	EXP 	pause_text: text = 'Press 10 times to continue.'
+348.4598 	EXP 	pause_text: text = 'Press 10 times to continue.'
+348.4763 	EXP 	pause_text: text = 'Press 10 times to continue.'
+348.4929 	EXP 	pause_text: text = 'Press 10 times to continue.'
+348.5096 	EXP 	pause_text: text = 'Press 10 times to continue.'
+348.5262 	EXP 	pause_text: text = 'Press 10 times to continue.'
+348.5429 	EXP 	pause_text: text = 'Press 10 times to continue.'
+348.5596 	EXP 	pause_text: text = 'Press 10 times to continue.'
+348.5762 	EXP 	pause_text: text = 'Press 10 times to continue.'
+348.5929 	EXP 	pause_text: text = 'Press 10 times to continue.'
+348.6095 	EXP 	pause_text: text = 'Press 10 times to continue.'
+348.6262 	EXP 	pause_text: text = 'Press 10 times to continue.'
+348.6427 	EXP 	pause_text: text = 'Press 10 times to continue.'
+348.6594 	EXP 	pause_text: text = 'Press 10 times to continue.'
+348.6760 	EXP 	pause_text: text = 'Press 10 times to continue.'
+348.6931 	EXP 	pause_text: text = 'Press 10 times to continue.'
+348.7093 	EXP 	pause_text: text = 'Press 10 times to continue.'
+348.7260 	EXP 	pause_text: text = 'Press 10 times to continue.'
+348.7427 	EXP 	pause_text: text = 'Press 10 times to continue.'
+348.7593 	EXP 	pause_text: text = 'Press 10 times to continue.'
+348.7760 	EXP 	pause_text: text = 'Press 10 times to continue.'
+348.7926 	EXP 	pause_text: text = 'Press 10 times to continue.'
+348.8094 	EXP 	pause_text: text = 'Press 10 times to continue.'
+348.8259 	EXP 	pause_text: text = 'Press 10 times to continue.'
+348.8430 	EXP 	pause_text: text = 'Press 10 times to continue.'
+348.8593 	EXP 	pause_text: text = 'Press 10 times to continue.'
+348.8759 	EXP 	pause_text: text = 'Press 10 times to continue.'
+348.8927 	EXP 	pause_text: text = 'Press 10 times to continue.'
+348.9092 	EXP 	pause_text: text = 'Press 10 times to continue.'
+348.9260 	EXP 	pause_text: text = 'Press 10 times to continue.'
+348.9427 	EXP 	pause_text: text = 'Press 10 times to continue.'
+348.9592 	EXP 	pause_text: text = 'Press 10 times to continue.'
+348.9760 	EXP 	pause_text: text = 'Press 10 times to continue.'
+348.9925 	EXP 	pause_text: text = 'Press 10 times to continue.'
+349.0093 	EXP 	pause_text: text = 'Press 10 times to continue.'
+349.0258 	EXP 	pause_text: text = 'Press 10 times to continue.'
+349.0427 	EXP 	pause_text: text = 'Press 10 times to continue.'
+349.0593 	EXP 	pause_text: text = 'Press 10 times to continue.'
+349.0761 	EXP 	pause_text: text = 'Press 10 times to continue.'
+349.0926 	EXP 	pause_text: text = 'Press 10 times to continue.'
+349.1093 	EXP 	pause_text: text = 'Press 10 times to continue.'
+349.1259 	EXP 	pause_text: text = 'Press 10 times to continue.'
+349.1426 	EXP 	pause_text: text = 'Press 10 times to continue.'
+349.1593 	EXP 	pause_text: text = 'Press 10 times to continue.'
+349.1759 	EXP 	pause_text: text = 'Press 10 times to continue.'
+349.1926 	EXP 	pause_text: text = 'Press 10 times to continue.'
+349.2092 	EXP 	pause_text: text = 'Press 10 times to continue.'
+349.2259 	EXP 	pause_text: text = 'Press 10 times to continue.'
+349.2426 	EXP 	pause_text: text = 'Press 10 times to continue.'
+349.2592 	EXP 	pause_text: text = 'Press 10 times to continue.'
+349.2759 	EXP 	pause_text: text = 'Press 10 times to continue.'
+349.2925 	EXP 	pause_text: text = 'Press 10 times to continue.'
+349.3092 	EXP 	pause_text: text = 'Press 10 times to continue.'
+349.3258 	EXP 	pause_text: text = 'Press 10 times to continue.'
+349.3425 	EXP 	pause_text: text = 'Press 10 times to continue.'
+349.3591 	EXP 	pause_text: text = 'Press 10 times to continue.'
+349.3757 	EXP 	pause_text: text = 'Press 10 times to continue.'
+349.3924 	EXP 	pause_text: text = 'Press 10 times to continue.'
+349.4091 	EXP 	pause_text: text = 'Press 10 times to continue.'
+349.4258 	EXP 	pause_text: text = 'Press 10 times to continue.'
+349.4424 	EXP 	pause_text: text = 'Press 10 times to continue.'
+349.4592 	EXP 	pause_text: text = 'Press 10 times to continue.'
+349.4756 	EXP 	pause_text: text = 'Press 10 times to continue.'
+349.4924 	EXP 	pause_text: text = 'Press 10 times to continue.'
+349.5091 	EXP 	pause_text: text = 'Press 10 times to continue.'
+349.5256 	EXP 	pause_text: text = 'Press 10 times to continue.'
+349.5423 	EXP 	pause_text: text = 'Press 10 times to continue.'
+349.5589 	EXP 	pause_text: text = 'Press 10 times to continue.'
+349.5756 	EXP 	pause_text: text = 'Press 10 times to continue.'
+349.5922 	EXP 	pause_text: text = 'Press 10 times to continue.'
+349.6089 	EXP 	pause_text: text = 'Press 10 times to continue.'
+349.6257 	EXP 	pause_text: text = 'Press 10 times to continue.'
+349.6423 	EXP 	pause_text: text = 'Press 10 times to continue.'
+349.6590 	EXP 	pause_text: text = 'Press 10 times to continue.'
+349.6756 	EXP 	pause_text: text = 'Press 10 times to continue.'
+349.6923 	EXP 	pause_text: text = 'Press 10 times to continue.'
+349.7089 	EXP 	pause_text: text = 'Press 10 times to continue.'
+349.7256 	EXP 	pause_text: text = 'Press 10 times to continue.'
+349.7422 	EXP 	pause_text: text = 'Press 10 times to continue.'
+349.7588 	EXP 	pause_text: text = 'Press 10 times to continue.'
+349.7755 	EXP 	pause_text: text = 'Press 10 times to continue.'
+349.7921 	EXP 	pause_text: text = 'Press 10 times to continue.'
+349.8087 	EXP 	pause_text: text = 'Press 10 times to continue.'
+349.8254 	EXP 	pause_text: text = 'Press 10 times to continue.'
+349.8421 	EXP 	pause_text: text = 'Press 10 times to continue.'
+349.8587 	EXP 	pause_text: text = 'Press 10 times to continue.'
+349.8753 	EXP 	pause_text: text = 'Press 10 times to continue.'
+349.8921 	EXP 	pause_text: text = 'Press 10 times to continue.'
+349.9087 	EXP 	pause_text: text = 'Press 10 times to continue.'
+349.9254 	EXP 	pause_text: text = 'Press 10 times to continue.'
+349.9422 	EXP 	pause_text: text = 'Press 10 times to continue.'
+349.9588 	EXP 	pause_text: text = 'Press 10 times to continue.'
+349.9754 	EXP 	pause_text: text = 'Press 10 times to continue.'
+349.9921 	EXP 	pause_text: text = 'Press 10 times to continue.'
+350.0088 	EXP 	pause_text: text = 'Press 10 times to continue.'
+350.0254 	EXP 	pause_text: text = 'Press 10 times to continue.'
+350.0421 	EXP 	pause_text: text = 'Press 10 times to continue.'
+350.0587 	EXP 	pause_text: text = 'Press 10 times to continue.'
+350.0754 	EXP 	pause_text: text = 'Press 10 times to continue.'
+350.0920 	EXP 	pause_text: text = 'Press 10 times to continue.'
+350.1088 	EXP 	pause_text: text = 'Press 10 times to continue.'
+350.1254 	EXP 	pause_text: text = 'Press 10 times to continue.'
+350.1420 	EXP 	pause_text: text = 'Press 10 times to continue.'
+350.1586 	EXP 	pause_text: text = 'Press 10 times to continue.'
+350.1754 	EXP 	pause_text: text = 'Press 10 times to continue.'
+350.1921 	EXP 	pause_text: text = 'Press 10 times to continue.'
+350.2086 	EXP 	pause_text: text = 'Press 10 times to continue.'
+350.2253 	EXP 	pause_text: text = 'Press 10 times to continue.'
+350.2419 	EXP 	pause_text: text = 'Press 10 times to continue.'
+350.2586 	EXP 	pause_text: text = 'Press 10 times to continue.'
+350.2753 	EXP 	pause_text: text = 'Press 10 times to continue.'
+350.2920 	EXP 	pause_text: text = 'Press 10 times to continue.'
+350.3086 	EXP 	pause_text: text = 'Press 10 times to continue.'
+350.3253 	EXP 	pause_text: text = 'Press 10 times to continue.'
+350.3422 	EXP 	pause_text: text = 'Press 10 times to continue.'
+350.3586 	EXP 	pause_text: text = 'Press 10 times to continue.'
+350.3752 	EXP 	pause_text: text = 'Press 10 times to continue.'
+350.3919 	EXP 	pause_text: text = 'Press 10 times to continue.'
+350.4086 	EXP 	pause_text: text = 'Press 10 times to continue.'
+350.4253 	EXP 	pause_text: text = 'Press 10 times to continue.'
+350.4419 	EXP 	pause_text: text = 'Press 10 times to continue.'
+350.4585 	EXP 	pause_text: text = 'Press 10 times to continue.'
+350.4752 	EXP 	pause_text: text = 'Press 10 times to continue.'
+350.4922 	EXP 	pause_text: text = 'Press 10 times to continue.'
+350.5085 	EXP 	pause_text: text = 'Press 10 times to continue.'
+350.5250 	EXP 	pause_text: text = 'Press 10 times to continue.'
+350.5419 	EXP 	pause_text: text = 'Press 10 times to continue.'
+350.5585 	EXP 	pause_text: text = 'Press 10 times to continue.'
+350.5753 	EXP 	pause_text: text = 'Press 10 times to continue.'
+350.5918 	EXP 	pause_text: text = 'Press 10 times to continue.'
+350.6089 	EXP 	pause_text: text = 'Press 10 times to continue.'
+350.6251 	EXP 	pause_text: text = 'Press 10 times to continue.'
+350.6417 	EXP 	pause_text: text = 'Press 10 times to continue.'
+350.6583 	EXP 	pause_text: text = 'Press 10 times to continue.'
+350.6750 	EXP 	pause_text: text = 'Press 10 times to continue.'
+350.6918 	EXP 	pause_text: text = 'Press 10 times to continue.'
+350.7084 	EXP 	pause_text: text = 'Press 10 times to continue.'
+350.7251 	EXP 	pause_text: text = 'Press 10 times to continue.'
+350.7417 	EXP 	pause_text: text = 'Press 10 times to continue.'
+350.7588 	EXP 	pause_text: text = 'Press 10 times to continue.'
+350.7750 	EXP 	pause_text: text = 'Press 10 times to continue.'
+350.7917 	EXP 	pause_text: text = 'Press 10 times to continue.'
+350.8082 	EXP 	pause_text: text = 'Press 10 times to continue.'
+350.8248 	EXP 	pause_text: text = 'Press 10 times to continue.'
+350.8416 	EXP 	pause_text: text = 'Press 10 times to continue.'
+350.8582 	EXP 	pause_text: text = 'Press 10 times to continue.'
+350.8749 	EXP 	pause_text: text = 'Press 10 times to continue.'
+350.8915 	EXP 	pause_text: text = 'Press 10 times to continue.'
+350.9083 	EXP 	pause_text: text = 'Press 10 times to continue.'
+350.9250 	EXP 	pause_text: text = 'Press 10 times to continue.'
+350.9418 	EXP 	pause_text: text = 'Press 10 times to continue.'
+350.9583 	EXP 	pause_text: text = 'Press 10 times to continue.'
+350.9749 	EXP 	pause_text: text = 'Press 10 times to continue.'
+350.9916 	EXP 	pause_text: text = 'Press 10 times to continue.'
+351.0082 	EXP 	pause_text: text = 'Press 10 times to continue.'
+351.0249 	EXP 	pause_text: text = 'Press 10 times to continue.'
+351.0415 	EXP 	pause_text: text = 'Press 10 times to continue.'
+351.0582 	EXP 	pause_text: text = 'Press 10 times to continue.'
+351.0749 	EXP 	pause_text: text = 'Press 10 times to continue.'
+351.0915 	EXP 	pause_text: text = 'Press 10 times to continue.'
+351.1082 	EXP 	pause_text: text = 'Press 10 times to continue.'
+351.1248 	EXP 	pause_text: text = 'Press 10 times to continue.'
+351.1420 	EXP 	pause_text: text = 'Press 10 times to continue.'
+351.1581 	EXP 	pause_text: text = 'Press 10 times to continue.'
+351.1748 	EXP 	pause_text: text = 'Press 10 times to continue.'
+351.1915 	EXP 	pause_text: text = 'Press 10 times to continue.'
+351.2080 	EXP 	pause_text: text = 'Press 10 times to continue.'
+351.2248 	EXP 	pause_text: text = 'Press 10 times to continue.'
+351.2414 	EXP 	pause_text: text = 'Press 10 times to continue.'
+351.2581 	EXP 	pause_text: text = 'Press 10 times to continue.'
+351.2747 	EXP 	pause_text: text = 'Press 10 times to continue.'
+351.2914 	EXP 	pause_text: text = 'Press 10 times to continue.'
+351.3081 	EXP 	pause_text: text = 'Press 10 times to continue.'
+351.3246 	EXP 	pause_text: text = 'Press 10 times to continue.'
+351.3414 	EXP 	pause_text: text = 'Press 10 times to continue.'
+351.3581 	EXP 	pause_text: text = 'Press 10 times to continue.'
+351.3747 	EXP 	pause_text: text = 'Press 10 times to continue.'
+351.3913 	EXP 	pause_text: text = 'Press 10 times to continue.'
+351.4080 	EXP 	pause_text: text = 'Press 10 times to continue.'
+351.4247 	EXP 	pause_text: text = 'Press 10 times to continue.'
+351.4413 	EXP 	pause_text: text = 'Press 10 times to continue.'
+351.4581 	EXP 	pause_text: text = 'Press 10 times to continue.'
+351.4746 	EXP 	pause_text: text = 'Press 10 times to continue.'
+351.4913 	EXP 	pause_text: text = 'Press 10 times to continue.'
+351.5080 	EXP 	pause_text: text = 'Press 10 times to continue.'
+351.5251 	EXP 	pause_text: text = 'Press 10 times to continue.'
+351.5413 	EXP 	pause_text: text = 'Press 10 times to continue.'
+351.5579 	EXP 	pause_text: text = 'Press 10 times to continue.'
+351.5746 	EXP 	pause_text: text = 'Press 10 times to continue.'
+351.5912 	EXP 	pause_text: text = 'Press 10 times to continue.'
+351.6079 	EXP 	pause_text: text = 'Press 10 times to continue.'
+351.6246 	EXP 	pause_text: text = 'Press 10 times to continue.'
+351.6412 	EXP 	pause_text: text = 'Press 10 times to continue.'
+351.6579 	EXP 	pause_text: text = 'Press 10 times to continue.'
+351.6745 	EXP 	pause_text: text = 'Press 10 times to continue.'
+351.6912 	EXP 	pause_text: text = 'Press 10 times to continue.'
+351.7078 	EXP 	pause_text: text = 'Press 10 times to continue.'
+351.7245 	EXP 	pause_text: text = 'Press 10 times to continue.'
+351.7411 	EXP 	pause_text: text = 'Press 10 times to continue.'
+351.7579 	EXP 	pause_text: text = 'Press 10 times to continue.'
+351.7745 	EXP 	pause_text: text = 'Press 10 times to continue.'
+351.7911 	EXP 	pause_text: text = 'Press 10 times to continue.'
+351.8079 	EXP 	pause_text: text = 'Press 10 times to continue.'
+351.8245 	EXP 	pause_text: text = 'Press 10 times to continue.'
+351.8412 	EXP 	pause_text: text = 'Press 10 times to continue.'
+351.8578 	EXP 	pause_text: text = 'Press 10 times to continue.'
+351.8745 	EXP 	pause_text: text = 'Press 10 times to continue.'
+351.8911 	EXP 	pause_text: text = 'Press 10 times to continue.'
+351.9077 	EXP 	pause_text: text = 'Press 10 times to continue.'
+351.9245 	EXP 	pause_text: text = 'Press 10 times to continue.'
+351.9412 	EXP 	pause_text: text = 'Press 10 times to continue.'
+351.9577 	EXP 	pause_text: text = 'Press 10 times to continue.'
+351.9742 	EXP 	pause_text: text = 'Press 10 times to continue.'
+351.9910 	EXP 	pause_text: text = 'Press 10 times to continue.'
+352.0076 	EXP 	pause_text: text = 'Press 10 times to continue.'
+352.0242 	EXP 	pause_text: text = 'Press 10 times to continue.'
+352.0410 	EXP 	pause_text: text = 'Press 10 times to continue.'
+352.0577 	EXP 	pause_text: text = 'Press 10 times to continue.'
+352.0744 	EXP 	pause_text: text = 'Press 10 times to continue.'
+352.0910 	EXP 	pause_text: text = 'Press 10 times to continue.'
+352.1077 	EXP 	pause_text: text = 'Press 10 times to continue.'
+352.1243 	EXP 	pause_text: text = 'Press 10 times to continue.'
+352.1411 	EXP 	pause_text: text = 'Press 10 times to continue.'
+352.1576 	EXP 	pause_text: text = 'Press 10 times to continue.'
+352.1743 	EXP 	pause_text: text = 'Press 10 times to continue.'
+352.1910 	EXP 	pause_text: text = 'Press 10 times to continue.'
+352.2075 	EXP 	pause_text: text = 'Press 10 times to continue.'
+352.2243 	EXP 	pause_text: text = 'Press 10 times to continue.'
+352.2409 	EXP 	pause_text: text = 'Press 10 times to continue.'
+352.2576 	EXP 	pause_text: text = 'Press 10 times to continue.'
+352.2742 	EXP 	pause_text: text = 'Press 10 times to continue.'
+352.2911 	EXP 	pause_text: text = 'Press 10 times to continue.'
+352.3075 	EXP 	pause_text: text = 'Press 10 times to continue.'
+352.3242 	EXP 	pause_text: text = 'Press 10 times to continue.'
+352.3409 	EXP 	pause_text: text = 'Press 10 times to continue.'
+352.3575 	EXP 	pause_text: text = 'Press 10 times to continue.'
+352.3742 	EXP 	pause_text: text = 'Press 10 times to continue.'
+352.3908 	EXP 	pause_text: text = 'Press 10 times to continue.'
+352.4075 	EXP 	pause_text: text = 'Press 10 times to continue.'
+352.4241 	EXP 	pause_text: text = 'Press 10 times to continue.'
+352.4408 	EXP 	pause_text: text = 'Press 10 times to continue.'
+352.4575 	EXP 	pause_text: text = 'Press 10 times to continue.'
+352.4741 	EXP 	pause_text: text = 'Press 10 times to continue.'
+352.4908 	EXP 	pause_text: text = 'Press 10 times to continue.'
+352.5074 	EXP 	pause_text: text = 'Press 10 times to continue.'
+352.5241 	EXP 	pause_text: text = 'Press 10 times to continue.'
+352.5407 	EXP 	pause_text: text = 'Press 10 times to continue.'
+352.5574 	EXP 	pause_text: text = 'Press 10 times to continue.'
+352.5740 	EXP 	pause_text: text = 'Press 10 times to continue.'
+352.5907 	EXP 	pause_text: text = 'Press 10 times to continue.'
+352.6074 	EXP 	pause_text: text = 'Press 10 times to continue.'
+352.6240 	EXP 	pause_text: text = 'Press 10 times to continue.'
+352.6410 	EXP 	pause_text: text = 'Press 10 times to continue.'
+352.6573 	EXP 	pause_text: text = 'Press 10 times to continue.'
+352.6740 	EXP 	pause_text: text = 'Press 10 times to continue.'
+352.6906 	EXP 	pause_text: text = 'Press 10 times to continue.'
+352.7073 	EXP 	pause_text: text = 'Press 10 times to continue.'
+352.7239 	EXP 	pause_text: text = 'Press 10 times to continue.'
+352.7406 	EXP 	pause_text: text = 'Press 10 times to continue.'
+352.7574 	EXP 	pause_text: text = 'Press 10 times to continue.'
+352.7739 	EXP 	pause_text: text = 'Press 10 times to continue.'
+352.7906 	EXP 	pause_text: text = 'Press 10 times to continue.'
+352.8071 	EXP 	pause_text: text = 'Press 10 times to continue.'
+352.8239 	EXP 	pause_text: text = 'Press 10 times to continue.'
+352.8406 	EXP 	pause_text: text = 'Press 10 times to continue.'
+352.8572 	EXP 	pause_text: text = 'Press 10 times to continue.'
+352.8739 	EXP 	pause_text: text = 'Press 10 times to continue.'
+352.8905 	EXP 	pause_text: text = 'Press 10 times to continue.'
+352.9073 	EXP 	pause_text: text = 'Press 10 times to continue.'
+352.9239 	EXP 	pause_text: text = 'Press 10 times to continue.'
+352.9412 	EXP 	pause_text: text = 'Press 10 times to continue.'
+352.9572 	EXP 	pause_text: text = 'Press 10 times to continue.'
+352.9738 	EXP 	pause_text: text = 'Press 10 times to continue.'
+352.9905 	EXP 	pause_text: text = 'Press 10 times to continue.'
+353.0071 	EXP 	pause_text: text = 'Press 10 times to continue.'
+353.0242 	EXP 	pause_text: text = 'Press 10 times to continue.'
+353.0405 	EXP 	pause_text: text = 'Press 10 times to continue.'
+353.0571 	EXP 	pause_text: text = 'Press 10 times to continue.'
+353.0738 	EXP 	pause_text: text = 'Press 10 times to continue.'
+353.0904 	EXP 	pause_text: text = 'Press 10 times to continue.'
+353.1072 	EXP 	pause_text: text = 'Press 10 times to continue.'
+353.1237 	EXP 	pause_text: text = 'Press 10 times to continue.'
+353.1405 	EXP 	pause_text: text = 'Press 10 times to continue.'
+353.1571 	EXP 	pause_text: text = 'Press 10 times to continue.'
+353.1739 	EXP 	pause_text: text = 'Press 10 times to continue.'
+353.1904 	EXP 	pause_text: text = 'Press 10 times to continue.'
+353.2071 	EXP 	pause_text: text = 'Press 10 times to continue.'
+353.2237 	EXP 	pause_text: text = 'Press 10 times to continue.'
+353.2403 	EXP 	pause_text: text = 'Press 10 times to continue.'
+353.2570 	EXP 	pause_text: text = 'Press 10 times to continue.'
+353.2736 	EXP 	pause_text: text = 'Press 10 times to continue.'
+353.2906 	EXP 	pause_text: text = 'Press 10 times to continue.'
+353.3069 	EXP 	pause_text: text = 'Press 10 times to continue.'
+353.3236 	EXP 	pause_text: text = 'Press 10 times to continue.'
+353.3402 	EXP 	pause_text: text = 'Press 10 times to continue.'
+353.3569 	EXP 	pause_text: text = 'Press 10 times to continue.'
+353.3736 	EXP 	pause_text: text = 'Press 10 times to continue.'
+353.3902 	EXP 	pause_text: text = 'Press 10 times to continue.'
+353.4070 	EXP 	pause_text: text = 'Press 10 times to continue.'
+353.4235 	EXP 	pause_text: text = 'Press 10 times to continue.'
+353.4405 	EXP 	pause_text: text = 'Press 10 times to continue.'
+353.4570 	EXP 	pause_text: text = 'Press 10 times to continue.'
+353.4736 	EXP 	pause_text: text = 'Press 10 times to continue.'
+353.4903 	EXP 	pause_text: text = 'Press 10 times to continue.'
+353.5069 	EXP 	pause_text: text = 'Press 10 times to continue.'
+353.5235 	EXP 	pause_text: text = 'Press 10 times to continue.'
+353.5402 	EXP 	pause_text: text = 'Press 10 times to continue.'
+353.5572 	EXP 	pause_text: text = 'Press 10 times to continue.'
+353.5735 	EXP 	pause_text: text = 'Press 10 times to continue.'
+353.5901 	EXP 	pause_text: text = 'Press 10 times to continue.'
+353.6069 	EXP 	pause_text: text = 'Press 10 times to continue.'
+353.6235 	EXP 	pause_text: text = 'Press 10 times to continue.'
+353.6402 	EXP 	pause_text: text = 'Press 10 times to continue.'
+353.6568 	EXP 	pause_text: text = 'Press 10 times to continue.'
+353.6734 	EXP 	pause_text: text = 'Press 10 times to continue.'
+353.6900 	EXP 	pause_text: text = 'Press 10 times to continue.'
+353.7068 	EXP 	pause_text: text = 'Press 10 times to continue.'
+353.7234 	EXP 	pause_text: text = 'Press 10 times to continue.'
+353.7401 	EXP 	pause_text: text = 'Press 10 times to continue.'
+353.7568 	EXP 	pause_text: text = 'Press 10 times to continue.'
+353.7734 	EXP 	pause_text: text = 'Press 10 times to continue.'
+353.7904 	EXP 	pause_text: text = 'Press 10 times to continue.'
+353.8066 	EXP 	pause_text: text = 'Press 10 times to continue.'
+353.8235 	EXP 	pause_text: text = 'Press 10 times to continue.'
+353.8400 	EXP 	pause_text: text = 'Press 10 times to continue.'
+353.8566 	EXP 	pause_text: text = 'Press 10 times to continue.'
+353.8733 	EXP 	pause_text: text = 'Press 10 times to continue.'
+353.8899 	EXP 	pause_text: text = 'Press 10 times to continue.'
+353.9066 	EXP 	pause_text: text = 'Press 10 times to continue.'
+353.9232 	EXP 	pause_text: text = 'Press 10 times to continue.'
+353.9405 	EXP 	pause_text: text = 'Press 10 times to continue.'
+353.9565 	EXP 	pause_text: text = 'Press 10 times to continue.'
+353.9732 	EXP 	pause_text: text = 'Press 10 times to continue.'
+353.9899 	EXP 	pause_text: text = 'Press 10 times to continue.'
+354.0066 	EXP 	pause_text: text = 'Press 10 times to continue.'
+354.0233 	EXP 	pause_text: text = 'Press 10 times to continue.'
+354.0398 	EXP 	pause_text: text = 'Press 10 times to continue.'
+354.0567 	EXP 	pause_text: text = 'Press 10 times to continue.'
+354.0733 	EXP 	pause_text: text = 'Press 10 times to continue.'
+354.0898 	EXP 	pause_text: text = 'Press 10 times to continue.'
+354.1066 	EXP 	pause_text: text = 'Press 10 times to continue.'
+354.1232 	EXP 	pause_text: text = 'Press 10 times to continue.'
+354.1399 	EXP 	pause_text: text = 'Press 10 times to continue.'
+354.1564 	EXP 	pause_text: text = 'Press 10 times to continue.'
+354.1733 	EXP 	pause_text: text = 'Press 10 times to continue.'
+354.1899 	EXP 	pause_text: text = 'Press 10 times to continue.'
+354.2065 	EXP 	pause_text: text = 'Press 10 times to continue.'
+354.2232 	EXP 	pause_text: text = 'Press 10 times to continue.'
+354.2399 	EXP 	pause_text: text = 'Press 10 times to continue.'
+354.2565 	EXP 	pause_text: text = 'Press 10 times to continue.'
+354.2731 	EXP 	pause_text: text = 'Press 10 times to continue.'
+354.2898 	EXP 	pause_text: text = 'Press 10 times to continue.'
+354.3063 	EXP 	pause_text: text = 'Press 10 times to continue.'
+354.3233 	EXP 	pause_text: text = 'Press 10 times to continue.'
+354.3397 	EXP 	pause_text: text = 'Press 10 times to continue.'
+354.3564 	EXP 	pause_text: text = 'Press 10 times to continue.'
+354.3731 	EXP 	pause_text: text = 'Press 10 times to continue.'
+354.3897 	EXP 	pause_text: text = 'Press 10 times to continue.'
+354.4064 	EXP 	pause_text: text = 'Press 10 times to continue.'
+354.4230 	EXP 	pause_text: text = 'Press 10 times to continue.'
+354.4398 	EXP 	pause_text: text = 'Press 10 times to continue.'
+354.4564 	EXP 	pause_text: text = 'Press 10 times to continue.'
+354.4730 	EXP 	pause_text: text = 'Press 10 times to continue.'
+354.4898 	EXP 	pause_text: text = 'Press 10 times to continue.'
+354.5064 	EXP 	pause_text: text = 'Press 10 times to continue.'
+354.5230 	EXP 	pause_text: text = 'Press 10 times to continue.'
+354.5397 	EXP 	pause_text: text = 'Press 10 times to continue.'
+354.5562 	EXP 	pause_text: text = 'Press 10 times to continue.'
+354.5729 	EXP 	pause_text: text = 'Press 10 times to continue.'
+354.5896 	EXP 	pause_text: text = 'Press 10 times to continue.'
+354.6063 	EXP 	pause_text: text = 'Press 10 times to continue.'
+354.6228 	EXP 	pause_text: text = 'Press 10 times to continue.'
+354.6395 	EXP 	pause_text: text = 'Press 10 times to continue.'
+354.6561 	EXP 	pause_text: text = 'Press 10 times to continue.'
+354.6728 	EXP 	pause_text: text = 'Press 10 times to continue.'
+354.6894 	EXP 	pause_text: text = 'Press 10 times to continue.'
+354.7065 	EXP 	pause_text: text = 'Press 10 times to continue.'
+354.7228 	EXP 	pause_text: text = 'Press 10 times to continue.'
+354.7394 	EXP 	pause_text: text = 'Press 10 times to continue.'
+354.7562 	EXP 	pause_text: text = 'Press 10 times to continue.'
+354.7727 	EXP 	pause_text: text = 'Press 10 times to continue.'
+354.7895 	EXP 	pause_text: text = 'Press 10 times to continue.'
+354.8061 	EXP 	pause_text: text = 'Press 10 times to continue.'
+354.8232 	EXP 	pause_text: text = 'Press 10 times to continue.'
+354.8394 	EXP 	pause_text: text = 'Press 10 times to continue.'
+354.8560 	EXP 	pause_text: text = 'Press 10 times to continue.'
+354.8728 	EXP 	pause_text: text = 'Press 10 times to continue.'
+354.8895 	EXP 	pause_text: text = 'Press 10 times to continue.'
+354.9062 	EXP 	pause_text: text = 'Press 10 times to continue.'
+354.9227 	EXP 	pause_text: text = 'Press 10 times to continue.'
+354.9396 	EXP 	pause_text: text = 'Press 10 times to continue.'
+354.9562 	EXP 	pause_text: text = 'Press 10 times to continue.'
+354.9727 	EXP 	pause_text: text = 'Press 10 times to continue.'
+354.9893 	EXP 	pause_text: text = 'Press 10 times to continue.'
+355.0060 	EXP 	pause_text: text = 'Press 10 times to continue.'
+355.0227 	EXP 	pause_text: text = 'Press 10 times to continue.'
+355.0394 	EXP 	pause_text: text = 'Press 10 times to continue.'
+355.0561 	EXP 	pause_text: text = 'Press 10 times to continue.'
+355.0727 	EXP 	pause_text: text = 'Press 10 times to continue.'
+355.0894 	EXP 	pause_text: text = 'Press 10 times to continue.'
+355.1060 	EXP 	pause_text: text = 'Press 10 times to continue.'
+355.1227 	EXP 	pause_text: text = 'Press 10 times to continue.'
+355.1393 	EXP 	pause_text: text = 'Press 10 times to continue.'
+355.1560 	EXP 	pause_text: text = 'Press 10 times to continue.'
+355.1727 	EXP 	pause_text: text = 'Press 10 times to continue.'
+355.1893 	EXP 	pause_text: text = 'Press 10 times to continue.'
+355.2060 	EXP 	pause_text: text = 'Press 10 times to continue.'
+355.2225 	EXP 	pause_text: text = 'Press 10 times to continue.'
+355.2392 	EXP 	pause_text: text = 'Press 10 times to continue.'
+355.2560 	EXP 	pause_text: text = 'Press 10 times to continue.'
+355.2727 	EXP 	pause_text: text = 'Press 10 times to continue.'
+355.2893 	EXP 	pause_text: text = 'Press 10 times to continue.'
+355.3059 	EXP 	pause_text: text = 'Press 10 times to continue.'
+355.3230 	EXP 	pause_text: text = 'Press 10 times to continue.'
+355.3392 	EXP 	pause_text: text = 'Press 10 times to continue.'
+355.3561 	EXP 	pause_text: text = 'Press 10 times to continue.'
+355.3726 	EXP 	pause_text: text = 'Press 10 times to continue.'
+355.3892 	EXP 	pause_text: text = 'Press 10 times to continue.'
+355.4059 	EXP 	pause_text: text = 'Press 10 times to continue.'
+355.4224 	EXP 	pause_text: text = 'Press 10 times to continue.'
+355.4391 	EXP 	pause_text: text = 'Press 10 times to continue.'
+355.4557 	EXP 	pause_text: text = 'Press 10 times to continue.'
+355.4724 	EXP 	pause_text: text = 'Press 10 times to continue.'
+355.4892 	EXP 	pause_text: text = 'Press 10 times to continue.'
+355.5057 	EXP 	pause_text: text = 'Press 10 times to continue.'
+355.5224 	EXP 	pause_text: text = 'Press 10 times to continue.'
+355.5390 	EXP 	pause_text: text = 'Press 10 times to continue.'
+355.5557 	EXP 	pause_text: text = 'Press 10 times to continue.'
+355.5724 	EXP 	pause_text: text = 'Press 10 times to continue.'
+355.5894 	EXP 	pause_text: text = 'Press 10 times to continue.'
+355.6057 	EXP 	pause_text: text = 'Press 10 times to continue.'
+355.6223 	EXP 	pause_text: text = 'Press 10 times to continue.'
+355.6390 	EXP 	pause_text: text = 'Press 10 times to continue.'
+355.6556 	EXP 	pause_text: text = 'Press 10 times to continue.'
+355.6723 	EXP 	pause_text: text = 'Press 10 times to continue.'
+355.6889 	EXP 	pause_text: text = 'Press 10 times to continue.'
+355.7061 	EXP 	pause_text: text = 'Press 10 times to continue.'
+355.7222 	EXP 	pause_text: text = 'Press 10 times to continue.'
+355.7389 	EXP 	pause_text: text = 'Press 10 times to continue.'
+355.7556 	EXP 	pause_text: text = 'Press 10 times to continue.'
+355.7722 	EXP 	pause_text: text = 'Press 10 times to continue.'
+355.7889 	EXP 	pause_text: text = 'Press 10 times to continue.'
+355.8055 	EXP 	pause_text: text = 'Press 10 times to continue.'
+355.8222 	EXP 	pause_text: text = 'Press 10 times to continue.'
+355.8388 	EXP 	pause_text: text = 'Press 10 times to continue.'
+355.8558 	EXP 	pause_text: text = 'Press 10 times to continue.'
+355.8722 	EXP 	pause_text: text = 'Press 10 times to continue.'
+355.8888 	EXP 	pause_text: text = 'Press 10 times to continue.'
+355.9055 	EXP 	pause_text: text = 'Press 10 times to continue.'
+355.9221 	EXP 	pause_text: text = 'Press 10 times to continue.'
+355.9390 	EXP 	pause_text: text = 'Press 10 times to continue.'
+355.9554 	EXP 	pause_text: text = 'Press 10 times to continue.'
+355.9725 	EXP 	pause_text: text = 'Press 10 times to continue.'
+355.9887 	EXP 	pause_text: text = 'Press 10 times to continue.'
+356.0054 	EXP 	pause_text: text = 'Press 10 times to continue.'
+356.0223 	EXP 	pause_text: text = 'Press 10 times to continue.'
+356.0388 	EXP 	pause_text: text = 'Press 10 times to continue.'
+356.0556 	EXP 	pause_text: text = 'Press 10 times to continue.'
+356.0722 	EXP 	pause_text: text = 'Press 10 times to continue.'
+356.0889 	EXP 	pause_text: text = 'Press 10 times to continue.'
+356.1055 	EXP 	pause_text: text = 'Press 10 times to continue.'
+356.1226 	EXP 	pause_text: text = 'Press 10 times to continue.'
+356.1389 	EXP 	pause_text: text = 'Press 10 times to continue.'
+356.1554 	EXP 	pause_text: text = 'Press 10 times to continue.'
+356.1722 	EXP 	pause_text: text = 'Press 10 times to continue.'
+356.1888 	EXP 	pause_text: text = 'Press 10 times to continue.'
+356.2055 	EXP 	pause_text: text = 'Press 10 times to continue.'
+356.2221 	EXP 	pause_text: text = 'Press 10 times to continue.'
+356.2392 	EXP 	pause_text: text = 'Press 10 times to continue.'
+356.2554 	EXP 	pause_text: text = 'Press 10 times to continue.'
+356.2720 	EXP 	pause_text: text = 'Press 10 times to continue.'
+356.2888 	EXP 	pause_text: text = 'Press 10 times to continue.'
+356.3054 	EXP 	pause_text: text = 'Press 10 times to continue.'
+356.3221 	EXP 	pause_text: text = 'Press 10 times to continue.'
+356.3387 	EXP 	pause_text: text = 'Press 10 times to continue.'
+356.3555 	EXP 	pause_text: text = 'Press 10 times to continue.'
+356.3720 	EXP 	pause_text: text = 'Press 10 times to continue.'
+356.3886 	EXP 	pause_text: text = 'Press 10 times to continue.'
+356.4054 	EXP 	pause_text: text = 'Press 10 times to continue.'
+356.4220 	EXP 	pause_text: text = 'Press 10 times to continue.'
+356.4387 	EXP 	pause_text: text = 'Press 10 times to continue.'
+356.4553 	EXP 	pause_text: text = 'Press 10 times to continue.'
+356.4720 	EXP 	pause_text: text = 'Press 10 times to continue.'
+356.4886 	EXP 	pause_text: text = 'Press 10 times to continue.'
+356.5052 	EXP 	pause_text: text = 'Press 10 times to continue.'
+356.5220 	EXP 	pause_text: text = 'Press 10 times to continue.'
+356.5385 	EXP 	pause_text: text = 'Press 10 times to continue.'
+356.5553 	EXP 	pause_text: text = 'Press 10 times to continue.'
+356.5718 	EXP 	pause_text: text = 'Press 10 times to continue.'
+356.5885 	EXP 	pause_text: text = 'Press 10 times to continue.'
+356.6050 	EXP 	pause_text: text = 'Press 10 times to continue.'
+356.6220 	EXP 	pause_text: text = 'Press 10 times to continue.'
+356.6385 	EXP 	pause_text: text = 'Press 10 times to continue.'
+356.6550 	EXP 	pause_text: text = 'Press 10 times to continue.'
+356.6717 	EXP 	pause_text: text = 'Press 10 times to continue.'
+356.6883 	EXP 	pause_text: text = 'Press 10 times to continue.'
+356.7050 	EXP 	pause_text: text = 'Press 10 times to continue.'
+356.7217 	EXP 	pause_text: text = 'Press 10 times to continue.'
+356.7386 	EXP 	pause_text: text = 'Press 10 times to continue.'
+356.7551 	EXP 	pause_text: text = 'Press 10 times to continue.'
+356.7717 	EXP 	pause_text: text = 'Press 10 times to continue.'
+356.7884 	EXP 	pause_text: text = 'Press 10 times to continue.'
+356.8051 	EXP 	pause_text: text = 'Press 10 times to continue.'
+356.8217 	EXP 	pause_text: text = 'Press 10 times to continue.'
+356.8383 	EXP 	pause_text: text = 'Press 10 times to continue.'
+356.8550 	EXP 	pause_text: text = 'Press 10 times to continue.'
+356.8716 	EXP 	pause_text: text = 'Press 10 times to continue.'
+356.8887 	EXP 	pause_text: text = 'Press 10 times to continue.'
+356.9051 	EXP 	pause_text: text = 'Press 10 times to continue.'
+356.9216 	EXP 	pause_text: text = 'Press 10 times to continue.'
+356.9384 	EXP 	pause_text: text = 'Press 10 times to continue.'
+356.9549 	EXP 	pause_text: text = 'Press 10 times to continue.'
+356.9716 	EXP 	pause_text: text = 'Press 10 times to continue.'
+356.9882 	EXP 	pause_text: text = 'Press 10 times to continue.'
+357.0055 	EXP 	pause_text: text = 'Press 10 times to continue.'
+357.0216 	EXP 	pause_text: text = 'Press 10 times to continue.'
+357.0382 	EXP 	pause_text: text = 'Press 10 times to continue.'
+357.0550 	EXP 	pause_text: text = 'Press 10 times to continue.'
+357.0716 	EXP 	pause_text: text = 'Press 10 times to continue.'
+357.0884 	EXP 	pause_text: text = 'Press 10 times to continue.'
+357.1048 	EXP 	pause_text: text = 'Press 10 times to continue.'
+357.1217 	EXP 	pause_text: text = 'Press 10 times to continue.'
+357.1382 	EXP 	pause_text: text = 'Press 10 times to continue.'
+357.1549 	EXP 	pause_text: text = 'Press 10 times to continue.'
+357.1717 	EXP 	pause_text: text = 'Press 10 times to continue.'
+357.1882 	EXP 	pause_text: text = 'Press 10 times to continue.'
+357.2049 	EXP 	pause_text: text = 'Press 10 times to continue.'
+357.2215 	EXP 	pause_text: text = 'Press 10 times to continue.'
+357.2382 	EXP 	pause_text: text = 'Press 10 times to continue.'
+357.2548 	EXP 	pause_text: text = 'Press 10 times to continue.'
+357.2720 	EXP 	pause_text: text = 'Press 10 times to continue.'
+357.2882 	EXP 	pause_text: text = 'Press 10 times to continue.'
+357.3048 	EXP 	pause_text: text = 'Press 10 times to continue.'
+357.3216 	EXP 	pause_text: text = 'Press 10 times to continue.'
+357.3382 	EXP 	pause_text: text = 'Press 10 times to continue.'
+357.3549 	EXP 	pause_text: text = 'Press 10 times to continue.'
+357.3714 	EXP 	pause_text: text = 'Press 10 times to continue.'
+357.3885 	EXP 	pause_text: text = 'Press 10 times to continue.'
+357.4048 	EXP 	pause_text: text = 'Press 10 times to continue.'
+357.4215 	EXP 	pause_text: text = 'Press 10 times to continue.'
+357.4382 	EXP 	pause_text: text = 'Press 10 times to continue.'
+357.4547 	EXP 	pause_text: text = 'Press 10 times to continue.'
+357.4715 	EXP 	pause_text: text = 'Press 10 times to continue.'
+357.4880 	EXP 	pause_text: text = 'Press 10 times to continue.'
+357.5049 	EXP 	pause_text: text = 'Press 10 times to continue.'
+357.5213 	EXP 	pause_text: text = 'Press 10 times to continue.'
+357.5380 	EXP 	pause_text: text = 'Press 10 times to continue.'
+357.5547 	EXP 	pause_text: text = 'Press 10 times to continue.'
+357.5714 	EXP 	pause_text: text = 'Press 10 times to continue.'
+357.5880 	EXP 	pause_text: text = 'Press 10 times to continue.'
+357.6047 	EXP 	pause_text: text = 'Press 10 times to continue.'
+357.6214 	EXP 	pause_text: text = 'Press 10 times to continue.'
+357.6379 	EXP 	pause_text: text = 'Press 10 times to continue.'
+357.6545 	EXP 	pause_text: text = 'Press 10 times to continue.'
+357.6712 	EXP 	pause_text: text = 'Press 10 times to continue.'
+357.6878 	EXP 	pause_text: text = 'Press 10 times to continue.'
+357.7045 	EXP 	pause_text: text = 'Press 10 times to continue.'
+357.7211 	EXP 	pause_text: text = 'Press 10 times to continue.'
+357.7379 	EXP 	pause_text: text = 'Press 10 times to continue.'
+357.7544 	EXP 	pause_text: text = 'Press 10 times to continue.'
+357.7712 	EXP 	pause_text: text = 'Press 10 times to continue.'
+357.7879 	EXP 	pause_text: text = 'Press 10 times to continue.'
+357.8045 	EXP 	pause_text: text = 'Press 10 times to continue.'
+357.8213 	EXP 	pause_text: text = 'Press 10 times to continue.'
+357.8377 	EXP 	pause_text: text = 'Press 10 times to continue.'
+357.8545 	EXP 	pause_text: text = 'Press 10 times to continue.'
+357.8711 	EXP 	pause_text: text = 'Press 10 times to continue.'
+357.8878 	EXP 	pause_text: text = 'Press 10 times to continue.'
+357.9044 	EXP 	pause_text: text = 'Press 10 times to continue.'
+357.9210 	EXP 	pause_text: text = 'Press 10 times to continue.'
+357.9379 	EXP 	pause_text: text = 'Press 10 times to continue.'
+357.9544 	EXP 	pause_text: text = 'Press 10 times to continue.'
+357.9711 	EXP 	pause_text: text = 'Press 10 times to continue.'
+357.9877 	EXP 	pause_text: text = 'Press 10 times to continue.'
+358.0044 	EXP 	pause_text: text = 'Press 10 times to continue.'
+358.0210 	EXP 	pause_text: text = 'Press 10 times to continue.'
+358.0376 	EXP 	pause_text: text = 'Press 10 times to continue.'
+358.0544 	EXP 	pause_text: text = 'Press 10 times to continue.'
+358.0710 	EXP 	pause_text: text = 'Press 10 times to continue.'
+358.0877 	EXP 	pause_text: text = 'Press 10 times to continue.'
+358.1043 	EXP 	pause_text: text = 'Press 10 times to continue.'
+358.1211 	EXP 	pause_text: text = 'Press 10 times to continue.'
+358.1377 	EXP 	pause_text: text = 'Press 10 times to continue.'
+358.1547 	EXP 	pause_text: text = 'Press 10 times to continue.'
+358.1710 	EXP 	pause_text: text = 'Press 10 times to continue.'
+358.1876 	EXP 	pause_text: text = 'Press 10 times to continue.'
+358.2043 	EXP 	pause_text: text = 'Press 10 times to continue.'
+358.2208 	EXP 	pause_text: text = 'Press 10 times to continue.'
+358.2376 	EXP 	pause_text: text = 'Press 10 times to continue.'
+358.2542 	EXP 	pause_text: text = 'Press 10 times to continue.'
+358.2712 	EXP 	pause_text: text = 'Press 10 times to continue.'
+358.2875 	EXP 	pause_text: text = 'Press 10 times to continue.'
+358.3042 	EXP 	pause_text: text = 'Press 10 times to continue.'
+358.3210 	EXP 	pause_text: text = 'Press 10 times to continue.'
+358.3376 	EXP 	pause_text: text = 'Press 10 times to continue.'
+358.3543 	EXP 	pause_text: text = 'Press 10 times to continue.'
+358.3710 	EXP 	pause_text: text = 'Press 10 times to continue.'
+358.3877 	EXP 	pause_text: text = 'Press 10 times to continue.'
+358.4041 	EXP 	pause_text: text = 'Press 10 times to continue.'
+358.4207 	EXP 	pause_text: text = 'Press 10 times to continue.'
+358.4375 	EXP 	pause_text: text = 'Press 10 times to continue.'
+358.4541 	EXP 	pause_text: text = 'Press 10 times to continue.'
+358.4708 	EXP 	pause_text: text = 'Press 10 times to continue.'
+358.4875 	EXP 	pause_text: text = 'Press 10 times to continue.'
+358.5042 	EXP 	pause_text: text = 'Press 10 times to continue.'
+358.5207 	EXP 	pause_text: text = 'Press 10 times to continue.'
+358.5376 	EXP 	pause_text: text = 'Press 10 times to continue.'
+358.5541 	EXP 	pause_text: text = 'Press 10 times to continue.'
+358.5707 	EXP 	pause_text: text = 'Press 10 times to continue.'
+358.5874 	EXP 	pause_text: text = 'Press 10 times to continue.'
+358.6041 	EXP 	pause_text: text = 'Press 10 times to continue.'
+358.6208 	EXP 	pause_text: text = 'Press 10 times to continue.'
+358.6374 	EXP 	pause_text: text = 'Press 10 times to continue.'
+358.6542 	EXP 	pause_text: text = 'Press 10 times to continue.'
+358.6707 	EXP 	pause_text: text = 'Press 10 times to continue.'
+358.6873 	EXP 	pause_text: text = 'Press 10 times to continue.'
+358.7040 	EXP 	pause_text: text = 'Press 10 times to continue.'
+358.7206 	EXP 	pause_text: text = 'Press 10 times to continue.'
+358.7374 	EXP 	pause_text: text = 'Press 10 times to continue.'
+358.7539 	EXP 	pause_text: text = 'Press 10 times to continue.'
+358.7707 	EXP 	pause_text: text = 'Press 10 times to continue.'
+358.7872 	EXP 	pause_text: text = 'Press 10 times to continue.'
+358.8043 	EXP 	pause_text: text = 'Press 10 times to continue.'
+358.8207 	EXP 	pause_text: text = 'Press 10 times to continue.'
+358.8373 	EXP 	pause_text: text = 'Press 10 times to continue.'
+358.8539 	EXP 	pause_text: text = 'Press 10 times to continue.'
+358.8706 	EXP 	pause_text: text = 'Press 10 times to continue.'
+358.8872 	EXP 	pause_text: text = 'Press 10 times to continue.'
+358.9039 	EXP 	pause_text: text = 'Press 10 times to continue.'
+358.9206 	EXP 	pause_text: text = 'Press 10 times to continue.'
+358.9374 	EXP 	pause_text: text = 'Press 10 times to continue.'
+358.9539 	EXP 	pause_text: text = 'Press 10 times to continue.'
+358.9705 	EXP 	pause_text: text = 'Press 10 times to continue.'
+358.9871 	EXP 	pause_text: text = 'Press 10 times to continue.'
+359.0038 	EXP 	pause_text: text = 'Press 10 times to continue.'
+359.0205 	EXP 	pause_text: text = 'Press 10 times to continue.'
+359.0375 	EXP 	pause_text: text = 'Press 10 times to continue.'
+359.0537 	EXP 	pause_text: text = 'Press 10 times to continue.'
+359.0704 	EXP 	pause_text: text = 'Press 10 times to continue.'
+359.0872 	EXP 	pause_text: text = 'Press 10 times to continue.'
+359.1038 	EXP 	pause_text: text = 'Press 10 times to continue.'
+359.1205 	EXP 	pause_text: text = 'Press 10 times to continue.'
+359.1372 	EXP 	pause_text: text = 'Press 10 times to continue.'
+359.1539 	EXP 	pause_text: text = 'Press 10 times to continue.'
+359.1705 	EXP 	pause_text: text = 'Press 10 times to continue.'
+359.1872 	EXP 	pause_text: text = 'Press 10 times to continue.'
+359.2039 	EXP 	pause_text: text = 'Press 10 times to continue.'
+359.2205 	EXP 	pause_text: text = 'Press 10 times to continue.'
+359.2372 	EXP 	pause_text: text = 'Press 10 times to continue.'
+359.2538 	EXP 	pause_text: text = 'Press 10 times to continue.'
+359.2705 	EXP 	pause_text: text = 'Press 10 times to continue.'
+359.2871 	EXP 	pause_text: text = 'Press 10 times to continue.'
+359.3042 	EXP 	pause_text: text = 'Press 10 times to continue.'
+359.3204 	EXP 	pause_text: text = 'Press 10 times to continue.'
+359.3370 	EXP 	pause_text: text = 'Press 10 times to continue.'
+359.3537 	EXP 	pause_text: text = 'Press 10 times to continue.'
+359.3704 	EXP 	pause_text: text = 'Press 10 times to continue.'
+359.3871 	EXP 	pause_text: text = 'Press 10 times to continue.'
+359.4037 	EXP 	pause_text: text = 'Press 10 times to continue.'
+359.4208 	EXP 	pause_text: text = 'Press 10 times to continue.'
+359.4369 	EXP 	pause_text: text = 'Press 10 times to continue.'
+359.4537 	EXP 	pause_text: text = 'Press 10 times to continue.'
+359.4704 	EXP 	pause_text: text = 'Press 10 times to continue.'
+359.4870 	EXP 	pause_text: text = 'Press 10 times to continue.'
+359.5037 	EXP 	pause_text: text = 'Press 10 times to continue.'
+359.5202 	EXP 	pause_text: text = 'Press 10 times to continue.'
+359.5370 	EXP 	pause_text: text = 'Press 10 times to continue.'
+359.5536 	EXP 	pause_text: text = 'Press 10 times to continue.'
+359.5702 	EXP 	pause_text: text = 'Press 10 times to continue.'
+359.5869 	EXP 	pause_text: text = 'Press 10 times to continue.'
+359.6035 	EXP 	pause_text: text = 'Press 10 times to continue.'
+359.6202 	EXP 	pause_text: text = 'Press 10 times to continue.'
+359.6368 	EXP 	pause_text: text = 'Press 10 times to continue.'
+359.6536 	EXP 	pause_text: text = 'Press 10 times to continue.'
+359.6702 	EXP 	pause_text: text = 'Press 10 times to continue.'
+359.6870 	EXP 	pause_text: text = 'Press 10 times to continue.'
+359.7035 	EXP 	pause_text: text = 'Press 10 times to continue.'
+359.7201 	EXP 	pause_text: text = 'Press 10 times to continue.'
+359.7368 	EXP 	pause_text: text = 'Press 10 times to continue.'
+359.7535 	EXP 	pause_text: text = 'Press 10 times to continue.'
+359.7702 	EXP 	pause_text: text = 'Press 10 times to continue.'
+359.7868 	EXP 	pause_text: text = 'Press 10 times to continue.'
+359.8036 	EXP 	pause_text: text = 'Press 10 times to continue.'
+359.8201 	EXP 	pause_text: text = 'Press 10 times to continue.'
+359.8368 	EXP 	pause_text: text = 'Press 10 times to continue.'
+359.8534 	EXP 	pause_text: text = 'Press 10 times to continue.'
+359.8705 	EXP 	pause_text: text = 'Press 10 times to continue.'
+359.8871 	EXP 	pause_text: text = 'Press 10 times to continue.'
+359.9034 	EXP 	pause_text: text = 'Press 10 times to continue.'
+359.9201 	EXP 	pause_text: text = 'Press 10 times to continue.'
+359.9369 	EXP 	pause_text: text = 'Press 10 times to continue.'
+359.9535 	EXP 	pause_text: text = 'Press 10 times to continue.'
+359.9700 	EXP 	pause_text: text = 'Press 10 times to continue.'
+359.9867 	EXP 	pause_text: text = 'Press 10 times to continue.'
+360.0034 	EXP 	pause_text: text = 'Press 10 times to continue.'
+360.0201 	EXP 	pause_text: text = 'Press 10 times to continue.'
+360.0367 	EXP 	pause_text: text = 'Press 10 times to continue.'
+360.0533 	EXP 	pause_text: text = 'Press 10 times to continue.'
+360.0704 	EXP 	pause_text: text = 'Press 10 times to continue.'
+360.0867 	EXP 	pause_text: text = 'Press 10 times to continue.'
+360.1033 	EXP 	pause_text: text = 'Press 10 times to continue.'
+360.1200 	EXP 	pause_text: text = 'Press 10 times to continue.'
+360.1367 	EXP 	pause_text: text = 'Press 10 times to continue.'
+360.1532 	EXP 	pause_text: text = 'Press 10 times to continue.'
+360.1698 	EXP 	pause_text: text = 'Press 10 times to continue.'
+360.1865 	EXP 	pause_text: text = 'Press 10 times to continue.'
+360.2031 	EXP 	pause_text: text = 'Press 10 times to continue.'
+360.2198 	EXP 	pause_text: text = 'Press 10 times to continue.'
+360.2365 	EXP 	pause_text: text = 'Press 10 times to continue.'
+360.2531 	EXP 	pause_text: text = 'Press 10 times to continue.'
+360.2698 	EXP 	pause_text: text = 'Press 10 times to continue.'
+360.2865 	EXP 	pause_text: text = 'Press 10 times to continue.'
+360.3032 	EXP 	pause_text: text = 'Press 10 times to continue.'
+360.3198 	EXP 	pause_text: text = 'Press 10 times to continue.'
+360.3369 	EXP 	pause_text: text = 'Press 10 times to continue.'
+360.3532 	EXP 	pause_text: text = 'Press 10 times to continue.'
+360.3698 	EXP 	pause_text: text = 'Press 10 times to continue.'
+360.3864 	EXP 	pause_text: text = 'Press 10 times to continue.'
+360.4030 	EXP 	pause_text: text = 'Press 10 times to continue.'
+360.4198 	EXP 	pause_text: text = 'Press 10 times to continue.'
+360.4364 	EXP 	pause_text: text = 'Press 10 times to continue.'
+360.4531 	EXP 	pause_text: text = 'Press 10 times to continue.'
+360.4697 	EXP 	pause_text: text = 'Press 10 times to continue.'
+360.4864 	EXP 	pause_text: text = 'Press 10 times to continue.'
+360.5030 	EXP 	pause_text: text = 'Press 10 times to continue.'
+360.5198 	EXP 	pause_text: text = 'Press 10 times to continue.'
+360.5365 	EXP 	pause_text: text = 'Press 10 times to continue.'
+360.5530 	EXP 	pause_text: text = 'Press 10 times to continue.'
+360.5698 	EXP 	pause_text: text = 'Press 10 times to continue.'
+360.5863 	EXP 	pause_text: text = 'Press 10 times to continue.'
+360.6030 	EXP 	pause_text: text = 'Press 10 times to continue.'
+360.6197 	EXP 	pause_text: text = 'Press 10 times to continue.'
+360.6363 	EXP 	pause_text: text = 'Press 10 times to continue.'
+360.6531 	EXP 	pause_text: text = 'Press 10 times to continue.'
+360.6697 	EXP 	pause_text: text = 'Press 10 times to continue.'
+360.6864 	EXP 	pause_text: text = 'Press 10 times to continue.'
+360.7030 	EXP 	pause_text: text = 'Press 10 times to continue.'
+360.7195 	EXP 	pause_text: text = 'Press 10 times to continue.'
+360.7362 	EXP 	pause_text: text = 'Press 10 times to continue.'
+360.7528 	EXP 	pause_text: text = 'Press 10 times to continue.'
+360.7696 	EXP 	pause_text: text = 'Press 10 times to continue.'
+360.7862 	EXP 	pause_text: text = 'Press 10 times to continue.'
+360.8030 	EXP 	pause_text: text = 'Press 10 times to continue.'
+360.8196 	EXP 	pause_text: text = 'Press 10 times to continue.'
+360.8362 	EXP 	pause_text: text = 'Press 10 times to continue.'
+360.8529 	EXP 	pause_text: text = 'Press 10 times to continue.'
+360.8696 	EXP 	pause_text: text = 'Press 10 times to continue.'
+360.8863 	EXP 	pause_text: text = 'Press 10 times to continue.'
+360.9028 	EXP 	pause_text: text = 'Press 10 times to continue.'
+360.9195 	EXP 	pause_text: text = 'Press 10 times to continue.'
+360.9362 	EXP 	pause_text: text = 'Press 10 times to continue.'
+360.9528 	EXP 	pause_text: text = 'Press 10 times to continue.'
+360.9696 	EXP 	pause_text: text = 'Press 10 times to continue.'
+360.9861 	EXP 	pause_text: text = 'Press 10 times to continue.'
+361.0028 	EXP 	pause_text: text = 'Press 10 times to continue.'
+361.0194 	EXP 	pause_text: text = 'Press 10 times to continue.'
+361.0362 	EXP 	pause_text: text = 'Press 10 times to continue.'
+361.0527 	EXP 	pause_text: text = 'Press 10 times to continue.'
+361.0694 	EXP 	pause_text: text = 'Press 10 times to continue.'
+361.0859 	EXP 	pause_text: text = 'Press 10 times to continue.'
+361.1032 	EXP 	pause_text: text = 'Press 10 times to continue.'
+361.1193 	EXP 	pause_text: text = 'Press 10 times to continue.'
+361.1360 	EXP 	pause_text: text = 'Press 10 times to continue.'
+361.1527 	EXP 	pause_text: text = 'Press 10 times to continue.'
+361.1693 	EXP 	pause_text: text = 'Press 10 times to continue.'
+361.1860 	EXP 	pause_text: text = 'Press 10 times to continue.'
+361.2026 	EXP 	pause_text: text = 'Press 10 times to continue.'
+361.2193 	EXP 	pause_text: text = 'Press 10 times to continue.'
+361.2359 	EXP 	pause_text: text = 'Press 10 times to continue.'
+361.2526 	EXP 	pause_text: text = 'Press 10 times to continue.'
+361.2693 	EXP 	pause_text: text = 'Press 10 times to continue.'
+361.2859 	EXP 	pause_text: text = 'Press 10 times to continue.'
+361.3026 	EXP 	pause_text: text = 'Press 10 times to continue.'
+361.3192 	EXP 	pause_text: text = 'Press 10 times to continue.'
+361.3363 	EXP 	pause_text: text = 'Press 10 times to continue.'
+361.3525 	EXP 	pause_text: text = 'Press 10 times to continue.'
+361.3693 	EXP 	pause_text: text = 'Press 10 times to continue.'
+361.3860 	EXP 	pause_text: text = 'Press 10 times to continue.'
+361.4026 	EXP 	pause_text: text = 'Press 10 times to continue.'
+361.4194 	EXP 	pause_text: text = 'Press 10 times to continue.'
+361.4359 	EXP 	pause_text: text = 'Press 10 times to continue.'
+361.4527 	EXP 	pause_text: text = 'Press 10 times to continue.'
+361.4693 	EXP 	pause_text: text = 'Press 10 times to continue.'
+361.4860 	EXP 	pause_text: text = 'Press 10 times to continue.'
+361.5025 	EXP 	pause_text: text = 'Press 10 times to continue.'
+361.5193 	EXP 	pause_text: text = 'Press 10 times to continue.'
+361.5359 	EXP 	pause_text: text = 'Press 10 times to continue.'
+361.5526 	EXP 	pause_text: text = 'Press 10 times to continue.'
+361.5693 	EXP 	pause_text: text = 'Press 10 times to continue.'
+361.5859 	EXP 	pause_text: text = 'Press 10 times to continue.'
+361.6025 	EXP 	pause_text: text = 'Press 10 times to continue.'
+361.6192 	EXP 	pause_text: text = 'Press 10 times to continue.'
+361.6359 	EXP 	pause_text: text = 'Press 10 times to continue.'
+361.6526 	EXP 	pause_text: text = 'Press 10 times to continue.'
+361.6692 	EXP 	pause_text: text = 'Press 10 times to continue.'
+361.6859 	EXP 	pause_text: text = 'Press 10 times to continue.'
+361.7025 	EXP 	pause_text: text = 'Press 10 times to continue.'
+361.7192 	EXP 	pause_text: text = 'Press 10 times to continue.'
+361.7357 	EXP 	pause_text: text = 'Press 10 times to continue.'
+361.7523 	EXP 	pause_text: text = 'Press 10 times to continue.'
+361.7691 	EXP 	pause_text: text = 'Press 10 times to continue.'
+361.7856 	EXP 	pause_text: text = 'Press 10 times to continue.'
+361.8023 	EXP 	pause_text: text = 'Press 10 times to continue.'
+361.8189 	EXP 	pause_text: text = 'Press 10 times to continue.'
+361.8358 	EXP 	pause_text: text = 'Press 10 times to continue.'
+361.8522 	EXP 	pause_text: text = 'Press 10 times to continue.'
+361.8691 	EXP 	pause_text: text = 'Press 10 times to continue.'
+361.8857 	EXP 	pause_text: text = 'Press 10 times to continue.'
+361.9023 	EXP 	pause_text: text = 'Press 10 times to continue.'
+361.9191 	EXP 	pause_text: text = 'Press 10 times to continue.'
+361.9357 	EXP 	pause_text: text = 'Press 10 times to continue.'
+361.9523 	EXP 	pause_text: text = 'Press 10 times to continue.'
+361.9690 	EXP 	pause_text: text = 'Press 10 times to continue.'
+361.9859 	EXP 	pause_text: text = 'Press 10 times to continue.'
+362.0023 	EXP 	pause_text: text = 'Press 10 times to continue.'
+362.0188 	EXP 	pause_text: text = 'Press 10 times to continue.'
+362.0357 	EXP 	pause_text: text = 'Press 10 times to continue.'
+362.0523 	EXP 	pause_text: text = 'Press 10 times to continue.'
+362.0689 	EXP 	pause_text: text = 'Press 10 times to continue.'
+362.0855 	EXP 	pause_text: text = 'Press 10 times to continue.'
+362.1025 	EXP 	pause_text: text = 'Press 10 times to continue.'
+362.1188 	EXP 	pause_text: text = 'Press 10 times to continue.'
+362.1354 	EXP 	pause_text: text = 'Press 10 times to continue.'
+362.1521 	EXP 	pause_text: text = 'Press 10 times to continue.'
+362.1688 	EXP 	pause_text: text = 'Press 10 times to continue.'
+362.1855 	EXP 	pause_text: text = 'Press 10 times to continue.'
+362.2022 	EXP 	pause_text: text = 'Press 10 times to continue.'
+362.2189 	EXP 	pause_text: text = 'Press 10 times to continue.'
+362.2355 	EXP 	pause_text: text = 'Press 10 times to continue.'
+362.2522 	EXP 	pause_text: text = 'Press 10 times to continue.'
+362.2688 	EXP 	pause_text: text = 'Press 10 times to continue.'
+362.2855 	EXP 	pause_text: text = 'Press 10 times to continue.'
+362.3021 	EXP 	pause_text: text = 'Press 10 times to continue.'
+362.3188 	EXP 	pause_text: text = 'Press 10 times to continue.'
+362.3355 	EXP 	pause_text: text = 'Press 10 times to continue.'
+362.3521 	EXP 	pause_text: text = 'Press 10 times to continue.'
+362.3692 	EXP 	pause_text: text = 'Press 10 times to continue.'
+362.3854 	EXP 	pause_text: text = 'Press 10 times to continue.'
+362.4019 	EXP 	pause_text: text = 'Press 10 times to continue.'
+362.4187 	EXP 	pause_text: text = 'Press 10 times to continue.'
+362.4353 	EXP 	pause_text: text = 'Press 10 times to continue.'
+362.4520 	EXP 	pause_text: text = 'Press 10 times to continue.'
+362.4687 	EXP 	pause_text: text = 'Press 10 times to continue.'
+362.4857 	EXP 	pause_text: text = 'Press 10 times to continue.'
+362.5021 	EXP 	pause_text: text = 'Press 10 times to continue.'
+362.5187 	EXP 	pause_text: text = 'Press 10 times to continue.'
+362.5354 	EXP 	pause_text: text = 'Press 10 times to continue.'
+362.5519 	EXP 	pause_text: text = 'Press 10 times to continue.'
+362.5686 	EXP 	pause_text: text = 'Press 10 times to continue.'
+362.5853 	EXP 	pause_text: text = 'Press 10 times to continue.'
+362.6020 	EXP 	pause_text: text = 'Press 10 times to continue.'
+362.6186 	EXP 	pause_text: text = 'Press 10 times to continue.'
+362.6352 	EXP 	pause_text: text = 'Press 10 times to continue.'
+362.6520 	EXP 	pause_text: text = 'Press 10 times to continue.'
+362.6686 	EXP 	pause_text: text = 'Press 10 times to continue.'
+362.6853 	EXP 	pause_text: text = 'Press 10 times to continue.'
+362.7019 	EXP 	pause_text: text = 'Press 10 times to continue.'
+362.7186 	EXP 	pause_text: text = 'Press 10 times to continue.'
+362.7352 	EXP 	pause_text: text = 'Press 10 times to continue.'
+362.7520 	EXP 	pause_text: text = 'Press 10 times to continue.'
+362.7685 	EXP 	pause_text: text = 'Press 10 times to continue.'
+362.7852 	EXP 	pause_text: text = 'Press 10 times to continue.'
+362.8019 	EXP 	pause_text: text = 'Press 10 times to continue.'
+362.8185 	EXP 	pause_text: text = 'Press 10 times to continue.'
+362.8352 	EXP 	pause_text: text = 'Press 10 times to continue.'
+362.8518 	EXP 	pause_text: text = 'Press 10 times to continue.'
+362.8687 	EXP 	pause_text: text = 'Press 10 times to continue.'
+362.8851 	EXP 	pause_text: text = 'Press 10 times to continue.'
+362.9018 	EXP 	pause_text: text = 'Press 10 times to continue.'
+362.9185 	EXP 	pause_text: text = 'Press 10 times to continue.'
+362.9351 	EXP 	pause_text: text = 'Press 10 times to continue.'
+362.9519 	EXP 	pause_text: text = 'Press 10 times to continue.'
+362.9684 	EXP 	pause_text: text = 'Press 10 times to continue.'
+362.9856 	EXP 	pause_text: text = 'Press 10 times to continue.'
+363.0018 	EXP 	pause_text: text = 'Press 10 times to continue.'
+363.0184 	EXP 	pause_text: text = 'Press 10 times to continue.'
+363.0350 	EXP 	pause_text: text = 'Press 10 times to continue.'
+363.0517 	EXP 	pause_text: text = 'Press 10 times to continue.'
+363.0684 	EXP 	pause_text: text = 'Press 10 times to continue.'
+363.0850 	EXP 	pause_text: text = 'Press 10 times to continue.'
+363.1016 	EXP 	pause_text: text = 'Press 10 times to continue.'
+363.1184 	EXP 	pause_text: text = 'Press 10 times to continue.'
+363.1351 	EXP 	pause_text: text = 'Press 10 times to continue.'
+363.1516 	EXP 	pause_text: text = 'Press 10 times to continue.'
+363.1683 	EXP 	pause_text: text = 'Press 10 times to continue.'
+363.1850 	EXP 	pause_text: text = 'Press 10 times to continue.'
+363.2016 	EXP 	pause_text: text = 'Press 10 times to continue.'
+363.2182 	EXP 	pause_text: text = 'Press 10 times to continue.'
+363.2350 	EXP 	pause_text: text = 'Press 10 times to continue.'
+363.2520 	EXP 	pause_text: text = 'Press 10 times to continue.'
+363.2683 	EXP 	pause_text: text = 'Press 10 times to continue.'
+363.2849 	EXP 	pause_text: text = 'Press 10 times to continue.'
+363.3017 	EXP 	pause_text: text = 'Press 10 times to continue.'
+363.3182 	EXP 	pause_text: text = 'Press 10 times to continue.'
+363.3349 	EXP 	pause_text: text = 'Press 10 times to continue.'
+363.3514 	EXP 	pause_text: text = 'Press 10 times to continue.'
+363.3682 	EXP 	pause_text: text = 'Press 10 times to continue.'
+363.3849 	EXP 	pause_text: text = 'Press 10 times to continue.'
+363.4015 	EXP 	pause_text: text = 'Press 10 times to continue.'
+363.4182 	EXP 	pause_text: text = 'Press 10 times to continue.'
+363.4349 	EXP 	pause_text: text = 'Press 10 times to continue.'
+363.4515 	EXP 	pause_text: text = 'Press 10 times to continue.'
+363.4682 	EXP 	pause_text: text = 'Press 10 times to continue.'
+363.4849 	EXP 	pause_text: text = 'Press 10 times to continue.'
+363.5015 	EXP 	pause_text: text = 'Press 10 times to continue.'
+363.5186 	EXP 	pause_text: text = 'Press 10 times to continue.'
+363.5347 	EXP 	pause_text: text = 'Press 10 times to continue.'
+363.5515 	EXP 	pause_text: text = 'Press 10 times to continue.'
+363.5681 	EXP 	pause_text: text = 'Press 10 times to continue.'
+363.5848 	EXP 	pause_text: text = 'Press 10 times to continue.'
+363.6015 	EXP 	pause_text: text = 'Press 10 times to continue.'
+363.6180 	EXP 	pause_text: text = 'Press 10 times to continue.'
+363.6349 	EXP 	pause_text: text = 'Press 10 times to continue.'
+363.6514 	EXP 	pause_text: text = 'Press 10 times to continue.'
+363.6681 	EXP 	pause_text: text = 'Press 10 times to continue.'
+363.6848 	EXP 	pause_text: text = 'Press 10 times to continue.'
+363.7014 	EXP 	pause_text: text = 'Press 10 times to continue.'
+363.7180 	EXP 	pause_text: text = 'Press 10 times to continue.'
+363.7346 	EXP 	pause_text: text = 'Press 10 times to continue.'
+363.7513 	EXP 	pause_text: text = 'Press 10 times to continue.'
+363.7679 	EXP 	pause_text: text = 'Press 10 times to continue.'
+363.7845 	EXP 	pause_text: text = 'Press 10 times to continue.'
+363.8013 	EXP 	pause_text: text = 'Press 10 times to continue.'
+363.8180 	EXP 	pause_text: text = 'Press 10 times to continue.'
+363.8347 	EXP 	pause_text: text = 'Press 10 times to continue.'
+363.8363 	DATA 	Mouse: Left button down, pos=(935,1)
+363.8513 	EXP 	pause_text: text = 'Press 10 times to continue.'
+363.8679 	EXP 	pause_text: text = 'Press 10 times to continue.'
+363.8847 	EXP 	pause_text: text = 'Press 10 times to continue.'
+363.9016 	EXP 	pause_text: text = 'Press 10 times to continue.'
+363.9179 	EXP 	pause_text: text = 'Press 10 times to continue.'
+363.9183 	DATA 	Mouse:  Left button up, pos=(963,112)
+363.9345 	EXP 	pause_text: text = 'Press 10 times to continue.'
+363.9513 	EXP 	pause_text: text = 'Press 10 times to continue.'
+363.9678 	EXP 	pause_text: text = 'Press 10 times to continue.'
+363.9846 	EXP 	pause_text: text = 'Press 10 times to continue.'
+364.0010 	EXP 	pause_text: text = 'Press 10 times to continue.'
+364.0179 	EXP 	pause_text: text = 'Press 10 times to continue.'
+364.0346 	EXP 	pause_text: text = 'Press 10 times to continue.'
+364.0512 	EXP 	pause_text: text = 'Press 10 times to continue.'
+364.0679 	EXP 	pause_text: text = 'Press 10 times to continue.'
+364.0845 	EXP 	pause_text: text = 'Press 10 times to continue.'
+364.1012 	EXP 	pause_text: text = 'Press 10 times to continue.'
+364.1178 	EXP 	pause_text: text = 'Press 10 times to continue.'
+364.1346 	EXP 	pause_text: text = 'Press 10 times to continue.'
+364.1510 	EXP 	pause_text: text = 'Press 10 times to continue.'
+364.1683 	EXP 	pause_text: text = 'Press 10 times to continue.'
+364.1844 	EXP 	pause_text: text = 'Press 10 times to continue.'
+364.2010 	EXP 	pause_text: text = 'Press 10 times to continue.'
+364.2179 	EXP 	pause_text: text = 'Press 10 times to continue.'
+364.2345 	EXP 	pause_text: text = 'Press 10 times to continue.'
+364.2512 	EXP 	pause_text: text = 'Press 10 times to continue.'
+364.2678 	EXP 	pause_text: text = 'Press 10 times to continue.'
+364.2848 	EXP 	pause_text: text = 'Press 10 times to continue.'
+364.3010 	EXP 	pause_text: text = 'Press 10 times to continue.'
+364.3177 	EXP 	pause_text: text = 'Press 10 times to continue.'
+364.3344 	EXP 	pause_text: text = 'Press 10 times to continue.'
+364.3510 	EXP 	pause_text: text = 'Press 10 times to continue.'
+364.3677 	EXP 	pause_text: text = 'Press 10 times to continue.'
+364.3843 	EXP 	pause_text: text = 'Press 10 times to continue.'
+364.4014 	EXP 	pause_text: text = 'Press 10 times to continue.'
+364.4176 	EXP 	pause_text: text = 'Press 10 times to continue.'
+364.4342 	EXP 	pause_text: text = 'Press 10 times to continue.'
+364.4512 	EXP 	pause_text: text = 'Press 10 times to continue.'
+364.4515 	DATA 	Mouse: Left button down, pos=(1365,686)
+364.4676 	EXP 	pause_text: text = 'Press 10 times to continue.'
+364.4843 	EXP 	pause_text: text = 'Press 10 times to continue.'
+364.5009 	EXP 	pause_text: text = 'Press 10 times to continue.'
+364.5179 	EXP 	pause_text: text = 'Press 10 times to continue.'
+364.5342 	EXP 	pause_text: text = 'Press 10 times to continue.'
+364.5514 	EXP 	pause_text: text = 'Press 10 times to continue.'
+364.5676 	EXP 	pause_text: text = 'Press 10 times to continue.'
+364.5679 	DATA 	Mouse:  Left button up, pos=(1365,686)
+364.5841 	EXP 	pause_text: text = 'Press 10 times to continue.'
+364.6009 	EXP 	pause_text: text = 'Press 10 times to continue.'
+364.6176 	EXP 	pause_text: text = 'Press 10 times to continue.'
+364.6346 	EXP 	pause_text: text = 'Press 10 times to continue.'
+364.6509 	EXP 	pause_text: text = 'Press 10 times to continue.'
+364.6680 	EXP 	pause_text: text = 'Press 10 times to continue.'
+364.6842 	EXP 	pause_text: text = 'Press 10 times to continue.'
+364.7007 	EXP 	pause_text: text = 'Press 10 times to continue.'
+364.7175 	EXP 	pause_text: text = 'Press 10 times to continue.'
+364.7341 	EXP 	pause_text: text = 'Press 10 times to continue.'
+364.7508 	EXP 	pause_text: text = 'Press 10 times to continue.'
+364.7674 	EXP 	pause_text: text = 'Press 10 times to continue.'
+364.7845 	EXP 	pause_text: text = 'Press 10 times to continue.'
+364.8008 	EXP 	pause_text: text = 'Press 10 times to continue.'
+364.8175 	EXP 	pause_text: text = 'Press 10 times to continue.'
+364.8341 	EXP 	pause_text: text = 'Press 10 times to continue.'
+364.8507 	EXP 	pause_text: text = 'Press 10 times to continue.'
+364.8674 	EXP 	pause_text: text = 'Press 10 times to continue.'
+364.8839 	EXP 	pause_text: text = 'Press 10 times to continue.'
+364.9008 	EXP 	pause_text: text = 'Press 10 times to continue.'
+364.9173 	EXP 	pause_text: text = 'Press 10 times to continue.'
+364.9341 	EXP 	pause_text: text = 'Press 10 times to continue.'
+364.9507 	EXP 	pause_text: text = 'Press 10 times to continue.'
+364.9673 	EXP 	pause_text: text = 'Press 10 times to continue.'
+364.9841 	EXP 	pause_text: text = 'Press 10 times to continue.'
+365.0006 	EXP 	pause_text: text = 'Press 10 times to continue.'
+365.0174 	EXP 	pause_text: text = 'Press 10 times to continue.'
+365.0340 	EXP 	pause_text: text = 'Press 10 times to continue.'
+365.0506 	EXP 	pause_text: text = 'Press 10 times to continue.'
+365.0673 	EXP 	pause_text: text = 'Press 10 times to continue.'
+365.0840 	EXP 	pause_text: text = 'Press 10 times to continue.'
+365.1007 	EXP 	pause_text: text = 'Press 10 times to continue.'
+365.1172 	EXP 	pause_text: text = 'Press 10 times to continue.'
+365.1340 	EXP 	pause_text: text = 'Press 10 times to continue.'
+365.1506 	EXP 	pause_text: text = 'Press 10 times to continue.'
+365.1673 	EXP 	pause_text: text = 'Press 10 times to continue.'
+365.1839 	EXP 	pause_text: text = 'Press 10 times to continue.'
+365.2006 	EXP 	pause_text: text = 'Press 10 times to continue.'
+365.2173 	EXP 	pause_text: text = 'Press 10 times to continue.'
+365.2338 	EXP 	pause_text: text = 'Press 10 times to continue.'
+365.2506 	EXP 	pause_text: text = 'Press 10 times to continue.'
+365.2672 	EXP 	pause_text: text = 'Press 10 times to continue.'
+365.2841 	EXP 	pause_text: text = 'Press 10 times to continue.'
+365.3005 	EXP 	pause_text: text = 'Press 10 times to continue.'
+365.3177 	EXP 	pause_text: text = 'Press 10 times to continue.'
+365.3339 	EXP 	pause_text: text = 'Press 10 times to continue.'
+365.3505 	EXP 	pause_text: text = 'Press 10 times to continue.'
+365.3672 	EXP 	pause_text: text = 'Press 10 times to continue.'
+365.3838 	EXP 	pause_text: text = 'Press 10 times to continue.'
+365.4006 	EXP 	pause_text: text = 'Press 10 times to continue.'
+365.4171 	EXP 	pause_text: text = 'Press 10 times to continue.'
+365.4342 	EXP 	pause_text: text = 'Press 10 times to continue.'
+365.4504 	EXP 	pause_text: text = 'Press 10 times to continue.'
+365.4671 	EXP 	pause_text: text = 'Press 10 times to continue.'
+365.4838 	EXP 	pause_text: text = 'Press 10 times to continue.'
+365.5004 	EXP 	pause_text: text = 'Press 10 times to continue.'
+365.5169 	EXP 	pause_text: text = 'Press 10 times to continue.'
+365.5337 	EXP 	pause_text: text = 'Press 10 times to continue.'
+365.5508 	EXP 	pause_text: text = 'Press 10 times to continue.'
+365.5670 	EXP 	pause_text: text = 'Press 10 times to continue.'
+365.5837 	EXP 	pause_text: text = 'Press 10 times to continue.'
+365.6004 	EXP 	pause_text: text = 'Press 10 times to continue.'
+365.6170 	EXP 	pause_text: text = 'Press 10 times to continue.'
+365.6335 	EXP 	pause_text: text = 'Press 10 times to continue.'
+365.6503 	EXP 	pause_text: text = 'Press 10 times to continue.'
+365.6671 	EXP 	pause_text: text = 'Press 10 times to continue.'
+365.6836 	EXP 	pause_text: text = 'Press 10 times to continue.'
+365.7007 	EXP 	pause_text: text = 'Press 10 times to continue.'
+365.7170 	EXP 	pause_text: text = 'Press 10 times to continue.'
+365.7335 	EXP 	pause_text: text = 'Press 10 times to continue.'
+365.7503 	EXP 	pause_text: text = 'Press 10 times to continue.'
+365.7668 	EXP 	pause_text: text = 'Press 10 times to continue.'
+365.7836 	EXP 	pause_text: text = 'Press 10 times to continue.'
+365.8002 	EXP 	pause_text: text = 'Press 10 times to continue.'
+365.8170 	EXP 	pause_text: text = 'Press 10 times to continue.'
+365.8334 	EXP 	pause_text: text = 'Press 10 times to continue.'
+365.8502 	EXP 	pause_text: text = 'Press 10 times to continue.'
+365.8668 	EXP 	pause_text: text = 'Press 10 times to continue.'
+365.8835 	EXP 	pause_text: text = 'Press 10 times to continue.'
+365.9003 	EXP 	pause_text: text = 'Press 10 times to continue.'
+365.9168 	EXP 	pause_text: text = 'Press 10 times to continue.'
+365.9340 	EXP 	pause_text: text = 'Press 10 times to continue.'
+365.9501 	EXP 	pause_text: text = 'Press 10 times to continue.'
+365.9668 	EXP 	pause_text: text = 'Press 10 times to continue.'
+365.9835 	EXP 	pause_text: text = 'Press 10 times to continue.'
+366.0001 	EXP 	pause_text: text = 'Press 10 times to continue.'
+366.0169 	EXP 	pause_text: text = 'Press 10 times to continue.'
+366.0335 	EXP 	pause_text: text = 'Press 10 times to continue.'
+366.0502 	EXP 	pause_text: text = 'Press 10 times to continue.'
+366.0668 	EXP 	pause_text: text = 'Press 10 times to continue.'
+366.0834 	EXP 	pause_text: text = 'Press 10 times to continue.'
+366.1002 	EXP 	pause_text: text = 'Press 10 times to continue.'
+366.1167 	EXP 	pause_text: text = 'Press 10 times to continue.'
+366.1335 	EXP 	pause_text: text = 'Press 10 times to continue.'
+366.1500 	EXP 	pause_text: text = 'Press 10 times to continue.'
+366.1668 	EXP 	pause_text: text = 'Press 10 times to continue.'
+366.1834 	EXP 	pause_text: text = 'Press 10 times to continue.'
+366.2005 	EXP 	pause_text: text = 'Press 10 times to continue.'
+366.2167 	EXP 	pause_text: text = 'Press 10 times to continue.'
+366.2333 	EXP 	pause_text: text = 'Press 10 times to continue.'
+366.2500 	EXP 	pause_text: text = 'Press 10 times to continue.'
+366.2665 	EXP 	pause_text: text = 'Press 10 times to continue.'
+366.2833 	EXP 	pause_text: text = 'Press 10 times to continue.'
+366.2999 	EXP 	pause_text: text = 'Press 10 times to continue.'
+366.3165 	EXP 	pause_text: text = 'Press 10 times to continue.'
+366.3332 	EXP 	pause_text: text = 'Press 10 times to continue.'
+366.3498 	EXP 	pause_text: text = 'Press 10 times to continue.'
+366.3667 	EXP 	pause_text: text = 'Press 10 times to continue.'
+366.3831 	EXP 	pause_text: text = 'Press 10 times to continue.'
+366.4002 	EXP 	pause_text: text = 'Press 10 times to continue.'
+366.4165 	EXP 	pause_text: text = 'Press 10 times to continue.'
+366.4334 	EXP 	pause_text: text = 'Press 10 times to continue.'
+366.4499 	EXP 	pause_text: text = 'Press 10 times to continue.'
+366.4671 	EXP 	pause_text: text = 'Press 10 times to continue.'
+366.4832 	EXP 	pause_text: text = 'Press 10 times to continue.'
+366.5000 	EXP 	pause_text: text = 'Press 10 times to continue.'
+366.5166 	EXP 	pause_text: text = 'Press 10 times to continue.'
+366.5333 	EXP 	pause_text: text = 'Press 10 times to continue.'
+366.5501 	EXP 	pause_text: text = 'Press 10 times to continue.'
+366.5666 	EXP 	pause_text: text = 'Press 10 times to continue.'
+366.5832 	EXP 	pause_text: text = 'Press 10 times to continue.'
+366.5838 	DATA 	Keypress: escape
+366.6602 	EXP 	window1: mouseVisible = True
