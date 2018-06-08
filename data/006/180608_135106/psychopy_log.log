@@ -1,0 +1,334 @@
+0.0863 	INFO 	Loaded SoundDevice with PortAudio V19.6.0-devel, revision 396fe4b6699ae929d3a685b3ef8a7e97396139a4
+0.0864 	INFO 	sound is using audioLib: sounddevice
+0.4722 	INFO 	Loaded monitor calibration from ['2018_01_10 10:27']
+15.2869 	WARNING 	Monitor specification not found. Creating a temporary one...
+15.2882 	WARNING 	Requested an unavailable screen number - using first available.
+15.2884 	WARNING 	User requested fullscreen with size [800 800], but screen is actually [1680, 1050]. Using actual size
+15.9674 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([-1., -1., -1.]), colorSpace='rgb', fullscr=UNKNOWN, gamma=None, kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000017510D60668>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=1, size=array([1680, 1050]), stereo=False, units='height', useFBO=False, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+15.9674 	EXP 	window1: recordFrameIntervals = True
+16.0691 	EXP 	Created stim ᚼ = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='FreeMono', fontFiles=[], height=0.25, italic=False, name='stim ᚼ', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text='ᚼ', units='height', win=Window(...), wrapWidth=1)
+16.0768 	EXP 	Created stim ᚢ = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='FreeMono', fontFiles=[], height=0.25, italic=False, name='stim ᚢ', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text='ᚢ', units='height', win=Window(...), wrapWidth=1)
+16.0847 	EXP 	Created stim ᚻ = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='FreeMono', fontFiles=[], height=0.25, italic=False, name='stim ᚻ', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text='ᚻ', units='height', win=Window(...), wrapWidth=1)
+16.0927 	EXP 	Created stim ᚠ = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='FreeMono', fontFiles=[], height=0.25, italic=False, name='stim ᚠ', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text='ᚠ', units='height', win=Window(...), wrapWidth=1)
+16.1009 	EXP 	Created stim ᚳ = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='FreeMono', fontFiles=[], height=0.25, italic=False, name='stim ᚳ', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text='ᚳ', units='height', win=Window(...), wrapWidth=1)
+16.1084 	EXP 	Created stim ᚬ = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='FreeMono', fontFiles=[], height=0.25, italic=False, name='stim ᚬ', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text='ᚬ', units='height', win=Window(...), wrapWidth=1)
+16.1166 	EXP 	Created stim ᚣ = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='FreeMono', fontFiles=[], height=0.25, italic=False, name='stim ᚣ', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text='ᚣ', units='height', win=Window(...), wrapWidth=1)
+16.1246 	EXP 	Created stim ᛋ = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='FreeMono', fontFiles=[], height=0.25, italic=False, name='stim ᛋ', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text='ᛋ', units='height', win=Window(...), wrapWidth=1)
+16.1321 	EXP 	Created stim ᚦ = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='FreeMono', fontFiles=[], height=0.25, italic=False, name='stim ᚦ', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text='ᚦ', units='height', win=Window(...), wrapWidth=1)
+16.1397 	EXP 	Created stim ᛇ = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='FreeMono', fontFiles=[], height=0.25, italic=False, name='stim ᛇ', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text='ᛇ', units='height', win=Window(...), wrapWidth=1)
+16.1415 	EXP 	<method-wrapper '__getattribute__' of attributeSetter object at 0x00000174875A3080>: vertices = array([[-0.3,  0.3],
+       [ 0.3,  0.3],
+       [ 0.3, -0.3],
+       [-0.3, -0.3]])
+16.1629 	EXP 	Created pause_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.1, italic=False, name='pause_text', opacity=1.0, ori=0.0, pos=array([0. , 0.8]), rgb=array([1., 1., 1.]), text='Take a break!', units='norm', win=Window(...), wrapWidth=1)
+16.1708 	EXP 	Created pause_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.1, italic=False, name='pause_text', opacity=1.0, ori=0.0, pos=array([0. , 0.7]), rgb=array([1., 1., 1.]), text='Press ten times to continue.', units='norm', win=Window(...), wrapWidth=1)
+23.7821 	WARNING 	t of last frame was 136.35ms (=1/7)
+24.1125 	INFO 	Trial 0 start: 24.095735
+24.1125 	EXP 	Drew image 1 at 0.000000
+24.1125 	EXP 	stim ᚢ: autoDraw = True
+24.9952 	EXP 	stim ᚢ: color = [-1, 1, -1]
+25.2954 	EXP 	stim ᚢ: autoDraw = False
+25.2954 	EXP 	stim ᚢ: color = [1, 1, 1]
+25.8281 	INFO 	Trial 1 start: 25.811443
+25.8281 	EXP 	Drew image 6 at 0.000000
+25.8280 	EXP 	stim ᚣ: autoDraw = True
+26.6278 	EXP 	stim ᚣ: color = [-1, 1, -1]
+26.9276 	EXP 	stim ᚣ: autoDraw = False
+26.9276 	EXP 	stim ᚣ: color = [1, 1, 1]
+27.4606 	INFO 	Trial 2 start: 27.443973
+27.4607 	EXP 	Drew image 5 at 0.000000
+27.4606 	EXP 	stim ᚬ: autoDraw = True
+28.2270 	EXP 	stim ᚬ: color = [-1, 1, -1]
+28.5267 	EXP 	stim ᚬ: autoDraw = False
+28.5267 	EXP 	stim ᚬ: color = [1, 1, 1]
+29.0598 	INFO 	Trial 3 start: 29.042996
+29.0599 	EXP 	Drew image 4 at 0.000000
+29.0598 	EXP 	stim ᚳ: autoDraw = True
+29.7761 	EXP 	stim ᚳ: color = [-1, 1, -1]
+30.0759 	EXP 	stim ᚳ: autoDraw = False
+30.0759 	EXP 	stim ᚳ: color = [1, 1, 1]
+30.6090 	INFO 	Trial 4 start: 30.592332
+30.6090 	EXP 	Drew image 5 at 0.000000
+30.6089 	EXP 	stim ᚬ: autoDraw = True
+31.2919 	EXP 	stim ᚬ: color = [-1, 1, -1]
+31.5918 	EXP 	stim ᚬ: autoDraw = False
+31.5918 	EXP 	stim ᚬ: color = [1, 1, 1]
+32.1248 	INFO 	Trial 5 start: 32.108141
+32.1248 	EXP 	Drew image 8 at 0.000000
+32.1247 	EXP 	stim ᚦ: autoDraw = True
+32.8577 	EXP 	stim ᚦ: color = [-1, 1, -1]
+33.1576 	EXP 	stim ᚦ: autoDraw = False
+33.1576 	EXP 	stim ᚦ: color = [1, 1, 1]
+33.6906 	INFO 	Trial 6 start: 33.673798
+33.6906 	EXP 	Drew image 9 at 0.000000
+33.6906 	EXP 	stim ᛇ: autoDraw = True
+34.5901 	EXP 	stim ᛇ: color = [-1, 1, -1]
+34.8900 	EXP 	stim ᛇ: autoDraw = False
+34.8900 	EXP 	stim ᛇ: color = [1, 1, 1]
+35.4232 	INFO 	Trial 7 start: 35.406522
+35.4232 	EXP 	Drew image 6 at 0.000000
+35.4232 	EXP 	stim ᚣ: autoDraw = True
+36.0726 	EXP 	stim ᚣ: color = [-1, 1, -1]
+36.3725 	EXP 	stim ᚣ: autoDraw = False
+36.3725 	EXP 	stim ᚣ: color = [1, 1, 1]
+36.8888 	INFO 	Trial 8 start: 36.872472
+36.8889 	EXP 	Drew image 7 at 0.000000
+36.8888 	EXP 	stim ᛋ: autoDraw = True
+37.5553 	EXP 	stim ᛋ: color = [-1, 1, -1]
+37.8551 	EXP 	stim ᛋ: autoDraw = False
+37.8551 	EXP 	stim ᛋ: color = [1, 1, 1]
+38.3881 	INFO 	Trial 9 start: 38.371488
+38.3882 	EXP 	Drew image 1 at 0.000000
+38.3881 	EXP 	stim ᚢ: autoDraw = True
+39.2047 	EXP 	stim ᚢ: color = [-1, 1, -1]
+39.5287 	WARNING 	t of last frame was 41.21ms (=1/24)
+39.5287 	EXP 	stim ᚢ: autoDraw = False
+39.5287 	EXP 	stim ᚢ: color = [1, 1, 1]
+40.0373 	INFO 	Trial 10 start: 40.020590
+40.0373 	EXP 	Drew image 6 at 0.000000
+40.0372 	EXP 	stim ᚣ: autoDraw = True
+40.6368 	EXP 	stim ᚣ: color = [-1, 1, -1]
+40.9367 	EXP 	stim ᚣ: autoDraw = False
+40.9367 	EXP 	stim ᚣ: color = [1, 1, 1]
+41.4698 	INFO 	Trial 11 start: 41.453095
+41.4699 	EXP 	Drew image 7 at 0.000000
+41.4698 	EXP 	stim ᛋ: autoDraw = True
+42.0361 	EXP 	stim ᛋ: color = [-1, 1, -1]
+42.3359 	EXP 	stim ᛋ: autoDraw = False
+42.3359 	EXP 	stim ᛋ: color = [1, 1, 1]
+42.8690 	INFO 	Trial 12 start: 42.852381
+42.8691 	EXP 	Drew image 8 at 0.000000
+42.8690 	EXP 	stim ᚦ: autoDraw = True
+43.6351 	EXP 	stim ᚦ: color = [-1, 1, -1]
+43.9352 	EXP 	stim ᚦ: autoDraw = False
+43.9352 	EXP 	stim ᚦ: color = [1, 1, 1]
+44.4681 	INFO 	Trial 13 start: 44.451373
+44.4682 	EXP 	Drew image 0 at 0.000000
+44.4681 	EXP 	stim ᚼ: autoDraw = True
+45.1844 	EXP 	stim ᚼ: color = [-1, 1, -1]
+45.4842 	EXP 	stim ᚼ: autoDraw = False
+45.4842 	EXP 	stim ᚼ: color = [1, 1, 1]
+46.0173 	INFO 	Trial 14 start: 46.000695
+46.0174 	EXP 	Drew image 4 at 0.000000
+46.0173 	EXP 	stim ᚳ: autoDraw = True
+46.6669 	EXP 	stim ᚳ: color = [-1, 1, -1]
+46.9667 	EXP 	stim ᚳ: autoDraw = False
+46.9667 	EXP 	stim ᚳ: color = [1, 1, 1]
+47.4999 	INFO 	Trial 15 start: 47.483117
+47.4999 	EXP 	Drew image 6 at 0.000000
+47.4998 	EXP 	stim ᚣ: autoDraw = True
+48.1493 	EXP 	stim ᚣ: color = [-1, 1, -1]
+48.4495 	EXP 	stim ᚣ: autoDraw = False
+48.4495 	EXP 	stim ᚣ: color = [1, 1, 1]
+48.9657 	INFO 	Trial 16 start: 48.949382
+48.9658 	EXP 	Drew image 0 at 0.000000
+48.9657 	EXP 	stim ᚼ: autoDraw = True
+49.6319 	EXP 	stim ᚼ: color = [-1, 1, -1]
+49.9319 	EXP 	stim ᚼ: autoDraw = False
+49.9319 	EXP 	stim ᚼ: color = [1, 1, 1]
+50.4650 	INFO 	Trial 17 start: 50.448339
+50.4651 	EXP 	Drew image 8 at 0.000000
+50.4650 	EXP 	stim ᚦ: autoDraw = True
+51.0311 	EXP 	stim ᚦ: color = [-1, 1, -1]
+51.3310 	EXP 	stim ᚦ: autoDraw = False
+51.3310 	EXP 	stim ᚦ: color = [1, 1, 1]
+51.8640 	INFO 	Trial 18 start: 51.847328
+51.8640 	EXP 	Drew image 3 at 0.000000
+51.8640 	EXP 	stim ᚠ: autoDraw = True
+52.6137 	EXP 	stim ᚠ: color = [-1, 1, -1]
+52.9200 	WARNING 	t of last frame was 23.18ms (=1/43)
+52.9200 	EXP 	stim ᚠ: autoDraw = False
+52.9200 	EXP 	stim ᚠ: color = [1, 1, 1]
+53.4466 	INFO 	Trial 19 start: 53.429863
+53.4466 	EXP 	Drew image 3 at 0.000000
+53.4465 	EXP 	stim ᚠ: autoDraw = True
+54.0628 	EXP 	stim ᚠ: color = [-1, 1, -1]
+54.3627 	EXP 	stim ᚠ: autoDraw = False
+54.3627 	EXP 	stim ᚠ: color = [1, 1, 1]
+54.8957 	INFO 	Trial 20 start: 54.879074
+54.8958 	EXP 	Drew image 2 at 0.000000
+54.8957 	EXP 	stim ᚻ: autoDraw = True
+55.6455 	EXP 	stim ᚻ: color = [-1, 1, -1]
+55.9510 	WARNING 	t of last frame was 22.50ms (=1/44)
+55.9510 	EXP 	stim ᚻ: autoDraw = False
+55.9510 	EXP 	stim ᚻ: color = [1, 1, 1]
+56.4782 	INFO 	Trial 21 start: 56.461573
+56.4782 	EXP 	Drew image 4 at 0.000000
+56.4782 	EXP 	stim ᚳ: autoDraw = True
+57.2778 	EXP 	stim ᚳ: color = [-1, 1, -1]
+57.5777 	EXP 	stim ᚳ: autoDraw = False
+57.5777 	EXP 	stim ᚳ: color = [1, 1, 1]
+58.1107 	INFO 	Trial 22 start: 58.094054
+58.1107 	EXP 	Drew image 4 at 0.000000
+58.1106 	EXP 	stim ᚳ: autoDraw = True
+58.7605 	EXP 	stim ᚳ: color = [-1, 1, -1]
+59.0604 	EXP 	stim ᚳ: autoDraw = False
+59.0604 	EXP 	stim ᚳ: color = [1, 1, 1]
+59.5933 	INFO 	Trial 23 start: 59.576512
+59.5933 	EXP 	Drew image 7 at 0.000000
+59.5932 	EXP 	stim ᛋ: autoDraw = True
+60.2097 	EXP 	stim ᛋ: color = [-1, 1, -1]
+60.5096 	EXP 	stim ᛋ: autoDraw = False
+60.5096 	EXP 	stim ᛋ: color = [1, 1, 1]
+61.0426 	INFO 	Trial 24 start: 61.025912
+61.0427 	EXP 	Drew image 9 at 0.000000
+61.0426 	EXP 	stim ᛇ: autoDraw = True
+61.6754 	EXP 	stim ᛇ: color = [-1, 1, -1]
+61.9755 	EXP 	stim ᛇ: autoDraw = False
+61.9755 	EXP 	stim ᛇ: color = [1, 1, 1]
+62.5085 	INFO 	Trial 25 start: 62.491789
+62.5086 	EXP 	Drew image 1 at 0.000000
+62.5085 	EXP 	stim ᚢ: autoDraw = True
+63.2079 	EXP 	stim ᚢ: color = [-1, 1, -1]
+63.5080 	EXP 	stim ᚢ: autoDraw = False
+63.5080 	EXP 	stim ᚢ: color = [1, 1, 1]
+64.0409 	INFO 	Trial 26 start: 64.024129
+64.0409 	EXP 	Drew image 6 at 0.000000
+64.0408 	EXP 	stim ᚣ: autoDraw = True
+64.7239 	EXP 	stim ᚣ: color = [-1, 1, -1]
+65.0533 	WARNING 	t of last frame was 46.21ms (=1/21)
+65.0533 	EXP 	stim ᚣ: autoDraw = False
+65.0533 	EXP 	stim ᚣ: color = [1, 1, 1]
+65.0734 	WARNING 	t of last frame was 20.09ms (=1/49)
+65.5568 	INFO 	Trial 27 start: 65.540198
+65.5568 	EXP 	Drew image 8 at 0.000000
+65.5567 	EXP 	stim ᚦ: autoDraw = True
+66.2063 	EXP 	stim ᚦ: color = [-1, 1, -1]
+66.5063 	EXP 	stim ᚦ: autoDraw = False
+66.5063 	EXP 	stim ᚦ: color = [1, 1, 1]
+67.0225 	INFO 	Trial 28 start: 67.006257
+67.0225 	EXP 	Drew image 4 at 0.000000
+67.0224 	EXP 	stim ᚳ: autoDraw = True
+67.6555 	EXP 	stim ᚳ: color = [-1, 1, -1]
+67.9556 	EXP 	stim ᚳ: autoDraw = False
+67.9556 	EXP 	stim ᚳ: color = [1, 1, 1]
+68.4886 	INFO 	Trial 29 start: 68.471902
+68.4886 	EXP 	Drew image 0 at 0.000000
+68.4885 	EXP 	stim ᚼ: autoDraw = True
+69.1216 	EXP 	stim ᚼ: color = [-1, 1, -1]
+69.4212 	EXP 	stim ᚼ: autoDraw = False
+69.4212 	EXP 	stim ᚼ: color = [1, 1, 1]
+69.9543 	INFO 	Trial 30 start: 69.937665
+69.9543 	EXP 	Drew image 3 at 0.000000
+69.9543 	EXP 	stim ᚠ: autoDraw = True
+70.6708 	EXP 	stim ᚠ: color = [-1, 1, -1]
+70.9706 	EXP 	stim ᚠ: autoDraw = False
+70.9706 	EXP 	stim ᚠ: color = [1, 1, 1]
+71.5036 	INFO 	Trial 31 start: 71.486912
+71.5036 	EXP 	Drew image 3 at 0.000000
+71.5036 	EXP 	stim ᚠ: autoDraw = True
+72.1365 	EXP 	stim ᚠ: color = [-1, 1, -1]
+72.4364 	EXP 	stim ᚠ: autoDraw = False
+72.4364 	EXP 	stim ᚠ: color = [1, 1, 1]
+72.9695 	INFO 	Trial 32 start: 72.952786
+72.9696 	EXP 	Drew image 5 at 0.000000
+72.9695 	EXP 	stim ᚬ: autoDraw = True
+73.6022 	EXP 	stim ᚬ: color = [-1, 1, -1]
+73.9023 	EXP 	stim ᚬ: autoDraw = False
+73.9023 	EXP 	stim ᚬ: color = [1, 1, 1]
+74.4188 	INFO 	Trial 33 start: 74.402015
+74.4188 	EXP 	Drew image 2 at 0.000000
+74.4188 	EXP 	stim ᚻ: autoDraw = True
+75.0349 	EXP 	stim ᚻ: color = [-1, 1, -1]
+75.3350 	EXP 	stim ᚻ: autoDraw = False
+75.3350 	EXP 	stim ᚻ: color = [1, 1, 1]
+75.8679 	INFO 	Trial 34 start: 75.851245
+75.8679 	EXP 	Drew image 0 at 0.000000
+75.8678 	EXP 	stim ᚼ: autoDraw = True
+76.5009 	EXP 	stim ᚼ: color = [-1, 1, -1]
+76.8156 	WARNING 	t of last frame was 31.59ms (=1/31)
+76.8156 	EXP 	stim ᚼ: autoDraw = False
+76.8156 	EXP 	stim ᚼ: color = [1, 1, 1]
+77.3338 	INFO 	Trial 35 start: 77.317032
+77.3338 	EXP 	Drew image 2 at 0.000000
+77.3338 	EXP 	stim ᚻ: autoDraw = True
+77.9333 	EXP 	stim ᚻ: color = [-1, 1, -1]
+78.2332 	EXP 	stim ᚻ: autoDraw = False
+78.2332 	EXP 	stim ᚻ: color = [1, 1, 1]
+78.7662 	INFO 	Trial 36 start: 78.749878
+78.7662 	EXP 	Drew image 3 at 0.000000
+78.7661 	EXP 	stim ᚠ: autoDraw = True
+79.3825 	EXP 	stim ᚠ: color = [-1, 1, -1]
+79.6824 	EXP 	stim ᚠ: autoDraw = False
+79.6824 	EXP 	stim ᚠ: color = [1, 1, 1]
+80.2157 	INFO 	Trial 37 start: 80.198926
+80.2157 	EXP 	Drew image 5 at 0.000000
+80.2156 	EXP 	stim ᚬ: autoDraw = True
+80.9150 	EXP 	stim ᚬ: color = [1, -1, -1]
+81.9146 	EXP 	stim ᚬ: color = [1, 1, 1]
+82.4144 	EXP 	stim ᚬ: color = [-1, 1, -1]
+82.7142 	EXP 	stim ᚬ: autoDraw = False
+82.7142 	EXP 	stim ᚬ: color = [1, 1, 1]
+83.2471 	INFO 	Trial 38 start: 83.230483
+83.2472 	EXP 	Drew image 7 at 0.000000
+83.2471 	EXP 	stim ᛋ: autoDraw = True
+83.8470 	EXP 	stim ᛋ: color = [-1, 1, -1]
+84.1468 	EXP 	stim ᛋ: autoDraw = False
+84.1468 	EXP 	stim ᛋ: color = [1, 1, 1]
+84.6798 	INFO 	Trial 39 start: 84.663132
+84.6798 	EXP 	Drew image 9 at 0.000000
+84.6798 	EXP 	stim ᛇ: autoDraw = True
+85.2794 	EXP 	stim ᛇ: color = [-1, 1, -1]
+85.5793 	EXP 	stim ᛇ: autoDraw = False
+85.5793 	EXP 	stim ᛇ: color = [1, 1, 1]
+86.1124 	INFO 	Trial 40 start: 86.095663
+86.1124 	EXP 	Drew image 2 at 0.000000
+86.1123 	EXP 	stim ᚻ: autoDraw = True
+86.8287 	EXP 	stim ᚻ: color = [-1, 1, -1]
+87.1283 	EXP 	stim ᚻ: autoDraw = False
+87.1283 	EXP 	stim ᚻ: color = [1, 1, 1]
+87.6614 	INFO 	Trial 41 start: 87.644768
+87.6614 	EXP 	Drew image 7 at 0.000000
+87.6614 	EXP 	stim ᛋ: autoDraw = True
+88.3613 	EXP 	stim ᛋ: color = [-1, 1, -1]
+88.6609 	EXP 	stim ᛋ: autoDraw = False
+88.6609 	EXP 	stim ᛋ: color = [1, 1, 1]
+89.1940 	INFO 	Trial 42 start: 89.177341
+89.1940 	EXP 	Drew image 8 at 0.000000
+89.1939 	EXP 	stim ᚦ: autoDraw = True
+89.8435 	EXP 	stim ᚦ: color = [-1, 1, -1]
+90.1433 	EXP 	stim ᚦ: autoDraw = False
+90.1433 	EXP 	stim ᚦ: color = [1, 1, 1]
+90.6764 	INFO 	Trial 43 start: 90.659724
+90.6764 	EXP 	Drew image 0 at 0.000000
+90.6764 	EXP 	stim ᚼ: autoDraw = True
+91.3596 	EXP 	stim ᚼ: color = [-1, 1, -1]
+91.6594 	EXP 	stim ᚼ: autoDraw = False
+91.6594 	EXP 	stim ᚼ: color = [1, 1, 1]
+92.1924 	INFO 	Trial 44 start: 92.175599
+92.1924 	EXP 	Drew image 1 at 0.000000
+92.1923 	EXP 	stim ᚢ: autoDraw = True
+92.9254 	EXP 	stim ᚢ: color = [-1, 1, -1]
+93.2252 	EXP 	stim ᚢ: autoDraw = False
+93.2252 	EXP 	stim ᚢ: color = [1, 1, 1]
+93.7582 	INFO 	Trial 45 start: 93.741526
+93.7582 	EXP 	Drew image 2 at 0.000000
+93.7581 	EXP 	stim ᚻ: autoDraw = True
+94.3578 	EXP 	stim ᚻ: color = [-1, 1, -1]
+94.6579 	EXP 	stim ᚻ: autoDraw = False
+94.6579 	EXP 	stim ᚻ: color = [1, 1, 1]
+95.1908 	INFO 	Trial 46 start: 95.174159
+95.1909 	EXP 	Drew image 9 at 0.000000
+95.1908 	EXP 	stim ᛇ: autoDraw = True
+95.8570 	EXP 	stim ᛇ: color = [-1, 1, -1]
+96.1569 	EXP 	stim ᛇ: autoDraw = False
+96.1569 	EXP 	stim ᛇ: color = [1, 1, 1]
+96.6901 	INFO 	Trial 47 start: 96.673122
+96.6901 	EXP 	Drew image 9 at 0.000000
+96.6900 	EXP 	stim ᛇ: autoDraw = True
+97.3396 	EXP 	stim ᛇ: color = [-1, 1, -1]
+97.6396 	EXP 	stim ᛇ: autoDraw = False
+97.6396 	EXP 	stim ᛇ: color = [1, 1, 1]
+98.1724 	INFO 	Trial 48 start: 98.156061
+98.1724 	EXP 	Drew image 5 at 0.000000
+98.1724 	EXP 	stim ᚬ: autoDraw = True
+98.8055 	EXP 	stim ᚬ: color = [-1, 1, -1]
+99.1053 	EXP 	stim ᚬ: autoDraw = False
+99.1053 	EXP 	stim ᚬ: color = [1, 1, 1]
+99.6385 	INFO 	Trial 49 start: 99.621842
+99.6385 	EXP 	Drew image 1 at 0.000000
+99.6385 	EXP 	stim ᚢ: autoDraw = True
+100.4381 	EXP 	stim ᚢ: color = [-1, 1, -1]
+100.7378 	EXP 	stim ᚢ: autoDraw = False
+100.7378 	EXP 	stim ᚢ: color = [1, 1, 1]
+100.8091 	EXP 	window1: mouseVisible = True
