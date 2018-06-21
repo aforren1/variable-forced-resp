@@ -3,3 +3,7 @@ __pycache__/
 *.pyc
 .Rproj.user
 analysis/.Rhistory
+*.csv
+*.html
+analysis/pres_cache/
+analysis/pres_files/

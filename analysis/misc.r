@@ -7,3 +7,15 @@ slider <- function(x, y, window_size = 0.05) {
   }
   out
 }
+
+
+dist_from_last <- function(x) {
+  res <- rep(NA, length(x))
+  for (i in 1:length(x)) {
+    if (i == 1) { res[1] <- NA }
+    subvec <- x[1:i - 1]
+    rev_subvec <- rev(subvec)
+    res[i] <- match(x[i], rev_subvec)
+  }
+  res
+}

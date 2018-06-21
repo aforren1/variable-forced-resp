@@ -1,0 +1,170 @@
+---
+title: "Lab Meeting, June 8 2018"
+author: "Alex Forrence"
+date: "June 7, 2018"
+output: ioslides_presentation
+---
+
+```{r pkgs, include=FALSE}
+knitr::opts_chunk$set(echo=FALSE, warning=FALSE, message = FALSE)
+library(ggplot2)
+library(data.table)
+source('preprocess.r')
+source('misc.r')
+theme_set(theme_bw())
+```
+
+```{r setup,cache=TRUE, include=FALSE}
+# import data
+all_data <- preprocess()
+probe_data <- all_data[['probe_data']]
+criterion_data <- all_data[['criterion_data']]
+practice_data <- all_data[['practice_data']]
+
+# take the interesting subset--symbols only
+practice_data <- practice_data[stim_type == 'symbol']
+probe_data <- probe_data[stim_type == 'symbol']
+
+# correct for multi-break from 006
+probe_data[block == 5 | block == 6, block := 4]
+practice_data[subject == '006', block := block - 2]
+
+# remove extra warmups from practice data
+# also remember that 002 & 003 did lots of practice on the first practice day (2500 v 1000)
+practice_data <- practice_data[block < 8]
+
+# criterion was pretty clean, nothing to fix?
+# I think I messed up instructions--002 ended up doing 50 trials to remapped instead of criterion again?
+
+# rob's 5-day data
+#rob_5day <- fread('data_5day.csv')
+# rob's 20-day data
+#rob_20day <- fread('data_20day.csv')
+```
+
+## Initial criterion to symbols
+
+Criterion is 4/5 correct per symbol
+
+```{r}
+initial_criterion <- criterion_data[(!remap)]
+```
+
+```{r}
+# visualizing how long it takes to be successful
+initial_criterion[, slide_correct := slider(index, correct, window_size = 5), by = c('subject')]
+initial_criterion[, symbol_index := 1:.N, by = c('subject', 'stim_val')]
+initial_criterion[, symbol_correct := slider(symbol_index, correct, window_size = 5), by = c('subject', 'stim_val')]
+
+initial_criterion[, choice_index := 1:.N, by = c('subject', 'proposed_choice')]
+initial_criterion[, choice_correct := slider(symbol_index, correct, window_size = 5), by = c('subject', 'proposed_choice')]
+
+
+ggplot(initial_criterion, aes(x = index, y = slide_correct, colour = subject)) + 
+  geom_line(size=1, alpha=0.75) +
+  labs(x = 'index', y = 'correct (sliding)')
+```
+
+## Per-symbol difficulties?
+
+```{r}
+ggplot(initial_criterion, aes(x = symbol_index, y = symbol_correct, colour = subject)) +
+  geom_line(size=1, alpha=0.7) + facet_wrap(~stim_val) +
+  labs(x = 'index', y = 'correct (sliding)')
+```
+
+## Per-effector difficulties?
+
+```{r}
+ggplot(initial_criterion, aes(x = choice_index, y = choice_correct, colour = subject)) +
+  geom_line(size=1, alpha=0.7) + facet_wrap(~proposed_choice) +
+  labs(x = 'index', y = 'correct (sliding)')
+```
+
+## Initial probe, post-criterion
+
+Red is Rob's equivalent, gray is per-individual
+
+```{r}
+initial_probe <- probe_data[(!remap & !is.na(timing) & block < 5)]
+initial_probe[, pop_c := slider(real_prep_time, correct)]
+initial_probe[, pop_i := slider(real_prep_time, correct), by = c('subject')]
+
+initial_probe[, pop_c := (pop_c - .1)/.9]
+# rob ref
+#initial_rob <- rob_20day[!IsFreeResp & !IsHand & !IsToCriterion & !IsRemappedSession & Session < 5]
+#initial_rob[, pop_c := slider(PrepTime, Correct)]
+#initial_rob[, pop_c := ((pop_c - .25)/.75)*.75]
+
+ggplot(initial_probe, aes(x = real_prep_time, y = pop_c)) + 
+  geom_line(size=1) +
+  geom_line(aes(y = pop_i, group = subject), alpha=0.4) +
+  labs(x = 'Prep Time (s)', y = 'P(Correct|PT)') +
+  xlim(c(0, 0.9))# +
+  #geom_line(data = initial_rob, aes(x = PrepTime, y = pop_c), colour = 'red')
+```
+
+## After 3 days of practice...
+
+```{r}
+day5_probe <- probe_data[(!is.na(timing))]
+day5_probe[, blk_lab := ifelse(block < 6, 'initial', 'late')]
+day5_probe[, pop_c := slider(real_prep_time, correct), by = c('blk_lab', 'remap')]
+day5_probe[, pop_i := slider(real_prep_time, correct), by = c('blk_lab', 'remap', 'subject')]
+
+base_plt <- 
+ggplot(day5_probe[(!remap)], aes(x = real_prep_time, y = pop_c, colour = blk_lab)) +
+  geom_line(size=1) +
+  labs(x = 'Prep Time (s)', y = 'P(Correct|PT)') +
+  xlim(c(0, 0.9))
+base_plt
+```
+
+## + individuals
+
+```{r}
+base_plt + geom_line(aes(y = pop_i, group = interaction(blk_lab, subject)), alpha=0.4)
+```
+
+## Per symbol
+
+```{r}
+day5_probe[, pop_sym := slider(real_prep_time, correct), by = c('blk_lab', 'stim_val')]
+ ggplot(day5_probe, aes(x = real_prep_time, y = pop_sym, colour = blk_lab))+
+ geom_line(size=1)+
+ facet_wrap(~stim_val)
+```
+
+## remapping (1 person)
+
+Black is the P(went old | prep time)
+
+```{r}
+remapped <- probe_data[(!is.na(timing) & remap)]
+remapped[, remap_c := slider(real_prep_time, correct), by = c('is_remapped')]
+remapped[(is_remapped), went_old := slider(real_prep_time, remapped_from == real_choice)]
+
+# specific to 002
+remapped[(is_remapped), remap_type := ifelse(abs(proposed_choice - remapped_from) == 9, 'hom',
+                                             ifelse(abs(proposed_choice - remapped_from) == 5, 'het', 'same_hand'))]
+remapped[(is_remapped), went_old_i := slider(real_prep_time, remapped_from == real_choice), by = c('remap_type')]
+
+
+ggplot(remapped, aes(x = real_prep_time, y = remap_c, colour = is_remapped)) +
+  geom_line(size=1) +
+  geom_line(data = remapped[!is.na(went_old)], aes(y = went_old), colour = 'black', size = 1) +
+  labs(x = 'Prep Time (s)', y = 'P(Correct|PT)') +
+  xlim(c(0, 0.9))
+
+```
+
+## Differences in remapping type
+
+```{r}
+
+ggplot(remapped[(is_remapped)], aes(x = real_prep_time, y = went_old_i, colour = remap_type)) +
+  geom_line(size=1) +
+  labs(x = 'Prep Time (s)', y = 'P(Went Old|PT)') +
+  xlim(c(0, 0.9))
+
+```

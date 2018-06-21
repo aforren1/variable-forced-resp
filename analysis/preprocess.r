@@ -19,6 +19,7 @@ preprocess <- function() {
     block_list_criterion <- list()
     block_list_probe <- list()
     # iterate per block within subject
+    block_counter <- 1
     for (j in 1:length(blocks)) {
       trial_list <- list()
       
@@ -40,7 +41,8 @@ preprocess <- function() {
       }
       
       block <- do.call(rbind, trial_list)
-      block$block <- j
+      block$block <- block_counter
+      block_counter <- block_counter + 1
       block$remap <- block_settings$remap
       block$subject <- block_settings$subject
       block$stim_type <- block_settings$stim_type
