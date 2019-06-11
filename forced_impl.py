@@ -6,8 +6,6 @@ from pprint import PrettyPrinter
 
 import numpy as np
 from psychopy import core, logging, sound, visual
-import sounddevice as sd
-import soundfile as sf
 
 from forced_decl import StateMachine
 from toon.audio import beep_sequence
@@ -213,29 +211,12 @@ class ForcedResp(StateMachine):
 
         self.last_beep_time = round(self.static_settings['beep_lead_in'] + (
             self.static_settings['beep_ici'] * (len(self.static_settings['beep_freqs']) - 1)), 2)
-        if os.name == 'nt':
-            self.four_beep = sound.Sound(beeps, blockSize=16, hamming=False)
-            self.coin = sound.Sound('sounds/coin.wav', stereo=True)
-        else:
-            sd.default.latency = 0.01
-            sd.default.blocksize = 32
-            data, self.coin_fs = sf.read('sounds/coin.wav')
-            self.coin_data = np.transpose(np.vstack((data, data)))
-
-            self.four_beep_data = beeps
-            self.four_beep_fs = 44100
-            sd.play(self.four_beep_data, self.four_beep_fs)
-            strm = sd.get_stream()
-            lat = strm.latency
-            frameN = int(round(lat * self.four_beep_fs))
-            self.four_beep_data = self.four_beep_data[frameN:, :]
+        self.four_beep = sound.Sound(beeps, blockSize=16, hamming=False)
+        self.coin = sound.Sound('sounds/coin.wav', stereo=True)
         self._play_reward()
 
     def _play_reward(self):
-        if os.name == 'nt':
-            self.coin.play()
-        else:
-            sd.play(self.coin_data, self.coin_fs)
+        self.coin.play()
 
     def setup_input(self):
         keys = list(self.static_settings['key_options'])
@@ -298,10 +279,7 @@ class ForcedResp(StateMachine):
         self.win.callOnFlip(self._play_beeps)
 
     def _play_beeps(self):
-        if os.name == 'nt':
-            self.four_beep.play()
-        else:
-            sd.play(self.four_beep_data, self.four_beep_fs)
+        self.four_beep.play()
 
     # enter_trial state
     # before

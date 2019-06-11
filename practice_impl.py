@@ -6,8 +6,6 @@ from pprint import PrettyPrinter
 
 import numpy as np
 from psychopy import core, logging, sound, visual
-import sounddevice as sd
-import soundfile as sf
 
 from practice_decl import StateMachine
 from toon.input import MultiprocessInput as MpI
@@ -186,20 +184,11 @@ class Practice(StateMachine):
                                            alignHoriz='center', alignVert='center', autoLog=True, name='pause_text')
 
     def setup_audio(self):
-        if os.name == 'nt':
-            self.coin = sound.Sound('sounds/coin.wav', stereo=True)
-        else:
-            sd.default.latency = 0.01
-            sd.default.blocksize = 32
-            data, self.coin_fs = sf.read('sounds/coin.wav')
-            self.coin_data = np.transpose(np.vstack((data, data)))
+        self.coin = sound.Sound('sounds/coin.wav', stereo=True)
         self._play_reward()
 
     def _play_reward(self):
-        if os.name == 'nt':
-            self.coin.play()
-        else:
-            sd.play(self.coin_data, self.coin_fs)
+        self.coin.play()
 
     def setup_input(self):
         keys = list(self.static_settings['key_options'])
