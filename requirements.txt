@@ -1,0 +1,10 @@
+# conda install wxpython (or install according to https://wxpython.org/pages/downloads/index.html)
+# pip install git+https://github.com/aforren1/toon@7004df72afa17b90c2954f73b6a284bb6d3f68f4
+numpy
+scipy
+psychopy
+ujson
+transitions
+pynput
+pyqt5
+

@@ -21,7 +21,7 @@ if __name__ == '__main__':
 
     try:
         with open('settings.yml', 'r') as f:
-            potential_settings = yaml.load(f)
+            potential_settings = yaml.load(f, Loader=yaml.FullLoader)
             # only use saved settings if all the keys match
             if potential_settings.keys() == settings.keys():
                 settings = potential_settings
@@ -44,7 +44,7 @@ if __name__ == '__main__':
         yaml.dump(settings, f, default_flow_style=False)
 
     with open('static_settings.yml', 'r') as f:
-        static_settings = yaml.load(f)
+        static_settings = yaml.load(f, Loader=yaml.FullLoader)
 
     if settings['exp_type'] == 'practice':
         gen = UniformGen(min_rt=float(settings['min_rt']),
